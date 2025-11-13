@@ -53,5 +53,5 @@
 \contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{40}{appendix.Alph1}%
 \contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{41}{appendix.Alph2}%
 \contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{42}{appendix.Alph3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }BibliografÃ­a}{43}{section*.45}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{43}{section*.45}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

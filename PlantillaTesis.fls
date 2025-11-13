@@ -1,7 +1,7 @@
-PWD c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0
+PWD c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Monografia-Modulo-Configuracion
 INPUT C:\Users\John\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\PlantillaTesis.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.log
+INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Monografia-Modulo-Configuracion\PlantillaTesis.tex
+OUTPUT PlantillaTesis.log
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrkbase.sty
@@ -213,40 +213,40 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.st
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdftex.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdftex.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdftex.def
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\HojaTitulo\HojaTituloMSc.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\HojaTitulo\HojaTituloMSc.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\HojaTitulo\HojaTituloMSc.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap1\Cap1.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap1\Cap1.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap1\Cap1.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap2\Cap2.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap2\Cap2.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap2\Cap2.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap3\Cap3.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap3\Cap3.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap3\Cap3.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap4\Cap4.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap4\Cap4.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap4\Cap4.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap5\Cap5.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap5\Cap5.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap5\Cap5.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap6\Cap6.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap6\Cap6.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap6\Cap6.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap7\Cap7.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap7\Cap7.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap7\Cap7.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap8\Cap8.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap8\Cap8.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap8\Cap8.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Anexos\Anexos.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Anexos\Anexos.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Anexos\Anexos.aux
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.aux
+INPUT .\PlantillaTesis.aux
+INPUT .\PlantillaTesis.aux
+INPUT PlantillaTesis.aux
+INPUT .\HojaTitulo\HojaTituloMSc.aux
+INPUT .\HojaTitulo\HojaTituloMSc.aux
+INPUT HojaTitulo\HojaTituloMSc.aux
+INPUT .\Cap1\Cap1.aux
+INPUT .\Cap1\Cap1.aux
+INPUT Cap1\Cap1.aux
+INPUT .\Cap2\Cap2.aux
+INPUT .\Cap2\Cap2.aux
+INPUT Cap2\Cap2.aux
+INPUT .\Cap3\Cap3.aux
+INPUT .\Cap3\Cap3.aux
+INPUT Cap3\Cap3.aux
+INPUT .\Cap4\Cap4.aux
+INPUT .\Cap4\Cap4.aux
+INPUT Cap4\Cap4.aux
+INPUT .\Cap5\Cap5.aux
+INPUT .\Cap5\Cap5.aux
+INPUT Cap5\Cap5.aux
+INPUT .\Cap6\Cap6.aux
+INPUT .\Cap6\Cap6.aux
+INPUT Cap6\Cap6.aux
+INPUT .\Cap7\Cap7.aux
+INPUT .\Cap7\Cap7.aux
+INPUT Cap7\Cap7.aux
+INPUT .\Cap8\Cap8.aux
+INPUT .\Cap8\Cap8.aux
+INPUT Cap8\Cap8.aux
+INPUT .\Anexos\Anexos.aux
+INPUT .\Anexos\Anexos.aux
+INPUT Anexos\Anexos.aux
+OUTPUT PlantillaTesis.aux
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -260,7 +260,7 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.st
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis-blx.bib
+OUTPUT PlantillaTesis-blx.bib
 INPUT PlantillaTesis.bbl
 INPUT .\PlantillaTesis.bbl
 INPUT .\PlantillaTesis.bbl
@@ -274,10 +274,10 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.c
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.pdf
+OUTPUT PlantillaTesis.pdf
 INPUT .\HojaTitulo\HojaTituloMSc.tex
 INPUT .\HojaTitulo\HojaTituloMSc.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\HojaTitulo\HojaTituloMSc.aux
+OUTPUT HojaTitulo\HojaTituloMSc.aux
 INPUT .\HojaTitulo\HojaTituloMSc.tex
 INPUT .\HojaTitulo\HojaTituloMSc.tex
 INPUT HojaTitulo\HojaTituloMSc.tex
@@ -298,9 +298,9 @@ INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss1200.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1200.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx2488.tfm
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.toc
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.toc
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.toc
+INPUT .\PlantillaTesis.toc
+INPUT .\PlantillaTesis.toc
+INPUT PlantillaTesis.toc
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx0800.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -313,19 +313,19 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.toc
+OUTPUT PlantillaTesis.toc
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lof
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lof
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lof
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lof
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lot
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lot
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lot
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.lot
+INPUT .\PlantillaTesis.lof
+INPUT .\PlantillaTesis.lof
+INPUT PlantillaTesis.lof
+OUTPUT PlantillaTesis.lof
+INPUT .\PlantillaTesis.lot
+INPUT .\PlantillaTesis.lot
+INPUT PlantillaTesis.lot
+OUTPUT PlantillaTesis.lot
 INPUT .\Cap1\Cap1.tex
 INPUT .\Cap1\Cap1.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap1\Cap1.aux
+OUTPUT Cap1\Cap1.aux
 INPUT .\Cap1\Cap1.tex
 INPUT .\Cap1\Cap1.tex
 INPUT Cap1\Cap1.tex
@@ -368,7 +368,7 @@ INPUT .\Cap1\Tablas\Iteracion6.tex
 INPUT Cap1\Tablas\Iteracion6.tex
 INPUT .\Cap2\Cap2.tex
 INPUT .\Cap2\Cap2.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap2\Cap2.aux
+OUTPUT Cap2\Cap2.aux
 INPUT .\Cap2\Cap2.tex
 INPUT .\Cap2\Cap2.tex
 INPUT Cap2\Cap2.tex
@@ -400,7 +400,7 @@ INPUT .\Cap2\Tablas\LineamientosDesarrollo.tex
 INPUT Cap2\Tablas\LineamientosDesarrollo.tex
 INPUT .\Cap3\Cap3.tex
 INPUT .\Cap3\Cap3.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap3\Cap3.aux
+OUTPUT Cap3\Cap3.aux
 INPUT .\Cap3\Cap3.tex
 INPUT .\Cap3\Cap3.tex
 INPUT Cap3\Cap3.tex
@@ -483,7 +483,7 @@ INPUT .\Cap3\Figuras\Diagrama General-Cuadros de Ayuda.drawio.png
 INPUT .\Cap3\Figuras\Diagrama General-Cuadros de Ayuda.drawio.png
 INPUT .\Cap4\Cap4.tex
 INPUT .\Cap4\Cap4.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap4\Cap4.aux
+OUTPUT Cap4\Cap4.aux
 INPUT .\Cap4\Cap4.tex
 INPUT .\Cap4\Cap4.tex
 INPUT Cap4\Cap4.tex
@@ -494,31 +494,31 @@ INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT Cap4\Tablas\stakeholders.tex
 INPUT .\Cap5\Cap5.tex
 INPUT .\Cap5\Cap5.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap5\Cap5.aux
+OUTPUT Cap5\Cap5.aux
 INPUT .\Cap5\Cap5.tex
 INPUT .\Cap5\Cap5.tex
 INPUT Cap5\Cap5.tex
 INPUT .\Cap6\Cap6.tex
 INPUT .\Cap6\Cap6.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap6\Cap6.aux
+OUTPUT Cap6\Cap6.aux
 INPUT .\Cap6\Cap6.tex
 INPUT .\Cap6\Cap6.tex
 INPUT Cap6\Cap6.tex
 INPUT .\Cap7\Cap7.tex
 INPUT .\Cap7\Cap7.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap7\Cap7.aux
+OUTPUT Cap7\Cap7.aux
 INPUT .\Cap7\Cap7.tex
 INPUT .\Cap7\Cap7.tex
 INPUT Cap7\Cap7.tex
 INPUT .\Cap8\Cap8.tex
 INPUT .\Cap8\Cap8.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap8\Cap8.aux
+OUTPUT Cap8\Cap8.aux
 INPUT .\Cap8\Cap8.tex
 INPUT .\Cap8\Cap8.tex
 INPUT Cap8\Cap8.tex
 INPUT .\Anexos\Anexos.tex
 INPUT .\Anexos\Anexos.tex
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Anexos\Anexos.aux
+OUTPUT Anexos\Anexos.aux
 INPUT .\Anexos\Anexos.tex
 INPUT .\Anexos\Anexos.tex
 INPUT Anexos\Anexos.tex
@@ -526,39 +526,39 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcti1200.tfm
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\HojaTitulo\HojaTituloMSc.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\HojaTitulo\HojaTituloMSc.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\HojaTitulo\HojaTituloMSc.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap1\Cap1.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap1\Cap1.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap1\Cap1.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap2\Cap2.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap2\Cap2.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap2\Cap2.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap3\Cap3.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap3\Cap3.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap3\Cap3.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap4\Cap4.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap4\Cap4.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap4\Cap4.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap5\Cap5.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap5\Cap5.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap5\Cap5.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap6\Cap6.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap6\Cap6.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap6\Cap6.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap7\Cap7.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap7\Cap7.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap7\Cap7.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap8\Cap8.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap8\Cap8.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Cap8\Cap8.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Anexos\Anexos.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Anexos\Anexos.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\Anexos\Anexos.aux
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.run.xml
-OUTPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Santiago_Nieto___Monografía_V1_0\.build\PlantillaTesis.run.xml
+INPUT PlantillaTesis.aux
+INPUT .\HojaTitulo\HojaTituloMSc.aux
+INPUT .\HojaTitulo\HojaTituloMSc.aux
+INPUT HojaTitulo\HojaTituloMSc.aux
+INPUT .\Cap1\Cap1.aux
+INPUT .\Cap1\Cap1.aux
+INPUT Cap1\Cap1.aux
+INPUT .\Cap2\Cap2.aux
+INPUT .\Cap2\Cap2.aux
+INPUT Cap2\Cap2.aux
+INPUT .\Cap3\Cap3.aux
+INPUT .\Cap3\Cap3.aux
+INPUT Cap3\Cap3.aux
+INPUT .\Cap4\Cap4.aux
+INPUT .\Cap4\Cap4.aux
+INPUT Cap4\Cap4.aux
+INPUT .\Cap5\Cap5.aux
+INPUT .\Cap5\Cap5.aux
+INPUT Cap5\Cap5.aux
+INPUT .\Cap6\Cap6.aux
+INPUT .\Cap6\Cap6.aux
+INPUT Cap6\Cap6.aux
+INPUT .\Cap7\Cap7.aux
+INPUT .\Cap7\Cap7.aux
+INPUT Cap7\Cap7.aux
+INPUT .\Cap8\Cap8.aux
+INPUT .\Cap8\Cap8.aux
+INPUT Cap8\Cap8.aux
+INPUT .\Anexos\Anexos.aux
+INPUT .\Anexos\Anexos.aux
+INPUT Anexos\Anexos.aux
+INPUT PlantillaTesis.run.xml
+OUTPUT PlantillaTesis.run.xml
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
