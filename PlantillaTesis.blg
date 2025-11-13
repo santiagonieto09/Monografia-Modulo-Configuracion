@@ -1,0 +1,89 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: PlantillaTesis.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: HojaTitulo/HojaTituloMSc.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap1/Cap1.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap2/Cap2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap3/Cap3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap4/Cap4.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap5/Cap5.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap6/Cap6.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap7/Cap7.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Cap8/Cap8.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: Anexos/Anexos.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 10600 items.
+Database file #1: PlantillaTesis-blx.bib
+Database file #2: Bibliografia.bib
+Biblatex version: 3.21
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 40 entries,
+            6402 wiz_defined-function locations,
+            1452 strings with 17255 characters,
+and the built_in function-call counts, 206647 in all, are:
+= -- 14693
+> -- 3151
+< -- 958
++ -- 4711
+- -- 1270
+* -- 14804
+:= -- 20797
+add.period$ -- 0
+call.type$ -- 40
+change.case$ -- 357
+chr.to.int$ -- 87
+cite$ -- 78
+duplicate$ -- 21288
+empty$ -- 20374
+format.name$ -- 1714
+if$ -- 42906
+int.to.chr$ -- 0
+int.to.str$ -- 79
+missing$ -- 0
+newline$ -- 960
+num.names$ -- 1299
+pop$ -- 13272
+preamble$ -- 1
+purify$ -- 453
+quote$ -- 0
+skip$ -- 5778
+stack$ -- 0
+substring$ -- 27084
+swap$ -- 4838
+text.length$ -- 935
+text.prefix$ -- 39
+top$ -- 1
+type$ -- 1348
+warning$ -- 0
+while$ -- 2411
+width$ -- 0
+write$ -- 921

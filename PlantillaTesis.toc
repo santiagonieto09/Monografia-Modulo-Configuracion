@@ -1,0 +1,57 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Lista de figuras}{\es@scroman {iv}}{section*.3}%
+\contentsline {chapter}{Lista de tablas}{\es@scroman {v}}{section*.5}%
+\contentsline {chapter}{Capítulo 1. Introducción}{1}{chapter*.7}%
+\contentsline {section}{\numberline {1.1}Justificación y planteamiento del problema}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo General}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Metodología de trabajo}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Trabajo Freelance}{4}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Kanban}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Desarrollo iterativo e incremental}{6}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Iteraciones}{6}{subsection.1.3.4}%
+\contentsline {chapter}{Capítulo 2. Marco Teórico}{11}{chapter*.15}%
+\contentsline {section}{\numberline {2.1}Conceptos fundamentales}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Configuración}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Framework}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Modelo C4}{13}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Pruebas de software}{13}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Tecnologías para el desarrollo}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Tecnologías Frontend}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Tecnologías Backend}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Tecnologías para Base de Datos}{16}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Lineamientos división TIC}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Lineamientos de diseño}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Lineamientos de desarrollo}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Lineamientos de usabilidad}{18}{subsection.2.3.3}%
+\contentsline {chapter}{Capítulo 3. Descripción de los submódulos a implementar}{20}{chapter*.21}%
+\contentsline {section}{\numberline {3.1}Gestión de cuentas contables}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Gestión de tarifas de impuestos}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Gestión de terceros}{23}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Gestión de inventario de productos}{24}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Gestión de métodos de pago}{25}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Gestión de tipos de documentos}{26}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Gestión de banco y cuentas bancarias}{27}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Gestión de centros de costo}{28}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Gestión de edades de cartera}{29}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Gestión de cuadros de ayuda}{30}{section.3.10}%
+\contentsline {chapter}{Capítulo 4. Ingeniería de requisitos}{32}{chapter*.34}%
+\contentsline {section}{\numberline {4.1}Actividades desarrolladas para la ingeniería de requisitos}{33}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Reuniones con los interesados}{33}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Construcción de prototipos}{33}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Definición de historias de usuario}{33}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Validación de prototipos}{34}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Validación de historias de usuario}{34}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Identificación de Stakeholders}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Prototipos}{35}{section.4.3}%
+\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{36}{chapter*.37}%
+\contentsline {chapter}{Capítulo 6. Patrones de diseño}{37}{chapter*.39}%
+\contentsline {chapter}{Capítulo 7. Pruebas realizadas a la aplicación web}{38}{chapter*.41}%
+\contentsline {chapter}{Capítulo 8. Conclusiones}{39}{chapter*.43}%
+\def \@chapapp {\appendixname }
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{40}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{41}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{42}{appendix.Alph3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }BibliografÃ­a}{43}{section*.45}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
