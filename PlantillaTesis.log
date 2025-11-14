@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  14 NOV 2025 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  14 NOV 2025 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1107,11 +1107,10 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 47.
 Package tocbasic Info: Using my definition of `\numberline' on input line 48.
 Package tocbasic Info: Using my definition of `\numberline' on input line 49.
 Package tocbasic Info: Using my definition of `\numberline' on input line 50.
-Package tocbasic Info: Using my definition of `\numberline' on input line 51.
+Package tocbasic Info: Using my definition of `\numberline' on input line 52.
 Package tocbasic Info: Using my definition of `\numberline' on input line 53.
 Package tocbasic Info: Using my definition of `\numberline' on input line 54.
 Package tocbasic Info: Using my definition of `\numberline' on input line 55.
-Package tocbasic Info: Using my definition of `\numberline' on input line 56.
 )
 \tf@toc=\write4
 \openout4 = `PlantillaTesis.toc'.
@@ -1137,7 +1136,6 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 11.
 Package tocbasic Info: Using my definition of `\numberline' on input line 12.
 Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
-Package tocbasic Info: Using my definition of `\numberline' on input line 15.
 )
 \tf@lof=\write5
 \openout5 = `PlantillaTesis.lof'.
@@ -1274,7 +1272,7 @@ LaTeX Info: Redefining \% on input line 86.
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
  [15]
-<Cap2/Figuras/Figura1.png, id=355, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura1.png, id=351, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura1.png Graphic file (type png)
 <use Cap2/Figuras/Figura1.png>
 Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 126.
@@ -1283,7 +1281,7 @@ Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 126.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap2/Figuras/Figura2.png, id=356, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura2.png, id=352, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura2.png Graphic file (type png)
 <use Cap2/Figuras/Figura2.png>
 Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 133.
@@ -1291,7 +1289,7 @@ Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 133.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap2/Figuras/Figura3.png, id=357, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura3.png, id=353, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura3.png Graphic file (type png)
 <use Cap2/Figuras/Figura3.png>
 Package pdftex.def Info: Cap2/Figuras/Figura3.png  used on input line 140.
@@ -1316,7 +1314,7 @@ LaTeX Info: Redefining \% on input line 121.
 \openout2 = `Cap3/Cap3.aux'.
 
  (Cap3/Cap3.tex
-<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=385, 1790.69pt x 867.24pt>
+<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=381, 1790.69pt x 867.24pt>
 File: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png  used on input line 8.
@@ -1327,7 +1325,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio
 
 
  <./Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>]
-<Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png, id=393, 2099.845pt x 1152.305pt>
+<Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png, id=389, 2099.845pt x 1152.305pt>
 File: Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png  used on input line 22.
@@ -1335,7 +1333,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.drawio.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  [21 <./Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png>]
-<Cap3/Figuras/Diagrama General-Impuestos.drawio.png, id=399, 1096.095pt x 827.09pt>
+<Cap3/Figuras/Diagrama General-Impuestos.drawio.png, id=395, 1096.095pt x 827.09pt>
 File: Cap3/Figuras/Diagrama General-Impuestos.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Impuestos.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.drawio.png  used on input line 33.
@@ -1343,7 +1341,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.drawio.png  use
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
  [22 <./Cap3/Figuras/Diagrama General-Impuestos.drawio.png>]
-<Cap3/Figuras/Diagrama General-Terceros.drawio.png, id=405, 1848.9075pt x 903.375pt>
+<Cap3/Figuras/Diagrama General-Terceros.drawio.png, id=401, 1848.9075pt x 903.375pt>
 File: Cap3/Figuras/Diagrama General-Terceros.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Terceros.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.drawio.png  used on input line 44.
@@ -1351,7 +1349,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.drawio.png  used
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
  [23 <./Cap3/Figuras/Diagrama General-Terceros.drawio.png>]
-<Cap3/Figuras/Diagrama General-Inventario productos.drawio.png, id=411, 1846.9pt x 562.1pt>
+<Cap3/Figuras/Diagrama General-Inventario productos.drawio.png, id=407, 1846.9pt x 562.1pt>
 File: Cap3/Figuras/Diagrama General-Inventario productos.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Inventario productos.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.drawio.png  used on input line 55.
@@ -1359,7 +1357,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.draw
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
  [24 <./Cap3/Figuras/Diagrama General-Inventario productos.drawio.png>]
-<Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png, id=417, 1128.215pt x 841.1425pt>
+<Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png, id=413, 1128.215pt x 841.1425pt>
 File: Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png  used on input line 66.
@@ -1367,7 +1365,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.drawio.pn
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
  [25 <./Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png>]
-<Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png, id=423, 1927.2pt x 889.3225pt>
+<Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png, id=419, 1927.2pt x 889.3225pt>
 File: Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png  used on input line 77.
@@ -1375,55 +1373,36 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.drawi
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
  [26 <./Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png>]
-<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png, id=430, 791.95876pt x 451.6875pt>
+<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png, id=426, 1740.5025pt x 704.6325pt>
 File: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png  used on input line 88.
-(pdftex.def)             Requested size: 469.47513pt x 267.76147pt.
+(pdftex.def)             Requested size: 469.46391pt x 190.05978pt.
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
  [27 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png>]
-<Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png, id=436, 768.8725pt x 528.97626pt>
+<Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png, id=432, 1784.6675pt x 704.6325pt>
 File: Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png  used on input line 99.
-(pdftex.def)             Requested size: 469.48082pt x 322.9979pt.
+(pdftex.def)             Requested size: 469.44897pt x 185.3505pt.
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
  [28 <./Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png>]
-<Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png, id=442, 563.10374pt x 436.63126pt>
-File: Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png Graphic file (type png)
-<use Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png  used on input line 110.
-(pdftex.def)             Requested size: 469.4725pt x 364.02948pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
-[29]
-<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png, id=447, 292.09125pt x 302.12875pt>
+<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png, id=438, 292.09125pt x 302.12875pt>
 File: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png  used on input line 121.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png  used on input line 110.
 (pdftex.def)             Requested size: 234.74297pt x 242.80974pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
-[30 <./Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png>])
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
- [31 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png>]
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+ [29 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png>])
 \openout2 = `Cap4/Cap4.aux'.
 
  (Cap4/Cap4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [30
 
 
 
@@ -1431,7 +1410,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- [33] (Cap4/Tablas/stakeholders.tex
+ [31] (Cap4/Tablas/stakeholders.tex
 Underfull \hbox (badness 6204) in paragraph at lines 17--17
 []|\T1/cmr/m/n/12 Estudiantes del pro-gra-ma de
  []
@@ -1447,13 +1426,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [34])
+ [32])
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
- [35]
+ [33]
 \openout2 = `Cap5/Cap5.aux'.
 
- (Cap5/Cap5.tex) [36
+ (Cap5/Cap5.tex) [34
 
 
 
@@ -1461,7 +1440,7 @@ LaTeX Info: Redefining \% on input line 123.
 ]
 \openout2 = `Cap6/Cap6.aux'.
 
- (Cap6/Cap6.tex) [37
+ (Cap6/Cap6.tex) [35
 
 
 
@@ -1469,7 +1448,7 @@ LaTeX Info: Redefining \% on input line 123.
 ]
 \openout2 = `Cap7/Cap7.aux'.
 
- (Cap7/Cap7.tex) [38
+ (Cap7/Cap7.tex) [36
 
 
 
@@ -1477,7 +1456,7 @@ LaTeX Info: Redefining \% on input line 123.
 ]
 \openout2 = `Cap8/Cap8.aux'.
 
- (Cap8/Cap8.tex) [39
+ (Cap8/Cap8.tex) [37
 
 
 
@@ -1506,7 +1485,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[40
+[38
 
 
 
@@ -1518,7 +1497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[41
+[39
 
 ]
 chapter C.
@@ -1537,14 +1516,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) [42
+) [40
 
 ]
 Overfull \hbox (14.4432pt too wide) in paragraph at lines 133--133
 \T1/cmr/m/n/12 soft-wa-re use and ICT com-pe-ten-cies''. En: \T1/cmr/m/it/12 Ac-coun-ting Edu-ca-tion \T1/cmr/m/n/12 30.5 (2021), págs. 495[]524.
  []
 
-[43
+[41
 
 
 
@@ -1560,7 +1539,7 @@ Overfull \hbox (6.54416pt too wide) in paragraph at lines 133--133
 
 LaTeX Info: Redefining \. on input line 132.
 LaTeX Info: Redefining \% on input line 132.
-[44]
+[42]
 Overfull \hbox (6.9406pt too wide) in paragraph at lines 133--133
 \T1/cmr/m/n/12 Shi-va Raj Pokh-rel y Gang Li. Sin-ga-po-re: Sprin-ger Na-tu-re Sin-ga-po-re, 2023, págs. 243[]257. 
  []
@@ -1572,10 +1551,10 @@ Overfull \hbox (19.22954pt too wide) in paragraph at lines 133--133
 
 LaTeX Info: Redefining \. on input line 132.
 LaTeX Info: Redefining \% on input line 132.
-[45]
+[43]
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
- [46] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
+ [44] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \sptext on input line 18.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
@@ -1593,17 +1572,17 @@ Package logreq Info: Writing requests to 'PlantillaTesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26766 strings out of 467870
- 507614 string characters out of 5418838
- 1269542 words of memory out of 5000000
- 55040 multiletter control sequences out of 15000+600000
+ 26753 strings out of 467870
+ 507092 string characters out of 5418838
+ 1269451 words of memory out of 5000000
+ 55031 multiletter control sequences out of 15000+600000
  645781 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,14n,107p,11331b,2364s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\callig15.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on PlantillaTesis.pdf (51 pages, 1196238 bytes).
+Output written on PlantillaTesis.pdf (49 pages, 1260296 bytes).
 PDF statistics:
- 1441 PDF objects out of 1728 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
- 508 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1422 PDF objects out of 1440 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 495 words of extra memory for PDF output out of 10000 (max. 10000000)
 
