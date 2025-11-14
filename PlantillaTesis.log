@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  14 NOV 2025 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  14 NOV 2025 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,99 +1331,67 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio
 File: Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png  used on input line 22.
-(pdftex.def)             Requested size: 469.46494pt x 257.62224pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 422.52484pt x 231.86353pt.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
-[21]
-<Cap3/Figuras/Diagrama General-Impuestos.drawio.png, id=398, 1096.095pt x 827.09pt>
+ [21 <./Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png>]
+<Cap3/Figuras/Diagrama General-Impuestos.drawio.png, id=399, 1096.095pt x 827.09pt>
 File: Cap3/Figuras/Diagrama General-Impuestos.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Impuestos.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.drawio.png  used on input line 33.
 (pdftex.def)             Requested size: 328.63034pt x 247.97746pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
-[22 <./Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png>]
-<Cap3/Figuras/Diagrama General-Terceros.drawio.png, id=404, 1848.9075pt x 903.375pt>
+ [22 <./Cap3/Figuras/Diagrama General-Impuestos.drawio.png>]
+<Cap3/Figuras/Diagrama General-Terceros.drawio.png, id=405, 1848.9075pt x 903.375pt>
 File: Cap3/Figuras/Diagrama General-Terceros.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Terceros.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.drawio.png  used on input line 44.
 (pdftex.def)             Requested size: 469.47623pt x 229.38577pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
-[23 <./Cap3/Figuras/Diagrama General-Impuestos.drawio.png>]
-<Cap3/Figuras/Diagrama General-Inventario productos.drawio.png, id=410, 1846.9pt x 562.1pt>
+ [23 <./Cap3/Figuras/Diagrama General-Terceros.drawio.png>]
+<Cap3/Figuras/Diagrama General-Inventario productos.drawio.png, id=411, 1846.9pt x 562.1pt>
 File: Cap3/Figuras/Diagrama General-Inventario productos.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Inventario productos.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.drawio.png  used on input line 55.
 (pdftex.def)             Requested size: 469.47375pt x 142.88332pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
-[24 <./Cap3/Figuras/Diagrama General-Terceros.drawio.png>]
-<Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png, id=416, 650.43pt x 397.485pt>
+ [24 <./Cap3/Figuras/Diagrama General-Inventario productos.drawio.png>]
+<Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png, id=417, 1128.215pt x 841.1425pt>
 File: Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png  used on input line 66.
-(pdftex.def)             Requested size: 469.48036pt x 286.90466pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 375.58298pt x 280.0165pt.
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
-[25 <./Cap3/Figuras/Diagrama General-Inventario productos.drawio.png>]
-<Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png, id=422, 799.98875pt x 457.71pt>
+ [25 <./Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png>]
+<Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png, id=423, 1927.2pt x 889.3225pt>
 File: Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png  used on input line 77.
-(pdftex.def)             Requested size: 469.47467pt x 268.60785pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 469.44803pt x 216.63069pt.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[26 <./Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png>]
-<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png, id=429, 791.95876pt x 451.6875pt>
+ [26 <./Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png>]
+<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png, id=430, 791.95876pt x 451.6875pt>
 File: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png  used on input line 88.
 (pdftex.def)             Requested size: 469.47513pt x 267.76147pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
-[27 <./Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png>]
-<Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png, id=435, 768.8725pt x 528.97626pt>
+ [27 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png>]
+<Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png, id=436, 768.8725pt x 528.97626pt>
 File: Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png  used on input line 99.
 (pdftex.def)             Requested size: 469.48082pt x 322.9979pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
-[28 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png>]
-<Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png, id=441, 563.10374pt x 436.63126pt>
+ [28 <./Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png>]
+<Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png, id=442, 563.10374pt x 436.63126pt>
 File: Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Edades de Cartera.drawio.png  used on input line 110.
@@ -1434,7 +1402,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
-[29 <./Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png>]
+[29]
 <Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png, id=447, 292.09125pt x 302.12875pt>
 File: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png>
@@ -1633,7 +1601,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,14n,107p,11331b,2364s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\callig15.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on PlantillaTesis.pdf (51 pages, 1116783 bytes).
+Output written on PlantillaTesis.pdf (51 pages, 1196238 bytes).
 PDF statistics:
  1441 PDF objects out of 1728 (max. 8388607)
  185 named destinations out of 1000 (max. 500000)
