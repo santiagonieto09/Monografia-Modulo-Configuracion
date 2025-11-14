@@ -10,16 +10,16 @@ Este capítulo describe el módulo de configuración mediante la descomposición
     \label{fig:DiagramaPrincipal}
 \end{figure}
 
- El Módulo de Configuración es fundamental para el funcionamiento del
+ El módulo de configuración es fundamental para el funcionamiento del
  sistema contable, ya que permite a los administradores establecer y mantener los datos maestros y parámetros que rigen las operaciones de todos los demás módulos. A continuación, se detallan los submódulos identificados.
 
-\section{Gestión de cuentas contables} Tiene como objetivo mantener una estructura contable actualizada y adaptada a las necesidades del sistema, proporcionando funcionalidades esenciales para la creación, modificación, eliminación, importación desde archivos planos, exportación a archivos planos y consulta de cuentas contables, lo que permite una administración integral del catálogo de cuentas.
+\section{Gestión de catálogo de cuentas} Tiene como objetivo mantener una estructura contable actualizada y adaptada a las necesidades del sistema, proporcionando funcionalidades esenciales para la creación, modificación, eliminación, importación desde archivos planos, exportación a archivos planos y consulta de cuentas contables, lo que permite una administración integral del catálogo de cuentas.
 
 Este submódulo constituye el núcleo fundamental del sistema contable, al establecer relaciones críticas con los módulos de Inventario (Promedio Ponderado y PEPS) para la generación automática de asientos contables relacionados con el manejo de inventarios; conectarse con el Módulo Comercial para el registro de transacciones de compras y ventas; interactuar con los módulos de Tesorería y Cartera para el registro de movimientos financieros; servir como base para los módulos Contable-Comercial y Contable Cartera, que dependen directamente del catálogo para generar asientos contables; proporcionar la información necesaria para los reportes financieros, tanto de Libros Auxiliares como de Estados Financieros y alimentar el Módulo Educativo Contable, que utiliza esta información para ejercicios de simulación. De esta manera, se consolida como el elemento vertebral que garantiza la coherencia y funcionalidad de todo el ecosistema contable. A continuación se muestran de manera gráfica las relaciones correspondientes del submodulo de Gestión de Cuentas Contables.
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png}    
+    \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Cuentas contables.png}    
     \caption{Relación del submódulo gestión de cuentas contables.}
     \label{fig:Cuentas contables}
 \end{figure}
@@ -30,7 +30,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=0.7\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Impuestos.drawio.png}    
+    \includegraphics[width=0.7\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Impuestos.png}    
     \caption{Relación del submódulo gestión de tarifas de impuestos.}
     \label{fig:Impuestos}
 \end{figure}
@@ -41,7 +41,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Terceros.drawio.png}    
+    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Terceros.png}    
     \caption{Relación del submódulo gestión de terceros.}
     \label{fig:Terceros}
 \end{figure}
@@ -52,7 +52,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Inventario productos.drawio.png}    
+    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Inventario productos.png}    
     \caption{Relación del submódulo gestión de inventario de productos.}
     \label{fig:Productos}
 \end{figure}
@@ -63,7 +63,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Metodos de pago.drawio.png}    
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Metodos de pago.png}    
     \caption{Relación del submódulo gestión de métodos de pago.}
     \label{fig:MetodosDePago}
 \end{figure}
@@ -74,7 +74,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Tipos de documentos.drawio.png}    
+    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Tipos de documentos.png}    
     \caption{Relación del submódulo gestión de tipos de documentos.}
     \label{fig:TiposDocumento}
 \end{figure}
@@ -85,7 +85,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.drawio.png}    
+    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png}    
     \caption{Relación del submódulo gestión de bancos y cuentas bancarias.}
     \label{fig:BancoYCuentas}
 \end{figure}
@@ -96,7 +96,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Centros de Costo.drawio.png}    
+    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Centros de Costo.png}    
     \caption{Relación del submódulo gestión de centros de costo.}
     \label{fig:CentrosDeCosto}
 \end{figure}
@@ -107,11 +107,18 @@ Este submódulo constituye el núcleo fundamental del sistema contable, al estab
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=0.4\textwidth, height=0.5\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Cuadros de Ayuda.drawio.png}    
+    \includegraphics[width=0.4\textwidth, height=0.5\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png}    
     \caption{Relación del submódulo gestión de cuadros de ayuda.}
     \label{fig:CuadrosAyuda}
 \end{figure}
 
 \newpage
 
-\section{Gestión de calendario contable} Contribuye a la comprensión y el uso del sistema por parte de los usuarios, permitiendo la gestión de mensajes informativos y explicativos a través de funcionalidades que incluyen la creación, modificación de contenido y eliminación de cuadros de ayuda explicativos. Este módulo establece relaciones transversales con todos los módulos funcionales del sistema, ya que los cuadros de ayuda pueden aparecer en cualquier módulo para proporcionar ayuda contextual, explicaciones de conceptos o advertencias, los cuales se visualizan en un sitio web tipo blog donde se muestran las ayudas creadas, mejorando la experiencia del usuario al ofrecer información relevante y oportuna durante la navegación y operación de las diferentes funcionalidades del sistema, constituyendo así un elemento de soporte que contribuye a la usabilidad y accesibilidad de la plataforma en su conjunto. A continuación se muestran de manera gráfica las relaciones correspondientes del submodulo de Gestión de cuadros de ayuda.
+\section{Gestión de calendario contable} Es el componente temporal que estructura y controla el ciclo de vida operativo del sistema. Su objetivo es definir periodos abiertos y cerrados para garantizar que todas las transacciones se registren en el momento correcto, contribuyendo a la integridad, trazabilidad y validez legal de la información financiera. Al permitir que el administrador abra o bloquee meses, evita registros fuera de periodos autorizados, soporta el cierre contable mensual y genera la base auditada para reportes oficializados. Este calendario valida fechas en inventarios, facturación, tesorería y cartera antes de permitir registros; restringe la generación de asientos contables en periodos cerrados y filtra reportes financieros por fechas activas. A continuación se muestran de manera gráfica las relaciones correspondientes del submodulo de Gestión de calendario contable.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Calendario contable.png}    
+    \caption{Relación del submódulo gestión de calendario contable.}
+    \label{fig:CalendarioContable}
+\end{figure}
