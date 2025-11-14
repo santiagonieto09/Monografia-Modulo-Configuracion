@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  14 NOV 2025 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  14 NOV 2025 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1351,11 +1351,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 [22 <./Cap3/Figuras/Diagrama General-Cuentas contables.drawio.png>]
-<Cap3/Figuras/Diagrama General-Terceros.drawio.png, id=404, 927.465pt x 472.76625pt>
+<Cap3/Figuras/Diagrama General-Terceros.drawio.png, id=404, 1848.9075pt x 903.375pt>
 File: Cap3/Figuras/Diagrama General-Terceros.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Terceros.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.drawio.png  used on input line 44.
-(pdftex.def)             Requested size: 469.47705pt x 239.31136pt.
+(pdftex.def)             Requested size: 469.47623pt x 229.38577pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1633,7 +1633,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,14n,107p,11331b,2364s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\callig15.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on PlantillaTesis.pdf (51 pages, 1041092 bytes).
+Output written on PlantillaTesis.pdf (51 pages, 1084519 bytes).
 PDF statistics:
  1441 PDF objects out of 1728 (max. 8388607)
  185 named destinations out of 1000 (max. 500000)
