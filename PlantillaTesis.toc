@@ -50,13 +50,13 @@
 \contentsline {subsection}{\numberline {4.3.3}Vista de terceros}{37}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Vista de impuestos}{38}{subsection.4.3.4}%
 \contentsline {section}{\numberline {4.4}Requisitos funcionales}{38}{section.4.4}%
-\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{41}{chapter*.41}%
-\contentsline {chapter}{Capítulo 6. Patrones de diseño}{42}{chapter*.43}%
-\contentsline {chapter}{Capítulo 7. Pruebas realizadas a la aplicación web}{43}{chapter*.45}%
-\contentsline {chapter}{Capítulo 8. Conclusiones}{44}{chapter*.47}%
+\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{42}{chapter*.41}%
+\contentsline {chapter}{Capítulo 6. Patrones de diseño}{43}{chapter*.43}%
+\contentsline {chapter}{Capítulo 7. Pruebas realizadas a la aplicación web}{44}{chapter*.45}%
+\contentsline {chapter}{Capítulo 8. Conclusiones}{45}{chapter*.47}%
 \def \@chapapp {\appendixname }
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{45}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{46}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{47}{appendix.Alph3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{48}{section*.49}%
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{46}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{47}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{48}{appendix.Alph3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{49}{section*.49}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
