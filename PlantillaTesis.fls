@@ -528,6 +528,9 @@ INPUT Cap4\Tablas\listaTareas.tex
 INPUT .\Cap4\Tablas\epicas.tex
 INPUT .\Cap4\Tablas\epicas.tex
 INPUT Cap4\Tablas\epicas.tex
+INPUT .\Cap4\Tablas\historiasUsuario.tex
+INPUT .\Cap4\Tablas\historiasUsuario.tex
+INPUT Cap4\Tablas\historiasUsuario.tex
 INPUT .\Cap5\Cap5.tex
 INPUT .\Cap5\Cap5.tex
 OUTPUT Cap5\Cap5.aux

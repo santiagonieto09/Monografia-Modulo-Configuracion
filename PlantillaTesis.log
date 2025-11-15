@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  15 NOV 2025 09:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  15 NOV 2025 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,6 +1174,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 8.
 Package tocbasic Info: Using my definition of `\numberline' on input line 9.
 Package tocbasic Info: Using my definition of `\numberline' on input line 10.
 Package tocbasic Info: Using my definition of `\numberline' on input line 11.
+Package tocbasic Info: Using my definition of `\numberline' on input line 12.
 )
 \tf@lot=\write6
 \openout6 = `PlantillaTesis.lot'.
@@ -1291,7 +1292,7 @@ LaTeX Info: Redefining \% on input line 86.
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
  [15]
-<Cap2/Figuras/Figura1.png, id=377, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura1.png, id=379, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura1.png Graphic file (type png)
 <use Cap2/Figuras/Figura1.png>
 Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 126.
@@ -1300,7 +1301,7 @@ Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 126.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap2/Figuras/Figura2.png, id=378, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura2.png, id=380, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura2.png Graphic file (type png)
 <use Cap2/Figuras/Figura2.png>
 Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 133.
@@ -1308,7 +1309,7 @@ Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 133.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap2/Figuras/Figura3.png, id=379, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura3.png, id=381, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura3.png Graphic file (type png)
 <use Cap2/Figuras/Figura3.png>
 Package pdftex.def Info: Cap2/Figuras/Figura3.png  used on input line 140.
@@ -1333,7 +1334,7 @@ LaTeX Info: Redefining \% on input line 122.
 \openout2 = `Cap3/Cap3.aux'.
 
  (Cap3/Cap3.tex
-<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=407, 1790.69pt x 867.24pt>
+<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=409, 1790.69pt x 867.24pt>
 File: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png  used on input line 8.
@@ -1344,7 +1345,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio
 
 
  <./Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>]
-<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=415, 4199.69pt x 2304.61pt>
+<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=417, 4199.69pt x 2304.61pt>
 File: Cap3/Figuras/Diagrama General-Cuentas contables.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuentas contables.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.png  used on input line 22.
@@ -1352,7 +1353,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.png  us
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  [21 <./Cap3/Figuras/Diagrama General-Cuentas contables.png>]
-<Cap3/Figuras/Diagrama General-Impuestos.png, id=421, 2380.895pt x 1654.18pt>
+<Cap3/Figuras/Diagrama General-Impuestos.png, id=423, 2380.895pt x 1654.18pt>
 File: Cap3/Figuras/Diagrama General-Impuestos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Impuestos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.png  used on input line 33.
@@ -1360,7 +1361,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.png  used on in
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
  [22 <./Cap3/Figuras/Diagrama General-Impuestos.png>]
-<Cap3/Figuras/Diagrama General-Terceros.png, id=427, 3697.815pt x 1818.795pt>
+<Cap3/Figuras/Diagrama General-Terceros.png, id=429, 3697.815pt x 1818.795pt>
 File: Cap3/Figuras/Diagrama General-Terceros.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Terceros.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.png  used on input line 44.
@@ -1368,7 +1369,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.png  used on inp
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
  [23 <./Cap3/Figuras/Diagrama General-Terceros.png>]
-<Cap3/Figuras/Diagrama General-Inventario productos.png, id=433, 3693.8pt x 1682.285pt>
+<Cap3/Figuras/Diagrama General-Inventario productos.png, id=435, 3693.8pt x 1682.285pt>
 File: Cap3/Figuras/Diagrama General-Inventario productos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Inventario productos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.png  used on input line 55.
@@ -1376,7 +1377,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.png 
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
  [24 <./Cap3/Figuras/Diagrama General-Inventario productos.png>]
-<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=439, 3505.095pt x 1658.195pt>
+<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=441, 3505.095pt x 1658.195pt>
 File: Cap3/Figuras/Diagrama General-Metodos de pago.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Metodos de pago.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.png  used on input line 66.
@@ -1384,7 +1385,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.png  used
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
  [25 <./Cap3/Figuras/Diagrama General-Metodos de pago.png>]
-<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=445, 3854.4pt x 1778.645pt>
+<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=447, 3854.4pt x 1778.645pt>
 File: Cap3/Figuras/Diagrama General-Tipos de documentos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Tipos de documentos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.png  used on input line 77.
@@ -1392,7 +1393,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.png  
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
  [26 <./Cap3/Figuras/Diagrama General-Tipos de documentos.png>]
-<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=452, 3481.005pt x 1606.0pt>
+<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=454, 3481.005pt x 1606.0pt>
 File: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png  used on input line 88.
@@ -1400,7 +1401,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
  [27 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>]
-<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=458, 3569.335pt x 1846.9pt>
+<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=460, 3569.335pt x 1846.9pt>
 File: Cap3/Figuras/Diagrama General-Centros de Costo.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Centros de Costo.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.png  used on input line 99.
@@ -1408,7 +1409,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.png  use
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
  [28 <./Cap3/Figuras/Diagrama General-Centros de Costo.png>]
-<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=464, 855.195pt x 1260.71pt>
+<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=466, 855.195pt x 1260.71pt>
 File: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png  used on input line 110.
@@ -1416,7 +1417,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png  use
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
  [29 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>]
-<Cap3/Figuras/Diagrama General-Calendario contable.png, id=470, 3741.98pt x 1750.54pt>
+<Cap3/Figuras/Diagrama General-Calendario contable.png, id=472, 3741.98pt x 1750.54pt>
 File: Cap3/Figuras/Diagrama General-Calendario contable.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Calendario contable.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Calendario contable.png  used on input line 121.
@@ -1460,7 +1461,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
  [34]
-<Cap4/Figuras/catalogo de cuentas.png, id=496, 2890.8pt x 1773.62625pt>
+<Cap4/Figuras/catalogo de cuentas.png, id=498, 2890.8pt x 1773.62625pt>
 File: Cap4/Figuras/catalogo de cuentas.png Graphic file (type png)
 <use Cap4/Figuras/catalogo de cuentas.png>
 Package pdftex.def Info: Cap4/Figuras/catalogo de cuentas.png  used on input line 51.
@@ -1468,7 +1469,7 @@ Package pdftex.def Info: Cap4/Figuras/catalogo de cuentas.png  used on input lin
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
  [35 <./Cap4/Figuras/catalogo de cuentas.png>]
-<Cap4/Figuras/inventario de productos.png, id=502, 2890.8pt x 1626.075pt>
+<Cap4/Figuras/inventario de productos.png, id=504, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/inventario de productos.png Graphic file (type png)
 <use Cap4/Figuras/inventario de productos.png>
 Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input line 63.
@@ -1476,7 +1477,7 @@ Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
  [36 <./Cap4/Figuras/inventario de productos.png>]
-<Cap4/Figuras/terceros.png, id=508, 2890.8pt x 1626.075pt>
+<Cap4/Figuras/terceros.png, id=510, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/terceros.png Graphic file (type png)
 <use Cap4/Figuras/terceros.png>
 Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 75.
@@ -1484,7 +1485,7 @@ Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 75.
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
  [37 <./Cap4/Figuras/terceros.png>]
-<Cap4/Figuras/impuestos.png, id=514, 2890.8pt x 1626.075pt>
+<Cap4/Figuras/impuestos.png, id=516, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/impuestos.png Graphic file (type png)
 <use Cap4/Figuras/impuestos.png>
 Package pdftex.def Info: Cap4/Figuras/impuestos.png  used on input line 88.
@@ -1596,13 +1597,263 @@ LaTeX Info: Redefining \% on input line 57.
 ignored error: Infinite glue shrinkage found in box being split
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
- [42]))
+ [42]) (Cap4/Tablas/historiasUsuario.tex
+Overfull \hbox (21.5472pt too wide) in alignment at lines 1--7
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.5472pt too wide) in alignment at lines 7--12
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.5472pt too wide) in alignment at lines 12--14
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.5472pt too wide) in alignment at lines 14--15
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]|\T1/cmr/m/n/12 HE-01-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]|\T1/cmr/m/n/12 Activar/desactivar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/cmr/m/n/12 Quiero ac-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/cmr/m/n/12 var/desactivar las
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 16--18
+\T1/cmr/m/n/12 cuen-tas con-ta-bles en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/cmr/m/n/12 Para con-tro-lar qué
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 16--18
+\T1/cmr/m/n/12 cuen-tas es-tán dis-po-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 18--22
+[]|\T1/cmr/m/n/12 CA-01: Da-do que me en-cuen-
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 18--22
+\T1/cmr/m/n/12 tro en la in-ter-faz con-fi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 18--22
+\T1/cmr/m/n/12 CA-02: Da-do que me en-cuen-
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 18--22
+\T1/cmr/m/n/12 tro en la in-ter-faz con-fi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\T1/cmr/m/n/12 HE-02-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\T1/cmr/m/n/12 Quiero ac-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\T1/cmr/m/n/12 var/desactivar las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\T1/cmr/m/n/12 Para con-tro-lar qué
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 23--25
+\T1/cmr/m/n/12 im-pues-tos es-tán dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\T1/cmr/m/n/12 po-ni-bles pa-ra uso
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\T1/cmr/m/n/12 en las ope-ra-cio-nes
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 25--31
+[]|\T1/cmr/m/n/12 CA-01: Da-do que me en-cuen-
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 25--31
+\T1/cmr/m/n/12 tro en la in-ter-faz con-fi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 25--31
+\T1/cmr/m/n/12 CA-02: Da-do que me en-cuen-
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 25--31
+\T1/cmr/m/n/12 tro en la in-ter-faz con-fi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\T1/cmr/m/n/12 HE-03-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\T1/cmr/m/n/12 Quiero ac-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\T1/cmr/m/n/12 var/desactivar la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\T1/cmr/m/n/12 Para con-ser-var re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\T1/cmr/m/n/12 gis-tros vi-gen-tes y
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 34--42
+\T1/cmr/m/n/12 en la in-ter-faz con-fi-gu-ra-ción /
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 34--42
+\T1/cmr/m/n/12 Ter-ce-ros y he se-lec-cio-na-do un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/cmr/m/n/12 Cuando doy clic en Ac-ti-
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 34--42
+\T1/cmr/m/n/12 en la in-ter-faz con-fi-gu-ra-ción /
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 34--42
+\T1/cmr/m/n/12 y he se-lec-cio-na-do un ti-po de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/cmr/m/n/12 Cuando doy clic en Ac-ti-
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 34--42
+\T1/cmr/m/n/12 en la in-ter-faz con-fi-gu-ra-ción /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/cmr/m/n/12 Cuando doy clic en Ac-ti-
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 34--42
+\T1/cmr/m/n/12 el ti-po de ter-ce-ro fue ac-ti-va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\T1/cmr/m/n/12 HE-06-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\T1/cmr/m/n/12 Activar/desactivar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+\T1/cmr/m/n/12 Quiero ac-ti-
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 43--45
+\T1/cmr/m/n/12 var/desactivar mé-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+\T1/cmr/m/n/12 Para con-ser-var re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+\T1/cmr/m/n/12 gis-tros vi-gen-tes y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+\T1/cmr/m/n/12 Cuando doy clic en Ac-ti-
+ []
+
+
+Overfull \hbox (21.5472pt too wide) in alignment at lines 15--49
+ [] [] [] [] 
+ []
+
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+[43]
+ignored error: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+ [44]
+ignored error: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+ [45]))
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [43]
+ [46]
 \openout2 = `Cap5/Cap5.aux'.
 
- (Cap5/Cap5.tex) [44
+ (Cap5/Cap5.tex) [47
 
 
 
@@ -1610,7 +1861,7 @@ LaTeX Info: Redefining \% on input line 124.
 ]
 \openout2 = `Cap6/Cap6.aux'.
 
- (Cap6/Cap6.tex) [45
+ (Cap6/Cap6.tex) [48
 
 
 
@@ -1618,7 +1869,7 @@ LaTeX Info: Redefining \% on input line 124.
 ]
 \openout2 = `Cap7/Cap7.aux'.
 
- (Cap7/Cap7.tex) [46
+ (Cap7/Cap7.tex) [49
 
 
 
@@ -1626,7 +1877,7 @@ LaTeX Info: Redefining \% on input line 124.
 ]
 \openout2 = `Cap8/Cap8.aux'.
 
- (Cap8/Cap8.tex) [47
+ (Cap8/Cap8.tex) [50
 
 
 
@@ -1655,7 +1906,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[48
+[51
 
 
 
@@ -1667,7 +1918,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[49
+[52
 
 ]
 chapter C.
@@ -1686,14 +1937,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) [50
+) [53
 
 ]
 Overfull \hbox (14.4432pt too wide) in paragraph at lines 134--134
 \T1/cmr/m/n/12 soft-wa-re use and ICT com-pe-ten-cies''. En: \T1/cmr/m/it/12 Ac-coun-ting Edu-ca-tion \T1/cmr/m/n/12 30.5 (2021), págs. 495[]524.
  []
 
-[51
+[54
 
 
 
@@ -1709,7 +1960,7 @@ Overfull \hbox (6.54416pt too wide) in paragraph at lines 134--134
 
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
-[52]
+[55]
 Overfull \hbox (6.9406pt too wide) in paragraph at lines 134--134
 \T1/cmr/m/n/12 Shi-va Raj Pokh-rel y Gang Li. Sin-ga-po-re: Sprin-ger Na-tu-re Sin-ga-po-re, 2023, págs. 243[]257. 
  []
@@ -1721,10 +1972,10 @@ Overfull \hbox (19.22954pt too wide) in paragraph at lines 134--134
 
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
-[53]
+[56]
 LaTeX Info: Redefining \. on input line 134.
 LaTeX Info: Redefining \% on input line 134.
- [54] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
+ [57] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \sptext on input line 18.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
@@ -1742,17 +1993,17 @@ Package logreq Info: Writing requests to 'PlantillaTesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26908 strings out of 467870
- 510369 string characters out of 5418838
- 1314633 words of memory out of 5000000
- 55153 multiletter control sequences out of 15000+600000
+ 26920 strings out of 467870
+ 510713 string characters out of 5418838
+ 1314748 words of memory out of 5000000
+ 55158 multiletter control sequences out of 15000+600000
  645781 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,14n,107p,11331b,2364s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\callig15.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on PlantillaTesis.pdf (59 pages, 3309547 bytes).
+Output written on PlantillaTesis.pdf (62 pages, 3316199 bytes).
 PDF statistics:
- 1530 PDF objects out of 1728 (max. 8388607)
- 204 named destinations out of 1000 (max. 500000)
+ 1549 PDF objects out of 1728 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
  568 words of extra memory for PDF output out of 10000 (max. 10000000)
 
