@@ -26,7 +26,7 @@ Como ya fue mencionado, la validación de prototipos se realizó en la apertura 
 \subsection{Validación de historias de usuario}
 La validación de las historias de usuario se realizó en conjunto con la validación de prototipos, estas fueron ajustadas en cada encuentro, considerando tanto los aspectos técnicos como los requisitos pedagógicos específicos del programa de Contaduría Pública. En este proceso, se prestó especial atención a que cada funcionalidad contribuyera efectivamente al aprendizaje de conceptos contables fundamentales y permitiera la simulación de escenarios empresariales reales.
 
-\section{Identificación de Stakeholders}
+\section{Identificación de stakeholders}
 Para identificar los stakeholders del proyecto fue fundamental la colaboración con el asesor empresarial y el director de la práctica profesional. Es por esto que se logra la identificación de los interesados como a continuación se describe:
 
 \input{Cap4/Tablas/stakeholders}
@@ -38,7 +38,62 @@ La construcción de prototipos fue esencial para una comunicación clara con el 
 
 Los prototipos se enfocaron en representar las interfaces de los submódulos que componen el módulo de configuración, cada prototipo consideró los lineamientos de diseño UX-UI establecidos por la División TIC de la Universidad del Cauca, incluyendo la paleta de colores institucional y las fuentes tipográficas especificadas.
 
-Para el diseño de los prototipos se hizo necesario el uso de una herramienta flexible y de fácil manejo, en la que se pudiera plasmar rápidamente el concepto de las interfaces del módulo de configuración, la herramienta elegida fue Figma por su comodidad, flexibilidad y fácil manejo para el diseño de interfaces web, además de permitir la colaboración en tiempo real con los interesados del proyecto. Por tanto, si se desea explorar en su totalidad los prototipos desarrollados, es preciso dirigirse al proyecto Figma en el siguiente enlace \href{https://www.figma.com/design/b28M2VlaXjz2JrX5TvlfwF/MODULO-CONFIGURACION?node-id=1092-13124}{\underline{\textcolor{blue}{prototipos}}}, donde se encuentran compilados todos los diseños de las interfaces del módulo de configuración.
+Para el diseño de los prototipos se hizo necesario el uso de una herramienta flexible y de fácil manejo, en la que se pudiera plasmar rápidamente el concepto de las interfaces del módulo de configuración, la herramienta elegida fue Figma por su comodidad, flexibilidad y fácil manejo para el diseño de interfaces web, además de permitir la colaboración en tiempo real con los interesados del proyecto. Por tanto, si se desea explorar en su totalidad los prototipos desarrollados, es preciso dirigirse al proyecto Figma en el siguiente \href{https://www.figma.com/design/b28M2VlaXjz2JrX5TvlfwF/MODULO-CONFIGURACION?node-id=1092-13124}{\underline{\textcolor{blue}{enlace}}}, donde se encuentran compilados todos los diseños de las interfaces del módulo de configuración.
 
-Por lo tanto, se incluyen a continuación ejemplos seleccionados de los prototipos desarrollados, evitando así saturar el documento y optimizando la comprensión visual.
+Igualmente, se incluyen a continuación ejemplos seleccionados de los prototipos desarrollados, evitando así saturar el documento y optimizando la comprensión visual.
+
+\subsection{Vista de catálogo de cuentas}
+
+La figura \ref{fig:CatalogoCuentas} muestra el prototipo asociado al catálogo de cuentas, que establece la estructura maestra de clasificación contable donde se definen, organizan y gestionan todas las cuentas que registrarán las transacciones financieras del sistema. Configura el esquema contable maestro del sistema a través de una interfaz que permite gestionar jerárquicamente la estructura de clasificación financiera. Desde este módulo central, el administrador puede crear, importar o exportar cuentas codificadas numéricamente del 1 al 9, organizadas según naturaleza contable (Activo, Pasivos, Patrimonio, Ingresos, Gastos, Costos de transformación y Cuentas de orden), con control de estado activo/inactivo para mantener vigente el plan de cuentas.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/catalogo de cuentas.png}    
+    \caption{Prototipo vista catálogo de cuentas.}
+    \label{fig:CatalogoCuentas}
+\end{figure}
+
+\newpage
+\subsection{Vista de inventario de productos}
+
+La figura \ref{fig:InventarioProductos} muestra el prototipo asociado al inventario de productos establece el catálogo maestro de artículos donde se centraliza la gestión de insumos, productos terminados y mercancías a través de una interfaz que permite crear, importar, exportar y administrar registros con atributos clave como referencia, nombre, descripción, costo, cantidad, unidad de medida, categoría, tipo de producto y estado activo.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/inventario de productos.png}    
+    \caption{Prototipo vista inventario de productos.}
+    \label{fig:InventarioProductos}
+\end{figure}
+
+\newpage
+\subsection{Vista de terceros}
+
+La figura \ref{fig:tercero} muestra el prototipo asociado a terceros,  configura el registro maestro de entidades externas a través de una interfaz que permite crear, importar, exportar y administrar personas naturales y jurídicas, capturando atributos esenciales como identificación, tipo de entidad, correo electrónico y estado activo. Incorpora la funcionalidad específica de procesar archivos PDF del RUT para automatizar la creación de registros, validando duplicados y formatos de datos requeridos. Este módulo opera como repositorio centralizado que estructura y mantiene actualizada la base de datos de clientes, proveedores y otros actores, habilitando búsquedas dinámicas por nombre o numero de identificación.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/terceros.png}    
+    \caption{Prototipo vista de terceros.}
+    \label{fig:tercero}
+\end{figure}
+
+
+\newpage
+\subsection{Vista de impuestos }
+
+La figura \ref{fig:impuestos} muestra el prototipo asociado a impuestos encargado de la configuracion maestra de tarifas mediante una interfaz que permite crear, modificar y eliminar registros, asignando descripciones, porcentajes y las cuentas contables específicas para compras y ventas. Centraliza la parametrización de tributos como IVA y retenciones, validando la existencia de las cuentas asociadas.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/impuestos.png}    
+    \caption{Prototipo vista de impuestos.}
+    \label{fig:impuestos}
+\end{figure}
+
+
+\section{Requisitos funcionales}
+
+La lista de tareas del proyecto refleja las necesidades identificadas y se estructura mediante historias épicas, las cuales a su vez se desglosan en historias de usuario. Las historias épicas agrupan funcionalidades o tareas complejas que no pueden abordarse en una sola iteración, mientras que las historias de usuario detallan estas épicas en descripciones manejables que permiten su desarrollo independiente en una iteración. A continuación, se presenta la tabla con la lista de tareas del proyecto.
+
+\input{Cap4/Tablas/listaTareas.tex}
 

@@ -95,6 +95,8 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\fundus-calligra\calligra.sty
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\fundus-calligra\calligra.sty
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
@@ -492,6 +494,37 @@ INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT Cap4\Tablas\stakeholders.tex
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Tablas\listaTareas.tex
+INPUT .\Cap4\Tablas\listaTareas.tex
+INPUT Cap4\Tablas\listaTareas.tex
 INPUT .\Cap5\Cap5.tex
 INPUT .\Cap5\Cap5.tex
 OUTPUT Cap5\Cap5.aux
