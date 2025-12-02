@@ -34,7 +34,7 @@ El software contable educativo opera de manera autónoma sin depender de integra
 \newpage
 \subsection{Contenedores}
 
-En la figura X se puede observar el diagrama de contenedores, el cual tiene como objetivo proporcionar una visión con nivel de detalle medio para comprender la organización interna del sistema y las responsabilidades de los diferentes contenedores que conforman la arquitectura del software contable educativo.
+En la figura \ref{fig:contenedor} se puede observar el diagrama de contenedores, el cual tiene como objetivo proporcionar una visión con nivel de detalle medio para comprender la organización interna del sistema y las responsabilidades de los diferentes contenedores que conforman la arquitectura del software contable educativo.
 Como se menciona en la sección anterior, el sistema consta de seis contenedores principales: aplicación web, API Gateway, servicio de descubrimiento, microservicios, Keycloak y base de datos. La aplicación web desarrollada en Angular 19 se comunica con los microservicios a través del API Gateway mediante un sistema REST (Representational State Transfer), de este modo el backend expone servicios web que implementan una API REST siguiendo sus principios fundamentales:
 
 \begin{itemize}
@@ -52,4 +52,10 @@ Como se menciona en la sección anterior, el sistema consta de seis contenedores
 \end{figure}
 
 
-La descripción de cada componente y la participación del presente proyecto se encuentra en la tabla X
+La descripción de cada componente y la participación del presente proyecto se encuentra en la tabla \ref{tab:contenedores}.
+
+\input{Cap5/Tablas/contenedores.tex}
+
+\newpage
+\subsection{Contenedores}
+

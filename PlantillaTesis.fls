@@ -552,6 +552,9 @@ INPUT .\Cap5\Figuras\contenedor.png
 INPUT .\Cap5\Figuras\contenedor.png
 INPUT .\Cap5\Figuras\contenedor.png
 INPUT .\Cap5\Figuras\contenedor.png
+INPUT .\Cap5\Tablas\contenedores.tex
+INPUT .\Cap5\Tablas\contenedores.tex
+INPUT Cap5\Tablas\contenedores.tex
 INPUT .\Cap6\Cap6.tex
 INPUT .\Cap6\Cap6.tex
 OUTPUT Cap6\Cap6.aux

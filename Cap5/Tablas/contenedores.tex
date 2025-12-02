@@ -1,0 +1,22 @@
+\begin{table}[h!]
+\centering
+\caption{Contenedores del sistema}
+\label{tab:contenedores}
+\begin{tabular}{|p{3cm}|p{8cm}|p{3cm}|}
+\hline
+\textbf{Contenedor} & \textbf{Descripción} & \textbf{Participación} \\
+\hline
+Aplicación web & Plataforma web diseñada con fines educativos para simular y practicar procesos contables, financieros y empresariales. Ofrece módulos como inventario de productos, catálogo de cuentas, impuestos, terceros y centros de costo. & Sin participación. \\
+\hline
+API Gateway & Permite la comunicación entre los FrontEnd y los microservicios. Se conecta con Eureka para descubrir la ubicación de un microservicio. & Asesoría. \\
+\hline
+Servicio de descubrimiento & Permite a los microservicios registrarse y descubrirse dinámicamente. & Asesoría. \\
+\hline
+Microservicios & Representa los microservicios desarrollados con SpringBoot, Spring y JDK 17, incluyendo el módulo de configuración que maneja parámetros maestros. & Principal responsable. \\
+\hline
+Keycloak & Responsable de realizar la autenticación y autorización del sistema mediante OAuth 2.0 y OpenID Connect. & Asesoría. \\
+\hline
+Base de datos & Bases de datos que almacena información de los microservicios, utilizando PostgreSQL. & Trabajo conjunto de diseño con el proyecto web, se construyen diagramas entidad-relación, relacionales y físicos. \\
+\hline
+\end{tabular}
+\end{table}
