@@ -17,6 +17,15 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global/global}
+  \entry{ArquitecturaCapas}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+  \field{howpublished}{\url{https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/capas}}
+    \field{note}{[Accessed 02-12-2025]}
+    \field{title}{Arquitectura en Capas - reactiveprogramming.io}
+  \endentry
+
   \entry{Blount2016}{article}{}{}
     \name{author}{4}{}{%
       {{hash=BY}{%

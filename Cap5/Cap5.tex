@@ -5,7 +5,7 @@ Es importante recordar que el software contable para uso educativo en construcci
 
 La descripción de la arquitectura hará énfasis en este módulo y ofrecerá una descripción general de cómo se relaciona con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales hasta la fecha han tenido avances significativos en su desarrollo, lo que permitió la comunicación con el módulo de configuración. En el anexo B se especifica un documento técnico que detalla una guía para que los demás microservicios que componen el sistema y que están en fase inicial de construcción puedan comunicarse con el módulo de configuración. 
 
-Para describir la arquitectura del sistema se emplea el modelo C4, que contempla cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. A continuación se presenta la arquitectura del catálogo de cuentas, los diagramas C4 de los demás módulos no se incluyen aquí, evitando la sobrecarga visual de este documento, para ello puede dirigirse al siguiente enlace, donde encontrará los diagramas correspondientes a cada módulo desarrollado.
+Para describir la arquitectura del sistema se emplea el modelo C4, que contempla cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. A continuación se presenta la arquitectura del catálogo de cuentas, los diagramas C4 de los demás módulos no se incluyen aquí, evitando la sobrecarga visual de este documento, para ello puede dirigirse al siguiente \href{https://drive.google.com/drive/folders/1O5IuTREhMx5zNiTa6Jo7ET5LC2ph4cPg?usp=sharing}{\underline{\textcolor{blue}{enlace}}}, donde encontrará todos los diagramas correspondientes a cada módulo desarrollado.
 
 \section{Modelo C4: Descripción de la arquitectura}
 
@@ -70,7 +70,7 @@ En la figura \ref{fig:componentes} se puede observar el diagrama de componentes 
 
 \section{Patrón arquitectónico}
 
-\subsection{Arquitectura Hexagonal}
+\subsection{Arquitectura hexagonal}
 La arquitectura hexagonal, también conocida como arquitectura de puertos y adaptadores, es un patrón diseñado para crear componentes de aplicación débilmente acoplados, facilitando la conexión con el entorno externo. Su objetivo principal es aislar la lógica de negocio del núcleo de la aplicación de factores externos como bases de datos, interfaces de usuario o sistemas de mensajería, lo que mejora la modularidad, mantenibilidad y testabilidad. El sistema se divide en componentes intercambiables conectados a través de puertos (interfaces que representan puntos de entrada y salida) e implementados por adaptadores, que traducen las interacciones entre el mundo exterior y el núcleo \cite{HexagonalArchitecture}.
 
 Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en capas concéntricas: el núcleo del dominio contiene entidades y lógica de negocio; la capa de aplicación incluye servicios que orquestan casos de uso; y la capa de infraestructura alberga adaptadores. Estos se clasifican en primarios (como controladores REST o interfaces gráficas, que inician la comunicación) y secundarios (como repositorios de bases de datos o servicios de mensajería, que responden a la aplicación). En el proyecto, los adaptadores primarios incluyen la API REST y la interfaz de línea de comandos, mientras que los secundarios comprenden PostgreSQL para persistencia y RabbitMQ para comunicación asíncrona entre microservicios.
@@ -84,4 +84,10 @@ Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en
 \end{figure}
 
 
-\subsection{Arquitectura en Capas}
+\subsection{Arquitectura en capas}
+
+La arquitectura por capas es una de las más empleadas, debido a su sencillez y al hecho de que se adopta automáticamente cuando no se tiene certeza sobre qué patrón arquitectónico elegir para el desarrollo de la aplicación.
+
+Este enfoque implica segmentar la aplicación en diferentes niveles, con el propósito de asignar a cada uno una función específica, tales como una capa de interfaz de usuario (UI), una capa de lógica de negocio (servicios) y una capa de acceso a datos (DAO). No obstante, este patrón no establece un número fijo de capas para la aplicación, sino que enfatiza la división de la aplicación en niveles (aplicando el principio de Separación de Responsabilidades (SoC)).
+
+En la implementación práctica, generalmente se utiliza un esquema de 4 capas: presentación, negocio, persistencia y base de datos. Sin embargo, es común observar que las capas de negocio y persistencia se fusionan en una sola, especialmente cuando la lógica de almacenamiento se integra directamente en la capa de negocio \cite{ArquitecturaCapas}.
