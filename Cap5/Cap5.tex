@@ -1,24 +1,55 @@
 \mychapter{Capítulo 5. Arquitectura del sistema}
 
-En el presente capítulo se explora la arquitectura del sistema, el cual es un plan que define aspectos y decisiones importantes para el software, teniendo en cuenta los requisitos del sistema, su organización y la comunicación entre los diferentes componentes.
+En el presente capítulo se explora la arquitectura del sistema, siendo este un plan en el que se definen aspectos y decisiones importantes para el software, teniendo en cuenta los requisitos del sistema, la organización y cómo se comunican los diferentes componentes entre sí.
+Es importante recordar que el software contable para uso educativo en construcción consta de múltiples módulos independientes desarrollados como microservicios: Módulo de Configuración, Módulo Comercial, Módulo de Inventario (Promedio Ponderado y PEPS), Módulo de Tesorería, Módulo de Cartera, Módulos Contable-Comercial y Contable-Cartera, Módulos de Reportes Financieros, y Módulo Educativo Contable. A pesar de que varios de estos módulos interactúan entre sí mediante APIs REST y un servidor de descubrimiento Eureka, este proyecto se enfoca específicamente en el desarrollo del módulo de configuración, que proporciona los parámetros maestros fundamentales para el funcionamiento de todo el sistema.
 
----AQUI FALTA---
-
-Para describir la arquitectura del sistema se utiliza el modelo C4, el cual establece el uso de cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. Por lo tanto, a continuación se describe la arquitectura del sistema mediante estos diagramas.
+La descripción de la arquitectura hará énfasis en este módulo y ofrecerá una descripción general de cómo se relaciona con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales hasta la fecha han tenido avances significativos en su desarrollo, lo que permitió la comunicación con el módulo de configuración. En el anexo B se especifica un documento técnico que detalla una guía para que los demás microservicios que componen el sistema puedan interactuar con el módulo de configuración. Para describir la arquitectura del sistema se utiliza el modelo C4, el cual establece el uso de cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. A continuación, se describe la arquitectura del módulo de configuración mediante estos diagramas.
 
 \section{Modelo C4: Descripción de la arquitectura}
 
 \subsection{Contexto}
 
-En la figura se puede observar el diagrama de contexto del sistema del software contable educativo, siendo la representación visual más general del sistema, busca describir la relación con los usuarios y sistemas externos.
+En la figura \ref{fig:Contexto} se puede observar el diagrama de contexto del sistema del software contable educativo, siendo la representación visual más general del sistema, busca describir la relación con los usuarios y sistemas externos.
 
 \subsubsection{Usuarios}
 \begin{itemize}
-\item \textbf{Usuario aplicación:} Hace referencia a aquellos vinculados al programa de Contaduría Pública de la Universidad del Cauca de una u otra forma. Incluye estudiantes que toman cursos de contabilidad, docentes que imparten clases y el administrador del sistema. Estos usuarios no solo pueden visualizar la información de la oferta académica del programa, sino que tienen acceso a las funcionalidades del software contable educativo según su rol. Los roles principales en el sistema son:
+\item \textbf{Usuario aplicación:} Hace referencia a aquellos vinculados al programa de Contaduría Pública de la Universidad del Cauca de una u otra forma. Incluye estudiantes que toman cursos de contabilidad, docentes que imparten clases y el administrador del sistema. Estos usuarios no solo pueden visualizar la información del sistema, sino que tienen acceso a las funcionalidades del software contable educativo según su rol. Los roles principales en el sistema son:
   \begin{itemize}
   \item \textbf{Administrador:} Se encarga de la administración del sistema, con privilegios elevados para crear, eliminar y modificar información y elementos del módulo de configuración.
-  \item \textbf{Profesor:} Se encarga de dirigir los grupos de estudiantes, con privilegios para manipular las actividades y evaluaciones de sus alumnos en el contexto educativo.
+  \item \textbf{Profesor:} Se encarga de dirigir los grupos de estudiantes en el programa de Contaduría Pública, con privilegios para manipular los parámetros contables configurados en el contexto educativo del software contable.
   \item \textbf{Estudiante:} Estudiantes matriculados en el programa de Contaduría Pública que se han registrado en el sistema para practicar conceptos contables.
   \end{itemize}
 \end{itemize}
 \subsubsection{Sistemas externos}
+
+El software contable educativo opera de manera autónoma sin depender de integraciones con sistemas externos de terceros. Todas las funcionalidades del sistema se gestionan a través de los componentes internos que conforman su arquitectura de microservicios. La gestión de autenticación se realiza mediante Keycloak, el cual se encuentra desplegado como un contenedor integral dentro de la arquitectura del software contable. Keycloak proporciona servicios de autenticación mediante OAuth 2.0 y OpenID Connect, así como autorización basada en roles, permitiendo que estudiantes, profesores y administradores accedan de forma segura a las funcionalidades del sistema según sus permisos establecidos.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/contexto.png}    
+    \caption{Diagrama de contexto.}
+    \label{fig:Contexto}
+\end{figure}
+
+\newpage
+\subsection{Contenedores}
+
+En la figura X se puede observar el diagrama de contenedores, el cual tiene como objetivo proporcionar una visión con nivel de detalle medio para comprender la organización interna del sistema y las responsabilidades de los diferentes contenedores que conforman la arquitectura del software contable educativo.
+Como se menciona en la sección anterior, el sistema consta de seis contenedores principales: aplicación web, API Gateway, servicio de descubrimiento, microservicios, Keycloak y base de datos. La aplicación web desarrollada en Angular 19 se comunica con los microservicios a través del API Gateway mediante un sistema REST (Representational State Transfer), de este modo el backend expone servicios web que implementan una API REST siguiendo sus principios fundamentales:
+
+\begin{itemize}
+\item \textbf{Cliente-Servidor:} La aplicación web (cliente) y los microservicios (servidor) son independientes; la única forma de comunicación son las peticiones HTTP que fluyen a través del API Gateway.
+\item \textbf{Sin estado:} Los microservicios no almacenan información de sesión; cada petición es independiente y contiene toda la información necesaria para procesarla, incluyendo el token JWT para autenticación.
+\item \textbf{Identificador único:} Cada recurso del sistema (cuentas contables, terceros, productos, impuestos) se identifica mediante URIs únicas que permiten su acceso y manipulación de forma irrepetible.
+\item \textbf{Uso de HTTP:} Se respetan los verbos HTTP estándar (GET para consultas, POST para creación, PUT para actualización, DELETE para eliminación) y los códigos de respuesta apropiados para cada operación.
+\end{itemize}
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/contenedor.png}    
+    \caption{Diagrama de contenedores.}
+    \label{fig:contenedor}
+\end{figure}
+
+
+La descripción de cada componente y la participación del presente proyecto se encuentra en la tabla X
