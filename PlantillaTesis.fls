@@ -544,7 +544,6 @@ OUTPUT Cap5\Cap5.aux
 INPUT .\Cap5\Cap5.tex
 INPUT .\Cap5\Cap5.tex
 INPUT Cap5\Cap5.tex
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\Cap5\Figuras\contexto.png
 INPUT .\Cap5\Figuras\contexto.png
 INPUT .\Cap5\Figuras\contexto.png
@@ -569,6 +568,13 @@ INPUT .\Cap5\Figuras\componentes.png
 INPUT .\Cap5\Figuras\componentes.png
 INPUT .\Cap5\Figuras\componentes.png
 INPUT .\Cap5\Figuras\componentes.png
+INPUT .\Cap5\Figuras\hexagonal.png
+INPUT .\Cap5\Figuras\hexagonal.png
+INPUT .\Cap5\Figuras\hexagonal.png
+INPUT .\Cap5\Figuras\hexagonal.png
+INPUT .\Cap5\Figuras\hexagonal.png
+INPUT .\Cap5\Figuras\hexagonal.png
+INPUT .\Cap5\Figuras\hexagonal.png
 INPUT .\Cap6\Cap6.tex
 INPUT .\Cap6\Cap6.tex
 OUTPUT Cap6\Cap6.aux
@@ -595,6 +601,7 @@ INPUT .\Anexos\Anexos.tex
 INPUT Anexos\Anexos.tex
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
+INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcti1200.tfm
 INPUT PlantillaTesis.aux
 INPUT .\HojaTitulo\HojaTituloMSc.aux
@@ -631,12 +638,12 @@ INPUT PlantillaTesis.run.xml
 OUTPUT PlantillaTesis.run.xml
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1200.pk
+INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk

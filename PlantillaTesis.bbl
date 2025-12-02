@@ -375,6 +375,16 @@
   microservicios}
   \endentry
 
+  \entry{HexagonalArchitecture}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+  \field{howpublished}{\url{https://www.geeksforgeeks.org/system-design/hexagonal-architecture-system-design/}}
+    \field{note}{[Accessed 02-12-2025]}
+    \field{title}{{H}exagonal {A}rchitecture - {S}ystem {D}esign -
+  {G}eeksfor{G}eeks --- geeksforgeeks.org}
+  \endentry
+
   \entry{c4modelHome}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{H}

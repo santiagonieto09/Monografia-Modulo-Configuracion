@@ -11,20 +11,14 @@ Para describir la arquitectura del sistema se emplea el modelo C4, que contempla
 
 \subsection{Contexto}
 
-En la figura \ref{fig:Contexto} se puede observar el diagrama de contexto del sistema del software contable educativo, siendo la representación visual más general del sistema, busca describir la relación con los usuarios y sistemas externos.
+El diagrama de contexto del sistema que se muestra en la Figura \ref{fig:Contexto} representa la vista de más alto nivel dentro del modelo C4, proporcionando una representación visual integral del sistema educativo contable CONTAPP en desarrollo. Este diagrama ilustra cómo el sistema se integra en su entorno operativo, mostrando dos aspectos fundamentales:
 
-\subsubsection{Usuarios}
 \begin{itemize}
-\item \textbf{Usuario aplicación:} Hace referencia a aquellos vinculados al programa de Contaduría Pública de la Universidad del Cauca de una u otra forma. Incluye estudiantes que toman cursos de contabilidad, docentes que imparten clases y el administrador del sistema. Estos usuarios no solo pueden visualizar la información del sistema, sino que tienen acceso a las funcionalidades del software contable educativo según su rol. Los roles principales en el sistema son:
-  \begin{itemize}
-  \item \textbf{Administrador:} Se encarga de la administración del sistema, con privilegios elevados para crear, eliminar y modificar información y elementos del módulo de configuración.
-  \item \textbf{Profesor:} Se encarga de dirigir los grupos de estudiantes en el programa de Contaduría Pública, con privilegios para manipular los parámetros contables configurados en el contexto educativo del software contable.
-  \item \textbf{Estudiante:} Estudiantes matriculados en el programa de Contaduría Pública que se han registrado en el sistema para practicar conceptos contables.
-  \end{itemize}
+ \item Las personas que utilizan el sistema y sus diferentes roles
+ \item Los sistemas de software externos con los que interactúa y se conecta
 \end{itemize}
-\subsubsection{Sistemas externos}
 
-El software contable educativo opera de manera autónoma sin depender de integraciones con sistemas externos de terceros. Todas las funcionalidades del sistema se gestionan a través de los componentes internos que conforman su arquitectura de microservicios. La gestión de autenticación se realiza mediante Keycloak, el cual se encuentra desplegado como un contenedor integral dentro de la arquitectura del software contable. Keycloak proporciona servicios de autenticación mediante OAuth 2.0 y OpenID Connect, así como autorización basada en roles, permitiendo que estudiantes, profesores y administradores accedan de forma segura a las funcionalidades del sistema según sus permisos establecidos.
+ Debido a que algunos diagramas son demasiado grandes para su correcta lectura, todos los diagramas del C4 se encuentra disponibles en el siguiente enlace.
 
 \begin{figure}[h!]    
     \centering%
@@ -37,7 +31,8 @@ El software contable educativo opera de manera autónoma sin depender de integra
 \subsection{Contenedores}
 
 En la figura \ref{fig:contenedor} se puede observar el diagrama de contenedores, el cual tiene como objetivo proporcionar una visión con nivel de detalle medio para comprender la organización interna del sistema y las responsabilidades de los diferentes contenedores que conforman la arquitectura del software contable educativo.
-Como se menciona en la sección anterior, el sistema consta de seis contenedores principales: aplicación web, API Gateway, servicio de descubrimiento, microservicios, Keycloak y base de datos. La aplicación web desarrollada en Angular 19 se comunica con los microservicios a través del API Gateway mediante un sistema REST (Representational State Transfer), de este modo el backend expone servicios web que implementan una API REST siguiendo sus principios fundamentales:
+
+El sistema consta de seis contenedores principales: aplicación web, API Gateway, servicio de descubrimiento, microservicios, Keycloak y base de datos. La aplicación web desarrollada en Angular 19 se comunica con los microservicios a través del API Gateway mediante un sistema REST (Representational State Transfer), de este modo el backend expone servicios web que implementan una API REST siguiendo sus principios fundamentales:
 
 \begin{itemize}
 \item \textbf{Cliente-Servidor:} La aplicación web (cliente) y los microservicios (servidor) son independientes; la única forma de comunicación son las peticiones HTTP que fluyen a través del API Gateway.
@@ -53,15 +48,17 @@ Como se menciona en la sección anterior, el sistema consta de seis contenedores
     \label{fig:contenedor}
 \end{figure}
 
+\newpage
 
 La descripción de cada componente y la participación del presente proyecto se encuentra en la tabla \ref{tab:contenedores}.
 
 \input{Cap5/Tablas/contenedores.tex}
 
+
 \newpage
 \subsection{Componentes}
 
-En la figura \ref{fig:componentes} se puede observar el diagrama de componentes del contenedor asociado al módulo de catálogo de cuentas, este tiene como objetivo detallar los componentes y cómo estos interactúan, proporcionando un nivel de detalle alto. Uno de los patrones arquitectónicos que se pueden ver reflejados en este diagrama, es el patrón de arquitectura limpia (o hexagonal), el cual se detalla más adelante, pero que para practicidad en la lectura del presente diagrama se ha dividido en secciones que corresponden a las capas mencionadas: Domain, Application, Infraestructure.
+En la figura \ref{fig:componentes} se puede observar el diagrama de componentes del contenedor asociado al módulo de catálogo de cuentas, este tiene como objetivo detallar los componentes y cómo estos interactúan, proporcionando un nivel de detalle alto. Uno de los patrones arquitectónicos que se pueden ver reflejados en este diagrama, es el patrón de arquitectura limpia (o hexagonal), para practicidad en la lectura del presente diagrama se ha dividido en secciones que corresponden a las capas mencionadas: Domain, Application, Infraestructure.
 
 \begin{figure}[h!]    
     \centering%
@@ -70,4 +67,21 @@ En la figura \ref{fig:componentes} se puede observar el diagrama de componentes 
     \label{fig:componentes}
 \end{figure}
 
-\subsection{Código}
+
+\section{Patrón arquitectónico}
+
+\subsection{Arquitectura Hexagonal}
+La arquitectura hexagonal, también conocida como arquitectura de puertos y adaptadores, es un patrón diseñado para crear componentes de aplicación débilmente acoplados, facilitando la conexión con el entorno externo. Su objetivo principal es aislar la lógica de negocio del núcleo de la aplicación de factores externos como bases de datos, interfaces de usuario o sistemas de mensajería, lo que mejora la modularidad, mantenibilidad y testabilidad. El sistema se divide en componentes intercambiables conectados a través de puertos (interfaces que representan puntos de entrada y salida) e implementados por adaptadores, que traducen las interacciones entre el mundo exterior y el núcleo \cite{HexagonalArchitecture}.
+
+Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en capas concéntricas: el núcleo del dominio contiene entidades y lógica de negocio; la capa de aplicación incluye servicios que orquestan casos de uso; y la capa de infraestructura alberga adaptadores. Estos se clasifican en primarios (como controladores REST o interfaces gráficas, que inician la comunicación) y secundarios (como repositorios de bases de datos o servicios de mensajería, que responden a la aplicación). En el proyecto, los adaptadores primarios incluyen la API REST y la interfaz de línea de comandos, mientras que los secundarios comprenden PostgreSQL para persistencia y RabbitMQ para comunicación asíncrona entre microservicios.
+
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/hexagonal.png}    
+    \caption{Arquitectura general del sistema con patrón hexagonal.}
+    \label{fig:hexagonal}
+\end{figure}
+
+
+\subsection{Arquitectura en Capas}
