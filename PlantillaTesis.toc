@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Lista de figuras}{\es@scroman {v}}{section*.3}%
-\contentsline {chapter}{Lista de tablas}{\es@scroman {vi}}{section*.5}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {iv}}{section*.3}%
+\contentsline {chapter}{Lista de tablas}{\es@scroman {v}}{section*.5}%
 \contentsline {chapter}{Capítulo 1. Introducción}{1}{chapter*.7}%
 \contentsline {section}{\numberline {1.1}Justificación y planteamiento del problema}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objetivos}{3}{section.1.2}%
@@ -37,33 +37,29 @@
 \contentsline {section}{\numberline {3.9}Gestión de centro de ayuda}{29}{section.3.9}%
 \contentsline {section}{\numberline {3.10}Gestión de calendario contable}{30}{section.3.10}%
 \contentsline {chapter}{Capítulo 4. Ingeniería de requisitos}{31}{chapter*.34}%
-\contentsline {section}{\numberline {4.1}Actividades desarrolladas para la ingeniería de requisitos}{32}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Reuniones con los interesados}{32}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Construcción de prototipos}{32}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Definición de historias de usuario}{32}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Validación de prototipos}{33}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Validación de historias de usuario}{33}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Identificación de stakeholders}{33}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Prototipos}{34}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Vista de catálogo de cuentas}{35}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Vista de inventario de productos}{36}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Vista de terceros}{37}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Vista de impuestos}{38}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Requisitos funcionales}{38}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Requisitos no funcionales}{46}{section.4.5}%
-\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{48}{chapter*.41}%
+\contentsline {section}{\numberline {4.1}Elicitación de requisitos}{32}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Enfoque de Aprendizaje Basado en Proyectos (PBL)}{32}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Requisitos funcionales}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Requisitos no funcionales}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Prototipos}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Vista de catálogo de cuentas}{43}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Vista de inventario de productos}{44}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Vista de terceros}{45}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Vista de impuestos}{46}{subsection.4.4.4}%
+\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{47}{chapter*.42}%
 \contentsline {section}{\numberline {5.1}Modelo C4: Descripción de la arquitectura}{48}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Contexto}{48}{subsection.5.1.1}%
-\contentsline {subsubsection}{\nonumberline Usuarios}{49}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline Sistemas externos}{49}{subsubsection*.46}%
-\contentsline {subsection}{\numberline {5.1.2}Contenedores}{50}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Contenedores}{52}{subsection.5.1.3}%
-\contentsline {chapter}{Capítulo 6. Patrones de diseño}{53}{chapter*.50}%
-\contentsline {chapter}{Capítulo 7. Pruebas realizadas a la aplicación web}{54}{chapter*.52}%
-\contentsline {chapter}{Capítulo 8. Conclusiones}{55}{chapter*.54}%
+\contentsline {subsubsection}{\nonumberline Usuarios}{48}{subsubsection*.45}%
+\contentsline {subsubsection}{\nonumberline Sistemas externos}{48}{subsubsection*.47}%
+\contentsline {subsection}{\numberline {5.1.2}Contenedores}{49}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Componentes}{51}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Código}{52}{subsection.5.1.4}%
+\contentsline {chapter}{Capítulo 6. Patrones de diseño}{53}{chapter*.52}%
+\contentsline {chapter}{Capítulo 7. Pruebas realizadas a la aplicación web}{54}{chapter*.54}%
+\contentsline {chapter}{Capítulo 8. Conclusiones}{55}{chapter*.56}%
 \def \@chapapp {\appendixname }
 \contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{56}{appendix.Alph1}%
 \contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{57}{appendix.Alph2}%
 \contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{58}{appendix.Alph3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{59}{section*.56}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{59}{section*.58}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

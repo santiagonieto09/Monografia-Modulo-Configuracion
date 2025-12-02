@@ -3,7 +3,9 @@
 En el presente capítulo se explora la arquitectura del sistema, siendo este un plan en el que se definen aspectos y decisiones importantes para el software, teniendo en cuenta los requisitos del sistema, la organización y cómo se comunican los diferentes componentes entre sí.
 Es importante recordar que el software contable para uso educativo en construcción consta de múltiples módulos independientes desarrollados como microservicios: Módulo de Configuración, Módulo Comercial, Módulo de Inventario (Promedio Ponderado y PEPS), Módulo de Tesorería, Módulo de Cartera, Módulos Contable-Comercial y Contable-Cartera, Módulos de Reportes Financieros, y Módulo Educativo Contable. A pesar de que varios de estos módulos interactúan entre sí mediante APIs REST y un servidor de descubrimiento Eureka, este proyecto se enfoca específicamente en el desarrollo del módulo de configuración, que proporciona los parámetros maestros fundamentales para el funcionamiento de todo el sistema.
 
-La descripción de la arquitectura hará énfasis en este módulo y ofrecerá una descripción general de cómo se relaciona con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales hasta la fecha han tenido avances significativos en su desarrollo, lo que permitió la comunicación con el módulo de configuración. En el anexo B se especifica un documento técnico que detalla una guía para que los demás microservicios que componen el sistema puedan interactuar con el módulo de configuración. Para describir la arquitectura del sistema se utiliza el modelo C4, el cual establece el uso de cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. A continuación, se describe la arquitectura del módulo de configuración mediante estos diagramas.
+La descripción de la arquitectura hará énfasis en este módulo y ofrecerá una descripción general de cómo se relaciona con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales hasta la fecha han tenido avances significativos en su desarrollo, lo que permitió la comunicación con el módulo de configuración. En el anexo B se especifica un documento técnico que detalla una guía para que los demás microservicios que componen el sistema y que están en fase inicial de construcción puedan comunicarse con el módulo de configuración. 
+
+Para describir la arquitectura del sistema se emplea el modelo C4, que contempla cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. A continuación se presenta la arquitectura del catálogo de cuentas, los diagramas C4 de los demás módulos no se incluyen aquí, evitando la sobrecarga visual de este documento, para ello puede dirigirse al siguiente enlace, donde encontrará los diagramas correspondientes a cada módulo desarrollado.
 
 \section{Modelo C4: Descripción de la arquitectura}
 
@@ -57,5 +59,15 @@ La descripción de cada componente y la participación del presente proyecto se 
 \input{Cap5/Tablas/contenedores.tex}
 
 \newpage
-\subsection{Contenedores}
+\subsection{Componentes}
 
+En la figura \ref{fig:componentes} se puede observar el diagrama de componentes del contenedor asociado al módulo de catálogo de cuentas, este tiene como objetivo detallar los componentes y cómo estos interactúan, proporcionando un nivel de detalle alto. Uno de los patrones arquitectónicos que se pueden ver reflejados en este diagrama, es el patrón de arquitectura limpia (o hexagonal), el cual se detalla más adelante, pero que para practicidad en la lectura del presente diagrama se ha dividido en secciones que corresponden a las capas mencionadas: Domain, Application, Infraestructure.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/componentes.png}    
+    \caption{Diagrama de componentes.}
+    \label{fig:componentes}
+\end{figure}
+
+\subsection{Código}

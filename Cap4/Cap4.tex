@@ -8,29 +8,69 @@ También se debe tener en cuenta que el análisis previo descrito en el ``Capít
 
 Sin embargo, a pesar de la disposición de los interesados, se presentaron dificultades relacionadas con la coordinación de horarios y las múltiples ocupaciones de los participantes. En ocasiones, los docentes del programa de Contaduría Pública no disponían de tiempo suficiente para el proyecto debido a sus compromisos académicos, evaluaciones y actividades administrativas. A pesar de ello, se logró ajustar las actividades y el trabajo requerido para el levantamiento de requisitos, superando los inconvenientes mediante la flexibilidad horaria característica del enfoque freelance adoptado.
 
-\section{Actividades desarrolladas para la ingeniería de requisitos}
-Las actividades desarrolladas para llevar a cabo la ingeniería de requisitos para este proyecto son las siguientes.
+\section{Elicitación de requisitos}
 
-\subsection{Reuniones con los interesados}
-Como previamente se ha mencionado, durante el proyecto fue de suma importancia los encuentros presenciales y virtuales con los interesados, donde se resolvieron dudas sobre aspectos contables y pedagógicos y se obtuvo retroalimentación constante la cual moldeaba el trabajo que se realizaba. También en ocasiones se compartió documentación sobre las actividades llevadas a cabo en el programa de Contaduría Pública, como planes de estudio, casos de uso contables y ejemplos de ejercicios prácticos útiles para el proceso. Se debe notar que, dada la naturaleza técnica del proyecto, la comunicación presencial y por videoconferencia resultó más efectiva que los medios digitales asíncronos para la discusión de conceptos contables complejos.
+ Para definir los requisitos fueron realizadas las actividades de captura, especificación, negociación, validación y verificación. Identificarlos correctamente es importante para asegurar que se capturen todos los requisitos relevantes.
 
-\subsection{Construcción de prototipos}
-La construcción de prototipos fue fundamental para no dirigir el diálogo con los docentes de forma exclusivamente técnica, sino establecer una conversación apoyada visualmente por los prototipos de interfaz. Los interesados aportaron sus comentarios sobre cambios en las pantallas de gestión de cuentas contables, terceros, productos, impuestos y demás submódulos identificados anteriormente, evaluando su adecuación para el entorno educativo. Asimismo se realizaron negociaciones sobre la complejidad de las funcionalidades según el nivel académico de los estudiantes. Los cambios producto de estas negociaciones eran presentados como apertura en la siguiente reunión para poder continuar el proceso iterativo.
+ \subsection{Enfoque de Aprendizaje Basado en Proyectos (PBL)}
 
-\subsection{Definición de historias de usuario}
-La conversación con los docentes se llevó a cabo de forma pedagógica y orientada a casos de uso contables reales, como se mencionó anteriormente. Sin embargo, para el proceso de desarrollo del proyecto es fundamental tener documentación estructurada que defina claramente las funcionalidades que requiere el módulo de configuración del software contable educativo. Es por esto que las historias de usuario como artefacto para el levantamiento de requerimientos fueron realizadas de forma paralela a la construcción de prototipos, considerando tanto los aspectos técnicos del desarrollo como los objetivos pedagógicos del programa de Contaduría Pública, estas historias fueron ajustadas según la retroalimentación brindada por el cliente en cada encuentro, asegurando que cada submódulo cumpliera con los requisitos educativos específicos.
+ El desarrollo del sistema contable se realizó bajo el enfoque de Aprendizaje Basado en Proyectos, metodología que permitió una mejor comprensión del dominio del negocio y de los requisitos del sistema a través de la experiencia práctica. Este enfoque se desarrolló en dos fases claramente diferenciadas que se ilustran en la Figura \ref{fig:PBL}.
 
-\subsection{Validación de prototipos}
-Como ya fue mencionado, la validación de prototipos se realizó en la apertura de cada encuentro con el cliente, de modo que se tuviera seguridad de que las interfaces diseñadas fueran intuitivas para estudiantes de contabilidad y cumplieran con los lineamientos de usabilidad establecidos por la División TIC de la Universidad del Cauca. Se evaluó especialmente la claridad de los formularios de gestión de cada submódulo y la coherencia con los procesos contables estándar.
+ 
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/PBL.png}    
+    \caption{Fases del enfoque de aprendizaje basado en proyectos.}
+    \label{fig:PBL}
+\end{figure}
 
-\subsection{Validación de historias de usuario}
-La validación de las historias de usuario se realizó en conjunto con la validación de prototipos, estas fueron ajustadas en cada encuentro, considerando tanto los aspectos técnicos como los requisitos pedagógicos específicos del programa de Contaduría Pública. En este proceso, se prestó especial atención a que cada funcionalidad contribuyera efectivamente al aprendizaje de conceptos contables fundamentales y permitiera la simulación de escenarios empresariales reales.
 
-\section{Identificación de stakeholders}
-Para identificar los stakeholders del proyecto fue fundamental la colaboración con el asesor empresarial y el director de la práctica profesional. Es por esto que se logra la identificación de los interesados como a continuación se describe:
+ \begin{itemize}
+\item \textbf{Fase 1 (2024-1 a 2024-2):} En esta etapa inicial, se implementaron los módulos básicos de ContApp, entre los cuales se encuentran Terceros, Impuestos, Productos y Catálogo de cuentas, que actualmente forman parte del módulo de configuración. Los grupos conformados por estudiantes y profesores colaboraron en el desarrollo de las características fundamentales del sistema, lo que facilitó la obtención de conocimientos esenciales acerca de los procedimientos contables, la organización estructural y las demandas operativas de la empresa. Esta etapa resultó esencial para crear una base firme de entendimiento del área y para determinar los requerimientos preliminares del sistema.
+
+\item \textbf{Fase 2 (2025-1 a 2025-2):} En esta segunda fase, correspondiente a la práctica profesional, se desarrolló la versión funcional de ContAppUC. El conocimiento y experiencia adquiridos en la primera fase facilitaron una elicitación de requisitos más precisa y completa. La comprensión profunda del dominio del negocio permitió identificar requisitos que no habían sido evidentes inicialmente, mejorar la comunicación con los stakeholders y proponer soluciones más alineadas con las necesidades reales de la organización.
+\end{itemize}
+
+Esta enfoque iterativo y práctico mejoró notablemente la efectividad del proceso de elicitación de requisitos, puesto que los programadores no solo reunían datos, sino que los situaban en contexto y los verificaban mediante la interacción inmediata con el ámbito del problema. La separación en dos etapas facilitó un desarrollo paulatino de la comprensión del negocio, lo que dio lugar a una definición de requisitos más sólida y exhaustiva. En la tarea de recopilación intervinieron los interesados mencionados en la Tabla \ref{tab:stakeholders}
 
 \input{Cap4/Tablas/stakeholders}
-\newpage
+
+En la actividad de captura se utilizaron las técnicas de entrevistas, análisis documental y levantamiento de modelos de negocio. En la actividad de especificación se utilizaron las historias de usuario, criterios de aceptación y prototipos para representar los requisitos.
+
+Durante la negociación, surgieron discrepancias entre las expectativas de los interesados, las necesidades institucionales y los requisitos propuestos, las cuales se resolvieron mediante varias sesiones de discusión. 
+
+En la verificación, se aplicó la revisión entre pares, en la que los estudiantes presentaron las especificaciones a los directores para confirmar su corrección, integridad y claridad. Finalmente, en la validación, se expusieron los requisitos a los stakeholders para asegurar su concordancia con sus expectativas y requerimientos, incluyendo pruebas funcionales y de usuario.
+
+\section{Requisitos funcionales}
+
+La tabla \ref{tab:listaTareas} refleja las necesidades identificadas y se estructura mediante historias épicas, las cuales a su vez se desglosan en historias de usuario. Las historias épicas agrupan funcionalidades o tareas complejas que no pueden abordarse en una sola iteración, mientras que las historias de usuario detallan estas épicas en descripciones manejables que permiten su desarrollo independiente en una iteración.
+
+\input{Cap4/Tablas/listaTareas.tex}
+
+La tabla \ref{tab:epicas} presenta las historias épicas, detallando su especificación. Cada épica incluye un identificador único, un nombre descriptivo y su descripción completa en formato de historia de usuario.
+
+\input{Cap4/Tablas/epicas.tex}
+
+La tabla \ref{tab:historiasUsuario} muestra un fragmento de las historias de usuario donde su especificación está dada por un código, este código está compuesto con el ID de la historia épica a la que pertenece, posee un nombre, una descripción y los criterios de aceptación para la historia de usuario.
+
+\input{Cap4/Tablas/historiasUsuario.tex}
+
+Para explorar con mayor detalle, es preciso dirigirse al siguiente \href{https://docs.google.com/spreadsheets/d/1rFsgFhqhBDgjrOPtcxpHFp3UVVghU8dv/edit?usp=sharing&ouid=114064353546583843217&rtpof=true&sd=true}{\underline{\textcolor{blue}{enlace}}}, el cual presenta una estructura organizada donde se detallan tanto las historias épicas como las historias de usuario, donde cada criterio de aceptación de las historias de usuario tiene asociado su respectivo prototipo en Figma.
+
+\section{Requisitos no funcionales}
+
+Una vez definidos los requisitos funcionales y consignados en historias de usuario que conforman la lista de tareas, es importante considerar también los requisitos no funcionales, los cuales van más allá de las funcionalidades y definen aspectos de calidad del sistema.
+
+Para la identificación de estos requisitos fue esencial la comunicación con el principal interesado del sistema y los aspectos normativos que rigen la construcción de software desde la División TIC de la Universidad. Teniendo en cuenta esto, se han identificado los siguientes requisitos no funcionales:
+
+\begin{itemize}
+\item \textbf{Usabilidad:} En el desarrollo del presente proyecto se tuvieron en cuenta los lineamientos de desarrollo, usabilidad y diseño establecidos por la División TIC de la Universidad del Cauca. Específicamente, los documentos de usabilidad y diseño incluyen parámetros que se reflejan en el uso de tipografía, colores, contrastes y enfoque de diseño adecuados para proporcionar una buena experiencia al usuario final. Por lo tanto, en el proyecto se recogen y aplican estas reglas mediante una interfaz que cumple, entre otras cosas, con las especificaciones de la División TIC y Material Design, sobre las cuales están basados dichos documentos.
+
+\item \textbf{Escalabilidad:} Considerando que los usuarios puede crecer con el tiempo y que el volumen de información contable aumenta mes a mes, el sistema fue diseñado pensando en el futuro. La arquitectura de microservicios permite que cuando haya más usuarios trabajando simultáneamente o cuando se procesen más transacciones, el sistema pueda ajustarse sin necesidad de hacer cambios drásticos en su estructura. Esto significa que si hay períodos de mayor actividad, la aplicación puede manejar esta carga adicional sin afectar su funcionamiento normal ni la experiencia de los usuarios.
+
+\item \textbf{Mantenibilidad:}  Con el fin de facilitar la evolución y mejora continua del sistema, se estableció como requisito que el código fuera claro y bien organizado. Cada microservicio está documentado con su propósito y funcionamiento lo que facilita la colaboración entre desarrolladores. Además, las pruebas automatizadas aseguran el correcto funcionamiento ante cambios reduciendo el riesgo de errores. Esta estructura permite corregir fallos, incorporar nuevas funcionalidades ymantener el sistema actualizado con las normativas contables vigentes sin complicaciones ni altos costos.
+
+\end{itemize}
 
 \section{Prototipos}
 
@@ -89,32 +129,3 @@ La figura \ref{fig:impuestos} muestra el prototipo asociado a impuestos encargad
     \caption{Prototipo vista de impuestos.}
     \label{fig:impuestos}
 \end{figure}
-
-
-\section{Requisitos funcionales}
-
-La tabla \ref{tab:listaTareas} refleja las necesidades identificadas y se estructura mediante historias épicas, las cuales a su vez se desglosan en historias de usuario. Las historias épicas agrupan funcionalidades o tareas complejas que no pueden abordarse en una sola iteración, mientras que las historias de usuario detallan estas épicas en descripciones manejables que permiten su desarrollo independiente en una iteración.
-
-\input{Cap4/Tablas/listaTareas.tex}
-
-La tabla \ref{tab:epicas} presenta las historias épicas, detallando su especificación. Cada épica incluye un identificador único, un nombre descriptivo y su descripción completa en formato de historia de usuario.
-
-\input{Cap4/Tablas/epicas.tex}
-
-La tabla \ref{tab:historiasUsuario} muestra un fragmento de las historias de usuario donde su especificación está dada por un código, este código está compuesto con el ID de la historia épica a la que pertenece, posee un nombre, una descripción y los criterios de aceptación para la historia de usuario.
-
-\input{Cap4/Tablas/historiasUsuario.tex}
-
-Para explorar con mayor detalle, es preciso dirigirse al siguiente \href{https://docs.google.com/spreadsheets/d/1rFsgFhqhBDgjrOPtcxpHFp3UVVghU8dv/edit?usp=sharing&ouid=114064353546583843217&rtpof=true&sd=true}{\underline{\textcolor{blue}{enlace}}}, el cual presenta una estructura organizada donde se detallan tanto las historias épicas como las historias de usuario, donde cada criterio de aceptación de las historias de usuario tiene asociado su respectivo prototipo en Figma.
-
-\section{Requisitos no funcionales}
-
-Una vez definidos los requisitos funcionales y consignados en historias de usuario que conforman la lista de tareas, es importante considerar también los requisitos no funcionales, los cuales van más allá de las funcionalidades y definen aspectos de calidad del sistema.
-
-Para la identificación de estos requisitos fue esencial la comunicación con el principal interesado del sistema y los aspectos normativos que rigen la construcción de software desde la División TIC de la Universidad. Teniendo en cuenta esto, se han identificado los siguientes requisitos no funcionales:
-
-\begin{itemize}
-\item \textbf{Usabilidad:} En el desarrollo del presente proyecto se tuvieron en cuenta los lineamientos de desarrollo, usabilidad y diseño establecidos por la División TIC de la Universidad del Cauca. Específicamente, los documentos de usabilidad y diseño incluyen parámetros que se reflejan en el uso de tipografía, colores, contrastes y enfoque de diseño adecuados para proporcionar una buena experiencia al usuario final. Por lo tanto, en el proyecto se recogen y aplican estas reglas mediante una interfaz que cumple, entre otras cosas, con las especificaciones de la División TIC y Material Design, sobre las cuales están basados dichos documentos.
-
-\item \textbf{Flexibilidad:} El módulo de configuración está diseñado como un microservicio independiente dentro del ecosistema del software contable educativo, registrado en Eureka Server para descubrimiento dinámico de servicios. Esta arquitectura permite escalar horizontalmente mediante el despliegue de múltiples instancias según la demanda, actualizar el módulo de forma independiente sin afectar otros componentes del sistema y facilita el aislamiento de fallos evitando que errores en este microservicio comprometan todo el sistema contable. Además, la arquitectura hexagonal en los módulos de terceros, catálogo de cuentas y productos, proporciona flexibilidad tecnológica al permitir cambiar implementaciones de persistencia o incorporar nuevos adaptadores sin modificar el dominio.
-\end{itemize}

@@ -1,6 +1,6 @@
-PWD c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Monografia-Modulo-Configuracion
+PWD c:\Users\John\Documents\TEMPORAL SANTIAGO\CONTAPP\Monografia-Modulo-Configuracion
 INPUT C:\Users\John\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\MONOGRAFIA\Monografia-Modulo-Configuracion\PlantillaTesis.tex
+INPUT c:\Users\John\Documents\TEMPORAL SANTIAGO\CONTAPP\Monografia-Modulo-Configuracion\PlantillaTesis.tex
 OUTPUT PlantillaTesis.log
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
@@ -489,39 +489,18 @@ OUTPUT Cap4\Cap4.aux
 INPUT .\Cap4\Cap4.tex
 INPUT .\Cap4\Cap4.tex
 INPUT Cap4\Cap4.tex
+INPUT .\Cap4\Figuras\PBL.png
+INPUT .\Cap4\Figuras\PBL.png
+INPUT .\Cap4\Figuras\PBL.png
+INPUT .\Cap4\Figuras\PBL.png
+INPUT .\Cap4\Figuras\PBL.png
+INPUT .\Cap4\Figuras\PBL.png
+INPUT .\Cap4\Figuras\PBL.png
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT Cap4\Tablas\stakeholders.tex
-INPUT .\Cap4\Figuras\catalogo de cuentas.png
-INPUT .\Cap4\Figuras\catalogo de cuentas.png
-INPUT .\Cap4\Figuras\catalogo de cuentas.png
-INPUT .\Cap4\Figuras\catalogo de cuentas.png
-INPUT .\Cap4\Figuras\catalogo de cuentas.png
-INPUT .\Cap4\Figuras\catalogo de cuentas.png
-INPUT .\Cap4\Figuras\catalogo de cuentas.png
-INPUT .\Cap4\Figuras\inventario de productos.png
-INPUT .\Cap4\Figuras\inventario de productos.png
-INPUT .\Cap4\Figuras\inventario de productos.png
-INPUT .\Cap4\Figuras\inventario de productos.png
-INPUT .\Cap4\Figuras\inventario de productos.png
-INPUT .\Cap4\Figuras\inventario de productos.png
-INPUT .\Cap4\Figuras\inventario de productos.png
-INPUT .\Cap4\Figuras\terceros.png
-INPUT .\Cap4\Figuras\terceros.png
-INPUT .\Cap4\Figuras\terceros.png
-INPUT .\Cap4\Figuras\terceros.png
-INPUT .\Cap4\Figuras\terceros.png
-INPUT .\Cap4\Figuras\terceros.png
-INPUT .\Cap4\Figuras\terceros.png
-INPUT .\Cap4\Figuras\impuestos.png
-INPUT .\Cap4\Figuras\impuestos.png
-INPUT .\Cap4\Figuras\impuestos.png
-INPUT .\Cap4\Figuras\impuestos.png
-INPUT .\Cap4\Figuras\impuestos.png
-INPUT .\Cap4\Figuras\impuestos.png
-INPUT .\Cap4\Figuras\impuestos.png
 INPUT .\Cap4\Tablas\listaTareas.tex
 INPUT .\Cap4\Tablas\listaTareas.tex
 INPUT Cap4\Tablas\listaTareas.tex
@@ -531,6 +510,34 @@ INPUT Cap4\Tablas\epicas.tex
 INPUT .\Cap4\Tablas\historiasUsuario.tex
 INPUT .\Cap4\Tablas\historiasUsuario.tex
 INPUT Cap4\Tablas\historiasUsuario.tex
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\catalogo de cuentas.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\inventario de productos.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\terceros.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
+INPUT .\Cap4\Figuras\impuestos.png
 INPUT .\Cap5\Cap5.tex
 INPUT .\Cap5\Cap5.tex
 OUTPUT Cap5\Cap5.aux
@@ -555,6 +562,13 @@ INPUT .\Cap5\Figuras\contenedor.png
 INPUT .\Cap5\Tablas\contenedores.tex
 INPUT .\Cap5\Tablas\contenedores.tex
 INPUT Cap5\Tablas\contenedores.tex
+INPUT .\Cap5\Figuras\componentes.png
+INPUT .\Cap5\Figuras\componentes.png
+INPUT .\Cap5\Figuras\componentes.png
+INPUT .\Cap5\Figuras\componentes.png
+INPUT .\Cap5\Figuras\componentes.png
+INPUT .\Cap5\Figuras\componentes.png
+INPUT .\Cap5\Figuras\componentes.png
 INPUT .\Cap6\Cap6.tex
 INPUT .\Cap6\Cap6.tex
 OUTPUT Cap6\Cap6.aux
@@ -645,9 +659,9 @@ INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk
-INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\public\calligra\dpi1433\callig15.pk
-INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\public\calligra\dpi1433\callig15.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\John\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\type1\public\calligra-type1\callig15.pfb
+INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\type1\public\calligra-type1\callig15.pfb
