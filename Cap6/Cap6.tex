@@ -82,8 +82,97 @@ La clase \texttt{ExcelFileValidator} (estrategia concreta) en la Figura \ref{fig
 
 Es un patrón de diseño de comportamiento en el que un objeto, llamado sujeto, mantiene una lista de sus dependientes, llamados observadores, y les notifica automáticamente cualquier cambio de estado. Este patrón es útil cuando los cambios en el estado de un objeto pueden requerir cambios en otros objetos, y el grupo de objetos puede ser desconocido de antemano o cambiar dinámicamente. Además, el patrón Observer ayuda a desacoplar los componentes del sistema, lo que facilita su mantenimiento y escalabilidad \cite{Observer}. 
 
+ \subsubsection{Diagrama de clases}
+La implementación del patrón Observer en el módulo de configuración se centra en la actualización asíncrona de contadores de uso de recursos, como centros de costo, en respuesta a eventos generados por otros microservicios, como \texttt{ms-debt-payments}. El microservicio \texttt{ms-debt-payments} actúa como publicador que envía notificaciones cuando se utiliza un recurso. Estas notificaciones son consumidas por el microservicio \texttt{ms-configuration} que contiene el módulo de centros de costo, que actúa como suscriptor, actualizando el contador de uso en la base de datos.
+
+El sistema implementa una arquitectura orientada a eventos para desacoplar el microservicio \texttt{ms-debt-payments} del microservicio \texttt{ms-configuration}. El diagrama general de la Figura \ref{fig:observer} ilustra cómo se aplica el patrón Observer para la actualización asíncrona de contadores.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/observer.png}    
+    \caption{Diagrama de clases del patrón Observer}
+    \label{fig:observer}
+\end{figure}
+
+\subsubsection{Motivación e implementación}
+
+ La motivación para implementar el patrón Observer en este contexto radica en la necesidad de mantener actualizados los contadores de uso de recursos (como centros de costo) en el módulo de configuración con el fin de validar las acciones de editar y eliminar si estos parametros han tenido movimientos contables lo cual evita inconsistencias en la generacion de reportes o procesos contables.
+
+El flujo de eventos para la actualización del contador de uso de centros de costo sigue estos pasos:
+
+
+\begin{itemize}
+    \item El microservicio \texttt{ms-debt-payments} detecta el uso de un recurso (centro de costo) y crea una notificación interna (\texttt{CostCenterUsedNotification}).
+    \item La notificación es enviada al exchange \texttt{costcenter.used.exchange} mediante el publicador (\texttt{ResourceUsagePublisher}).
+    \item La cola \texttt{costcenter.used.queue} recibe el mensaje.
+    \item El microservicio \texttt{ms-configuration}, que contiene el módulo de centros de costo, consume el evento a través del listener (\texttt{CostCenterUsageListener}).
+    \item El listener procesa el evento y actualiza la base de datos mediante la interfaz \texttt{IUsageCostCenter}, incrementando el contador de uso del centro de costo correspondiente.
+\end{itemize}
+
+
+
+ La Figura \ref{fig:publisher} muestra la clase \verb|ResourceUsagePublisher|, ubicada en la capa de infraestructura de \verb|ms-debt-payments|. Su función principal es enrutar las notificaciones al exchange correcto. El método \verb|dispatch(ResourceUsageNotification notification)| actúa como un switcher. Utiliza \verb|instanceof| para determinar el tipo de notificación y delegar al manejador específico.
+
+
+Este diseño permite manejar distintos tipos de recursos enviando eventos a exchanges específicos:
+
+\begin{itemize}
+    \item \verb|THIRD_USED_EXCHANGE| para \verb|ThirdPartyUsedNotification|.
+    \item \verb|COSTCENTER_USED_EXCHANGE| para \verb|CostCenterUsedNotification|.
+    \item \verb|PAYMENTMETHOD_USED_EXCHANGE| para \verb|PaymentMethodUsedNotification|.
+\end{itemize}
+
+
+\textbf{Nota adicional:} El microservicio \verb|debt payments| no solo gestiona centros de costo. También envía eventos a terceros y métodos de pago utilizando el mismo tipo de evento de uso (\verb|EventUsageType.USED|). Estos eventos incrementan sus respectivos contadores siguiendo una lógica análoga a la descrita aquí.
+
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/publisher.png}    
+    \caption{Publicador de notificaciones de uso de recursos}
+    \label{fig:publisher}
+\end{figure}
+
 \newpage
+Para el manejo específico de la notificación, la Figura \ref{fig:handler} detalla el método \verb|"handle"| encargado de transformar la notificación interna en un evento de integración. En doonde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/handler.png}    
+    \caption{Manejo de la notificación}
+    \label{fig:handler}
+\end{figure}
+
+
+Para el consumo del evento la Figura \ref{fig:listener} muestra la clase \verb|CostCenterUsageListener| en el microservicio \verb|ms-configuration|. La recepción en el método (\verb|handleCostCenterEvent|) se realiza de la siguiente manera:
+
+\begin{itemize}
+\item Anotado con \verb|@RabbitListener| escuchando en \verb|COST_CENTER_USED_QUEUE|.
+\item Recibe el \verb|EventDto|, \verb|Message|, \verb|Channel| y el \verb|deliveryTag|.
+\item Delega la gestión de ACK/NACK al método padre \verb|handleMessage|.
+\end{itemize}
+
+El procesamiento del evento en \verb|processEvent| sigue estos pasos:
+
+\begin{itemize}
+\item Switch de tipo: Evalúa \verb|event.getType()|, actualmente soporta \verb|EventUsageType.USED|.
+\item Validación: Llama a \verb|isValidEvent()| para asegurar que \verb|costCenterId| no sea nulo y que \verb|quantityUsed| sea mayor que cero.
+\item Acción: Si es válido, invoca a \verb|incrementUsageCount(data.getCostCenterId())|.
+\item Manejo de Errores: Si el evento no es válido o el tipo no es soportado, lanza excepciones como \verb|IllegalArgumentException|.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/listener.png}    
+    \caption{Listener para el consumo de eventos de uso de centros de costo}
+    \label{fig:listener}
+\end{figure}
+
+
 \section{Frontend}
+
+\subsection{Estilos visuales}
+
 Se definieron estilos visuales específicos siguiendo las guias de diseño para componentes de retroalimentación e interacción. La Figura \ref{fig:fig4}, Figura \ref{fig:fig5} muestra los estilos estandarizados para las alertas del sistema y los botones globales, asegurando que el usuario reciba feedback visual consistente ante sus acciones.
 
 \begin{figure}[h!]
@@ -100,6 +189,41 @@ Se definieron estilos visuales específicos siguiendo las guias de diseño para 
     \label{fig:fig5}
 \end{figure}
 
- \subsubsection{Diagrama de clases}
 
- 
+\subsection{Implementación técnica con Tailwind CSS}
+
+Para facilitar la adopción de estos estilos por parte del equipo de desarrollo y mantener la uniformidad en el código, se crearon definiciones globales en el archivo de estilos principal (styles.css). Aprovechando la arquitectura del framework Tailwind CSS, se
+configuraron variables CSS personalizadas que mapean los colores institucionales a clases utilitarias.
+Como se evidencia en la Figura \ref{fig:variablescss} se definieron las variables CSS para la paleta de colores; la imagen presenta una muestra representativa de los tonos configurados, existiendo definiciones adicionales para cubrir la totalidad de los estados y variacio
+nes requeridas por la interfaz. Esto permite extender la configuración de Tailwind para utilizar clases semánticas como bg-primary o text-neutral-50, en lugar de códigos hexadecimales dispersos por el código.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap6/Figuras/variablescss.png}    
+    \caption{Definición de variables CSS personalizadas para Tailwind CSS}
+    \label{fig:variablescss}
+\end{figure}
+
+
+Complementariamente, la Figura \ref{fig:tipografias} detalla la configuración técnica de las tipografías.
+ Se establecieron las reglas \verb|@font-face| para las familias Open Sans y Titillium Web,
+ asegurando su disponibilidad y correcta renderización en toda la aplicación.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/tipografia.png}    
+    \caption{Configuración de tipografías globales}
+    \label{fig:tipografias}
+\end{figure}
+
+Esta estrategia de implementación no solo asegura el cumplimiento de los lineamientos de diseño, sino que también optimiza el flujo de trabajo de los desarrolladores. La Figura \ref{fig:utilitarias} demuestra cómo se aplican estos estilos en el código HTML, combinando la sintaxis de utilidad de Tailwind con las definiciones personalizadas del sistema de diseño.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/utilitarias.png}    
+    \caption{Aplicación de estilos globales en el código HTML}
+    \label{fig:utilitarias}
+\end{figure}
+
+ El resultado de esta abstracción es un código fuente más limpio y mantenible, donde la complejidad visual se encuentra encapsulada en las configuraciones del framework, garantizando que cualquier cambio futuro en la identidad visual pueda propagarse
+ eficientemente a través de todo el sistema modificando únicamente las variables globales.

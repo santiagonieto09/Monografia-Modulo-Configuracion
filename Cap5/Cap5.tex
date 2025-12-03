@@ -32,7 +32,7 @@ El diagrama de contexto del sistema que se muestra en la Figura \ref{fig:Context
 
 En la figura \ref{fig:contenedor} se puede observar el diagrama de contenedores, el cual tiene como objetivo proporcionar una visión con nivel de detalle medio para comprender la organización interna del sistema y las responsabilidades de los diferentes contenedores que conforman la arquitectura del software contable educativo.
 
-El sistema consta de seis contenedores principales: aplicación web, API Gateway, servicio de descubrimiento, microservicios, Keycloak y base de datos. La aplicación web desarrollada en Angular 19 se comunica con los microservicios a través del API Gateway mediante un sistema REST (Representational State Transfer), de este modo el backend expone servicios web que implementan una API REST siguiendo sus principios fundamentales:
+El sistema consta de seis contenedores principales: aplicación web, API Gateway, servicio de descubrimiento, microservicios, Keycloak y base de datos. La aplicación web desarrollada en Angular 19 se comunica con los microservicios a través del API Gateway mediante un sistema REST (Representational State Transfer), de este modo el backend expone servicios web que implementan una API REST siguiendo sus principios fundamentales \cite{DominaArquitectura}:
 
 \begin{itemize}
 \item \textbf{Cliente-Servidor:} La aplicación web (cliente) y los microservicios (servidor) son independientes; la única forma de comunicación son las peticiones HTTP que fluyen a través del API Gateway.
@@ -86,14 +86,15 @@ Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en
     \label{fig:hexagonal}
 \end{figure}
 
-\newpage
+ Esta separación garantiza que la lógica de negocio permanezca independiente de los detalles de implementación tecnológicos, permitiendo reemplazar cualquier adaptador sin afectar el núcleo del dominio. El principio de inversión de control se aplica a nivel arquitectónico, donde las dependencias se dirigen hacia el centro del sistema, haciendo que la lógica de negocio solo dependa de los puertos (interfaces) diseñados para satisfacer sus necesidades y no de herramientas o adaptadores específicos.
+ 
 \subsection{Arquitectura en capas}
 
-La arquitectura por capas es una de las más empleadas, debido a su sencillez y al hecho de que se adopta automáticamente cuando no se tiene certeza sobre qué patrón arquitectónico elegir para el desarrollo de la aplicación.
+La arquitectura por capas es una de las más empleadas, debido a su sencillez y al hecho de que se adopta automáticamente cuando no se tiene certeza sobre qué patrón arquitectónico elegir para el desarrollo de la aplicación. Este enfoque implica segmentar la aplicación en diferentes niveles, con el propósito de asignar a cada uno una función específica, tales como una capa de interfaz de usuario (UI), una capa de lógica de negocio (servicios) y una capa de acceso a datos (DAO). No obstante, este patrón no establece un número fijo de capas para la aplicación, sino que enfatiza la división de la aplicación en niveles (aplicando el principio de Separación de Responsabilidades (SoC)) \cite{ArquitecturaCapas}.
 
-Este enfoque implica segmentar la aplicación en diferentes niveles, con el propósito de asignar a cada uno una función específica, tales como una capa de interfaz de usuario (UI), una capa de lógica de negocio (servicios) y una capa de acceso a datos (DAO). No obstante, este patrón no establece un número fijo de capas para la aplicación, sino que enfatiza la división de la aplicación en niveles (aplicando el principio de Separación de Responsabilidades (SoC)).
+En la implementación práctica, generalmente se utiliza un esquema de 4 capas: presentación, negocio, persistencia y base de datos. Sin embargo, es común observar que las capas de negocio y persistencia se fusionan en una sola, especialmente cuando la lógica de almacenamiento se integra directamente en la capa de negocio \cite{ArquitecturaCapas}. 
 
-En la implementación práctica, generalmente se utiliza un esquema de 4 capas: presentación, negocio, persistencia y base de datos. Sin embargo, es común observar que las capas de negocio y persistencia se fusionan en una sola, especialmente cuando la lógica de almacenamiento se integra directamente en la capa de negocio \cite{ArquitecturaCapas}. En la Figura \ref{fig:capas} se observa la arquitectura organizada en cuatro capas horizontales que representan la separación de responsabilidades.
+En la Figura \ref{fig:capas} se observa la arquitectura organizada en cuatro capas horizontales que representan la separación de responsabilidades.
 
 \begin{figure}[h!]    
     \centering%

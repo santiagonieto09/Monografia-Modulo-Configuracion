@@ -27,8 +27,15 @@
 \contentsline {figure}{\numberline {6-2}{\ignorespaces Clase FileValidator interfaz}}{58}{figure.caption.57}%
 \contentsline {figure}{\numberline {6-3}{\ignorespaces Clase PdfFileValidator estrategia concreta}}{59}{figure.caption.58}%
 \contentsline {figure}{\numberline {6-4}{\ignorespaces Clase ExcelFileValidator estrategia concreta}}{60}{figure.caption.59}%
-\contentsline {figure}{\numberline {6-5}{\ignorespaces Estilos de alertas del sistema}}{61}{figure.caption.60}%
-\contentsline {figure}{\numberline {6-6}{\ignorespaces Estilos de botones globales}}{61}{figure.caption.61}%
+\contentsline {figure}{\numberline {6-5}{\ignorespaces Diagrama de clases del patrón Observer}}{61}{figure.caption.62}%
+\contentsline {figure}{\numberline {6-6}{\ignorespaces Publicador de notificaciones de uso de recursos}}{63}{figure.caption.65}%
+\contentsline {figure}{\numberline {6-7}{\ignorespaces Manejo de la notificación}}{63}{figure.caption.66}%
+\contentsline {figure}{\numberline {6-8}{\ignorespaces Listener para el consumo de eventos de uso de centros de costo}}{64}{figure.caption.67}%
+\contentsline {figure}{\numberline {6-9}{\ignorespaces Estilos de alertas del sistema}}{65}{figure.caption.68}%
+\contentsline {figure}{\numberline {6-10}{\ignorespaces Estilos de botones globales}}{65}{figure.caption.69}%
+\contentsline {figure}{\numberline {6-11}{\ignorespaces Definición de variables CSS personalizadas para Tailwind CSS}}{66}{figure.caption.70}%
+\contentsline {figure}{\numberline {6-12}{\ignorespaces Configuración de tipografías globales}}{67}{figure.caption.71}%
+\contentsline {figure}{\numberline {6-13}{\ignorespaces Aplicación de estilos globales en el código HTML}}{68}{figure.caption.72}%
 \def \@chapapp {\appendixname }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
