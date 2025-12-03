@@ -2,17 +2,17 @@
 \contentsline {figure}{\numberline {2-1}{\ignorespaces Color institucional primario}}{17}{figure.caption.17}%
 \contentsline {figure}{\numberline {2-2}{\ignorespaces Color institucional secundario}}{17}{figure.caption.18}%
 \contentsline {figure}{\numberline {2-3}{\ignorespaces Otros colores destacados}}{17}{figure.caption.19}%
-\contentsline {figure}{\numberline {3-1}{\ignorespaces Submódulos que componen el módulo de configuración}}{20}{figure.caption.23}%
-\contentsline {figure}{\numberline {3-2}{\ignorespaces Relación del submódulo gestión de cuentas contables.}}{21}{figure.caption.24}%
-\contentsline {figure}{\numberline {3-3}{\ignorespaces Relación del submódulo gestión de tarifas de impuestos.}}{22}{figure.caption.25}%
-\contentsline {figure}{\numberline {3-4}{\ignorespaces Relación del submódulo gestión de terceros.}}{23}{figure.caption.26}%
-\contentsline {figure}{\numberline {3-5}{\ignorespaces Relación del submódulo gestión de inventario de productos.}}{24}{figure.caption.27}%
-\contentsline {figure}{\numberline {3-6}{\ignorespaces Relación del submódulo gestión de métodos de pago.}}{25}{figure.caption.28}%
-\contentsline {figure}{\numberline {3-7}{\ignorespaces Relación del submódulo gestión de tipos de documentos.}}{26}{figure.caption.29}%
-\contentsline {figure}{\numberline {3-8}{\ignorespaces Relación del submódulo gestión de bancos y cuentas bancarias.}}{27}{figure.caption.30}%
-\contentsline {figure}{\numberline {3-9}{\ignorespaces Relación del submódulo gestión de centros de costo.}}{28}{figure.caption.31}%
-\contentsline {figure}{\numberline {3-10}{\ignorespaces Relación del submódulo gestión de cuadros de ayuda.}}{29}{figure.caption.32}%
-\contentsline {figure}{\numberline {3-11}{\ignorespaces Relación del submódulo gestión de calendario contable.}}{30}{figure.caption.33}%
+\contentsline {figure}{\numberline {3-1}{\ignorespaces Módulos que componen el módulo de configuración}}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {3-2}{\ignorespaces Relación del módulo gestión de cuentas contables.}}{21}{figure.caption.24}%
+\contentsline {figure}{\numberline {3-3}{\ignorespaces Relación del módulo gestión de tarifas de impuestos.}}{22}{figure.caption.25}%
+\contentsline {figure}{\numberline {3-4}{\ignorespaces Relación del módulo gestión de terceros.}}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {3-5}{\ignorespaces Relación del módulo gestión de inventario de productos.}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {3-6}{\ignorespaces Relación del módulo gestión de métodos de pago.}}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {3-7}{\ignorespaces Relación del módulo gestión de tipos de documentos.}}{26}{figure.caption.29}%
+\contentsline {figure}{\numberline {3-8}{\ignorespaces Relación del módulo gestión de bancos y cuentas bancarias.}}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {3-9}{\ignorespaces Relación del módulo gestión de centros de costo.}}{28}{figure.caption.31}%
+\contentsline {figure}{\numberline {3-10}{\ignorespaces Relación del módulo gestión de cuadros de ayuda.}}{29}{figure.caption.32}%
+\contentsline {figure}{\numberline {3-11}{\ignorespaces Relación del módulo gestión de calendario contable.}}{30}{figure.caption.33}%
 \contentsline {figure}{\numberline {4-1}{\ignorespaces Fases del enfoque de aprendizaje basado en proyectos.}}{32}{figure.caption.36}%
 \contentsline {figure}{\numberline {4-2}{\ignorespaces Prototipo vista catálogo de cuentas.}}{43}{figure.caption.38}%
 \contentsline {figure}{\numberline {4-3}{\ignorespaces Prototipo vista inventario de productos.}}{44}{figure.caption.39}%
@@ -49,6 +49,16 @@
 \contentsline {figure}{\numberline {7-11}{\ignorespaces Resultado jacoco microservicio \texttt {ms-terceros} }}{75}{figure.caption.85}%
 \contentsline {figure}{\numberline {7-12}{\ignorespaces Estructura de la colección de pruebas en Postman}}{77}{figure.caption.86}%
 \contentsline {figure}{\numberline {7-13}{\ignorespaces Implementación de scripts post-respuesta en Postman}}{78}{figure.caption.87}%
+\contentsline {figure}{\numberline {7-14}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Métodos de Pago}}{80}{figure.caption.92}%
+\contentsline {figure}{\numberline {7-15}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Centro de Ayuda}}{81}{figure.caption.93}%
+\contentsline {figure}{\numberline {7-16}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Cuentas Bancarias}}{82}{figure.caption.94}%
+\contentsline {figure}{\numberline {7-17}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Impuestos}}{83}{figure.caption.95}%
+\contentsline {figure}{\numberline {7-18}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Tipos de Documentos}}{84}{figure.caption.96}%
+\contentsline {figure}{\numberline {7-19}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Centro de Costo}}{85}{figure.caption.97}%
+\contentsline {figure}{\numberline {7-20}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Productos}}{86}{figure.caption.98}%
+\contentsline {figure}{\numberline {7-21}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Terceros}}{87}{figure.caption.99}%
+\contentsline {figure}{\numberline {7-22}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Calendario}}{88}{figure.caption.100}%
+\contentsline {figure}{\numberline {7-23}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Catálogo}}{89}{figure.caption.101}%
 \def \@chapapp {\appendixname }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
