@@ -74,10 +74,12 @@
 \contentsline {subsection}{\numberline {7.1.4}Implementación con Postman y Newman}{76}{subsection.7.1.4}%
 \contentsline {subsection}{\numberline {7.1.5}Casos de prueba: Escenarios positivos y negativos}{77}{subsection.7.1.5}%
 \contentsline {subsection}{\numberline {7.1.6}Ejecución automatizada con Newman}{79}{subsection.7.1.6}%
-\contentsline {chapter}{Capítulo 8. Conclusiones}{80}{chapter*.88}%
+\contentsline {subsubsection}{\nonumberline Entorno de ejecución de pruebas}{79}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline Resultados de las pruebas de integración}{79}{subsubsection*.91}%
+\contentsline {chapter}{Capítulo 8. Conclusiones}{80}{chapter*.92}%
 \def \@chapapp {\appendixname }
 \contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{81}{appendix.Alph1}%
 \contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{82}{appendix.Alph2}%
 \contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{83}{appendix.Alph3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{84}{section*.90}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{84}{section*.94}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
