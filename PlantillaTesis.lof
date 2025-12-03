@@ -36,6 +36,19 @@
 \contentsline {figure}{\numberline {6-11}{\ignorespaces Definición de variables CSS personalizadas para Tailwind CSS}}{66}{figure.caption.70}%
 \contentsline {figure}{\numberline {6-12}{\ignorespaces Configuración de tipografías globales}}{67}{figure.caption.71}%
 \contentsline {figure}{\numberline {6-13}{\ignorespaces Aplicación de estilos globales en el código HTML}}{68}{figure.caption.72}%
+\contentsline {figure}{\numberline {7-1}{\ignorespaces Resultado ejecución pruebas unitarias microservicio \texttt {account\_catalogue}}}{70}{figure.caption.75}%
+\contentsline {figure}{\numberline {7-2}{\ignorespaces Resultados jacoco \texttt {account\_catalogue} parte 1}}{70}{figure.caption.76}%
+\contentsline {figure}{\numberline {7-3}{\ignorespaces Resultados jacoco \texttt {account\_catalogue} parte 2}}{71}{figure.caption.77}%
+\contentsline {figure}{\numberline {7-4}{\ignorespaces Resultados jacoco \texttt {account\_catalogue} parte 3}}{71}{figure.caption.78}%
+\contentsline {figure}{\numberline {7-5}{\ignorespaces Resultado de ejecución pruebas unitarias \texttt {ms-configuration} }}{72}{figure.caption.79}%
+\contentsline {figure}{\numberline {7-6}{\ignorespaces Resultados jacoco \texttt {ms-configuration} parte 1}}{72}{figure.caption.80}%
+\contentsline {figure}{\numberline {7-7}{\ignorespaces Resultados jacoco \texttt {ms-configuration} parte 2}}{73}{figure.caption.81}%
+\contentsline {figure}{\numberline {7-8}{\ignorespaces Resultado de ejecución pruebas unitarias \texttt {ms-productos} }}{73}{figure.caption.82}%
+\contentsline {figure}{\numberline {7-9}{\ignorespaces Resultado jacoco microservicio \texttt {ms-productos} }}{74}{figure.caption.83}%
+\contentsline {figure}{\numberline {7-10}{\ignorespaces Resultado de ejecución pruebas unitarias \texttt {ms-terceros} }}{74}{figure.caption.84}%
+\contentsline {figure}{\numberline {7-11}{\ignorespaces Resultado jacoco microservicio \texttt {ms-terceros} }}{75}{figure.caption.85}%
+\contentsline {figure}{\numberline {7-12}{\ignorespaces Estructura de la colección de pruebas en Postman}}{77}{figure.caption.86}%
+\contentsline {figure}{\numberline {7-13}{\ignorespaces Implementación de scripts post-respuesta en Postman}}{78}{figure.caption.87}%
 \def \@chapapp {\appendixname }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -173,7 +173,7 @@ El procesamiento del evento en \verb|processEvent| sigue estos pasos:
 
 \subsection{Estilos visuales}
 
-Se definieron estilos visuales específicos siguiendo las guias de diseño para componentes de retroalimentación e interacción. La Figura \ref{fig:fig4}, Figura \ref{fig:fig5} muestra los estilos estandarizados para las alertas del sistema y los botones globales, asegurando que el usuario reciba feedback visual consistente ante sus acciones.
+Se definieron estilos visuales específicos siguiendo las guias de diseño para componentes de retroalimentación e interacción proporcionadas por la división TICS de la Universidad del Cauca. La Figura \ref{fig:fig4} y Figura \ref{fig:fig5} muestran los estilos estandarizados para las alertas del sistema y los botones globales, asegurando que el usuario reciba feedback visual consistente ante sus acciones.
 
 \begin{figure}[h!]
     \centering%
@@ -192,10 +192,9 @@ Se definieron estilos visuales específicos siguiendo las guias de diseño para 
 
 \subsection{Implementación técnica con Tailwind CSS}
 
-Para facilitar la adopción de estos estilos por parte del equipo de desarrollo y mantener la uniformidad en el código, se crearon definiciones globales en el archivo de estilos principal (styles.css). Aprovechando la arquitectura del framework Tailwind CSS, se
-configuraron variables CSS personalizadas que mapean los colores institucionales a clases utilitarias.
-Como se evidencia en la Figura \ref{fig:variablescss} se definieron las variables CSS para la paleta de colores; la imagen presenta una muestra representativa de los tonos configurados, existiendo definiciones adicionales para cubrir la totalidad de los estados y variacio
-nes requeridas por la interfaz. Esto permite extender la configuración de Tailwind para utilizar clases semánticas como bg-primary o text-neutral-50, en lugar de códigos hexadecimales dispersos por el código.
+Con el propósito de simplificar la implementación de estos estilos para el grupo de desarrolladores y preservar la consistencia en el código, se elaboraron definiciones globales en el archivo principal de estilos (styles.css). Utilizando la estructura del framework Tailwind CSS, se ajustaron variables CSS personalizadas que vinculan los colores institucionales con clases de utilidad.
+
+Tal como se muestra en la Figura \ref{fig:variablescss}, se establecieron las variables CSS para la gama de colores, la ilustración muestra un ejemplo representativo de los matices definidos, con configuraciones extra para abarcar todos los estados y variantes necesarios en la interfaz. Esta aproximación facilita la expansión de la configuración de Tailwind para emplear clases semánticas tales como bg-primary o text-neutral-50, evitando la dispersión de códigos hexadecimales en el código.
 
 \begin{figure}[h!]
     \centering%
@@ -216,7 +215,8 @@ Complementariamente, la Figura \ref{fig:tipografias} detalla la configuración t
     \label{fig:tipografias}
 \end{figure}
 
-Esta estrategia de implementación no solo asegura el cumplimiento de los lineamientos de diseño, sino que también optimiza el flujo de trabajo de los desarrolladores. La Figura \ref{fig:utilitarias} demuestra cómo se aplican estos estilos en el código HTML, combinando la sintaxis de utilidad de Tailwind con las definiciones personalizadas del sistema de diseño.
+\newpage
+Esta metodología de desarrollo no únicamente garantiza la adherencia a las directrices de diseño, sino que además mejora la eficiencia en el proceso de trabajo de los programadores. La Figura \ref{fig:utilitarias} ilustra la manera en que se integran estos estilos en el código HTML, fusionando la sintaxis utilitaria de Tailwind con las configuraciones específicas del sistema de diseño.
 
 \begin{figure}[h!]
     \centering%
@@ -225,5 +225,4 @@ Esta estrategia de implementación no solo asegura el cumplimiento de los lineam
     \label{fig:utilitarias}
 \end{figure}
 
- El resultado de esta abstracción es un código fuente más limpio y mantenible, donde la complejidad visual se encuentra encapsulada en las configuraciones del framework, garantizando que cualquier cambio futuro en la identidad visual pueda propagarse
- eficientemente a través de todo el sistema modificando únicamente las variables globales.
+El resultado de esta abstracción es un código fuente más ordenado y fácil de mantener, en el cual la complejidad visual queda contenida dentro de las configuraciones del framework, asegurando que cualquier modificación posterior en la identidad visual se pueda difundir de manera efectiva por todo el sistema alterando solo las variables globales.
