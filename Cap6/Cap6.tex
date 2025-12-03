@@ -1,5 +1,105 @@
-\mychapter{Capítulo 6. Patrones de diseño}
+\mychapter{Capítulo 6. Implementación}
 
-Los patrones de diseño son soluciones elegantes y estructuradas para problemas comunes en el desarrollo de software. Su aplicación en el presente proyecto ha permitido estructurar el código de manera más eficiente, mejorando la escalabilidad y el mantenimiento. En este capítulo se exploran algunos patrones de diseño utilizados en el módulo de configuración del software contable educativo.
+En este capítulo se presentan los aspectos técnicos y las decisiones de diseño adoptadas durante la construcción del sistema, organizando la implementación en dos grandes áreas: el desarrollo del backend (lado del servidor) y la interfaz de usuario (frontend). La aplicación está desplegada en un entorno de pruebas, accesible mediante la siguiente \href{https://acortar.link/A7c0v4}{\underline{\textcolor{blue}{URL}}}.
 
-En el presente capítulo se contextualizan algunos patrones de diseño implementados en este desarrollo. Para ello, se proporciona una breve introducción a cada patrón, se explican las motivaciones de su uso y se incluyen diagramas que ilustran el patrón y su implementación en el proyecto.
+Por motivos de seguridad de la División de TIC, dentro de la institución es necesario conectarse a través de una VPN para acceder al entorno; fuera de la red universitaria, el acceso es libre. El código fuente de los microservicios que conforman el módulo de configuración está disponible en los siguientes repositorios de GitHub:
+
+\begin{itemize}
+    \item \textbf{account-catalogue:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/account-catalogue/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    Contiene los módulos de catálogo de cuentas, métodos de pago, impuestos, bancos y cuentas bancarias.
+    \item \textbf{thirds-management:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/thirds-management/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    Incluye la gestión de terceros, tipos de identificación y tipos de terceros.
+    \item \textbf{products-management:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/products-management/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    Incluye la gestión de productos, categorías, unidades de medida y tipos de producto.
+    \item \textbf{ms-configuration:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/ms-configuration/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    Abarca los módulos de calendario contable, clases y tipos de documentos, centros de costo y centro de ayuda.
+\end{itemize}
+
+\section{Backend}
+\subsection{Patrones de diseño}
+
+Los patrones de diseño representan estrategias recurrentes para abordar problemas comunes en el desarrollo de software, que funcionan como guías conceptuales que pueden adaptarse y personalizarse según las necesidades específicas de cada proyecto. A diferencia de una función o biblioteca lista para usar, un patrón de diseño no es un fragmento de código concreto, sino una solución abstracta que orienta la estructura y organización del programa. Su implementación requiere interpretar el concepto y ajustarlo a las particularidades del sistema en desarrollo \cite{patterndesign}.
+
+En las siguientes secciones se contextualizan los patrones de diseño implementados. Para cada patrón se presenta una breve introducción, se explican las motivaciones que llevaron a su uso y se incluyen representaciones gráficas que ilustran su aplicación dentro del módulo de configuración.
+
+
+\subsection{Patrón strategy}
+
+Es una solución de diseño orientada al comportamiento que facilita la definición de múltiples algoritmos relacionados, encapsulando cada uno en una clase distinta y permitiendo que sus instancias se puedan intercambiar dinámicamente según las necesidades del sistema \cite{Strategy}.
+
+El patrón Strategy se compone de tres elementos fundamentales: el contexto, que mantiene una referencia a una estrategia y delega en ella la ejecución de la tarea, la interfaz Strategy, que establece un contrato común para todas las estrategias concretas y las estrategias concretas, que implementan las distintas variantes del algoritmo. Esta organización permite separar la lógica de negocio de los detalles específicos de cada algoritmo, lo que facilita la realización de pruebas y la evolución del sistema \cite{fowler1999refactoring}.
+
+
+ \subsubsection{Diagrama de clases}
+
+La Figura \ref{fig:strategy} ilustra la implementación del patrón Strategy en el módulo de terceros en las funciones de importación para validar archivos de diferentes tipos (como PDF y Excel) de manera flexible y extensible. Esto permite encapsular algoritmos de validación específicos en clases concretas (\texttt{PdfFileValidator} y \texttt{ExcelFileValidator}), que implementan la interfaz común \texttt{FileValidator}. Los servicios como \texttt{PdfRUTService} y \texttt{ExcelParsingService} dependen de la interfaz, no de implementaciones concretas, lo que facilita intercambiar validadores dinámicamente sin modificar el código cliente. Esta separación mejora la mantenibilidad, permite agregar nuevos tipos de validación (por ejemplo, para CSV) siguiendo el principio Abierto/Cerrado y evita duplicación de lógica de validación en múltiples servicios, simplificando la estructura del backend.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/strategy.png}    
+    \caption{Diagrama de clases del patrón Strategy}
+    \label{fig:strategy}
+\end{figure}
+
+\newpage
+\subsubsection{Motivación e implementación}
+
+La implementación del patrón Strategy en este proyecto surge de la necesidad de manejar diferentes tipos de archivos al importar datos en el módulo de terceros. Este módulo debía ser capaz de procesar tanto archivos PDF del RUT de la DIAN como archivos Excel para la importación masiva de terceros. El patrón Strategy permitió encapsular las distintas estrategias de validación y procesamiento de archivos en clases separadas, facilitando la adición de nuevos formatos en el futuro sin afectar la lógica existente. Al depender de una interfaz común, los servicios pueden intercambiar fácilmente las estrategias según el tipo de archivo que se esté manejando. 
+
+La clase \texttt{FileValidator} en la Figura \ref{fig:FileValidator} define el contrato para validar archivos subidos, con métodos como \texttt{validate(MultipartFile file)} para verificar integridad, \texttt{getSupportedMimeTypes()} para tipos MIME admitidos y \texttt{getSupportedExtensions()} para extensiones (.pdf, .xlsx), esto asegura una validación uniforme sin importar el tipo de archivo.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/FileValidator.png}    
+    \caption{Clase FileValidator interfaz}
+    \label{fig:FileValidator}
+\end{figure}
+
+
+\newpage
+La clase \texttt{PdfFileValidator} (estrategia concreta) en la Figura \ref{fig:PDFValidator} valida archivos PDF del RUT, verificando que cumplan con propiedades como tamaño máximo y extensiones permitidas definidas en \texttt{FileUploadProperties}. Se inyecta en servicios específicos para PDFs.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/PDFValidator.png}    
+    \caption{Clase PdfFileValidator estrategia concreta}
+    \label{fig:PDFValidator}
+\end{figure}
+
+\newpage
+La clase \texttt{ExcelFileValidator} (estrategia concreta) en la Figura \ref{fig:Excelvalidator} valida archivos Excel para importación masiva de terceros, aplicando las mismas reglas de configuración. Ambas clases dependen de \texttt{FileUploadProperties} para configuraciones centralizadas, evitando hardcoding.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/Excelvalidator.png}    
+    \caption{Clase ExcelFileValidator estrategia concreta}
+    \label{fig:Excelvalidator}
+\end{figure}
+
+
+
+\subsection{Patrón observer}
+
+Es un patrón de diseño de comportamiento en el que un objeto, llamado sujeto, mantiene una lista de sus dependientes, llamados observadores, y les notifica automáticamente cualquier cambio de estado. Este patrón es útil cuando los cambios en el estado de un objeto pueden requerir cambios en otros objetos, y el grupo de objetos puede ser desconocido de antemano o cambiar dinámicamente. Además, el patrón Observer ayuda a desacoplar los componentes del sistema, lo que facilita su mantenimiento y escalabilidad \cite{Observer}. 
+
+\newpage
+\section{Frontend}
+Se definieron estilos visuales específicos siguiendo las guias de diseño para componentes de retroalimentación e interacción. La Figura \ref{fig:fig4}, Figura \ref{fig:fig5} muestra los estilos estandarizados para las alertas del sistema y los botones globales, asegurando que el usuario reciba feedback visual consistente ante sus acciones.
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.4\textheight, keepaspectratio]{Cap6/Figuras/notificacion.png}    
+    \caption{Estilos de alertas del sistema}
+    \label{fig:fig4}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.4\textheight, keepaspectratio]{Cap6/Figuras/botones.png}    
+    \caption{Estilos de botones globales}
+    \label{fig:fig5}
+\end{figure}
+
+ \subsubsection{Diagrama de clases}
+
+ 

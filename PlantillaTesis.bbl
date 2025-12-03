@@ -306,6 +306,32 @@
   {P}ractices - {A}pty --- apty.ai}
   \endentry
 
+  \entry{fowler1999refactoring}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley Professional}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{isbn}{0-201-48567-2}
+    \field{title}{Refactoring: Improving the Design of Existing Code}
+    \list{location}{1}{%
+      {Reading, MA}%
+    }
+    \field{year}{1999}
+  \endentry
+
   \entry{FrameworkWikipedia}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{F}
@@ -684,6 +710,15 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Observer}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+  \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/observer}}
+    \field{note}{[Accessed 03-12-2025]}
+    \field{title}{{O}bserver --- refactoring.guru}
+  \endentry
+
   \entry{Osmani2020}{article}{}{}
     \name{author}{3}{}{%
       {{hash=OM}{%
@@ -722,6 +757,15 @@
     \field{journaltitle}{International Journal of Information and Communication
   Technology Education}
     \field{year}{2020}
+  \endentry
+
+  \entry{patterndesign}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+  \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/what-is-pattern}}
+    \field{note}{[Accessed 02-12-2025]}
+    \field{title}{Que es un patron de diseño? --- refactoring.guru}
   \endentry
 
   \entry{mividalaboralFreelanceGua}{misc}{}{}
@@ -832,6 +876,15 @@
     \field{volume}{13}
     \field{journaltitle}{Construction Management and Economics}
     \field{year}{1995}
+  \endentry
+
+  \entry{Strategy}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+  \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/strategy}}
+    \field{note}{[Accessed 02-12-2025]}
+    \field{title}{{S}trategy --- refactoring.guru}
   \endentry
 
   \entry{guiaKanban}{misc}{}{}

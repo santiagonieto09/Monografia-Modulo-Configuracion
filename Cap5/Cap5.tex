@@ -38,7 +38,7 @@ El sistema consta de seis contenedores principales: aplicación web, API Gateway
 \item \textbf{Cliente-Servidor:} La aplicación web (cliente) y los microservicios (servidor) son independientes; la única forma de comunicación son las peticiones HTTP que fluyen a través del API Gateway.
 \item \textbf{Sin estado:} Los microservicios no almacenan información de sesión; cada petición es independiente y contiene toda la información necesaria para procesarla, incluyendo el token JWT para autenticación.
 \item \textbf{Identificador único:} Cada recurso del sistema (cuentas contables, terceros, productos, impuestos) se identifica mediante URIs únicas que permiten su acceso y manipulación de forma irrepetible.
-\item \textbf{Uso de HTTP:} Se respetan los verbos HTTP estándar (GET para consultas, POST para creación, PUT para actualización, DELETE para eliminación) y los códigos de respuesta apropiados para cada operación.
+\item \textbf{Uso de HTTP:} Se respetan los verbos HTTP estándar (GET para consultas, POST para creación, PUT para actualización, DELETE para eliminación) y los códigos de respuesta apropiados para cada operación. 
 \end{itemize}
 
 \begin{figure}[h!]    
@@ -70,6 +70,9 @@ En la figura \ref{fig:componentes} se puede observar el diagrama de componentes 
 
 \section{Patrón arquitectónico}
 
+En el módulo de configuración se emplean dos patrones arquitectónicos principales: la arquitectura hexagonal y la arquitectura en capas. Esta decisión responde a la evolución del proyecto bajo el enfoque de Aprendizaje Basado en Proyectos (PBL). Durante la fase 1, los módulos de terceros, productos, impuestos y catálogo fueron desarrollados siguiendo el patrón hexagonal, por lo que se optó por mantener esta arquitectura para aprovechar el trabajo previo de los desarrolladores, quienes ya habían implementado funcionalidades importantes que posteriormente se adaptaron para satisfacer los nuevos requerimientos del cliente. Por otro lado, los módulos restantes como métodos de pago, tipos de documentos, bancos, cuentas bancarias, centros de costo, centro de ayuda y calendario contable corresponden principalmente a funcionalidades CRUD sin lógica de negocio compleja, por lo que se implementaron utilizando el patrón de arquitectura en capas, priorizando la simplicidad y la mantenibilidad. A continuación se describen de manera conceptual y gráfica los patrones arquitectónicos implementados.
+
+
 \subsection{Arquitectura hexagonal}
 La arquitectura hexagonal, también conocida como arquitectura de puertos y adaptadores, es un patrón diseñado para crear componentes de aplicación débilmente acoplados, facilitando la conexión con el entorno externo. Su objetivo principal es aislar la lógica de negocio del núcleo de la aplicación de factores externos como bases de datos, interfaces de usuario o sistemas de mensajería, lo que mejora la modularidad, mantenibilidad y testabilidad. El sistema se divide en componentes intercambiables conectados a través de puertos (interfaces que representan puntos de entrada y salida) e implementados por adaptadores, que traducen las interacciones entre el mundo exterior y el núcleo \cite{HexagonalArchitecture}.
 
@@ -78,16 +81,23 @@ Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en
 
 \begin{figure}[h!]    
     \centering%
-    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/hexagonal.png}    
-    \caption{Arquitectura general del sistema con patrón hexagonal.}
+    \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Cap5/Figuras/hexagonal.png}    
+    \caption{Arquitectura general con patrón hexagonal.}
     \label{fig:hexagonal}
 \end{figure}
 
-
+\newpage
 \subsection{Arquitectura en capas}
 
 La arquitectura por capas es una de las más empleadas, debido a su sencillez y al hecho de que se adopta automáticamente cuando no se tiene certeza sobre qué patrón arquitectónico elegir para el desarrollo de la aplicación.
 
 Este enfoque implica segmentar la aplicación en diferentes niveles, con el propósito de asignar a cada uno una función específica, tales como una capa de interfaz de usuario (UI), una capa de lógica de negocio (servicios) y una capa de acceso a datos (DAO). No obstante, este patrón no establece un número fijo de capas para la aplicación, sino que enfatiza la división de la aplicación en niveles (aplicando el principio de Separación de Responsabilidades (SoC)).
 
-En la implementación práctica, generalmente se utiliza un esquema de 4 capas: presentación, negocio, persistencia y base de datos. Sin embargo, es común observar que las capas de negocio y persistencia se fusionan en una sola, especialmente cuando la lógica de almacenamiento se integra directamente en la capa de negocio \cite{ArquitecturaCapas}.
+En la implementación práctica, generalmente se utiliza un esquema de 4 capas: presentación, negocio, persistencia y base de datos. Sin embargo, es común observar que las capas de negocio y persistencia se fusionan en una sola, especialmente cuando la lógica de almacenamiento se integra directamente en la capa de negocio \cite{ArquitecturaCapas}. En la Figura \ref{fig:capas} se observa la arquitectura organizada en cuatro capas horizontales que representan la separación de responsabilidades.
+
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/capas.png}    
+    \caption{Arquitectura general con patrón en capas.}
+    \label{fig:capas}
+\end{figure}
