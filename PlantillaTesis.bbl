@@ -744,6 +744,16 @@
     \field{year}{2020}
   \endentry
 
+  \entry{patterndesign}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{howpublished}{\url{https://refactoring.guru/es/design-patterns}}
+    \field{note}{[Accessed 04-12-2025]}
+    \field{title}{{P}atrones de dise\&#x{F}1;o / {D}esign patterns ---
+  refactoring.guru}
+  \endentry
+
   \entry{mividalaboralFreelanceGua}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{Q}
@@ -852,6 +862,15 @@
     \field{volume}{13}
     \field{journaltitle}{Construction Management and Economics}
     \field{year}{1995}
+  \endentry
+
+  \entry{refactoringStrategy}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+  \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/strategy}}
+    \field{note}{[Accessed 04-12-2025]}
+    \field{title}{{S}trategy --- refactoring.guru}
   \endentry
 
   \entry{guiaKanban}{misc}{}{}

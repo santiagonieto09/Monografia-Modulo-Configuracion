@@ -1,6 +1,6 @@
 \mychapter{Capítulo 6. Implementación}
 
-En este capítulo se presentan los aspectos técnicos y las decisiones de diseño adoptadas durante la construcción del sistema, organizando la implementación en dos grandes áreas: el desarrollo del backend (lado del servidor) y la interfaz de usuario (frontend). La aplicación está desplegada en un entorno de pruebas, accesible mediante la siguiente \href{https://acortar.link/A7c0v4}{\underline{\textcolor{blue}{URL}}}.
+En este capítulo se presentan los aspectos técnicos y las decisiones de diseño adoptadas durante la construcción del sistema, organizando la implementación en dos grandes áreas: el desarrollo del backend (lado del servidor) y la interfaz de usuario (frontend). La aplicación está desplegada en un entorno de pruebas, accesible mediante la siguiente \href{http://contables.unicauca.edu.co/dev}{\underline{\textcolor{blue}{URL}}}.
 
 Por motivos de seguridad de la División de TIC, dentro de la institución es necesario conectarse a través de una VPN para acceder al entorno; fuera de la red universitaria, el acceso es libre. El código fuente de los microservicios que conforman el módulo de configuración está disponible en los siguientes repositorios de GitHub:
 
@@ -25,9 +25,7 @@ En las siguientes secciones se contextualizan los patrones de diseño implementa
 
 \subsection{Patrón strategy}
 
-Es una solución de diseño orientada al comportamiento que facilita la definición de múltiples algoritmos relacionados, encapsulando cada uno en una clase distinta y permitiendo que sus instancias se puedan intercambiar dinámicamente según las necesidades del sistema \cite{Strategy}.
-
-El patrón Strategy se compone de tres elementos fundamentales: el contexto, que mantiene una referencia a una estrategia y delega en ella la ejecución de la tarea, la interfaz Strategy, que establece un contrato común para todas las estrategias concretas y las estrategias concretas, que implementan las distintas variantes del algoritmo. Esta organización permite separar la lógica de negocio de los detalles específicos de cada algoritmo, lo que facilita la realización de pruebas y la evolución del sistema \cite{fowler1999refactoring}.
+Es una solución de diseño orientada al comportamiento que facilita la definición de múltiples algoritmos relacionados, encapsulando cada uno en una clase distinta y permitiendo que sus instancias se puedan intercambiar dinámicamente según las necesidades del sistema. El patrón Strategy se compone de tres elementos fundamentales: el contexto, que mantiene una referencia a una estrategia y delega en ella la ejecución de la tarea, la interfaz Strategy, que establece un contrato común para todas las estrategias concretas y las estrategias concretas, que implementan las distintas variantes del algoritmo. Esta organización permite separar la lógica de negocio de los detalles específicos de cada algoritmo, lo que facilita la realización de pruebas y la evolución del sistema \cite{refactoringStrategy}.
 
 
  \subsubsection{Diagrama de clases}

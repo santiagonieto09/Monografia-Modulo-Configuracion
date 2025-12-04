@@ -1,6 +1,7 @@
-﻿\documentclass[12pt,spanish,fleqn,openany,letterpaper,pagesize]{scrbook}
+﻿\documentclass[11pt,spanish,fleqn,openany,letterpaper,pagesize]{scrbook}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}%escribir con acentos sin necesidad de comandos \'{} .
+\usepackage[margin=2.5cm]{geometry} % Márgenes de 2.5cm en todos los lados
 \usepackage{fancyhdr}
 \usepackage{epsfig}
 \usepackage{epic}
@@ -16,7 +17,9 @@
 \usepackage{longtable}
 \usepackage{multirow}
 \usepackage{calligra} 
-\usepackage[T1]{fontenc} %Fuente similar a Arial
+\usepackage[T1]{fontenc}
+\usepackage{helvet} % Fuente Helvetica (muy similar a Arial)
+\renewcommand{\familydefault}{\sfdefault} % Usa sans-serif (Helvetica) como fuente principal
 \usepackage{listings} % Para mostrar codigo fuente en C, R, java
 %\usepackage{natbib} %para las referencias plain
 \usepackage[backend=bibtex,style=numeric]{biblatex}
@@ -42,15 +45,14 @@
 \renewcommand{\thefigure}{\thechapter-\arabic{figure}}
 \renewcommand{\thetable}{\thechapter-\arabic{table}}
 
-% CONFIGURACIÃ“N DE PÃGINA
+% CONFIGURACIÃ"N DE PÃGINA
 \pagestyle{fancyplain}%\addtolength{\headwidth}{\marginparwidth}
-\textheight22.5cm \topmargin0cm \textwidth16.5cm
-\oddsidemargin0.5cm \evensidemargin-0.5cm%
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\chaptermark}[1]{\markboth{\thechapter\; #1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\; #1}}
-\lhead[\fancyplain{}{\thepage}]{\fancyplain{}{\rightmark}}
-\rhead[\fancyplain{}{\leftmark}]{\fancyplain{}{\thepage}}
-\fancyfoot{}
+\lhead[\fancyplain{}{}]{\fancyplain{}{}}
+\rhead[\fancyplain{}{}]{\fancyplain{}{}}
+\fancyfoot[C]{\thepage} % Número de página centrado en el pie
 \thispagestyle{fancy}%
 \addtolength{\headwidth}{0cm}
 \unitlength1mm %Define la unidad LE para Figuras
