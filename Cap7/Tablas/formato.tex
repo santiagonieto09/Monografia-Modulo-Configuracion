@@ -1,0 +1,37 @@
+\begin{table}[H]
+    \centering
+    \caption{Formato para documentar pruebas de aceptación}
+    \label{tabla:formato-pruebas-aceptacion}
+    \small
+    \begin{tabular}{|p{3.5cm}|p{3.5cm}|p{2.5cm}|p{3cm}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{PROYECTO}} & \multicolumn{2}{l|}{nombre del proyecto} \\
+        \hline
+        \multicolumn{4}{|l|}{\textbf{INFORMACIÓN DE LA PRUEBA}} \\
+        \hline
+        \textbf{Caso de prueba} & identificador del caso de prueba & \textbf{Versión de ejecución} & iterable de la cantidad de veces que se ha ejecutado la prueba \\
+        \cline{3-4}
+        &  & \textbf{Fecha ejecución} & \\
+        \hline
+        \textbf{Historia de usuario} & Historia de usuario asociada a la prueba & \textbf{Módulo del sistema} & \\
+        \hline
+        \textbf{Descripción del caso de prueba} & \multicolumn{3}{p{8.5cm}|}{Descripción u objetivo de la prueba} \\
+        \hline
+        \multicolumn{4}{|c|}{\textbf{CASO DE PRUEBA}} \\
+        \hline
+        \textbf{Entorno de ejecución} & \multicolumn{3}{p{8.5cm}|}{} \\
+        \hline
+        \textbf{Usuario} & \multicolumn{3}{p{8.5cm}|}{usuario quien realiza la prueba} \\
+        \hline
+        \textbf{Rol} & \multicolumn{3}{p{8.5cm}|}{rol del usuario en el sistema} \\
+        \hline
+        \multicolumn{4}{|c|}{\textbf{Pasos de la prueba}} \\
+        \hline
+        \multicolumn{4}{|p{12.5cm}|}{pasos que debe seguir el usuario para realizar la prueba} \\
+        \hline
+        \textbf{Resultado esperado} & \textbf{Resultado real} & \textbf{Estado} & \textbf{Acción correctiva} \\
+        \hline
+        &  & Si la funcionalidad cumple las expectativas del usuario Aprobado, de lo contrario Rechazado & en caso de rechazo, documentar que cambios se deben realizar para asegurar la aceptación \\
+        \hline
+    \end{tabular}
+\end{table}

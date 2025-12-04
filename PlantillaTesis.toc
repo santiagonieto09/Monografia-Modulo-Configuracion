@@ -77,11 +77,13 @@
 \contentsline {subsubsection}{\nonumberline Entorno de ejecución de pruebas}{79}{subsubsection*.89}%
 \contentsline {subsubsection}{\nonumberline Resultados de las pruebas de integración}{79}{subsubsection*.91}%
 \contentsline {subsection}{\numberline {7.1.7}Cobertura de pruebas de integración}{89}{subsection.7.1.7}%
-\contentsline {subsection}{\numberline {7.1.8}Pruebas del frontend}{90}{subsection.7.1.8}%
-\contentsline {chapter}{Capítulo 8. Conclusiones}{91}{chapter*.102}%
+\contentsline {section}{\numberline {7.2}Pruebas del frontend}{90}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Pruebas de aceptación}{90}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Ejemplo de prueba de aceptación}{91}{subsection.7.3.1}%
+\contentsline {chapter}{Capítulo 8. Conclusiones}{94}{chapter*.103}%
 \def \@chapapp {\appendixname }
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{92}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{93}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{94}{appendix.Alph3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{95}{section*.104}%
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{95}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{96}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{97}{appendix.Alph3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{98}{section*.105}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,0 +1,40 @@
+% Tabla de prueba de aceptación (convertida a longtable y corregida)
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{2.5cm}|>{\raggedright\arraybackslash}p{3cm}|}
+\caption{Prueba de aceptación creación de tipo de documento CA-01}\label{tabla:ejemplo-prueba-aceptacion} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{PROYECTO}} & \multicolumn{2}{l|}{ContappUC} \\
+\hline
+\multicolumn{4}{|l|}{\textbf{INFORMACIÓN DE LA PRUEBA}} \\
+\hline
+\textbf{Caso de prueba} & PA-HE07-HU01-CA01 & \textbf{Versión de ejecución} & 1 \\
+\cline{3-4}
+&  & \textbf{Fecha ejecución} & 22/11/2025 \\
+\hline
+\textbf{Historia de usuario} & HE-07-HU01 & \textbf{Módulo del sistema} & Configuración -- Tipos de Documento \\
+\hline
+\textbf{Descripción del caso de prueba} & \multicolumn{3}{p{8.5cm}|}{Verificar que, al diligenciar correctamente todos los campos obligatorios (prefijo, nombre, clase, módulo asociado) en la interfaz de creación de tipo de documento y hacer clic en "Crear", el sistema cree el registro, muestre un mensaje de éxito y lo agregue a la lista de tipos de documento disponibles.} \\
+\hline
+\multicolumn{4}{|c|}{\textbf{CASO DE PRUEBA}} \\
+\hline
+\textbf{Entorno de ejecución} & \multicolumn{3}{p{8.5cm}|}{Dispositivo físico: Computador portátil ACER Aspire 3 15. \newline Versión de SO: Windows 10 LTS.} \\
+\hline
+\textbf{Usuario} & \multicolumn{3}{p{8.5cm}|}{Brayan Neil Vargas y Omar Gomez Gomez} \\
+\hline
+\textbf{Rol} & \multicolumn{3}{p{8.5cm}|}{Administrador} \\
+\hline
+\multicolumn{4}{|c|}{\textbf{Pasos de la prueba}} \\
+\hline
+\multicolumn{4}{|p{12.5cm}|}{\begin{enumerate}
+\item Iniciar sesión con rol Administrador.
+\item Ir a \textbf{Configuración > Tipos de documento > Crear tipo de documento}.
+\item Diligenciar todos los campos obligatorios con valores válidos y únicos: Prefijo: FAC; Nombre: Factura de Venta; Clase: Factura; Módulo asociado: Ventas.
+\item Hacer clic en el botón "Crear".
+\item Verificar que el sistema muestre un mensaje claro indicando que el tipo de documento se guardó correctamente (ej: "Tipo de documento creado exitosamente").
+\item Navegar a la lista de tipos de documento disponibles y confirmar que el nuevo tipo "Factura de Venta" aparece en la lista con los datos registrados.
+\end{enumerate}} \\
+\hline
+\textbf{Resultado esperado} & \textbf{Resultado real} & \textbf{Estado} & \textbf{Acción correctiva} \\
+\hline
+Mensaje de éxito de creación; tipo de documento visible en la lista con los datos registrados. & Mensaje de éxito de creación; tipo de documento visible en la lista con los datos registrados. & Aprobado &  \\
+\hline
+\end{longtable}
