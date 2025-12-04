@@ -1,0 +1,266 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Lista de figuras}{\es@scroman {viii}}{section*.3}%
+\contentsline {chapter}{Lista de tablas}{\es@scroman {x}}{section*.5}%
+\contentsline {chapter}{Capítulo 1. Introducción}{1}{chapter*.7}%
+\contentsline {section}{\numberline {1.1}Justificación y planteamiento del problema}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo General}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{2}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Metodología de trabajo}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Trabajo Freelance}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Kanban}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Desarrollo iterativo e incremental}{5}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Iteraciones}{5}{subsection.1.3.4}%
+\contentsline {chapter}{Capítulo 2. Marco Teórico}{10}{chapter*.15}%
+\contentsline {section}{\numberline {2.1}Conceptos fundamentales}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Configuración}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Framework}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Modelo C4}{12}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Pruebas de software}{12}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Tecnologías para el desarrollo}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Tecnologías Frontend}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Tecnologías Backend}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Tecnologías para Base de Datos}{14}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Lineamientos división TIC}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Lineamientos de diseño}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Lineamientos de desarrollo}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Lineamientos de usabilidad}{16}{subsection.2.3.3}%
+\contentsline {chapter}{Capítulo 3. Descripción de los módulos a implementar}{18}{chapter*.21}%
+\contentsline {section}{\numberline {3.1}Gestión de catálogo de cuentas}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Gestión de tarifas de impuestos}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Gestión de terceros}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Gestión de inventario de productos}{22}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Gestión de métodos de pago}{23}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Gestión de tipos de documentos}{24}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Gestión de banco y cuentas bancarias}{25}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Gestión de centros de costo}{26}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Gestión de centro de ayuda}{27}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Gestión de calendario contable}{28}{section.3.10}%
+\contentsline {chapter}{Capítulo 4. Ingeniería de requisitos}{29}{chapter*.34}%
+\contentsline {section}{\numberline {4.1}Elicitación de requisitos}{29}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Enfoque de Aprendizaje Basado en Proyectos (PBL)}{30}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Requisitos funcionales}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Requisitos no funcionales}{38}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Prototipos}{39}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Vista de catálogo de cuentas}{39}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Vista de inventario de productos}{41}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Vista de terceros}{42}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Vista de impuestos}{43}{subsection.4.4.4}%
+\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{44}{chapter*.42}%
+\contentsline {section}{\numberline {5.1}Modelo C4: Descripción de la arquitectura}{44}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Contexto}{44}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Contenedores}{46}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Componentes}{48}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Patrón arquitectónico}{48}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Arquitectura hexagonal}{49}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Arquitectura en capas}{51}{subsection.5.2.2}%
+\contentsline {chapter}{Capítulo 6. Implementación}{52}{chapter*.50}%
+\contentsline {section}{\numberline {6.1}Backend}{52}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Patrones de diseño}{52}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Patrón strategy}{53}{subsection.6.1.2}%
+\contentsline {subsubsection}{\nonumberline Diagrama de clases}{53}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline Motivación e implementación}{54}{subsubsection*.56}%
+\contentsline {subsection}{\numberline {6.1.3}Patrón observer}{57}{subsection.6.1.3}%
+\contentsline {subsubsection}{\nonumberline Diagrama de clases}{58}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline Motivación e implementación}{58}{subsubsection*.64}%
+\contentsline {section}{\numberline {6.2}Frontend}{61}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Estilos visuales}{61}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Implementación técnica con Tailwind CSS}{62}{subsection.6.2.2}%
+\contentsline {chapter}{Capítulo 7. Evaluación de funcionalidades}{66}{chapter*.73}%
+\contentsline {section}{\numberline {7.1}Pruebas del backend}{66}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Pruebas unitarias}{66}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Pruebas de integración}{72}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Estrategia de pruebas de integración}{72}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Implementación con Postman y Newman}{73}{subsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.1.5}Casos de prueba: Escenarios positivos y negativos}{73}{subsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.1.6}Ejecución automatizada con Newman}{75}{subsection.7.1.6}%
+\contentsline {subsubsection}{\nonumberline Entorno de ejecución de pruebas}{76}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline Resultados de las pruebas de integración}{76}{subsubsection*.91}%
+\contentsline {subsection}{\numberline {7.1.7}Cobertura de pruebas de integración}{86}{subsection.7.1.7}%
+\contentsline {section}{\numberline {7.2}Pruebas de aceptación}{87}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Ejemplo de prueba de aceptación}{88}{subsection.7.2.1}%
+\contentsline {chapter}{Capítulo 8. Conclusiones, lecciones aprendidas y trabajos futuros}{90}{chapter*.103}%
+\contentsline {section}{\numberline {8.1}Conclusiones}{90}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Lecciones Aprendidas}{91}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Trabajos Futuros}{92}{section.8.3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{93}{section*.105}%
+\def \@chapapp {\appendixname }
+\contentsline {chapter}{\numberline {A}Anexo: Guía de Integración de Eventos RabbitMQ para Centros de Costo}{97}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Descripción General}{97}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Arquitectura de Mensajería}{97}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Tipo de Exchange}{97}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Configuración del Exchange y Cola}{97}{subsection.Alph1.2.2}%
+\contentsline {section}{\numberline {A.3}Eventos Soportados}{98}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Evento: USED}{98}{subsection.Alph1.3.1}%
+\contentsline {section}{\numberline {A.4}Estructura del Mensaje}{98}{section.Alph1.4}%
+\contentsline {subsection}{\numberline {A.4.1}Formato del Evento (EventDto)}{98}{subsection.Alph1.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Estructura del Payload de Datos (CostCenterUsageDto)}{98}{subsection.Alph1.4.2}%
+\contentsline {section}{\numberline {A.5}Ejemplo de Mensaje JSON}{99}{section.Alph1.5}%
+\contentsline {section}{\numberline {A.6}Guía de Implementación para Publicadores}{99}{section.Alph1.6}%
+\contentsline {subsection}{\numberline {A.6.1}Paso 1: Configurar el RabbitTemplate}{99}{subsection.Alph1.6.1}%
+\contentsline {subsection}{\numberline {A.6.2}Paso 2: Crear los DTOs}{99}{subsection.Alph1.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{99}{subsubsection*.111}%
+\contentsline {subsubsection}{\nonumberline CostCenterUsageDto}{99}{subsubsection*.113}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{100}{subsubsection*.115}%
+\contentsline {subsection}{\numberline {A.6.3}Paso 3: Publicar el Evento}{100}{subsection.Alph1.6.3}%
+\contentsline {section}{\numberline {A.7}Validaciones del Suscriptor}{100}{section.Alph1.7}%
+\contentsline {section}{\numberline {A.8}Manejo de Errores}{101}{section.Alph1.8}%
+\contentsline {section}{\numberline {A.9}Consideraciones Importantes}{101}{section.Alph1.9}%
+\contentsline {section}{\numberline {A.10}Constantes de Configuración}{101}{section.Alph1.10}%
+\contentsline {chapter}{\numberline {B}Anexo: Guía de Integración de Eventos RabbitMQ para Tipos de Documentos}{103}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Descripción General}{103}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Arquitectura de Mensajería}{103}{section.Alph2.2}%
+\contentsline {subsection}{\numberline {B.2.1}Tipo de Exchange}{103}{subsection.Alph2.2.1}%
+\contentsline {subsection}{\numberline {B.2.2}Configuración del Exchange y Cola}{103}{subsection.Alph2.2.2}%
+\contentsline {section}{\numberline {B.3}Eventos Soportados}{104}{section.Alph2.3}%
+\contentsline {subsection}{\numberline {B.3.1}Evento: USED}{104}{subsection.Alph2.3.1}%
+\contentsline {section}{\numberline {B.4}Estructura del Mensaje}{104}{section.Alph2.4}%
+\contentsline {subsection}{\numberline {B.4.1}Formato del Evento (EventDto)}{104}{subsection.Alph2.4.1}%
+\contentsline {subsection}{\numberline {B.4.2}Estructura del Payload de Datos (DocumentTypeUsageDto)}{104}{subsection.Alph2.4.2}%
+\contentsline {section}{\numberline {B.5}Ejemplo de Mensaje JSON}{105}{section.Alph2.5}%
+\contentsline {section}{\numberline {B.6}Guía de Implementación para Publicadores}{105}{section.Alph2.6}%
+\contentsline {subsection}{\numberline {B.6.1}Paso 1: Configurar el RabbitTemplate}{105}{subsection.Alph2.6.1}%
+\contentsline {subsection}{\numberline {B.6.2}Paso 2: Crear los DTOs}{105}{subsection.Alph2.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{105}{subsubsection*.121}%
+\contentsline {subsubsection}{\nonumberline DocumentTypeUsageDto}{105}{subsubsection*.123}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{106}{subsubsection*.125}%
+\contentsline {subsection}{\numberline {B.6.3}Paso 3: Publicar el Evento}{106}{subsection.Alph2.6.3}%
+\contentsline {section}{\numberline {B.7}Validaciones del Suscriptor}{106}{section.Alph2.7}%
+\contentsline {section}{\numberline {B.8}Manejo de Errores}{107}{section.Alph2.8}%
+\contentsline {section}{\numberline {B.9}Consideraciones Importantes}{108}{section.Alph2.9}%
+\contentsline {section}{\numberline {B.10}Constantes de Configuración}{108}{section.Alph2.10}%
+\contentsline {chapter}{\numberline {C}Anexo: Guía de Integración de Eventos RabbitMQ para Cuentas Bancarias}{109}{appendix.Alph3}%
+\contentsline {section}{\numberline {C.1}Descripción General}{109}{section.Alph3.1}%
+\contentsline {section}{\numberline {C.2}Arquitectura de Mensajería}{109}{section.Alph3.2}%
+\contentsline {subsection}{\numberline {C.2.1}Tipo de Exchange}{109}{subsection.Alph3.2.1}%
+\contentsline {subsection}{\numberline {C.2.2}Configuración del Exchange y Cola}{109}{subsection.Alph3.2.2}%
+\contentsline {section}{\numberline {C.3}Eventos Soportados}{110}{section.Alph3.3}%
+\contentsline {subsection}{\numberline {C.3.1}Evento: USED}{110}{subsection.Alph3.3.1}%
+\contentsline {section}{\numberline {C.4}Estructura del Mensaje}{110}{section.Alph3.4}%
+\contentsline {subsection}{\numberline {C.4.1}Formato del Evento (EventDto)}{110}{subsection.Alph3.4.1}%
+\contentsline {subsection}{\numberline {C.4.2}Estructura del Payload de Datos (BankAccountUsageDto)}{110}{subsection.Alph3.4.2}%
+\contentsline {section}{\numberline {C.5}Ejemplo de Mensaje JSON}{111}{section.Alph3.5}%
+\contentsline {section}{\numberline {C.6}Guía de Implementación para Publicadores}{111}{section.Alph3.6}%
+\contentsline {subsection}{\numberline {C.6.1}Paso 1: Configurar el RabbitTemplate}{111}{subsection.Alph3.6.1}%
+\contentsline {subsection}{\numberline {C.6.2}Paso 2: Crear los DTOs}{111}{subsection.Alph3.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{111}{subsubsection*.131}%
+\contentsline {subsubsection}{\nonumberline BankAccountUsageDto}{111}{subsubsection*.133}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{112}{subsubsection*.135}%
+\contentsline {subsection}{\numberline {C.6.3}Paso 3: Publicar el Evento}{112}{subsection.Alph3.6.3}%
+\contentsline {section}{\numberline {C.7}Validaciones del Suscriptor}{112}{section.Alph3.7}%
+\contentsline {section}{\numberline {C.8}Manejo de Errores}{113}{section.Alph3.8}%
+\contentsline {section}{\numberline {C.9}Consideraciones Importantes}{113}{section.Alph3.9}%
+\contentsline {section}{\numberline {C.10}Constantes de Configuración}{114}{section.Alph3.10}%
+\contentsline {chapter}{\numberline {D}Anexo: Guía de Integración de Eventos RabbitMQ para Métodos de Pago}{115}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Descripción General}{115}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Arquitectura de Mensajería}{115}{section.Alph4.2}%
+\contentsline {subsection}{\numberline {D.2.1}Tipo de Exchange}{115}{subsection.Alph4.2.1}%
+\contentsline {subsection}{\numberline {D.2.2}Configuración del Exchange y Cola}{115}{subsection.Alph4.2.2}%
+\contentsline {section}{\numberline {D.3}Eventos Soportados}{116}{section.Alph4.3}%
+\contentsline {subsection}{\numberline {D.3.1}Evento: USED}{116}{subsection.Alph4.3.1}%
+\contentsline {section}{\numberline {D.4}Estructura del Mensaje}{116}{section.Alph4.4}%
+\contentsline {subsection}{\numberline {D.4.1}Formato del Evento (EventDto)}{116}{subsection.Alph4.4.1}%
+\contentsline {subsection}{\numberline {D.4.2}Estructura del Payload de Datos (PaymentMethodUsageDto)}{116}{subsection.Alph4.4.2}%
+\contentsline {section}{\numberline {D.5}Ejemplo de Mensaje JSON}{117}{section.Alph4.5}%
+\contentsline {section}{\numberline {D.6}Guía de Implementación para Publicadores}{117}{section.Alph4.6}%
+\contentsline {subsection}{\numberline {D.6.1}Paso 1: Configurar el RabbitTemplate}{117}{subsection.Alph4.6.1}%
+\contentsline {subsection}{\numberline {D.6.2}Paso 2: Crear los DTOs}{117}{subsection.Alph4.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{117}{subsubsection*.141}%
+\contentsline {subsubsection}{\nonumberline PaymentMethodUsageDto}{117}{subsubsection*.143}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{118}{subsubsection*.145}%
+\contentsline {subsection}{\numberline {D.6.3}Paso 3: Publicar el Evento}{118}{subsection.Alph4.6.3}%
+\contentsline {section}{\numberline {D.7}Validaciones del Suscriptor}{118}{section.Alph4.7}%
+\contentsline {section}{\numberline {D.8}Manejo de Errores}{119}{section.Alph4.8}%
+\contentsline {section}{\numberline {D.9}Consideraciones Importantes}{119}{section.Alph4.9}%
+\contentsline {section}{\numberline {D.10}Constantes de Configuración}{120}{section.Alph4.10}%
+\contentsline {chapter}{\numberline {E}Anexo: Guía de Integración de Eventos RabbitMQ para Impuestos}{121}{appendix.Alph5}%
+\contentsline {section}{\numberline {E.1}Descripción General}{121}{section.Alph5.1}%
+\contentsline {section}{\numberline {E.2}Arquitectura de Mensajería}{121}{section.Alph5.2}%
+\contentsline {subsection}{\numberline {E.2.1}Tipo de Exchange}{121}{subsection.Alph5.2.1}%
+\contentsline {subsection}{\numberline {E.2.2}Configuración del Exchange y Cola}{121}{subsection.Alph5.2.2}%
+\contentsline {section}{\numberline {E.3}Eventos Soportados}{122}{section.Alph5.3}%
+\contentsline {subsection}{\numberline {E.3.1}Evento: USED}{122}{subsection.Alph5.3.1}%
+\contentsline {section}{\numberline {E.4}Estructura del Mensaje}{122}{section.Alph5.4}%
+\contentsline {subsection}{\numberline {E.4.1}Formato del Evento (EventDto)}{122}{subsection.Alph5.4.1}%
+\contentsline {subsection}{\numberline {E.4.2}Estructura del Payload de Datos (TaxUsageDto)}{122}{subsection.Alph5.4.2}%
+\contentsline {section}{\numberline {E.5}Ejemplo de Mensaje JSON}{123}{section.Alph5.5}%
+\contentsline {section}{\numberline {E.6}Guía de Implementación para Publicadores}{123}{section.Alph5.6}%
+\contentsline {subsection}{\numberline {E.6.1}Paso 1: Configurar el RabbitTemplate}{123}{subsection.Alph5.6.1}%
+\contentsline {subsection}{\numberline {E.6.2}Paso 2: Crear los DTOs}{123}{subsection.Alph5.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{123}{subsubsection*.151}%
+\contentsline {subsubsection}{\nonumberline TaxUsageDto}{123}{subsubsection*.153}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{124}{subsubsection*.155}%
+\contentsline {subsection}{\numberline {E.6.3}Paso 3: Publicar el Evento}{124}{subsection.Alph5.6.3}%
+\contentsline {section}{\numberline {E.7}Validaciones del Suscriptor}{124}{section.Alph5.7}%
+\contentsline {section}{\numberline {E.8}Manejo de Errores}{125}{section.Alph5.8}%
+\contentsline {section}{\numberline {E.9}Consideraciones Importantes}{125}{section.Alph5.9}%
+\contentsline {section}{\numberline {E.10}Constantes de Configuración}{126}{section.Alph5.10}%
+\contentsline {chapter}{\numberline {F}Anexo: Guía de Integración de Eventos RabbitMQ para Catálogo de Cuentas Contables}{127}{appendix.Alph6}%
+\contentsline {section}{\numberline {F.1}Descripción General}{127}{section.Alph6.1}%
+\contentsline {section}{\numberline {F.2}Arquitectura de Mensajería}{127}{section.Alph6.2}%
+\contentsline {subsection}{\numberline {F.2.1}Tipo de Exchange}{127}{subsection.Alph6.2.1}%
+\contentsline {subsection}{\numberline {F.2.2}Configuración del Exchange y Cola}{127}{subsection.Alph6.2.2}%
+\contentsline {section}{\numberline {F.3}Eventos Soportados}{128}{section.Alph6.3}%
+\contentsline {subsection}{\numberline {F.3.1}Evento: USED}{128}{subsection.Alph6.3.1}%
+\contentsline {section}{\numberline {F.4}Estructura del Mensaje}{128}{section.Alph6.4}%
+\contentsline {subsection}{\numberline {F.4.1}Formato del Evento (EventDto)}{128}{subsection.Alph6.4.1}%
+\contentsline {subsection}{\numberline {F.4.2}Estructura del Payload de Datos (AccountUsedEventDto)}{129}{subsection.Alph6.4.2}%
+\contentsline {subsection}{\numberline {F.4.3}Tipos de Fuente de Cuenta (sourceAccountType)}{129}{subsection.Alph6.4.3}%
+\contentsline {section}{\numberline {F.5}Ejemplos de Mensaje JSON}{129}{section.Alph6.5}%
+\contentsline {subsection}{\numberline {F.5.1}Ejemplo usando ID de cuenta}{129}{subsection.Alph6.5.1}%
+\contentsline {subsection}{\numberline {F.5.2}Ejemplo usando código contable}{129}{subsection.Alph6.5.2}%
+\contentsline {section}{\numberline {F.6}Guía de Implementación para Publicadores}{130}{section.Alph6.6}%
+\contentsline {subsection}{\numberline {F.6.1}Paso 1: Configurar el RabbitTemplate}{130}{subsection.Alph6.6.1}%
+\contentsline {subsection}{\numberline {F.6.2}Paso 2: Crear los DTOs}{130}{subsection.Alph6.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto}{130}{subsubsection*.162}%
+\contentsline {subsubsection}{\nonumberline AccountUsedEventDto}{130}{subsubsection*.164}%
+\contentsline {subsection}{\numberline {F.6.3}Paso 3: Publicar el Evento}{131}{subsection.Alph6.6.3}%
+\contentsline {section}{\numberline {F.7}Validaciones del Suscriptor}{132}{section.Alph6.7}%
+\contentsline {section}{\numberline {F.8}Manejo de Errores}{132}{section.Alph6.8}%
+\contentsline {section}{\numberline {F.9}Consideraciones Importantes}{132}{section.Alph6.9}%
+\contentsline {section}{\numberline {F.10}Constantes de Configuración}{133}{section.Alph6.10}%
+\contentsline {chapter}{\numberline {G}Anexo: Guía de Integración de Eventos RabbitMQ para Terceros}{134}{appendix.Alph7}%
+\contentsline {section}{\numberline {G.1}Descripción General}{134}{section.Alph7.1}%
+\contentsline {section}{\numberline {G.2}Arquitectura de Mensajería}{134}{section.Alph7.2}%
+\contentsline {subsection}{\numberline {G.2.1}Tipo de Exchange}{134}{subsection.Alph7.2.1}%
+\contentsline {subsection}{\numberline {G.2.2}Configuración del Exchange y Cola}{134}{subsection.Alph7.2.2}%
+\contentsline {section}{\numberline {G.3}Eventos Soportados}{135}{section.Alph7.3}%
+\contentsline {subsection}{\numberline {G.3.1}Evento: USED}{135}{subsection.Alph7.3.1}%
+\contentsline {section}{\numberline {G.4}Estructura del Mensaje}{135}{section.Alph7.4}%
+\contentsline {subsection}{\numberline {G.4.1}Formato del Evento (EventDto)}{135}{subsection.Alph7.4.1}%
+\contentsline {subsection}{\numberline {G.4.2}Estructura del Payload de Datos (ThirdUsageEventDto)}{136}{subsection.Alph7.4.2}%
+\contentsline {section}{\numberline {G.5}Ejemplo de Mensaje JSON}{136}{section.Alph7.5}%
+\contentsline {section}{\numberline {G.6}Guía de Implementación para Publicadores}{136}{section.Alph7.6}%
+\contentsline {subsection}{\numberline {G.6.1}Paso 1: Configurar el RabbitTemplate}{136}{subsection.Alph7.6.1}%
+\contentsline {subsection}{\numberline {G.6.2}Paso 2: Crear los DTOs}{136}{subsection.Alph7.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{137}{subsubsection*.170}%
+\contentsline {subsubsection}{\nonumberline ThirdUsageEventDto}{137}{subsubsection*.172}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{137}{subsubsection*.174}%
+\contentsline {subsection}{\numberline {G.6.3}Paso 3: Publicar el Evento}{137}{subsection.Alph7.6.3}%
+\contentsline {section}{\numberline {G.7}Validaciones del Suscriptor}{138}{section.Alph7.7}%
+\contentsline {section}{\numberline {G.8}Manejo de Errores}{138}{section.Alph7.8}%
+\contentsline {section}{\numberline {G.9}Consideraciones Importantes}{139}{section.Alph7.9}%
+\contentsline {section}{\numberline {G.10}Constantes de Configuración}{139}{section.Alph7.10}%
+\contentsline {chapter}{\numberline {H}Anexo: Guía de Integración de Eventos RabbitMQ para Productos}{140}{appendix.Alph8}%
+\contentsline {section}{\numberline {H.1}Descripción General}{140}{section.Alph8.1}%
+\contentsline {section}{\numberline {H.2}Arquitectura de Mensajería}{140}{section.Alph8.2}%
+\contentsline {subsection}{\numberline {H.2.1}Tipo de Exchange}{140}{subsection.Alph8.2.1}%
+\contentsline {subsection}{\numberline {H.2.2}Configuración del Exchange y Cola}{140}{subsection.Alph8.2.2}%
+\contentsline {section}{\numberline {H.3}Eventos Soportados}{141}{section.Alph8.3}%
+\contentsline {subsection}{\numberline {H.3.1}Evento: USED}{141}{subsection.Alph8.3.1}%
+\contentsline {section}{\numberline {H.4}Estructura del Mensaje}{141}{section.Alph8.4}%
+\contentsline {subsection}{\numberline {H.4.1}Formato del Evento (EventDto)}{141}{subsection.Alph8.4.1}%
+\contentsline {subsection}{\numberline {H.4.2}Estructura del Payload de Datos (ProductUsageEventDto)}{141}{subsection.Alph8.4.2}%
+\contentsline {section}{\numberline {H.5}Ejemplo de Mensaje JSON}{142}{section.Alph8.5}%
+\contentsline {section}{\numberline {H.6}Guía de Implementación para Publicadores}{142}{section.Alph8.6}%
+\contentsline {subsection}{\numberline {H.6.1}Paso 1: Configurar el RabbitTemplate}{142}{subsection.Alph8.6.1}%
+\contentsline {subsection}{\numberline {H.6.2}Paso 2: Crear los DTOs}{142}{subsection.Alph8.6.2}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{142}{subsubsection*.180}%
+\contentsline {subsubsection}{\nonumberline ProductUsageEventDto}{142}{subsubsection*.182}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{143}{subsubsection*.184}%
+\contentsline {subsection}{\numberline {H.6.3}Paso 3: Publicar el Evento}{143}{subsection.Alph8.6.3}%
+\contentsline {section}{\numberline {H.7}Validaciones del Suscriptor}{143}{section.Alph8.7}%
+\contentsline {section}{\numberline {H.8}Manejo de Errores}{145}{section.Alph8.8}%
+\contentsline {section}{\numberline {H.9}Consideraciones Importantes}{145}{section.Alph8.9}%
+\contentsline {section}{\numberline {H.10}Constantes de Configuración}{146}{section.Alph8.10}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

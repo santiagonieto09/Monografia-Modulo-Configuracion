@@ -228,6 +228,15 @@
     \field{title}{Desarrollo iterativo e incremental}
   \endentry
 
+  \entry{patterndesign}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{howpublished}{\url{https://refactoring.guru/es/design-patterns}}
+    \field{note}{[Accessed 04-12-2025]}
+    \field{title}{Design patterns --- refactoring.guru}
+  \endentry
+
   \entry{TICS}{book}{}{}
     \name{author}{1}{}{%
       {{hash=D}{%
@@ -704,6 +713,15 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Observer}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+  \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/observer}}
+    \field{note}{[Accessed 04-12-2025]}
+    \field{title}{{O}bserver --- refactoring.guru}
+  \endentry
+
   \entry{Osmani2020}{article}{}{}
     \name{author}{3}{}{%
       {{hash=OM}{%
@@ -742,16 +760,6 @@
     \field{journaltitle}{International Journal of Information and Communication
   Technology Education}
     \field{year}{2020}
-  \endentry
-
-  \entry{patterndesign}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{howpublished}{\url{https://refactoring.guru/es/design-patterns}}
-    \field{note}{[Accessed 04-12-2025]}
-    \field{title}{{P}atrones de dise\&#x{F}1;o / {D}esign patterns ---
-  refactoring.guru}
   \endentry
 
   \entry{mividalaboralFreelanceGua}{misc}{}{}
