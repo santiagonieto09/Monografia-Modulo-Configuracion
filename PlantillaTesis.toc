@@ -80,10 +80,13 @@
 \contentsline {section}{\numberline {7.2}Pruebas del frontend}{90}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Pruebas de aceptación}{90}{section.7.3}%
 \contentsline {subsection}{\numberline {7.3.1}Ejemplo de prueba de aceptación}{91}{subsection.7.3.1}%
-\contentsline {chapter}{Capítulo 8. Conclusiones}{94}{chapter*.103}%
+\contentsline {chapter}{Capítulo 8. Conclusiones, lecciones aprendidas y trabajos futuros}{94}{chapter*.103}%
+\contentsline {section}{\numberline {8.1}Conclusiones}{94}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Lecciones Aprendidas}{95}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Trabajos Futuros}{96}{section.8.3}%
 \def \@chapapp {\appendixname }
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{95}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{96}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{97}{appendix.Alph3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{98}{section*.105}%
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{97}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{98}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{99}{appendix.Alph3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{100}{section*.105}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

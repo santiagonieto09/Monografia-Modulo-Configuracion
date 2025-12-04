@@ -1,1 +1,39 @@
-\mychapter{Capítulo 8. Conclusiones}
+\mychapter{Capítulo 8. Conclusiones, lecciones aprendidas y trabajos
+ futuros}
+
+ \section{Conclusiones}
+
+El desarrollo del módulo de configuración para el software contable educativo ContappUC representa un aporte significativo al programa de Contaduría Pública de la Universidad del Cauca, demostrando cómo la ingeniería de software puede resolver necesidades específicas del ámbito académico contable mediante soluciones tecnológicas y escalables. A continuación, se presentan las conclusiones principales:
+
+\begin{itemize}
+\item \textbf{Integración efectiva de teoría y práctica:} El proyecto logró trascender el ámbito teórico al enfrentar los desafíos propios del desarrollo de software empresarial. La implementación exitosa de los diez submódulos que conforman el módulo de configuración (catálogo de cuentas, tarifas de impuestos, terceros, inventario de productos, métodos de pago, tipos de documentos, bancos y cuentas bancarias, centros de costo, centro de ayuda y calendario contable) validó la capacidad para traducir requerimientos contables complejos en funcionalidades de software. Estos componentes establecen los parámetros maestros fundamentales que soportan la operación de todo el sistema contable educativo.
+\item \textbf{Ingeniería de requisitos orientada al contexto educativo:} La aplicación de técnicas de elicitación, como entrevistas estructuradas con docentes del programa de Contaduría Pública y el uso de historias de usuario, junto con el diseño de prototipos interactivos en Figma, facilitó una alineación precisa entre las necesidades académicas y la solución final. La fase previa de exploración mediante Aprendizaje Basado en Proyectos (PBL) durante 2024-1 y 2024-2 permitió comprender profundamente el dominio contable antes de iniciar el desarrollo formal, resultando en una especificación de requisitos más completa y contextualizada que se refleja en las 10 épicas y sus correspondientes historias de usuario documentadas.
+\item \textbf{Arquitectura flexible y mantenible:} La adopción de dos patrones arquitectónicos complementarios demostró ser una decisión acertada para equilibrar complejidad y mantenibilidad. La arquitectura hexagonal (Ports and Adapters) se aplicó en los módulos desarrollados durante la fase PBL (catálogo de cuentas, terceros, productos e impuestos), aprovechando el trabajo previo y garantizando la independencia del dominio de negocio. Para los módulos restantes, que corresponden principalmente a operaciones CRUD sin lógica compleja, se implementó una arquitectura en capas que priorizó la simplicidad y la velocidad de desarrollo. Esta dualidad arquitectónica permitió optimizar recursos sin comprometer la calidad del sistema.
+\item \textbf{Comunicación asíncrona entre microservicios:} La implementación del patrón Observer mediante RabbitMQ para la actualización de contadores de uso de recursos (como centros de costo, terceros y métodos de pago) permitió desacoplar el módulo de configuración de otros módulos. Esta arquitectura orientada a eventos resultó en un sistema resiliente capaz de mantener la integridad referencial y prevenir inconsistencias en reportes contables, sin bloquear el flujo principal de las operaciones comerciales y financieras.
+\item \textbf{Gestión ágil adaptada al contexto freelance:} La metodología de trabajo híbrida, fundamentada en principios del trabajo freelance y gestionada mediante Kanban, proporcionó la flexibilidad necesaria para un desarrollo individual exitoso en coordinación con otros desarrolladores del ecosistema contable. El enfoque de desarrollo iterativo e incremental, permitió una adaptación ágil ante cambios en los requisitos y facilitó entregas continuas de valor al cliente, manteniendo siempre la autonomía característica del modelo freelance.
+\item \textbf{Estrategia integral de aseguramiento de calidad:} La implementación de una estrategia multicapa de pruebas garantizó la confiabilidad del sistema en todos sus niveles. Las pruebas unitarias con JUnit 5 y Mockito alcanzó una cobertura promedio del 70\%, mientras que las pruebas de integración automatizadas con Postman y Newman validaron el comportamiento correcto de 47,760 aserciones en 20 iteraciones consecutivas sin fallos. Las pruebas de aceptación realizadas presencialmente con los coordinadores del programa confirmaron que las funcionalidades implementadas satisfacen plenamente las expectativas de los usuarios finales.
+\end{itemize}
+
+  
+ \section{Lecciones Aprendidas}
+
+\begin{itemize}   
+    
+    \item \textbf{Comprensión del dominio de negocio:} El estudio exhaustivo del dominio contable fue esencial para el éxito del proyecto. Entender los fundamentos de la estructura del plan de cuentas, la clasificación de transacciones y los principios de registro contable permitió tomar decisiones de diseño más acertadas y establecer una comunicación efectiva con los docentes expertos del programa de Contaduría Pública.
+    
+    \item \textbf{Coordinación en ecosistemas de microservicios:} Aunque el desarrollo del módulo fue responsabilidad individual, la arquitectura distribuida demostró que la comunicación continua con otros equipos de desarrollo resulta fundamental. Las reuniones periódicas para establecer contratos de API y compartir patrones de diseño comunes permitieron evitar redundancias en el código y aseguraron la integración fluida del módulo de configuración con los demás componentes del sistema contable.    
+    
+    \item \textbf{Manejo de operaciones asíncronas en procesamiento masivo:} La implementación de funcionalidades de importación masiva de datos (catálogo de cuentas, terceros y productos) demostró la importancia de diseñar procesos asíncronos robustos. Fue necesario desarrollar estrategias de procesamiento por lotes, mecanismos de validación incremental y gestión controlada de errores para garantizar que la carga de grandes volúmenes de información no bloqueara la aplicación y permitiera identificar y reportar fallos específicos sin comprometer la integridad del sistema.
+   
+\end{itemize}
+
+\section{Trabajos Futuros}
+
+\begin{itemize}
+\item \textbf{Integración completa del módulo de configuración con el resto del sistema contable:}
+Actualmente, el registro del uso de los parámetros maestros como centros de costo, cuentas contables, métodos de pago se ha implementado únicamente con el módulo de cartera y los módulos de inventario (PEPS y Promedio Ponderado). Es necesario extender esta integración a los demás módulos del sistema, de modo que cada vez que un parámetro configurado sea utilizado, se actualice su contador de uso. Esto permitirá mantener la integridad referencial, evitar eliminaciones o modificaciones en parámetros con movimientos contables y enriquecer la trazabilidad de las operaciones.
+
+\item \textbf{Refactorización de los módulos de Impuestos y Terceros a arquitectura en capas:}  
+Durante las fases iniciales del proyecto, estos módulos se implementaron bajo el patrón hexagonal (Ports and Adapters) como parte del enfoque de Aprendizaje Basado en Proyectos (PBL). Si bien esta decisión permitió aprovechar el trabajo ya desarrollado y mantener la coherencia con los primeros entregables, ambos módulos son esencialmente operaciones CRUD sin lógica de negocio compleja. Su refactorización hacia una arquitectura en capas simplificaría su estructura, reduciría la complejidad de mantenimiento y alinearía su diseño con el del resto de módulos del sistema, facilitando así la uniformidad tecnológica y la escalabilidad del código. Este trabajo no se incluyó en el alcance de la presente práctica debido al tiempo adicional que requería, pero se recomienda como mejora prioritaria para futuras iteraciones.
+\end{itemize}
+
