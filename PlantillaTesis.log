@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  4 DEC 2025 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  4 DEC 2025 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,9 +1153,252 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 88.
 Package tocbasic Info: Using my definition of `\numberline' on input line 89.
 Package tocbasic Info: Using my definition of `\numberline' on input line 90.
 Package tocbasic Info: Using my definition of `\numberline' on input line 91.
+Package tocbasic Info: Using my definition of `\numberline' on input line 92.
+Package tocbasic Info: Using my definition of `\numberline' on input line 93.
+Package tocbasic Info: Using my definition of `\numberline' on input line 94.
+Package tocbasic Info: Using my definition of `\numberline' on input line 95.
+Package tocbasic Info: Using my definition of `\numberline' on input line 96.
+Package tocbasic Info: Using my definition of `\numberline' on input line 97.
+Package tocbasic Info: Using my definition of `\numberline' on input line 98.
+Package tocbasic Info: Using my definition of `\numberline' on input line 99.
+Package tocbasic Info: Using my definition of `\numberline' on input line 100.
+Package tocbasic Info: Using my definition of `\numberline' on input line 101.
+Package tocbasic Info: Using my definition of `\numberline' on input line 105.
+Package tocbasic Info: Using my definition of `\numberline' on input line 106.
+Package tocbasic Info: Using my definition of `\numberline' on input line 107.
+Package tocbasic Info: Using my definition of `\numberline' on input line 108.
+Package tocbasic Info: Using my definition of `\numberline' on input line 109.
 
-Overfull \hbox (2.03697pt too wide) detected at line 91
- []\T1/cmss/bx/sc/12 100
+
+Package tocbasic Warning: number width of section toc entries should be increased!
+(tocbasic)                Currently used number width = 27.07947pt,
+(tocbasic)                Wanted number separation    = 4.69878pt,
+(tocbasic)                Reserved number width       = 27.01843pt on input line 109.
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 110.
+
+Overfull \hbox (2.03697pt too wide) detected at line 110
+ []\T1/cmss/bx/sc/12 103
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 111.
+Package tocbasic Info: Using my definition of `\numberline' on input line 112.
+Package tocbasic Info: Using my definition of `\numberline' on input line 113.
+Package tocbasic Info: Using my definition of `\numberline' on input line 114.
+Package tocbasic Info: Using my definition of `\numberline' on input line 115.
+Package tocbasic Info: Using my definition of `\numberline' on input line 116.
+LaTeX Info: Redefining \sptext on input line 117.
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+[4]
+Package tocbasic Info: Using my definition of `\numberline' on input line 117.
+Package tocbasic Info: Using my definition of `\numberline' on input line 118.
+Package tocbasic Info: Using my definition of `\numberline' on input line 119.
+Package tocbasic Info: Using my definition of `\numberline' on input line 120.
+Package tocbasic Info: Using my definition of `\numberline' on input line 121.
+Package tocbasic Info: Using my definition of `\numberline' on input line 122.
+Package tocbasic Info: Using my definition of `\numberline' on input line 123.
+Package tocbasic Info: Using my definition of `\numberline' on input line 127.
+Package tocbasic Info: Using my definition of `\numberline' on input line 128.
+Package tocbasic Info: Using my definition of `\numberline' on input line 129.
+Package tocbasic Info: Using my definition of `\numberline' on input line 130.
+Package tocbasic Info: Using my definition of `\numberline' on input line 131.
+Package tocbasic Info: Using my definition of `\numberline' on input line 132.
+
+Overfull \hbox (2.03697pt too wide) detected at line 132
+ []\T1/cmss/bx/sc/12 110
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 133.
+Package tocbasic Info: Using my definition of `\numberline' on input line 134.
+Package tocbasic Info: Using my definition of `\numberline' on input line 135.
+Package tocbasic Info: Using my definition of `\numberline' on input line 136.
+Package tocbasic Info: Using my definition of `\numberline' on input line 137.
+Package tocbasic Info: Using my definition of `\numberline' on input line 138.
+Package tocbasic Info: Using my definition of `\numberline' on input line 139.
+Package tocbasic Info: Using my definition of `\numberline' on input line 140.
+Package tocbasic Info: Using my definition of `\numberline' on input line 141.
+Package tocbasic Info: Using my definition of `\numberline' on input line 142.
+Package tocbasic Info: Using my definition of `\numberline' on input line 143.
+Package tocbasic Info: Using my definition of `\numberline' on input line 144.
+Package tocbasic Info: Using my definition of `\numberline' on input line 145.
+Package tocbasic Info: Using my definition of `\numberline' on input line 149.
+Package tocbasic Info: Using my definition of `\numberline' on input line 150.
+Package tocbasic Info: Using my definition of `\numberline' on input line 151.
+Package tocbasic Info: Using my definition of `\numberline' on input line 152.
+Package tocbasic Info: Using my definition of `\numberline' on input line 153.
+Package tocbasic Info: Using my definition of `\numberline' on input line 154.
+
+Overfull \hbox (2.03697pt too wide) detected at line 154
+ []\T1/cmss/bx/sc/12 116
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 155.
+Package tocbasic Info: Using my definition of `\numberline' on input line 156.
+Package tocbasic Info: Using my definition of `\numberline' on input line 157.
+Package tocbasic Info: Using my definition of `\numberline' on input line 158.
+Package tocbasic Info: Using my definition of `\numberline' on input line 159.
+Package tocbasic Info: Using my definition of `\numberline' on input line 160.
+LaTeX Info: Redefining \sptext on input line 161.
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+[5]
+Package tocbasic Info: Using my definition of `\numberline' on input line 161.
+Package tocbasic Info: Using my definition of `\numberline' on input line 162.
+Package tocbasic Info: Using my definition of `\numberline' on input line 163.
+Package tocbasic Info: Using my definition of `\numberline' on input line 164.
+Package tocbasic Info: Using my definition of `\numberline' on input line 165.
+Package tocbasic Info: Using my definition of `\numberline' on input line 166.
+Package tocbasic Info: Using my definition of `\numberline' on input line 167.
+Package tocbasic Info: Using my definition of `\numberline' on input line 171.
+Package tocbasic Info: Using my definition of `\numberline' on input line 172.
+Package tocbasic Info: Using my definition of `\numberline' on input line 173.
+Package tocbasic Info: Using my definition of `\numberline' on input line 174.
+Package tocbasic Info: Using my definition of `\numberline' on input line 175.
+
+
+Package tocbasic Warning: number width of section toc entries should be increased!
+(tocbasic)                Currently used number width = 27.2447pt,
+(tocbasic)                Wanted number separation    = 4.69878pt,
+(tocbasic)                Reserved number width       = 27.01843pt on input line 175.
+
+
+Overfull \hbox (0.22627pt too wide) detected at line 175
+\T1/cmr/m/n/12 D.10. 
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 176.
+
+Overfull \hbox (2.03697pt too wide) detected at line 176
+ []\T1/cmss/bx/sc/12 123
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 177.
+Package tocbasic Info: Using my definition of `\numberline' on input line 178.
+Package tocbasic Info: Using my definition of `\numberline' on input line 179.
+Package tocbasic Info: Using my definition of `\numberline' on input line 180.
+Package tocbasic Info: Using my definition of `\numberline' on input line 181.
+Package tocbasic Info: Using my definition of `\numberline' on input line 182.
+Package tocbasic Info: Using my definition of `\numberline' on input line 183.
+Package tocbasic Info: Using my definition of `\numberline' on input line 184.
+Package tocbasic Info: Using my definition of `\numberline' on input line 185.
+Package tocbasic Info: Using my definition of `\numberline' on input line 186.
+Package tocbasic Info: Using my definition of `\numberline' on input line 187.
+Package tocbasic Info: Using my definition of `\numberline' on input line 188.
+Package tocbasic Info: Using my definition of `\numberline' on input line 189.
+Package tocbasic Info: Using my definition of `\numberline' on input line 193.
+Package tocbasic Info: Using my definition of `\numberline' on input line 194.
+Package tocbasic Info: Using my definition of `\numberline' on input line 195.
+Package tocbasic Info: Using my definition of `\numberline' on input line 196.
+Package tocbasic Info: Using my definition of `\numberline' on input line 197.
+Package tocbasic Info: Using my definition of `\numberline' on input line 198.
+
+Overfull \hbox (2.03697pt too wide) detected at line 198
+ []\T1/cmss/bx/sc/12 129
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 199.
+Package tocbasic Info: Using my definition of `\numberline' on input line 200.
+Package tocbasic Info: Using my definition of `\numberline' on input line 201.
+Package tocbasic Info: Using my definition of `\numberline' on input line 202.
+LaTeX Info: Redefining \sptext on input line 203.
+LaTeX Info: Redefining \. on input line 203.
+LaTeX Info: Redefining \% on input line 203.
+[6]
+Package tocbasic Info: Using my definition of `\numberline' on input line 203.
+Package tocbasic Info: Using my definition of `\numberline' on input line 204.
+Package tocbasic Info: Using my definition of `\numberline' on input line 205.
+Package tocbasic Info: Using my definition of `\numberline' on input line 206.
+Package tocbasic Info: Using my definition of `\numberline' on input line 207.
+Package tocbasic Info: Using my definition of `\numberline' on input line 208.
+Package tocbasic Info: Using my definition of `\numberline' on input line 209.
+Package tocbasic Info: Using my definition of `\numberline' on input line 210.
+Package tocbasic Info: Using my definition of `\numberline' on input line 211.
+Package tocbasic Info: Using my definition of `\numberline' on input line 212.
+Package tocbasic Info: Using my definition of `\numberline' on input line 213.
+Package tocbasic Info: Using my definition of `\numberline' on input line 214.
+Package tocbasic Info: Using my definition of `\numberline' on input line 217.
+Package tocbasic Info: Using my definition of `\numberline' on input line 218.
+Package tocbasic Info: Using my definition of `\numberline' on input line 219.
+Package tocbasic Info: Using my definition of `\numberline' on input line 220.
+Package tocbasic Info: Using my definition of `\numberline' on input line 221.
+Package tocbasic Info: Using my definition of `\numberline' on input line 222.
+
+Overfull \hbox (2.03697pt too wide) detected at line 222
+ []\T1/cmss/bx/sc/12 137
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 223.
+Package tocbasic Info: Using my definition of `\numberline' on input line 224.
+Package tocbasic Info: Using my definition of `\numberline' on input line 225.
+Package tocbasic Info: Using my definition of `\numberline' on input line 226.
+Package tocbasic Info: Using my definition of `\numberline' on input line 227.
+Package tocbasic Info: Using my definition of `\numberline' on input line 228.
+Package tocbasic Info: Using my definition of `\numberline' on input line 229.
+Package tocbasic Info: Using my definition of `\numberline' on input line 230.
+Package tocbasic Info: Using my definition of `\numberline' on input line 231.
+Package tocbasic Info: Using my definition of `\numberline' on input line 232.
+Package tocbasic Info: Using my definition of `\numberline' on input line 233.
+Package tocbasic Info: Using my definition of `\numberline' on input line 234.
+Package tocbasic Info: Using my definition of `\numberline' on input line 235.
+Package tocbasic Info: Using my definition of `\numberline' on input line 239.
+Package tocbasic Info: Using my definition of `\numberline' on input line 240.
+Package tocbasic Info: Using my definition of `\numberline' on input line 241.
+Package tocbasic Info: Using my definition of `\numberline' on input line 242.
+Package tocbasic Info: Using my definition of `\numberline' on input line 243.
+
+Package tocbasic Warning: number width of section toc entries should be increased!
+(tocbasic)                Currently used number width = 27.49048pt,
+(tocbasic)                Wanted number separation    = 4.69878pt,
+(tocbasic)                Reserved number width       = 27.01843pt on input line 243.
+
+
+Overfull \hbox (0.47205pt too wide) detected at line 243
+\T1/cmr/m/n/12 G.10. 
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 244.
+
+Overfull \hbox (2.03697pt too wide) detected at line 244
+ []\T1/cmss/bx/sc/12 144
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 245.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \sptext on input line 246.
+LaTeX Info: Redefining \. on input line 246.
+LaTeX Info: Redefining \% on input line 246.
+ [7]
+Package tocbasic Info: Using my definition of `\numberline' on input line 246.
+Package tocbasic Info: Using my definition of `\numberline' on input line 247.
+Package tocbasic Info: Using my definition of `\numberline' on input line 248.
+Package tocbasic Info: Using my definition of `\numberline' on input line 249.
+Package tocbasic Info: Using my definition of `\numberline' on input line 250.
+Package tocbasic Info: Using my definition of `\numberline' on input line 251.
+Package tocbasic Info: Using my definition of `\numberline' on input line 252.
+Package tocbasic Info: Using my definition of `\numberline' on input line 253.
+Package tocbasic Info: Using my definition of `\numberline' on input line 254.
+Package tocbasic Info: Using my definition of `\numberline' on input line 255.
+Package tocbasic Info: Using my definition of `\numberline' on input line 256.
+Package tocbasic Info: Using my definition of `\numberline' on input line 257.
+Package tocbasic Info: Using my definition of `\numberline' on input line 261.
+Package tocbasic Info: Using my definition of `\numberline' on input line 262.
+Package tocbasic Info: Using my definition of `\numberline' on input line 263.
+Package tocbasic Info: Using my definition of `\numberline' on input line 264.
+Package tocbasic Info: Using my definition of `\numberline' on input line 265.
+
+
+Package tocbasic Warning: number width of section toc entries should be increased!
+(tocbasic)                Currently used number width = 27.07947pt,
+(tocbasic)                Wanted number separation    = 4.69878pt,
+(tocbasic)                Reserved number width       = 27.01843pt on input line 265.
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 266.
+
+Overfull \hbox (2.03697pt too wide) detected at line 266
+ []\T1/cmss/bx/sc/12 151
  []
 
 )
@@ -1164,7 +1407,7 @@ Overfull \hbox (2.03697pt too wide) detected at line 91
 
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [4] (PlantillaTesis.lof
+ [8] (PlantillaTesis.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1201,7 +1444,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 31.
 Package tocbasic Info: Using my definition of `\numberline' on input line 32.
 Package tocbasic Info: Using my definition of `\numberline' on input line 33.
 Package tocbasic Info: Using my definition of `\numberline' on input line 34.
- [5
+ [9
 
 
 ]
@@ -1238,7 +1481,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 61.
 
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
- [6] (PlantillaTesis.lot
+ [10] (PlantillaTesis.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1256,14 +1499,50 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 12.
 Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 Package tocbasic Info: Using my definition of `\numberline' on input line 15.
+Package tocbasic Info: Using my definition of `\numberline' on input line 18.
+Package tocbasic Info: Using my definition of `\numberline' on input line 19.
+Package tocbasic Info: Using my definition of `\numberline' on input line 20.
+Package tocbasic Info: Using my definition of `\numberline' on input line 21.
+Package tocbasic Info: Using my definition of `\numberline' on input line 23.
+Package tocbasic Info: Using my definition of `\numberline' on input line 24.
+Package tocbasic Info: Using my definition of `\numberline' on input line 25.
+Package tocbasic Info: Using my definition of `\numberline' on input line 26.
+Package tocbasic Info: Using my definition of `\numberline' on input line 28.
+Package tocbasic Info: Using my definition of `\numberline' on input line 29.
+Package tocbasic Info: Using my definition of `\numberline' on input line 30.
+Package tocbasic Info: Using my definition of `\numberline' on input line 31.
+Package tocbasic Info: Using my definition of `\numberline' on input line 33.
+Package tocbasic Info: Using my definition of `\numberline' on input line 34.
+Package tocbasic Info: Using my definition of `\numberline' on input line 35.
+Package tocbasic Info: Using my definition of `\numberline' on input line 36.
+Package tocbasic Info: Using my definition of `\numberline' on input line 38.
+ [11
+
+
+]
+Package tocbasic Info: Using my definition of `\numberline' on input line 39.
+Package tocbasic Info: Using my definition of `\numberline' on input line 40.
+Package tocbasic Info: Using my definition of `\numberline' on input line 41.
+Package tocbasic Info: Using my definition of `\numberline' on input line 43.
+Package tocbasic Info: Using my definition of `\numberline' on input line 44.
+Package tocbasic Info: Using my definition of `\numberline' on input line 45.
+Package tocbasic Info: Using my definition of `\numberline' on input line 46.
+Package tocbasic Info: Using my definition of `\numberline' on input line 47.
+Package tocbasic Info: Using my definition of `\numberline' on input line 49.
+Package tocbasic Info: Using my definition of `\numberline' on input line 50.
+Package tocbasic Info: Using my definition of `\numberline' on input line 51.
+Package tocbasic Info: Using my definition of `\numberline' on input line 52.
+Package tocbasic Info: Using my definition of `\numberline' on input line 54.
+Package tocbasic Info: Using my definition of `\numberline' on input line 55.
+Package tocbasic Info: Using my definition of `\numberline' on input line 56.
+Package tocbasic Info: Using my definition of `\numberline' on input line 57.
 )
 \tf@lot=\write6
 \openout6 = `PlantillaTesis.lot'.
 
- [7
-
-
-]
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+ [12]
 \openout2 = `Cap1/Cap1.aux'.
 
  (Cap1/Cap1.tex [1
@@ -1373,7 +1652,7 @@ LaTeX Info: Redefining \% on input line 86.
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
  [15]
-<Cap2/Figuras/Figura1.png, id=526, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura1.png, id=918, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura1.png Graphic file (type png)
 <use Cap2/Figuras/Figura1.png>
 Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 126.
@@ -1382,7 +1661,7 @@ Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 126.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap2/Figuras/Figura2.png, id=527, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura2.png, id=919, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura2.png Graphic file (type png)
 <use Cap2/Figuras/Figura2.png>
 Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 133.
@@ -1390,7 +1669,7 @@ Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 133.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap2/Figuras/Figura3.png, id=528, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura3.png, id=920, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura3.png Graphic file (type png)
 <use Cap2/Figuras/Figura3.png>
 Package pdftex.def Info: Cap2/Figuras/Figura3.png  used on input line 140.
@@ -1415,7 +1694,7 @@ LaTeX Info: Redefining \% on input line 122.
 \openout2 = `Cap3/Cap3.aux'.
 
  (Cap3/Cap3.tex
-<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=557, 1790.69pt x 867.24pt>
+<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=949, 1790.69pt x 867.24pt>
 File: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png  used on input line 8.
@@ -1426,7 +1705,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio
 
 
  <./Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>]
-<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=564, 4199.69pt x 2304.61pt>
+<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=956, 4199.69pt x 2304.61pt>
 File: Cap3/Figuras/Diagrama General-Cuentas contables.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuentas contables.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.png  used on input line 22.
@@ -1434,7 +1713,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.png  us
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  [21 <./Cap3/Figuras/Diagrama General-Cuentas contables.png>]
-<Cap3/Figuras/Diagrama General-Impuestos.png, id=570, 2380.895pt x 1654.18pt>
+<Cap3/Figuras/Diagrama General-Impuestos.png, id=962, 2380.895pt x 1654.18pt>
 File: Cap3/Figuras/Diagrama General-Impuestos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Impuestos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.png  used on input line 33.
@@ -1442,7 +1721,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.png  used on in
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
  [22 <./Cap3/Figuras/Diagrama General-Impuestos.png>]
-<Cap3/Figuras/Diagrama General-Terceros.png, id=576, 3697.815pt x 1818.795pt>
+<Cap3/Figuras/Diagrama General-Terceros.png, id=968, 3697.815pt x 1818.795pt>
 File: Cap3/Figuras/Diagrama General-Terceros.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Terceros.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.png  used on input line 44.
@@ -1450,7 +1729,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.png  used on inp
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
  [23 <./Cap3/Figuras/Diagrama General-Terceros.png>]
-<Cap3/Figuras/Diagrama General-Inventario productos.png, id=582, 3693.8pt x 1682.285pt>
+<Cap3/Figuras/Diagrama General-Inventario productos.png, id=974, 3693.8pt x 1682.285pt>
 File: Cap3/Figuras/Diagrama General-Inventario productos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Inventario productos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.png  used on input line 55.
@@ -1458,7 +1737,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.png 
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
  [24 <./Cap3/Figuras/Diagrama General-Inventario productos.png>]
-<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=589, 3505.095pt x 1658.195pt>
+<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=980, 3505.095pt x 1658.195pt>
 File: Cap3/Figuras/Diagrama General-Metodos de pago.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Metodos de pago.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.png  used on input line 66.
@@ -1466,7 +1745,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.png  used
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
  [25 <./Cap3/Figuras/Diagrama General-Metodos de pago.png>]
-<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=595, 3854.4pt x 1778.645pt>
+<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=987, 3854.4pt x 1778.645pt>
 File: Cap3/Figuras/Diagrama General-Tipos de documentos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Tipos de documentos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.png  used on input line 77.
@@ -1474,7 +1753,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.png  
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
  [26 <./Cap3/Figuras/Diagrama General-Tipos de documentos.png>]
-<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=601, 3481.005pt x 1606.0pt>
+<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=993, 3481.005pt x 1606.0pt>
 File: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png  used on input line 88.
@@ -1482,7 +1761,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
  [27 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>]
-<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=607, 3569.335pt x 1846.9pt>
+<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=999, 3569.335pt x 1846.9pt>
 File: Cap3/Figuras/Diagrama General-Centros de Costo.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Centros de Costo.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.png  used on input line 99.
@@ -1490,7 +1769,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.png  use
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
  [28 <./Cap3/Figuras/Diagrama General-Centros de Costo.png>]
-<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=613, 855.195pt x 1260.71pt>
+<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=1005, 855.195pt x 1260.71pt>
 File: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png  used on input line 110.
@@ -1498,7 +1777,7 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png  use
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
  [29 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>]
-<Cap3/Figuras/Diagrama General-Calendario contable.png, id=619, 3741.98pt x 1750.54pt>
+<Cap3/Figuras/Diagrama General-Calendario contable.png, id=1011, 3741.98pt x 1750.54pt>
 File: Cap3/Figuras/Diagrama General-Calendario contable.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Calendario contable.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Calendario contable.png  used on input line 121.
@@ -1518,7 +1797,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<Cap4/Figuras/PBL.png, id=632, 885.3075pt x 599.99156pt>
+<Cap4/Figuras/PBL.png, id=1024, 885.3075pt x 599.99156pt>
 File: Cap4/Figuras/PBL.png Graphic file (type png)
 <use Cap4/Figuras/PBL.png>
 Package pdftex.def Info: Cap4/Figuras/PBL.png  used on input line 22.
@@ -1891,7 +2170,7 @@ Underfull \vbox (badness 4072) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
  [42]
-<Cap4/Figuras/catalogo de cuentas.png, id=686, 2890.8pt x 1773.62625pt>
+<Cap4/Figuras/catalogo de cuentas.png, id=1077, 2890.8pt x 1773.62625pt>
 File: Cap4/Figuras/catalogo de cuentas.png Graphic file (type png)
 <use Cap4/Figuras/catalogo de cuentas.png>
 Package pdftex.def Info: Cap4/Figuras/catalogo de cuentas.png  used on input line 91.
@@ -1899,7 +2178,7 @@ Package pdftex.def Info: Cap4/Figuras/catalogo de cuentas.png  used on input lin
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
  [43 <./Cap4/Figuras/catalogo de cuentas.png>]
-<Cap4/Figuras/inventario de productos.png, id=692, 2890.8pt x 1626.075pt>
+<Cap4/Figuras/inventario de productos.png, id=1084, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/inventario de productos.png Graphic file (type png)
 <use Cap4/Figuras/inventario de productos.png>
 Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input line 103.
@@ -1907,7 +2186,7 @@ Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
  [44 <./Cap4/Figuras/inventario de productos.png>]
-<Cap4/Figuras/terceros.png, id=698, 2890.8pt x 1626.075pt>
+<Cap4/Figuras/terceros.png, id=1090, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/terceros.png Graphic file (type png)
 <use Cap4/Figuras/terceros.png>
 Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 115.
@@ -1915,7 +2194,7 @@ Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 115.
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
  [45 <./Cap4/Figuras/terceros.png>]
-<Cap4/Figuras/impuestos.png, id=704, 2890.8pt x 1626.075pt>
+<Cap4/Figuras/impuestos.png, id=1096, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/impuestos.png Graphic file (type png)
 <use Cap4/Figuras/impuestos.png>
 Package pdftex.def Info: Cap4/Figuras/impuestos.png  used on input line 128.
@@ -1935,7 +2214,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<Cap5/Figuras/contexto.png, id=716, 1690.315pt x 1047.915pt>
+<Cap5/Figuras/contexto.png, id=1108, 1690.315pt x 1047.915pt>
 File: Cap5/Figuras/contexto.png Graphic file (type png)
 <use Cap5/Figuras/contexto.png>
 Package pdftex.def Info: Cap5/Figuras/contexto.png  used on input line 25.
@@ -1943,7 +2222,7 @@ Package pdftex.def Info: Cap5/Figuras/contexto.png  used on input line 25.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
  [48 <./Cap5/Figuras/contexto.png>]
-<Cap5/Figuras/contenedor.png, id=725, 2545.51pt x 1824.8175pt>
+<Cap5/Figuras/contenedor.png, id=1116, 2545.51pt x 1824.8175pt>
 File: Cap5/Figuras/contenedor.png Graphic file (type png)
 <use Cap5/Figuras/contenedor.png>
 Package pdftex.def Info: Cap5/Figuras/contenedor.png  used on input line 46.
@@ -1991,7 +2270,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
  [50 <./Cap5/Figuras/contenedor.png>]
-<Cap5/Figuras/componentes.png, id=738, 1589.2173pt x 1128.1347pt>
+<Cap5/Figuras/componentes.png, id=1130, 1589.2173pt x 1128.1347pt>
 File: Cap5/Figuras/componentes.png Graphic file (type png)
 <use Cap5/Figuras/componentes.png>
 Package pdftex.def Info: Cap5/Figuras/componentes.png  used on input line 65.
@@ -2011,7 +2290,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
  [52 <./Cap5/Figuras/componentes.png>]
-<Cap5/Figuras/hexagonal.png, id=750, 848.4197pt x 588.69937pt>
+<Cap5/Figuras/hexagonal.png, id=1142, 848.4197pt x 588.69937pt>
 File: Cap5/Figuras/hexagonal.png Graphic file (type png)
 <use Cap5/Figuras/hexagonal.png>
 Package pdftex.def Info: Cap5/Figuras/hexagonal.png  used on input line 84.
@@ -2022,7 +2301,7 @@ Underfull \vbox (badness 3019) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
  [53 <./Cap5/Figuras/hexagonal.png>]
-<Cap5/Figuras/capas.png, id=760, 6114.845pt x 2027.575pt>
+<Cap5/Figuras/capas.png, id=1152, 6114.845pt x 2027.575pt>
 File: Cap5/Figuras/capas.png Graphic file (type png)
 <use Cap5/Figuras/capas.png>
 Package pdftex.def Info: Cap5/Figuras/capas.png  used on input line 101.
@@ -2049,7 +2328,7 @@ LaTeX Warning: Citation 'Strategy' on page 56 undefined on input line 28.
 
 LaTeX Warning: Citation 'fowler1999refactoring' on page 56 undefined on input line 30.
 
-<Cap6/Figuras/strategy.png, id=779, 2273.49374pt x 2262.4525pt>
+<Cap6/Figuras/strategy.png, id=1171, 2273.49374pt x 2262.4525pt>
 File: Cap6/Figuras/strategy.png Graphic file (type png)
 <use Cap6/Figuras/strategy.png>
 Package pdftex.def Info: Cap6/Figuras/strategy.png  used on input line 39.
@@ -2067,7 +2346,7 @@ Overfull \hbox (49.71379pt too wide) in paragraph at lines 49--50
 \T1/cmr/m/n/12 mé-to-dos co-mo \T1/cmtt/m/n/12 validate(MultipartFile file) \T1/cmr/m/n/12 pa-ra ve-ri-fi-car in-te-gri-dad, \T1/cmtt/m/n/12 getSupportedMimeTypes()
  []
 
-<Cap6/Figuras/FileValidator.png, id=794, 409.53pt x 283.0575pt>
+<Cap6/Figuras/FileValidator.png, id=1186, 409.53pt x 283.0575pt>
 File: Cap6/Figuras/FileValidator.png Graphic file (type png)
 <use Cap6/Figuras/FileValidator.png>
 Package pdftex.def Info: Cap6/Figuras/FileValidator.png  used on input line 53.
@@ -2075,7 +2354,7 @@ Package pdftex.def Info: Cap6/Figuras/FileValidator.png  used on input line 53.
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
 [58 <./Cap6/Figuras/FileValidator.png>]
-<Cap6/Figuras/PDFValidator.png, id=801, 518.6878pt x 401.24907pt>
+<Cap6/Figuras/PDFValidator.png, id=1193, 518.6878pt x 401.24907pt>
 File: Cap6/Figuras/PDFValidator.png Graphic file (type png)
 <use Cap6/Figuras/PDFValidator.png>
 Package pdftex.def Info: Cap6/Figuras/PDFValidator.png  used on input line 64.
@@ -2083,7 +2362,7 @@ Package pdftex.def Info: Cap6/Figuras/PDFValidator.png  used on input line 64.
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
  [59 <./Cap6/Figuras/PDFValidator.png>]
-<Cap6/Figuras/Excelvalidator.png, id=808, 523.20468pt x 389.95688pt>
+<Cap6/Figuras/Excelvalidator.png, id=1200, 523.20468pt x 389.95688pt>
 File: Cap6/Figuras/Excelvalidator.png Graphic file (type png)
 <use Cap6/Figuras/Excelvalidator.png>
 Package pdftex.def Info: Cap6/Figuras/Excelvalidator.png  used on input line 74.
@@ -2095,7 +2374,7 @@ LaTeX Warning: Citation 'Observer' on page 60 undefined on input line 83.
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
 [60 <./Cap6/Figuras/Excelvalidator.png>]
-<Cap6/Figuras/observer.png, id=816, 3375.61125pt x 2266.4675pt>
+<Cap6/Figuras/observer.png, id=1207, 3375.61125pt x 2266.4675pt>
 File: Cap6/Figuras/observer.png Graphic file (type png)
 <use Cap6/Figuras/observer.png>
 Package pdftex.def Info: Cap6/Figuras/observer.png  used on input line 92.
@@ -2107,7 +2386,7 @@ Overfull \hbox (43.49452pt too wide) in paragraph at lines 109--110
 []\T1/cmr/m/n/12 El lis-te-ner pro-ce-sa el even-to y ac-tua-li-za la ba-se de da-tos me-dian-te la in-ter-faz \T1/cmtt/m/n/12 IUsageCostCenter\T1/cmr/m/n/12 ,
  []
 
-<Cap6/Figuras/publisher.png, id=827, 682.04813pt x 324.46219pt>
+<Cap6/Figuras/publisher.png, id=1219, 682.04813pt x 324.46219pt>
 File: Cap6/Figuras/publisher.png Graphic file (type png)
 <use Cap6/Figuras/publisher.png>
 Package pdftex.def Info: Cap6/Figuras/publisher.png  used on input line 131.
@@ -2118,7 +2397,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 136.
 LaTeX Info: Redefining \% on input line 136.
 [62]
-<Cap6/Figuras/handler.png, id=833, 769.37437pt x 161.85469pt>
+<Cap6/Figuras/handler.png, id=1225, 769.37437pt x 161.85469pt>
 File: Cap6/Figuras/handler.png Graphic file (type png)
 <use Cap6/Figuras/handler.png>
 Package pdftex.def Info: Cap6/Figuras/handler.png  used on input line 141.
@@ -2126,7 +2405,7 @@ Package pdftex.def Info: Cap6/Figuras/handler.png  used on input line 141.
 LaTeX Info: Redefining \. on input line 159.
 LaTeX Info: Redefining \% on input line 159.
  [63 <./Cap6/Figuras/publisher.png> <./Cap6/Figuras/handler.png>]
-<Cap6/Figuras/listener.png, id=841, 706.13812pt x 621.07031pt>
+<Cap6/Figuras/listener.png, id=1233, 706.13812pt x 621.07031pt>
 File: Cap6/Figuras/listener.png Graphic file (type png)
 <use Cap6/Figuras/listener.png>
 Package pdftex.def Info: Cap6/Figuras/listener.png  used on input line 166.
@@ -2137,12 +2416,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 177.
 LaTeX Info: Redefining \% on input line 177.
  [64 <./Cap6/Figuras/listener.png>]
-<Cap6/Figuras/notificacion.png, id=849, 1020.81375pt x 316.93407pt>
+<Cap6/Figuras/notificacion.png, id=1241, 1020.81375pt x 316.93407pt>
 File: Cap6/Figuras/notificacion.png Graphic file (type png)
 <use Cap6/Figuras/notificacion.png>
 Package pdftex.def Info: Cap6/Figuras/notificacion.png  used on input line 180.
 (pdftex.def)             Requested size: 375.5768pt x 116.60606pt.
-<Cap6/Figuras/botones.png, id=850, 1086.30844pt x 451.6875pt>
+<Cap6/Figuras/botones.png, id=1242, 1086.30844pt x 451.6875pt>
 File: Cap6/Figuras/botones.png Graphic file (type png)
 <use Cap6/Figuras/botones.png>
 Package pdftex.def Info: Cap6/Figuras/botones.png  used on input line 187.
@@ -2150,12 +2429,12 @@ Package pdftex.def Info: Cap6/Figuras/botones.png  used on input line 187.
 LaTeX Info: Redefining \. on input line 198.
 LaTeX Info: Redefining \% on input line 198.
  [65 <./Cap6/Figuras/notificacion.png> <./Cap6/Figuras/botones.png>]
-<Cap6/Figuras/variablescss.png, id=858, 606.01407pt x 488.57532pt>
+<Cap6/Figuras/variablescss.png, id=1250, 606.01407pt x 488.57532pt>
 File: Cap6/Figuras/variablescss.png Graphic file (type png)
 <use Cap6/Figuras/variablescss.png>
 Package pdftex.def Info: Cap6/Figuras/variablescss.png  used on input line 201.
 (pdftex.def)             Requested size: 375.57689pt x 302.79428pt.
-<Cap6/Figuras/tipografia.png, id=860, 633.11531pt x 735.49782pt>
+<Cap6/Figuras/tipografia.png, id=1252, 633.11531pt x 735.49782pt>
 File: Cap6/Figuras/tipografia.png Graphic file (type png)
 <use Cap6/Figuras/tipografia.png>
 Package pdftex.def Info: Cap6/Figuras/tipografia.png  used on input line 213.
@@ -2167,7 +2446,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 218.
 LaTeX Info: Redefining \% on input line 218.
 [66 <./Cap6/Figuras/variablescss.png>]
-<Cap6/Figuras/utilitarias.png, id=868, 1144.275pt x 613.54219pt>
+<Cap6/Figuras/utilitarias.png, id=1259, 1144.275pt x 613.54219pt>
 File: Cap6/Figuras/utilitarias.png Graphic file (type png)
 <use Cap6/Figuras/utilitarias.png>
 Package pdftex.def Info: Cap6/Figuras/utilitarias.png  used on input line 223.
@@ -2189,17 +2468,17 @@ LaTeX Info: Redefining \% on input line 126.
 
 
 ]
-<Cap7/Figuras/testCatalogue.png, id=885, 362.85562pt x 181.42781pt>
+<Cap7/Figuras/testCatalogue.png, id=1277, 362.85562pt x 181.42781pt>
 File: Cap7/Figuras/testCatalogue.png Graphic file (type png)
 <use Cap7/Figuras/testCatalogue.png>
 Package pdftex.def Info: Cap7/Figuras/testCatalogue.png  used on input line 25.
 (pdftex.def)             Requested size: 328.63777pt x 164.31888pt.
-<Cap7/Figuras/jacocoCataloguep1.png, id=889, 1126.96031pt x 455.45157pt>
+<Cap7/Figuras/jacocoCataloguep1.png, id=1281, 1126.96031pt x 455.45157pt>
 File: Cap7/Figuras/jacocoCataloguep1.png Graphic file (type png)
 <use Cap7/Figuras/jacocoCataloguep1.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep1.png  used on input line 34.
 (pdftex.def)             Requested size: 469.4682pt x 189.73163pt.
-<Cap7/Figuras/jacocoCataloguep2.png, id=890, 1120.185pt x 466.74374pt>
+<Cap7/Figuras/jacocoCataloguep2.png, id=1282, 1120.185pt x 466.74374pt>
 File: Cap7/Figuras/jacocoCataloguep2.png Graphic file (type png)
 <use Cap7/Figuras/jacocoCataloguep2.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep2.png  used on input line 41.
@@ -2208,7 +2487,7 @@ Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep2.png  used on input line 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap7/Figuras/jacocoCataloguep3.png, id=891, 1120.185pt x 387.69844pt>
+<Cap7/Figuras/jacocoCataloguep3.png, id=1283, 1120.185pt x 387.69844pt>
 File: Cap7/Figuras/jacocoCataloguep3.png Graphic file (type png)
 <use Cap7/Figuras/jacocoCataloguep3.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep3.png  used on input line 48.
@@ -2219,7 +2498,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
 [70 <./Cap7/Figuras/testCatalogue.png> <./Cap7/Figuras/jacocoCataloguep1.png>]
-<Cap7/Figuras/testConfiguracion.png, id=899, 319.1925pt x 177.66376pt>
+<Cap7/Figuras/testConfiguracion.png, id=1291, 319.1925pt x 177.66376pt>
 File: Cap7/Figuras/testConfiguracion.png Graphic file (type png)
 <use Cap7/Figuras/testConfiguracion.png>
 Package pdftex.def Info: Cap7/Figuras/testConfiguracion.png  used on input line 61.
@@ -2231,12 +2510,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 66.
 LaTeX Info: Redefining \% on input line 66.
 [71 <./Cap7/Figuras/jacocoCataloguep2.png> <./Cap7/Figuras/jacocoCataloguep3.png>]
-<Cap7/Figuras/jacocoConfig1.png, id=908, 1088.56688pt x 484.05844pt>
+<Cap7/Figuras/jacocoConfig1.png, id=1300, 1088.56688pt x 484.05844pt>
 File: Cap7/Figuras/jacocoConfig1.png Graphic file (type png)
 <use Cap7/Figuras/jacocoConfig1.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoConfig1.png  used on input line 72.
 (pdftex.def)             Requested size: 469.4699pt x 208.7615pt.
-<Cap7/Figuras/jacocoConfig2.png, id=909, 1090.0725pt x 372.64218pt>
+<Cap7/Figuras/jacocoConfig2.png, id=1301, 1090.0725pt x 372.64218pt>
 File: Cap7/Figuras/jacocoConfig2.png Graphic file (type png)
 <use Cap7/Figuras/jacocoConfig2.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoConfig2.png  used on input line 79.
@@ -2248,12 +2527,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 [72 <./Cap7/Figuras/testConfiguracion.png> <./Cap7/Figuras/jacocoConfig1.png>]
-<Cap7/Figuras/testProductos.png, id=918, 328.22626pt x 190.46156pt>
+<Cap7/Figuras/testProductos.png, id=1309, 328.22626pt x 190.46156pt>
 File: Cap7/Figuras/testProductos.png Graphic file (type png)
 <use Cap7/Figuras/testProductos.png>
 Package pdftex.def Info: Cap7/Figuras/testProductos.png  used on input line 93.
 (pdftex.def)             Requested size: 328.63112pt x 190.69647pt.
-<Cap7/Figuras/jacocoProductos.png, id=920, 1024.57782pt x 583.42969pt>
+<Cap7/Figuras/jacocoProductos.png, id=1311, 1024.57782pt x 583.42969pt>
 File: Cap7/Figuras/jacocoProductos.png Graphic file (type png)
 <use Cap7/Figuras/jacocoProductos.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoProductos.png  used on input line 102.
@@ -2265,12 +2544,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
 [73 <./Cap7/Figuras/jacocoConfig2.png> <./Cap7/Figuras/testProductos.png>]
-<Cap7/Figuras/testTerceros.png, id=928, 347.79938pt x 180.675pt>
+<Cap7/Figuras/testTerceros.png, id=1320, 347.79938pt x 180.675pt>
 File: Cap7/Figuras/testTerceros.png Graphic file (type png)
 <use Cap7/Figuras/testTerceros.png>
 Package pdftex.def Info: Cap7/Figuras/testTerceros.png  used on input line 115.
 (pdftex.def)             Requested size: 328.6403pt x 170.72221pt.
-<Cap7/Figuras/jacocoTerceros.png, id=930, 1099.85907pt x 581.17125pt>
+<Cap7/Figuras/jacocoTerceros.png, id=1322, 1099.85907pt x 581.17125pt>
 File: Cap7/Figuras/jacocoTerceros.png Graphic file (type png)
 <use Cap7/Figuras/jacocoTerceros.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoTerceros.png  used on input line 124.
@@ -2287,7 +2566,7 @@ LaTeX Info: Redefining \% on input line 140.
 LaTeX Info: Redefining \. on input line 165.
 LaTeX Info: Redefining \% on input line 165.
  [76]
-<Cap7/Figuras/postman.png, id=949, 279.29344pt x 367.3725pt>
+<Cap7/Figuras/postman.png, id=1341, 279.29344pt x 367.3725pt>
 File: Cap7/Figuras/postman.png Graphic file (type png)
 <use Cap7/Figuras/postman.png>
 Package pdftex.def Info: Cap7/Figuras/postman.png  used on input line 168.
@@ -2295,7 +2574,7 @@ Package pdftex.def Info: Cap7/Figuras/postman.png  used on input line 168.
 LaTeX Info: Redefining \. on input line 180.
 LaTeX Info: Redefining \% on input line 180.
  [77 <./Cap7/Figuras/postman.png>]
-<Cap7/Figuras/postmanscripts.png, id=956, 713.66624pt x 487.06969pt>
+<Cap7/Figuras/postmanscripts.png, id=1348, 713.66624pt x 487.06969pt>
 File: Cap7/Figuras/postmanscripts.png Graphic file (type png)
 <use Cap7/Figuras/postmanscripts.png>
 Package pdftex.def Info: Cap7/Figuras/postmanscripts.png  used on input line 185.
@@ -2303,7 +2582,7 @@ Package pdftex.def Info: Cap7/Figuras/postmanscripts.png  used on input line 185
 LaTeX Info: Redefining \. on input line 195.
 LaTeX Info: Redefining \% on input line 195.
  [78 <./Cap7/Figuras/postmanscripts.png>]
-<Cap7/newman/newmanMetodosPago20.png, id=964, 669.2503pt x 623.32875pt>
+<Cap7/newman/newmanMetodosPago20.png, id=1355, 669.2503pt x 623.32875pt>
 File: Cap7/newman/newmanMetodosPago20.png Graphic file (type png)
 <use Cap7/newman/newmanMetodosPago20.png>
 Package pdftex.def Info: Cap7/newman/newmanMetodosPago20.png  used on input line 231.
@@ -2315,7 +2594,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 236.
 LaTeX Info: Redefining \% on input line 236.
 [79]
-<Cap7/newman/newmanCentroAyuda20.png, id=975, 666.99188pt x 608.2725pt>
+<Cap7/newman/newmanCentroAyuda20.png, id=1367, 666.99188pt x 608.2725pt>
 File: Cap7/newman/newmanCentroAyuda20.png Graphic file (type png)
 <use Cap7/newman/newmanCentroAyuda20.png>
 Package pdftex.def Info: Cap7/newman/newmanCentroAyuda20.png  used on input line 248.
@@ -2327,7 +2606,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 253.
 LaTeX Info: Redefining \% on input line 253.
 [80 <./Cap7/newman/newmanMetodosPago20.png>]
-<Cap7/newman/newmanCuentasBancarias20.png, id=982, 753.5653pt x 698.61pt>
+<Cap7/newman/newmanCuentasBancarias20.png, id=1374, 753.5653pt x 698.61pt>
 File: Cap7/newman/newmanCuentasBancarias20.png Graphic file (type png)
 <use Cap7/newman/newmanCuentasBancarias20.png>
 Package pdftex.def Info: Cap7/newman/newmanCuentasBancarias20.png  used on input line 265.
@@ -2339,7 +2618,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 270.
 LaTeX Info: Redefining \% on input line 270.
 [81 <./Cap7/newman/newmanCentroAyuda20.png>]
-<Cap7/newman/newmanImpuestos20.png, id=989, 666.23906pt x 622.57594pt>
+<Cap7/newman/newmanImpuestos20.png, id=1381, 666.23906pt x 622.57594pt>
 File: Cap7/newman/newmanImpuestos20.png Graphic file (type png)
 <use Cap7/newman/newmanImpuestos20.png>
 Package pdftex.def Info: Cap7/newman/newmanImpuestos20.png  used on input line 282.
@@ -2351,7 +2630,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 287.
 LaTeX Info: Redefining \% on input line 287.
 [82 <./Cap7/newman/newmanCuentasBancarias20.png>]
-<Cap7/newman/newmanTiposDoc20.png, id=996, 670.00313pt x 607.51968pt>
+<Cap7/newman/newmanTiposDoc20.png, id=1388, 670.00313pt x 607.51968pt>
 File: Cap7/newman/newmanTiposDoc20.png Graphic file (type png)
 <use Cap7/newman/newmanTiposDoc20.png>
 Package pdftex.def Info: Cap7/newman/newmanTiposDoc20.png  used on input line 299.
@@ -2363,7 +2642,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 304.
 LaTeX Info: Redefining \% on input line 304.
 [83 <./Cap7/newman/newmanImpuestos20.png>]
-<Cap7/newman/newmanCentrosCosto20.png, id=1003, 668.4975pt x 612.78937pt>
+<Cap7/newman/newmanCentrosCosto20.png, id=1395, 668.4975pt x 612.78937pt>
 File: Cap7/newman/newmanCentrosCosto20.png Graphic file (type png)
 <use Cap7/newman/newmanCentrosCosto20.png>
 Package pdftex.def Info: Cap7/newman/newmanCentrosCosto20.png  used on input line 316.
@@ -2375,7 +2654,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 321.
 LaTeX Info: Redefining \% on input line 321.
 [84 <./Cap7/newman/newmanTiposDoc20.png>]
-<Cap7/newman/newmanProductos20.png, id=1011, 670.75594pt x 614.295pt>
+<Cap7/newman/newmanProductos20.png, id=1402, 670.75594pt x 614.295pt>
 File: Cap7/newman/newmanProductos20.png Graphic file (type png)
 <use Cap7/newman/newmanProductos20.png>
 Package pdftex.def Info: Cap7/newman/newmanProductos20.png  used on input line 333.
@@ -2387,7 +2666,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 338.
 LaTeX Info: Redefining \% on input line 338.
 [85 <./Cap7/newman/newmanCentrosCosto20.png>]
-<Cap7/newman/newmanTerceros20.png, id=1018, 631.60968pt x 645.91313pt>
+<Cap7/newman/newmanTerceros20.png, id=1410, 631.60968pt x 645.91313pt>
 File: Cap7/newman/newmanTerceros20.png Graphic file (type png)
 <use Cap7/newman/newmanTerceros20.png>
 Package pdftex.def Info: Cap7/newman/newmanTerceros20.png  used on input line 350.
@@ -2399,7 +2678,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 355.
 LaTeX Info: Redefining \% on input line 355.
 [86 <./Cap7/newman/newmanProductos20.png>]
-<Cap7/newman/newmanCalendario20.png, id=1025, 667.74469pt x 612.78937pt>
+<Cap7/newman/newmanCalendario20.png, id=1417, 667.74469pt x 612.78937pt>
 File: Cap7/newman/newmanCalendario20.png Graphic file (type png)
 <use Cap7/newman/newmanCalendario20.png>
 Package pdftex.def Info: Cap7/newman/newmanCalendario20.png  used on input line 367.
@@ -2411,7 +2690,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 372.
 LaTeX Info: Redefining \% on input line 372.
 [87 <./Cap7/newman/newmanTerceros20.png>]
-<Cap7/newman/newmanCatalogo20.png, id=1032, 758.835pt x 694.84593pt>
+<Cap7/newman/newmanCatalogo20.png, id=1424, 758.835pt x 694.84593pt>
 File: Cap7/newman/newmanCatalogo20.png Graphic file (type png)
 <use Cap7/newman/newmanCatalogo20.png>
 Package pdftex.def Info: Cap7/newman/newmanCatalogo20.png  used on input line 384.
@@ -2541,9 +2820,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 chapter A.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [97
 
@@ -2551,39 +2828,446 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 
 ]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[98]
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
+ [99]
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+[]|\T1/cmr/m/n/12 Se lan-za una ex-cep-ción
+ []
+
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+[101]
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 203--204
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[102]
 chapter B.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- []
 
-[98
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103
 
 ]
+LaTeX Info: Redefining \. on input line 311.
+LaTeX Info: Redefining \% on input line 311.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[104]
+LaTeX Info: Redefining \. on input line 336.
+LaTeX Info: Redefining \% on input line 336.
+ [105]
+LaTeX Info: Redefining \. on input line 391.
+LaTeX Info: Redefining \% on input line 391.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+[]|\T1/cmr/m/n/12 Se lan-za una ex-cep-ción
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 427.
+LaTeX Info: Redefining \% on input line 427.
+[107]
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 433--434
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+LaTeX Info: Redefining \. on input line 455.
+LaTeX Info: Redefining \% on input line 455.
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[108]
+LaTeX Info: Redefining \. on input line 461.
+LaTeX Info: Redefining \% on input line 461.
+ [109]
 chapter C.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-) [99
+ [110
 
 ]
+Underfull \hbox (badness 2689) in paragraph at lines 536--537
+[]|\T1/cmr/m/n/12 Identificador úni-co de la
+ []
+
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
+[111]
+LaTeX Info: Redefining \. on input line 576.
+LaTeX Info: Redefining \% on input line 576.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[112]
+LaTeX Info: Redefining \. on input line 623.
+LaTeX Info: Redefining \% on input line 623.
+ [113]
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
+[]|\T1/cmr/m/n/12 Se lan-za una ex-cep-ción
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 664--665
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+LaTeX Info: Redefining \. on input line 668.
+LaTeX Info: Redefining \% on input line 668.
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[114]
+LaTeX Info: Redefining \. on input line 694.
+LaTeX Info: Redefining \% on input line 694.
+ [115]
+chapter D.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116
+
+]
+LaTeX Info: Redefining \. on input line 776.
+LaTeX Info: Redefining \% on input line 776.
+ [117]
+LaTeX Info: Redefining \. on input line 801.
+LaTeX Info: Redefining \% on input line 801.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[118]
+LaTeX Info: Redefining \. on input line 856.
+LaTeX Info: Redefining \% on input line 856.
+ [119]
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
+[]|\T1/cmr/m/n/12 Se lan-za una ex-cep-ción
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 897.
+LaTeX Info: Redefining \% on input line 897.
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[120]
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 897--898
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+
+Overfull \hbox (23.7169pt too wide) in paragraph at lines 905--906
+[]\T1/cmr/bx/n/12 Contexto de Em-pre-sa\T1/cmr/m/n/12 : Si-mi-lar a los otros mó-du-los del mi-cro-ser-vi-cio \T1/cmtt/m/n/12 account-catalogue\T1/cmr/m/n/12 ,
+ []
+
+LaTeX Info: Redefining \. on input line 921.
+LaTeX Info: Redefining \% on input line 921.
+[121]
+LaTeX Info: Redefining \. on input line 927.
+LaTeX Info: Redefining \% on input line 927.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[122]
+chapter E.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[123
+
+]
+LaTeX Info: Redefining \. on input line 1010.
+LaTeX Info: Redefining \% on input line 1010.
+ [124]
+LaTeX Info: Redefining \. on input line 1043.
+LaTeX Info: Redefining \% on input line 1043.
+ [125]
+LaTeX Info: Redefining \. on input line 1089.
+LaTeX Info: Redefining \% on input line 1089.
+ [126]
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
+[]|\T1/cmr/m/n/12 Se lan-za una ex-cep-ción
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 1130--1131
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+LaTeX Info: Redefining \. on input line 1135.
+LaTeX Info: Redefining \% on input line 1135.
+[127]
+Overfull \hbox (23.7169pt too wide) in paragraph at lines 1138--1139
+[]\T1/cmr/bx/n/12 Contexto de Em-pre-sa\T1/cmr/m/n/12 : Si-mi-lar a los otros mó-du-los del mi-cro-ser-vi-cio \T1/cmtt/m/n/12 account-catalogue\T1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (9.54031pt too wide) in paragraph at lines 1142--1143
+\T1/cmr/m/n/12 ple-men-ta ar-qui-tec-tu-ra he-xa-go-nal con puer-tos de en-tra-da y sa-li-da (\T1/cmtt/m/n/12 ITaxUsageInputPort\T1/cmr/m/n/12 ),
+ []
+
+LaTeX Info: Redefining \. on input line 1162.
+LaTeX Info: Redefining \% on input line 1162.
+[128]
+chapter F.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[129
+
+]
+Underfull \hbox (badness 2689) in paragraph at lines 1239--1240
+[]|\T1/cmr/m/n/12 Identificador de la cuen-
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 1239--1240
+\T1/cmr/m/n/12 ta (pue-de ser ID o có-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
+\T1/cmr/m/n/12 di-go nu-mé-ri-co se-gún
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1243--1244
+[]|\T1/cmr/m/n/12 Indica có-mo in-ter-pre-tar
+ []
+
+LaTeX Info: Redefining \. on input line 1246.
+LaTeX Info: Redefining \% on input line 1246.
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[130]
+LaTeX Info: Redefining \. on input line 1288.
+LaTeX Info: Redefining \% on input line 1288.
+ [131]
+LaTeX Info: Redefining \. on input line 1317.
+LaTeX Info: Redefining \% on input line 1317.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[132]
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
+ [133]
+Overfull \hbox (19.82866pt too wide) in paragraph at lines 1390--1391
+[]|\T1/cmr/m/n/12 Se lan-za \T1/cmtt/m/n/12 AccountCatalogueNotFoundException| 
+ []
+
+LaTeX Info: Redefining \. on input line 1403.
+LaTeX Info: Redefining \% on input line 1403.
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[134]
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 1408--1409
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+LaTeX Info: Redefining \. on input line 1438.
+LaTeX Info: Redefining \% on input line 1438.
+[135]
+LaTeX Info: Redefining \. on input line 1444.
+LaTeX Info: Redefining \% on input line 1444.
+
+
+Package fancyhdr Warning: \headheight is too small (18.125pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.98969pt}.
+
+[136]
+chapter G.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[137
+
+]
+LaTeX Info: Redefining \. on input line 1511.
+LaTeX Info: Redefining \% on input line 1511.
+ [138]
+LaTeX Info: Redefining \. on input line 1555.
+LaTeX Info: Redefining \% on input line 1555.
+ [139]
+LaTeX Info: Redefining \. on input line 1609.
+LaTeX Info: Redefining \% on input line 1609.
+ [140]
+Underfull \hbox (badness 10000) in paragraph at lines 1634--1635
+[]|\T1/cmr/m/n/12 Se lan-za una ex-cep-ción
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 1650--1651
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+LaTeX Info: Redefining \. on input line 1651.
+LaTeX Info: Redefining \% on input line 1651.
+[141]
+LaTeX Info: Redefining \. on input line 1678.
+LaTeX Info: Redefining \% on input line 1678.
+ [142]
+LaTeX Info: Redefining \. on input line 1684.
+LaTeX Info: Redefining \% on input line 1684.
+ [143]
+chapter H.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[144
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 1771.
+LaTeX Info: Redefining \% on input line 1771.
+[145]
+LaTeX Info: Redefining \. on input line 1794.
+LaTeX Info: Redefining \% on input line 1794.
+ [146]
+LaTeX Info: Redefining \. on input line 1848.
+LaTeX Info: Redefining \% on input line 1848.
+ [147]
+LaTeX Info: Redefining \. on input line 1861.
+LaTeX Info: Redefining \% on input line 1861.
+ [148]
+Underfull \hbox (badness 10000) in paragraph at lines 1873--1874
+[]|\T1/cmr/m/n/12 Se lan-za una ex-cep-ción
+ []
+
+
+Overfull \hbox (107.69391pt too wide) in paragraph at lines 1889--1890
+[]\T1/cmr/bx/n/12 Serialización\T1/cmr/m/n/12 : Ase-gú-re-se de que su \T1/cmtt/m/n/12 RabbitTemplate \T1/cmr/m/n/12 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
+ []
+
+LaTeX Info: Redefining \. on input line 1904.
+LaTeX Info: Redefining \% on input line 1904.
+[149])
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+ [150]
 Overfull \hbox (14.4432pt too wide) in paragraph at lines 134--134
 \T1/cmr/m/n/12 soft-wa-re use and ICT com-pe-ten-cies''. En: \T1/cmr/m/it/12 Ac-coun-ting Edu-ca-tion \T1/cmr/m/n/12 30.5 (2021), págs. 495[]524.
  []
 
-[100
+[151
 
 
 
@@ -2599,7 +3283,7 @@ Overfull \hbox (6.54416pt too wide) in paragraph at lines 134--134
 
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
-[101]
+[152]
 Overfull \hbox (6.9406pt too wide) in paragraph at lines 134--134
 \T1/cmr/m/n/12 Shi-va Raj Pokh-rel y Gang Li. Sin-ga-po-re: Sprin-ger Na-tu-re Sin-ga-po-re, 2023, págs. 243[]257. 
  []
@@ -2611,10 +3295,10 @@ Overfull \hbox (19.22954pt too wide) in paragraph at lines 134--134
 
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
-[102]
+[153]
 LaTeX Info: Redefining \. on input line 134.
 LaTeX Info: Redefining \% on input line 134.
- [103] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
+ [154] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \sptext on input line 18.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
@@ -2640,17 +3324,17 @@ Package logreq Info: Writing requests to 'PlantillaTesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27491 strings out of 467870
- 526276 string characters out of 5418838
- 1317864 words of memory out of 5000000
- 55574 multiletter control sequences out of 15000+600000
+ 28002 strings out of 467870
+ 532212 string characters out of 5418838
+ 1318581 words of memory out of 5000000
+ 55736 multiletter control sequences out of 15000+600000
  648473 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,14n,107p,11328b,2495s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,14n,107p,11328b,2515s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/public/calligra-type1/callig15.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on PlantillaTesis.pdf (110 pages, 8709965 bytes).
+Output written on PlantillaTesis.pdf (166 pages, 8960060 bytes).
 PDF statistics:
- 2293 PDF objects out of 2487 (max. 8388607)
- 348 named destinations out of 1000 (max. 500000)
- 970 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3567 PDF objects out of 3580 (max. 8388607)
+ 697 named destinations out of 1000 (max. 500000)
+ 2186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
