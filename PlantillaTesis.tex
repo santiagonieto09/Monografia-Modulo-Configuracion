@@ -28,7 +28,7 @@
 \usepackage{rotating} %Para rotar texto, objetos y tablas seite. No se ve en DVI solo en PS. Seite 328 Hundebuch
                         %se usa junto con \rotate, \sidewidestable ....
 
-% CONFIGURACIÃ“N DE HYPERREF (debe ir casi al final del preÃ¡mbulo)
+% CONFIGURACIÃ"N DE HYPERREF (debe ir casi al final del preÃ¡mbulo)
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -40,7 +40,17 @@
     pdfauthor={Tu nombre aquÃ­},
 }
 
-% REDEFINICIONES DE NUMERACIÃ“N (despuÃ©s de hyperref)
+% Configuración de nombres para \autoref (debe ir después de hyperref)
+\addto\extrasspanish{%
+  \def\chapterautorefname{Capítulo}%
+  \def\sectionautorefname{Sección}%
+  \def\subsectionautorefname{Subsección}%
+  \def\figureautorefname{Figura}%
+  \def\tableautorefname{Tabla}%
+  \def\appendixautorefname{Anexo}%
+}
+
+% REDEFINICIONES DE NUMERACIÃ"N (despuÃ©s de hyperref)
 \renewcommand{\theequation}{\thechapter-\arabic{equation}}
 \renewcommand{\thefigure}{\thechapter-\arabic{figure}}
 \renewcommand{\thetable}{\thechapter-\arabic{table}}
@@ -72,6 +82,11 @@
 %Neue Kommandos
 \usepackage{Befehle}
 
+% Configuración de nombres para KOMA-Script y babel
+\addto\captionsspanish{%
+  \renewcommand{\appendixname}{Anexo}%
+}
+
 % Variable para controlar numeraciÃ³n de capÃ­tulos
 \newif\ifnumberchapters
 \numberchaptersfalse  % Por defecto, NO numerar capÃ­tulos
@@ -93,12 +108,14 @@
 \pagenumbering{roman}
 \include{HojaTitulo/HojaTituloMSc}
 
-% REDEFINICIONES DE NOMBRES (despuÃ©s de \begin{document})
+% REDEFINICIONES DE NOMBRES (después de \begin{document})
 \renewcommand{\tablename}{\textbf{Tabla}}
 \renewcommand{\figurename}{\textbf{Figura}}
 \renewcommand{\listtablename}{Lista de Tablas}
 \renewcommand{\listfigurename}{Lista de Figuras}
 \renewcommand{\contentsname}{Contenido}
+\renewcommand{\appendixname}{Anexo}
+\addto\captionsspanish{\renewcommand{\appendixname}{Anexo}}
 
 % TABLA DE CONTENIDOS Y LISTAS
 \tableofcontents

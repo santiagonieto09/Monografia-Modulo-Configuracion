@@ -8,67 +8,91 @@ También se debe tener en cuenta que el análisis previo descrito en el ``Capít
 
 Sin embargo, a pesar de la disposición de los interesados, se presentaron dificultades relacionadas con la coordinación de horarios y las múltiples ocupaciones de los participantes. En ocasiones, los docentes del programa de Contaduría Pública no disponían de tiempo suficiente para el proyecto debido a sus compromisos académicos, evaluaciones y actividades administrativas. A pesar de ello, se logró ajustar las actividades y el trabajo requerido para el levantamiento de requisitos, superando los inconvenientes mediante la flexibilidad horaria característica del enfoque freelance adoptado.
 
-A continuación, se explica detalladamente la etapa de elicitación de requisitos, en la cual se capturaron, analizaron y validaron las necesidades con los interesados.
+A continuación, se explica detalladamente la etapa de elicitación de requisitos, en la cual se capturaron, analizaron y validaron las necesidades con los stakeholders.
 \section{Elicitación de requisitos}
 
-Para la correcta definición de los requisitos, este proceso se basó en una serie de actividades como captura, especificación, negociación, validación y verificación. Identificar la completitud de los requisitos es fundamental para que todos los elementos relevantes sean incorporados al sistema.
+La fase de elicitación de requisitos se llevó a cabo mediante un proceso sistemático que integra la experiencia práctica acumulada durante el Aprendizaje Basado en Proyectos (PBL) y actividades estructuradas de ingeniería de requisitos. El conocimiento previo del dominio contable, adquirido en las fases iniciales del PBL, proporcionó una base sólida para identificar y priorizar necesidades, mientras que las técnicas formales de elicitación permitieron una especificación completa y validada.
 
 
+El proceso se organizó en cinco actividades principales:
 
-En la tarea de recopilación intervinieron los interesados mencionados en la Tabla \ref{tab:stakeholders}
+\begin{itemize}
+\item \textbf{Captura:} Se realizaron entrevistas estructuradas con los stakeholders listados en la  \autoref{tab:stakeholders}, se analizó documentación institucional y se levantaron modelos de negocio para comprender los flujos contables educativos.
+
+\item \textbf{Especificación:} Los requisitos se formalizaron mediante historias de usuario, criterios de aceptación detallados y prototipos interactivos, lo que facilitó su comprensión y validación temprana.
+
+\item \textbf{Negociación:} Se identificaron y resolvieron discrepancias entre las expectativas de los interesados, los lineamientos institucionales y las restricciones técnicas a través de videoconferencias iterativas de discusión y ajuste como se evidencia en la \autoref{fig:evidencia1}.
+
+\item \textbf{Verificación:} Se aplicó revisión por pares como se evidencia en la \autoref{fig:evidenciaHU}, en la cual se presentaron las especificaciones a los directores del proyecto para confirmar su corrección, integridad, claridad y coherencia con los objetivos del sistema.
+
+\item \textbf{Validación:} Los requisitos fueron expuestos y validados con los stakeholders clave, incluyendo docentes del programa de Contaduría Pública y asesores técnicos, mediante demostraciones de prototipos y pruebas funcionales preliminares como se muestra en la \autoref{fig:evidenciaprototipos}, asegurando su alineación con las expectativas y necesidades educativas.
+\end{itemize}
+
 
 \input{Cap4/Tablas/stakeholders}
 
-En la actividad de captura se utilizaron las técnicas de entrevistas, análisis documental y levantamiento de modelos de negocio. En la actividad de especificación se utilizaron las historias de usuario, criterios de aceptación y prototipos para representar los requisitos.
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/evidencia1.png}    
+    \caption{Evidencia sesiones de negociación.}
+    \label{fig:evidencia1}
+\end{figure}
 
-Durante la negociación, surgieron discrepancias entre las expectativas de los interesados, las necesidades institucionales y los requisitos propuestos, las cuales se resolvieron mediante varias sesiones de discusión. 
+    
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/evidenciaHU.png}    
+    \caption{Evidencia sesión de revisión de especificaciones.}
+    \label{fig:evidenciaHU}
+\end{figure}
 
-En la verificación, se aplicó la revisión entre pares, en la que los estudiantes presentaron las especificaciones a los directores para confirmar su corrección, integridad y claridad. Finalmente, en la validación, se expusieron los requisitos a los stakeholders para asegurar su concordancia con sus expectativas y requerimientos, incluyendo pruebas funcionales y de usuario.
+\begin{figure}[h!]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/evidenciaprototipos.jpeg}    
+    \caption{Evidencia sesión de revisión de prototipos.}
+    \label{fig:evidenciaprototipos}
+\end{figure}
 
-\section{Requisitos funcionales}
 
-La tabla \ref{tab:listaTareas} refleja las necesidades identificadas y se estructura mediante historias épicas, las cuales a su vez se desglosan en historias de usuario. Las historias épicas agrupan funcionalidades o tareas complejas que no pueden abordarse en una sola iteración, mientras que las historias de usuario detallan estas épicas en descripciones manejables que permiten su desarrollo independiente en una iteración.
+\section{Especificación de requisitos funcionales}
 
-\input{Cap4/Tablas/listaTareas.tex}
-
-La tabla \ref{tab:epicas} presenta las historias épicas, detallando su especificación. Cada épica incluye un identificador único, un nombre descriptivo y su descripción completa en formato de historia de usuario.
+La \autoref{tab:epicas} refleja las necesidades identificadas y se estructura mediante historias épicas, las cuales a su vez se desglosan en historias de usuario. Las historias épicas agrupan funcionalidades o tareas complejas, mientras que las historias de usuario detallan estas épicas en descripciones manejables que permiten su desarrollo independiente.
 
 \input{Cap4/Tablas/epicas.tex}
 
-La tabla \ref{tab:historiasUsuario} muestra un fragmento de las historias de usuario donde su especificación está dada por un código, este código está compuesto con el ID de la historia épica a la que pertenece, posee un nombre, una descripción y los criterios de aceptación para la historia de usuario.
+
+La \autoref{tab:historiasUsuario} muestra un fragmento de las historias de usuario especificadas mediante un identificador único, un nombre, una descripción y sus respectivos criterios de aceptación. Para explorar la especificación completa, incluyendo las historias épicas y las historias de usuario detalladas, se debe consultar el siguiente \href{https://docs.google.com/spreadsheets/d/1rFsgFhqhBDgjrOPtcxpHFp3UVVghU8dv/edit?usp=sharing&ouid=114064353546583843217&rtpof=true&sd=true}{\underline{\textcolor{blue}{enlace}}}, en el cual cada criterio de aceptación tiene asociado su respectivo prototipo desarrollado en Figma.
 
 \input{Cap4/Tablas/historiasUsuario.tex}
 
-Para explorar con mayor detalle, es preciso dirigirse al siguiente \href{https://docs.google.com/spreadsheets/d/1rFsgFhqhBDgjrOPtcxpHFp3UVVghU8dv/edit?usp=sharing&ouid=114064353546583843217&rtpof=true&sd=true}{\underline{\textcolor{blue}{enlace}}}, el cual presenta una estructura organizada donde se detallan tanto las historias épicas como las historias de usuario, donde cada criterio de aceptación de las historias de usuario tiene asociado su respectivo prototipo en Figma.
 
-\section{Requisitos no funcionales}
 
-Una vez definidos los requisitos funcionales y consignados en historias de usuario que conforman la lista de tareas, es importante considerar también los requisitos no funcionales, los cuales van más allá de las funcionalidades y definen aspectos de calidad del sistema.
+\section{Definición de requisitos no funcionales}
 
-Para la identificación de estos requisitos fue esencial la comunicación con el principal interesado del sistema y los aspectos normativos que rigen la construcción de software desde la División TIC de la Universidad. Teniendo en cuenta esto, se han identificado los siguientes requisitos no funcionales:
+Una vez definidos los requisitos funcionales y consignados en historias de usuario, es importante considerar también los requisitos no funcionales, los cuales van más allá de las funcionalidades y definen aspectos de calidad del sistema.
+
+La selección y definición de estos requisitos es el resultado de un proceso de consenso colaborativo gestado durante la primera etapa del Aprendizaje Basado en Proyectos (PBL), correspondiente al desarrollo inicial de los módulos básicos. A través de mesas de trabajo conjuntas entre los docentes del programa de Contaduría Pública y los asesores de la División TIC de la Univerdad del Cauca, se identificaron las necesidades fundamentales para la viabilidad del software a largo plazo. En estas sesiones se determinó que, dada la naturaleza evolutiva de la herramienta académica y el crecimiento proyectado, el sistema requería una base estructural robusta. Esta visión estratégica fue el factor determinante para la elección de un estilo arquitectónico basado en microservicios, decisión que fundamenta y da origen a los siguientes atributos de calidad:
 
 \begin{itemize}
 \item \textbf{Usabilidad:} En el desarrollo del presente proyecto se tuvieron en cuenta los lineamientos de desarrollo, usabilidad y diseño establecidos por la División TIC de la Universidad del Cauca. Específicamente, los documentos de usabilidad y diseño incluyen parámetros que se reflejan en el uso de tipografía, colores, contrastes y enfoque de diseño adecuados para proporcionar una buena experiencia al usuario final. Por lo tanto, en el proyecto se recogen y aplican estas reglas mediante una interfaz que cumple, entre otras cosas, con las especificaciones de la División TIC y Material Design, sobre las cuales están basados dichos documentos.
 
-\item \textbf{Escalabilidad:} Considerando que los usuarios puede crecer con el tiempo y que el volumen de información contable aumenta mes a mes, el sistema fue diseñado pensando en el futuro. La arquitectura de microservicios permite que cuando haya más usuarios trabajando simultáneamente o cuando se procesen más transacciones, el sistema pueda ajustarse sin necesidad de hacer cambios drásticos en su estructura. Esto significa que si hay períodos de mayor actividad, la aplicación puede manejar esta carga adicional sin afectar su funcionamiento normal ni la experiencia de los usuarios.
+\item \textbf{Escalabilidad:} Considerando que el número de usuarios puede crecer con el tiempo y que el volumen de información contable aumenta mes a mes, el sistema fue diseñado pensando en el futuro. La arquitectura de microservicios, seleccionada en las fases iniciales, permite que cuando haya más usuarios trabajando simultáneamente o cuando se procesen más transacciones, el sistema pueda ajustarse sin necesidad de hacer cambios drásticos en su estructura. Esto significa que si hay períodos de mayor actividad, la aplicación puede manejar esta carga adicional sin afectar su funcionamiento normal ni la experiencia de los usuarios.
 
-\item \textbf{Mantenibilidad:}  Con el fin de facilitar la evolución y mejora continua del sistema, se estableció como requisito que el código fuera claro y bien organizado. Cada microservicio está documentado con su propósito y funcionamiento lo que facilita la colaboración entre desarrolladores. Además, las pruebas automatizadas aseguran el correcto funcionamiento ante cambios reduciendo el riesgo de errores. Esta estructura permite corregir fallos, incorporar nuevas funcionalidades ymantener el sistema actualizado con las normativas contables vigentes sin complicaciones ni altos costos.
+\item \textbf{Mantenibilidad:}  Con el fin de facilitar la evolución y mejora continua del sistema, se estableció como requisito que el código fuera claro y bien organizado. Cada microservicio está documentado con su propósito y funcionamiento, lo que facilita la colaboración entre desarrolladores. Además, las pruebas automatizadas aseguran el correcto funcionamiento ante cambios reduciendo el riesgo de errores. Esta estructura permite corregir fallos, incorporar nuevas funcionalidades y mantener el sistema actualizado con las normativas contables vigentes sin complicaciones.
 
 \end{itemize}
 
 \section{Prototipos}
 
-La construcción de prototipos fue esencial para una comunicación clara con el asesor empresarial, ya que al permitir visualizar un acercamiento de lo que serían las interfaces del módulo de configuración se obtenía retroalimentación constante y rápida sobre aspectos pedagógicos y de usabilidad. Esto ha permitido realizar un refinamiento de la especificación de requerimientos en el formato de historias de usuario, este último también ha contribuido en sentido contrario a detallar más cuidadosamente los prototipos, generando así un círculo virtuoso de mejora continua.
+La construcción de prototipos fue esencial para una comunicación clara con el asesor empresarial, ya que al permitir visualizar un acercamiento de lo que serían las interfaces del módulo de Configuración se obtenía retroalimentación constante y rápida sobre aspectos pedagógicos y de usabilidad. Esto ha permitido realizar un refinamiento de la especificación de requerimientos en el formato de historias de usuario, este último también ha contribuido en sentido contrario a detallar más cuidadosamente los prototipos, generando así un círculo virtuoso de mejora continua.
 
-Los prototipos se enfocaron en representar las interfaces de los submódulos que componen el módulo de configuración, cada prototipo consideró los lineamientos de diseño UX-UI establecidos por la División TIC de la Universidad del Cauca, incluyendo la paleta de colores institucional y las fuentes tipográficas especificadas.
+Los prototipos se enfocaron en representar las interfaces de los submódulos que componen el módulo de Configuración, cada prototipo consideró los lineamientos de diseño UX-UI establecidos por la División TIC de la Universidad del Cauca, incluyendo la paleta de colores institucional y las fuentes tipográficas especificadas.
 
-Para el diseño de los prototipos se hizo necesario el uso de una herramienta flexible y de fácil manejo, en la que se pudiera plasmar rápidamente el concepto de las interfaces del módulo de configuración, la herramienta elegida fue Figma por su comodidad, flexibilidad y fácil manejo para el diseño de interfaces web, además de permitir la colaboración en tiempo real con los interesados del proyecto. Por tanto, si se desea explorar en su totalidad los prototipos desarrollados, es preciso dirigirse al proyecto Figma en el siguiente \href{https://www.figma.com/design/b28M2VlaXjz2JrX5TvlfwF/MODULO-CONFIGURACION?node-id=1092-13124}{\underline{\textcolor{blue}{enlace}}}, donde se encuentran compilados todos los diseños de las interfaces del módulo de configuración.
-
-Igualmente, se incluyen a continuación ejemplos seleccionados de los prototipos desarrollados, evitando así saturar el documento y optimizando la comprensión visual.
+Para el diseño de los prototipos se hizo necesario el uso de una herramienta flexible y de fácil manejo, en la que se pudiera plasmar rápidamente el concepto de las interfaces del módulo de Configuración, la herramienta elegida fue Figma por su comodidad, flexibilidad y fácil manejo para el diseño de interfaces web, además de permitir la colaboración en tiempo real con los interesados del proyecto. Por tanto, si se desea explorar en su totalidad los prototipos desarrollados, es preciso dirigirse al proyecto Figma en el siguiente \href{https://www.figma.com/design/b28M2VlaXjz2JrX5TvlfwF/MODULO-CONFIGURACION?node-id=1092-13124}{\underline{\textcolor{blue}{enlace}}}, donde se encuentran compilados todos los diseños de las interfaces. Igualmente, se incluyen a continuación ejemplos seleccionados de los prototipos desarrollados.
 
 \subsection{Vista de catálogo de cuentas}
 
-La figura \ref{fig:CatalogoCuentas} muestra el prototipo asociado al catálogo de cuentas, que establece la estructura maestra de clasificación contable donde se definen, organizan y gestionan todas las cuentas que registrarán las transacciones financieras del sistema. Configura el esquema contable maestro del sistema a través de una interfaz que permite gestionar jerárquicamente la estructura de clasificación financiera. Desde este módulo central, el administrador puede crear, importar o exportar cuentas codificadas numéricamente del 1 al 9, organizadas según naturaleza contable (Activo, Pasivos, Patrimonio, Ingresos, Gastos, Costos de transformación y Cuentas de orden), con control de estado activo/inactivo para mantener vigente el plan de cuentas.
+La \autoref{fig:CatalogoCuentas} muestra el prototipo asociado al catálogo de cuentas, que establece la estructura maestra de clasificación contable donde se definen, organizan y gestionan todas las cuentas que registrarán las transacciones financieras del sistema. Configura el esquema contable maestro del sistema a través de una interfaz que permite gestionar jerárquicamente la estructura de clasificación financiera. Desde este módulo central, el administrador puede crear, importar o exportar cuentas codificadas numéricamente del 1 al 9, organizadas según naturaleza contable (Activo, Pasivos, Patrimonio, Ingresos, Gastos, Costos de transformación y Cuentas de orden), con control de estado activo/inactivo para mantener vigente el plan de cuentas.
 
 \begin{figure}[h!]    
     \centering%
@@ -77,10 +101,9 @@ La figura \ref{fig:CatalogoCuentas} muestra el prototipo asociado al catálogo d
     \label{fig:CatalogoCuentas}
 \end{figure}
 
-\newpage
 \subsection{Vista de inventario de productos}
 
-La figura \ref{fig:InventarioProductos} muestra el prototipo asociado al inventario de productos establece el catálogo maestro de artículos donde se centraliza la gestión de insumos, productos terminados y mercancías a través de una interfaz que permite crear, importar, exportar y administrar registros con atributos clave como referencia, nombre, descripción, costo, cantidad, unidad de medida, categoría, tipo de producto y estado activo.
+La \autoref{fig:InventarioProductos} muestra el prototipo asociado al inventario de productos establece el catálogo maestro de artículos donde se centraliza la gestión de insumos, productos terminados y mercancías a través de una interfaz que permite crear, importar, exportar y administrar registros con atributos clave como referencia, nombre, descripción, costo, cantidad, unidad de medida, categoría, tipo de producto y estado activo.
 
 \begin{figure}[h!]    
     \centering%
@@ -92,7 +115,7 @@ La figura \ref{fig:InventarioProductos} muestra el prototipo asociado al inventa
 \newpage
 \subsection{Vista de terceros}
 
-La figura \ref{fig:tercero} muestra el prototipo asociado a terceros,  configura el registro maestro de entidades externas a través de una interfaz que permite crear, importar, exportar y administrar personas naturales y jurídicas, capturando atributos esenciales como identificación, tipo de entidad, correo electrónico y estado activo. Incorpora la funcionalidad específica de procesar archivos PDF del RUT para automatizar la creación de registros, validando duplicados y formatos de datos requeridos. Este módulo opera como repositorio centralizado que estructura y mantiene actualizada la base de datos de clientes, proveedores y otros actores, habilitando búsquedas dinámicas por nombre o numero de identificación.
+La \autoref{fig:tercero} muestra el prototipo asociado a terceros,  configura el registro maestro de entidades externas a través de una interfaz que permite crear, importar, exportar y administrar personas naturales y jurídicas, capturando atributos esenciales como identificación, tipo de entidad, correo electrónico y estado activo. Incorpora la funcionalidad específica de procesar archivos PDF del RUT para automatizar la creación de registros, validando duplicados y formatos de datos requeridos. Este módulo opera como repositorio centralizado que estructura y mantiene actualizada la base de datos de clientes, proveedores y otros actores, habilitando búsquedas dinámicas por nombre o numero de identificación.
 
 \begin{figure}[h!]    
     \centering%
@@ -105,7 +128,7 @@ La figura \ref{fig:tercero} muestra el prototipo asociado a terceros,  configura
 \newpage
 \subsection{Vista de impuestos }
 
-La figura \ref{fig:impuestos} muestra el prototipo asociado a impuestos encargado de la configuracion maestra de tarifas mediante una interfaz que permite crear, modificar y eliminar registros, asignando descripciones, porcentajes y las cuentas contables específicas para compras y ventas. Centraliza la parametrización de tributos como IVA y retenciones, validando la existencia de las cuentas asociadas.
+La \autoref{fig:impuestos} muestra el prototipo asociado a impuestos encargado de la configuracion maestra de tarifas mediante una interfaz que permite crear, modificar y eliminar registros, asignando descripciones, porcentajes y las cuentas contables específicas para compras y ventas. Centraliza la parametrización de tributos como IVA y retenciones, validando la existencia de las cuentas asociadas.
 
 \begin{figure}[h!]    
     \centering%

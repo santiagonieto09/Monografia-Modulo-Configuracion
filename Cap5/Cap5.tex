@@ -1,35 +1,32 @@
 \mychapter{Capítulo 5. Arquitectura del sistema}
 
 En el presente capítulo se explora la arquitectura del sistema, siendo este un plan en el que se definen aspectos y decisiones importantes para el software, teniendo en cuenta los requisitos del sistema, la organización y cómo se comunican los diferentes componentes entre sí.
-Es importante recordar que el software contable para uso educativo en construcción consta de múltiples módulos independientes desarrollados como microservicios: Módulo de Configuración, Módulo Comercial, Módulo de Inventario (Promedio Ponderado y PEPS), Módulo de Tesorería, Módulo de Cartera, Módulos Contable-Comercial y Contable-Cartera, Módulos de Reportes Financieros, y Módulo Educativo Contable. A pesar de que varios de estos módulos interactúan entre sí mediante APIs REST y un servidor de descubrimiento Eureka, este proyecto se enfoca específicamente en el desarrollo del módulo de configuración, que proporciona los parámetros maestros fundamentales para el funcionamiento de todo el sistema.
+Es importante recordar que el software contable para uso educativo en construcción consta de múltiples módulos independientes desarrollados como microservicios: Módulo de Configuración, Módulo Comercial, Módulo de Inventario (Promedio Ponderado y PEPS), Módulo de Tesorería, Módulo de Cartera, Módulos Contable Comercial y Contable Cartera, Módulos de Reportes Financieros y Módulo Educativo Contable. A pesar de que varios de estos módulos interactúan entre sí mediante APIs REST y un servidor de descubrimiento Eureka, este proyecto se enfoca específicamente en el desarrollo del módulo de Configuración, que proporciona los parámetros maestros fundamentales para el funcionamiento de todo el sistema.
 
-La descripción de la arquitectura hará énfasis en este módulo y ofrecerá una descripción general de cómo se relaciona con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales hasta la fecha han tenido avances significativos en su desarrollo, lo que permitió la comunicación con el módulo de configuración. En el anexo B se especifica un documento técnico que detalla una guía para que los demás microservicios que componen el sistema y que están en fase inicial de construcción puedan comunicarse con el módulo de configuración. 
+Este apartado profundiza en la arquitectura del módulo de Configuración y detalla su relación con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales presentan un avance suficiente para permitir la comunicación entre servicios. Por otro lado, la documentación técnica necesaria para que los demás microservicios en desarrollo puedan integrarse con los submódulos de Configuración se presenta detalladamente del \autoref{AnexoA} al \autoref{AnexoH}.
 
-Para describir la arquitectura del sistema se emplea el modelo C4, que contempla cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. A continuación se presenta la arquitectura del catálogo de cuentas, los diagramas C4 de los demás módulos no se incluyen aquí, evitando la sobrecarga visual de este documento, para ello puede dirigirse al siguiente \href{https://drive.google.com/drive/folders/1O5IuTREhMx5zNiTa6Jo7ET5LC2ph4cPg?usp=sharing}{\underline{\textcolor{blue}{enlace}}}, donde encontrará todos los diagramas correspondientes a cada módulo desarrollado.
+Para describir la arquitectura del sistema se emplea el modelo C4, que contempla cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. Dado que el módulo de Configuración está compuesto por múltiples submódulos (Catálogo de Cuentas, Terceros, Productos, Impuestos, Métodos de Pago, Tipos de Documentos, Bancos, Cuentas Bancarias, Centros de Costo, Centro de Ayuda y Calendario Contable), se utiliza el submódulo de Catálogo de Cuentas como referencia para ilustrar la arquitectura C4, ya que los demás submódulos comparten una estructura similar. Los diagramas C4 completos de todos los submódulos se encuentran disponibles en el siguiente \href{https://drive.google.com/drive/folders/1O5IuTREhMx5zNiTa6Jo7ET5LC2ph4cPg?usp=sharing}{\underline{\textcolor{blue}{enlace}}}.
 
 \section{Modelo C4: Descripción de la arquitectura}
 
 \subsection{Diagrama de contexto}
 
-El diagrama de contexto del sistema que se muestra en la Figura \ref{fig:Contexto} representa la vista de más alto nivel dentro del modelo C4, proporcionando una representación visual integral del sistema educativo contable CONTAPP en desarrollo. Este diagrama ilustra cómo el sistema se integra en su entorno operativo, mostrando dos aspectos fundamentales:
+El diagrama de contexto del sistema que se muestra en la \autoref{fig:Contexto} representa la vista de más alto nivel dentro del modelo C4, proporcionando una representación visual integral del sistema educativo contable CONTAPP en desarrollo. Este diagrama ilustra cómo el sistema se integra en su entorno operativo, mostrando dos aspectos fundamentales:
 
 \begin{itemize}
  \item Las personas que utilizan el sistema y sus diferentes roles
  \item Los sistemas de software externos con los que interactúa y se conecta
 \end{itemize}
 
- Debido a que algunos diagramas son demasiado grandes para su correcta lectura, todos los diagramas del C4 se encuentra disponibles en el siguiente enlace.
-
 \begin{figure}[h!]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/contexto.png}    
-    \caption{Diagrama de contexto.}
+    \caption{Diagrama de contexto Catálogo de Cuentas.}
     \label{fig:Contexto}
 \end{figure}
 
-\newpage
 \subsection{Diagrama de contenedores}
-En la figura \ref{fig:contenedor} se puede observar el diagrama de contenedores, el cual tiene como objetivo proporcionar una visión con nivel de detalle medio para comprender la organización interna del sistema y las responsabilidades de los diferentes contenedores que conforman la arquitectura del software contable educativo.
+En la \autoref{fig:contenedor} se puede observar el diagrama de contenedores, el cual tiene como objetivo proporcionar una visión con nivel de detalle medio para comprender la organización interna del sistema y las responsabilidades de los diferentes contenedores que conforman la arquitectura del software contable educativo.
 
 El sistema consta de seis contenedores principales: aplicación web, API Gateway, servicio de descubrimiento, microservicios, Keycloak y base de datos. La aplicación web desarrollada en Angular 19 se comunica con los microservicios a través del API Gateway mediante un sistema REST (Representational State Transfer), de este modo el backend expone servicios web que implementan una API REST siguiendo sus principios fundamentales \cite{DominaArquitectura}:
 
@@ -49,7 +46,7 @@ El sistema consta de seis contenedores principales: aplicación web, API Gateway
 
 \newpage
 
-La descripción de cada componente y la participación del presente proyecto se encuentra en la tabla \ref{tab:contenedores}.
+La descripción de cada componente y la participación del presente proyecto se encuentra en la \autoref{tab:contenedores}.
 
 \input{Cap5/Tablas/contenedores.tex}
 
@@ -57,7 +54,7 @@ La descripción de cada componente y la participación del presente proyecto se 
 \newpage
 \subsection{Diagrama de componentes}
 
-En la figura \ref{fig:componentes} se puede observar el diagrama de componentes del contenedor asociado al módulo de catálogo de cuentas, este tiene como objetivo detallar los componentes y cómo estos interactúan, proporcionando un nivel de detalle alto. Uno de los patrones arquitectónicos que se pueden ver reflejados en este diagrama, es el patrón de arquitectura limpia (o hexagonal), para practicidad en la lectura del presente diagrama se ha dividido en secciones que corresponden a las capas mencionadas: Domain, Application, Infraestructure.
+En la \autoref{fig:componentes} se puede observar el diagrama de componentes del contenedor asociado al módulo de catálogo de cuentas, este tiene como objetivo detallar los componentes y cómo estos interactúan, proporcionando un nivel de detalle alto. Uno de los patrones arquitectónicos que se pueden ver reflejados en este diagrama, es el patrón de arquitectura limpia (o hexagonal), para practicidad en la lectura del presente diagrama se ha dividido en secciones que corresponden a las capas mencionadas: Domain, Application, Infraestructure.
 
 \begin{figure}[h!]    
     \centering%
@@ -67,9 +64,9 @@ En la figura \ref{fig:componentes} se puede observar el diagrama de componentes 
 \end{figure}
 
 
-\section{Patrónes arquitectónicos}
+\section{Patrónes arquitectónicos del backend}
 
-En el módulo de configuración se emplean dos patrones arquitectónicos principales: la arquitectura hexagonal y la arquitectura en capas. Esta decisión responde a la evolución del proyecto bajo el enfoque de Aprendizaje Basado en Proyectos (PBL). Durante la fase 1, los módulos de terceros, productos, impuestos y catálogo fueron desarrollados siguiendo el patrón hexagonal, por lo que se optó por mantener esta arquitectura para aprovechar el trabajo previo de los desarrolladores, quienes ya habían implementado funcionalidades importantes que posteriormente se adaptaron para satisfacer los nuevos requerimientos del cliente. Por otro lado, los módulos restantes como métodos de pago, tipos de documentos, bancos, cuentas bancarias, centros de costo, centro de ayuda y calendario contable corresponden principalmente a funcionalidades CRUD sin lógica de negocio compleja, por lo que se implementaron utilizando el patrón de arquitectura en capas, priorizando la simplicidad y la mantenibilidad. A continuación se describen de manera conceptual y gráfica los patrones arquitectónicos implementados.
+En el módulo de configuración se emplearon dos patrones arquitectónicos principales: La arquitectura hexagonal y la arquitectura en capas. Esta decisión responde a la evolución del proyecto bajo el enfoque PBL. Durante la fase 1, los módulos de terceros, productos, impuestos y catálogo fueron desarrollados siguiendo el patrón hexagonal, por lo que se optó por mantener esta arquitectura para aprovechar el trabajo previo de los desarrolladores, quienes ya habían implementado funcionalidades importantes que posteriormente se adaptaron para satisfacer los nuevos requerimientos del cliente. Por otro lado, los módulos restantes como métodos de pago, tipos de documentos, bancos, cuentas bancarias, centros de costo, centro de ayuda y calendario contable corresponden principalmente a funcionalidades CRUD sin lógica de negocio compleja, por lo que se implementaron utilizando el patrón de arquitectura en capas, priorizando la simplicidad y la mantenibilidad. A continuación se describen de manera conceptual y gráfica los patrones arquitectónicos implementados.
 
 
 \subsection{Arquitectura hexagonal}
@@ -93,7 +90,7 @@ La arquitectura por capas es una de las más empleadas, debido a su sencillez y 
 
 En la implementación práctica, generalmente se utiliza un esquema de 4 capas: presentación, negocio, persistencia y base de datos. Sin embargo, es común observar que las capas de negocio y persistencia se fusionan en una sola, especialmente cuando la lógica de almacenamiento se integra directamente en la capa de negocio \cite{ArquitecturaCapas}. 
 
-En la Figura \ref{fig:capas} se observa la arquitectura organizada en cuatro capas horizontales que representan la separación de responsabilidades.
+En la \autoref{fig:capas} se observa la arquitectura organizada en cuatro capas horizontales que representan la separación de responsabilidades.
 
 \begin{figure}[h!]    
     \centering%

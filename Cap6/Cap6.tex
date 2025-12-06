@@ -30,7 +30,7 @@ Es una solución de diseño orientada al comportamiento que facilita la definici
 
  \subsubsection{Diagrama de clases}
 
-La Figura \ref{fig:strategy} ilustra la implementación del patrón Strategy en el módulo de terceros en las funciones de importación para validar archivos de diferentes tipos (como PDF y Excel) de manera flexible y extensible. Esto permite encapsular algoritmos de validación específicos en clases concretas (\texttt{PdfFileValidator} y \texttt{ExcelFileValidator}), que implementan la interfaz común \texttt{FileValidator}. Los servicios como \texttt{PdfRUTService} y \texttt{ExcelParsingService} dependen de la interfaz, no de implementaciones concretas, lo que facilita intercambiar validadores dinámicamente sin modificar el código cliente. Esta separación mejora la mantenibilidad, permite agregar nuevos tipos de validación (por ejemplo, para CSV) siguiendo el principio Abierto/Cerrado y evita duplicación de lógica de validación en múltiples servicios, simplificando la estructura del backend.
+La \autoref{fig:strategy} ilustra la implementación del patrón Strategy en el módulo de terceros en las funciones de importación para validar archivos de diferentes tipos (como PDF y Excel) de manera flexible y extensible. Esto permite encapsular algoritmos de validación específicos en clases concretas (\texttt{PdfFileValidator} y \texttt{ExcelFileValidator}), que implementan la interfaz común \texttt{FileValidator}. Los servicios como \texttt{PdfRUTService} y \texttt{ExcelParsingService} dependen de la interfaz, no de implementaciones concretas, lo que facilita intercambiar validadores dinámicamente sin modificar el código cliente. Esta separación mejora la mantenibilidad, permite agregar nuevos tipos de validación (por ejemplo, para CSV) siguiendo el principio Abierto/Cerrado y evita duplicación de lógica de validación en múltiples servicios, simplificando la estructura del backend.
 
 \begin{figure}[h!]
     \centering%
@@ -44,7 +44,7 @@ La Figura \ref{fig:strategy} ilustra la implementación del patrón Strategy en 
 
 La implementación del patrón Strategy en este proyecto surge de la necesidad de manejar diferentes tipos de archivos al importar datos en el módulo de terceros. Este módulo debía ser capaz de procesar tanto archivos PDF del RUT de la DIAN como archivos Excel para la importación masiva de terceros. El patrón Strategy permitió encapsular las distintas estrategias de validación y procesamiento de archivos en clases separadas, facilitando la adición de nuevos formatos en el futuro sin afectar la lógica existente. Al depender de una interfaz común, los servicios pueden intercambiar fácilmente las estrategias según el tipo de archivo que se esté manejando. 
 
-La clase \texttt{FileValidator} en la Figura \ref{fig:FileValidator} define el contrato para validar archivos subidos, con métodos como \texttt{validate(MultipartFile file)} para verificar integridad, \texttt{getSupportedMimeTypes()} para tipos MIME admitidos y \texttt{getSupportedExtensions()} para extensiones (.pdf, .xlsx), esto asegura una validación uniforme sin importar el tipo de archivo.
+La clase \texttt{FileValidator} en la \autoref{fig:FileValidator} define el contrato para validar archivos subidos, con métodos como \texttt{validate(MultipartFile file)} para verificar integridad, \texttt{getSupportedMimeTypes()} para tipos MIME admitidos y \texttt{getSupportedExtensions()} para extensiones (.pdf, .xlsx), esto asegura una validación uniforme sin importar el tipo de archivo.
 
 \begin{figure}[h!]
     \centering%
@@ -55,7 +55,7 @@ La clase \texttt{FileValidator} en la Figura \ref{fig:FileValidator} define el c
 
 
 \newpage
-La clase \texttt{PdfFileValidator} (estrategia concreta) en la Figura \ref{fig:PDFValidator} valida archivos PDF del RUT, verificando que cumplan con propiedades como tamaño máximo y extensiones permitidas definidas en \texttt{FileUploadProperties}. Se inyecta en servicios específicos para PDFs.
+La clase \texttt{PdfFileValidator} (estrategia concreta) en la \autoref{fig:PDFValidator} valida archivos PDF del RUT, verificando que cumplan con propiedades como tamaño máximo y extensiones permitidas definidas en \texttt{FileUploadProperties}. Se inyecta en servicios específicos para PDFs.
 
 \begin{figure}[h!]
     \centering%
@@ -83,7 +83,7 @@ Es un patrón de diseño de comportamiento en el que un objeto, llamado sujeto, 
  \subsubsection{Diagrama de clases}
 La implementación del patrón Observer en el módulo de configuración se centra en la actualización asíncrona de contadores de uso de recursos, como centros de costo, en respuesta a eventos generados por otros microservicios, como \texttt{ms-debt-payments}. El microservicio \texttt{ms-debt-payments} actúa como publicador que envía notificaciones cuando se utiliza un recurso. Estas notificaciones son consumidas por el microservicio \texttt{ms-configuration} que contiene el módulo de centros de costo, que actúa como suscriptor, actualizando el contador de uso en la base de datos.
 
-El sistema implementa una arquitectura orientada a eventos para desacoplar el microservicio \texttt{ms-debt-payments} del microservicio \texttt{ms-configuration}. El diagrama general de la Figura \ref{fig:observer} ilustra cómo se aplica el patrón Observer para la actualización asíncrona de contadores.
+El sistema implementa una arquitectura orientada a eventos para desacoplar el microservicio \texttt{ms-debt-payments} del microservicio \texttt{ms-configuration}. El diagrama general de la \autoref{fig:observer} ilustra cómo se aplica el patrón Observer para la actualización asíncrona de contadores.
 
 \begin{figure}[h!]
     \centering%
@@ -132,7 +132,7 @@ Este diseño permite manejar distintos tipos de recursos enviando eventos a exch
 \end{figure}
 
 \newpage
-Para el manejo específico de la notificación, la Figura \ref{fig:handler} detalla el método \verb|"handle"| encargado de transformar la notificación interna en un evento de integración. En doonde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
+Para el manejo específico de la notificación, la \autoref{fig:handler} detalla el método \verb|"handle"| encargado de transformar la notificación interna en un evento de integración. En doonde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
 
 \begin{figure}[h!]
     \centering%
