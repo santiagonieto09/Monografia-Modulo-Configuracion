@@ -199,7 +199,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
@@ -428,7 +428,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
@@ -659,7 +659,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
@@ -892,7 +892,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
@@ -1125,7 +1125,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
@@ -1402,7 +1402,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
@@ -1643,7 +1643,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
@@ -1881,7 +1881,7 @@ Error de procesamiento & Se registra el error y el mensaje se pierde intencional
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
     
-    \item \textbf{Serialización}: Asegúrese de que su \texttt{RabbitTemplate} esté configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
+    \item \textbf{Serialización}: \texttt{RabbitTemplate} debe estar configurado con \texttt{Jackson2JsonMessageConverter} para la correcta serialización/deserialización de los mensajes.
     
     \item \textbf{Exchange Fanout}: Al ser un Fanout Exchange, no es necesario especificar una routing key al publicar. Si proporciona una, será ignorada.
     
