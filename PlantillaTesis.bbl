@@ -17,6 +17,16 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global/global}
+  \entry{redemAprendizajeBasado}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+  \field{howpublished}{\url{https://www.redem.org/aprendizaje-basado-en-proyectos-pbl-casos-de-exito/}}
+    \field{note}{[Accessed 06-12-2025]}
+    \field{title}{{A}prendizaje {B}asado en {P}royectos ({P}{B}{L}): {C}asos de
+  exito; {R}{E}{D}{E}{M} --- redem.org}
+  \endentry
+
   \entry{ArquitecturaCapas}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
@@ -217,15 +227,6 @@
     \field{volume}{30}
     \field{journaltitle}{Accounting Education}
     \field{year}{2021}
-  \endentry
-
-  \entry{iterativo}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-  \field{howpublished}{\url{https://proyectosagiles.org/desarrollo-iterativo-incremental/}}
-    \field{note}{[Accessed 14-07-2025]}
-    \field{title}{Desarrollo iterativo e incremental}
   \endentry
 
   \entry{patterndesign}{misc}{}{}
@@ -1039,6 +1040,16 @@
     \field{volume}{36}
     \field{journaltitle}{Journal of Accounting Education}
     \field{year}{2016}
+  \endentry
+
+  \entry{googleQuPostgreSQL}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Â}
+    \field{sortinithash}{Â}
+  \field{howpublished}{\url{https://cloud.google.com/discover/what-is-postgresql?hl=es-419}}
+    \field{note}{[Accessed 06-12-2025]}
+    \field{title}{Â¿Que es PPostgreSQL? Explicacion de las bases de datos ---
+  cloud.google.com}
   \endentry
 
   \entry{JAVA1MT}{misc}{}{}

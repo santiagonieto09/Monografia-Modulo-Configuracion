@@ -1,22 +1,21 @@
 \begin{appendix}
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Centros de Costo}\label{AnexoA}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Centros de Costo}\label{AnexoA}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Centros de Costo, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Centros de Costo actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite el desacoplamiento entre servicios y garantiza la consistencia eventual del contador de uso de centros de costo.
 
-\section{Arquitectura de Mensajería}
-
-\subsection{Tipo de Exchange}
+\section{Arquitectura de mensajería}
+\subsection{Tipo de exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Centros de Costo}
+\caption{Configuración de exchange y cola para Centros de Costo}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -37,14 +36,14 @@ Queue Durable & Sí \\
 \end{table}
 
 \newpage
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Centros de Costo que un centro de costo específico ha sido utilizado por otro microservicio (por ejemplo, al crear una factura, registrar un movimiento contable, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados}
+\caption{Tipos de eventos soportados}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -54,9 +53,9 @@ USED & \texttt{USED} & Indica que un centro de costo ha sido utilizado. Incremen
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 
 \begin{verbatim}
@@ -66,11 +65,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 }
 \end{verbatim}
 
-\subsection{Estructura del Payload de Datos (CostCenterUsageDto)}
+\subsection{Estructura del Payload de datos (CostCenterUsageDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Centro de Costo}
+\caption{Estructura del DTO de uso de centro de costo}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -85,7 +84,7 @@ quantityUsed & Integer & No & Cantidad de veces que se utilizó (informativo) \\
 \end{table}
 
 \newpage
-\section{Ejemplo de Mensaje JSON}
+\section{Ejemplo de mensaje JSON}
 
 A continuación se presenta un ejemplo completo de mensaje que debe publicarse en el exchange:
 
@@ -100,7 +99,7 @@ A continuación se presenta un ejemplo completo de mensaje que debe publicarse e
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -136,7 +135,7 @@ public enum EventUsageType {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -164,7 +163,7 @@ public class CostCenterEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Centros de Costo realiza las siguientes validaciones al recibir un evento:
 
@@ -175,11 +174,11 @@ El módulo de Centros de Costo realiza las siguientes validaciones al recibir un
     \item El \texttt{costCenterId} debe corresponder a un centro de costo existente
 \end{itemize}
 
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor}
+\caption{Manejo de errores en el suscriptor}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -195,7 +194,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \end{tabular}
 \end{table}
 
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
@@ -209,7 +208,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     \item \textbf{Acknowledgment}: El suscriptor utiliza acknowledgment manual para garantizar que solo se confirmen los mensajes procesados correctamente.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 
@@ -226,24 +225,23 @@ public class CostCenterMessagingConstants {
 % ANEXO B: TIPOS DE DOCUMENTOS
 %======================================================================
 
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Tipos de Documentos}\label{AnexoB}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Tipos de Documentos}\label{AnexoB}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Tipos de Documentos, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Tipos de Documentos actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite registrar cuántas veces se ha utilizado cada tipo de documento en operaciones como facturación, notas contables, entre otros.
 
-\section{Arquitectura de Mensajería}
-
-\subsection{Tipo de Exchange}
+\section{Arquitectura de mensajería}
+\subsection{Tipo de exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Tipos de Documentos}
+\caption{Configuración del exchange y cola para Tipos de Documentos}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -263,14 +261,14 @@ Queue Durable & Sí \\
 \end{tabular}
 \end{table}
 
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Tipos de Documentos que un tipo de documento específico ha sido utilizado por otro microservicio (por ejemplo, al crear una factura de venta, una nota crédito, un comprobante de egreso, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados para Tipos de Documentos}
+\caption{Tipos de eventos soportados para Tipos de Documentos}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -280,9 +278,9 @@ USED & \texttt{USED} & Indica que un tipo de documento ha sido utilizado. Increm
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 
 \begin{verbatim}
@@ -292,11 +290,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 }
 \end{verbatim}
 
-\subsection{Estructura del Payload de Datos (DocumentTypeUsageDto)}
+\subsection{Estructura del Payload de datos (DocumentTypeUsageDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Tipo de Documento}
+\caption{Estructura del DTO de uso de Tipos de Documentos}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -310,7 +308,7 @@ quantityUsed & Integer & No & Cantidad de veces que se utilizó (informativo) \\
 \end{tabular}
 \end{table}
 
-\section{Ejemplo de Mensaje JSON}
+\section{Ejemplo de mensaje JSON}
 
 A continuación se presenta un ejemplo completo de mensaje que debe publicarse en el exchange:
 
@@ -325,7 +323,7 @@ A continuación se presenta un ejemplo completo de mensaje que debe publicarse e
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -333,7 +331,7 @@ Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio c
 \subsection{Paso 2: Crear los DTOs}
 Implemente las siguientes clases en su microservicio publicador:
 
-\subsubsection{EventDto Genérico}
+\subsubsection{EventDto genérico}
 \begin{verbatim}
 public class EventDto<T, U> {    
     private T data;
@@ -361,7 +359,7 @@ public enum EventUsageType {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -390,7 +388,7 @@ public class DocumentTypeEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Tipos de Documentos realiza las siguientes validaciones al recibir un evento:
 
@@ -402,11 +400,11 @@ El módulo de Tipos de Documentos realiza las siguientes validaciones al recibir
     \item El \texttt{enterpriseId} debe ser válido y corresponder a una empresa registrada
 \end{itemize}
 
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor de Tipos de Documentos}
+\caption{Manejo de errores en el suscriptor de Tipos de Documentos}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -425,7 +423,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \end{table}
 
 \newpage
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
@@ -441,7 +439,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     \item \textbf{Contexto de Empresa}: A diferencia de Centros de Costo, el módulo de Tipos de Documentos requiere obligatoriamente el \texttt{enterpriseId} para asociar correctamente el uso del tipo de documento con la empresa correspondiente.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 
@@ -458,24 +456,24 @@ public class DocumentTypeMessagingConstants {
 % ANEXO C: CUENTAS BANCARIAS
 %======================================================================
 
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Cuentas Bancarias}\label{AnexoC}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Cuentas Bancarias}\label{AnexoC}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Cuentas Bancarias, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Cuentas Bancarias actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite registrar cuántas veces se ha utilizado cada cuenta bancaria en operaciones como pagos, recaudos, transferencias, conciliaciones bancarias, entre otros.
 
-\section{Arquitectura de Mensajería}
+\section{Arquitectura de mensajería}
 
-\subsection{Tipo de Exchange}
+\subsection{Tipo de exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Cuentas Bancarias}
+\caption{Configuración de exchange y cola para Cuentas Bancarias}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -495,14 +493,14 @@ Queue Durable & Sí \\
 \end{tabular}
 \end{table}
 
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Cuentas Bancarias que una cuenta bancaria específica ha sido utilizada por otro microservicio (por ejemplo, al registrar un pago, realizar una transferencia, crear un comprobante de egreso, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados para Cuentas Bancarias}
+\caption{Tipos de eventos soportados para Cuentas Bancarias}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -512,9 +510,9 @@ USED & \texttt{USED} & Indica que una cuenta bancaria ha sido utilizada. Increme
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 
 \begin{verbatim}
@@ -524,11 +522,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 }
 \end{verbatim}
 
-\subsection{Estructura del Payload de Datos (BankAccountUsageDto)}
+\subsection{Estructura del Payload de datos (BankAccountUsageDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Cuenta Bancaria}
+\caption{Estructura del DTO de uso de Cuenta Bancaria}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -542,7 +540,7 @@ quantityUsed & Integer & No & Cantidad de veces que se utilizó (informativo) \\
 \end{tabular}
 \end{table}
 
-\section{Ejemplo de Mensaje JSON}
+\section{Ejemplo de mensaje JSON}
 
 A continuación se presenta un ejemplo completo de mensaje que debe publicarse en el exchange:
 
@@ -557,7 +555,7 @@ A continuación se presenta un ejemplo completo de mensaje que debe publicarse e
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -593,7 +591,7 @@ public enum EventUsageType {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -622,7 +620,7 @@ public class BankAccountEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Cuentas Bancarias realiza las siguientes validaciones al recibir un evento:
 
@@ -634,11 +632,11 @@ El módulo de Cuentas Bancarias realiza las siguientes validaciones al recibir u
     \item El \texttt{enterpriseId} debe ser válido y corresponder a una empresa registrada
 \end{itemize}
 
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor de Cuentas Bancarias}
+\caption{Manejo de errores en el suscriptor de Cuentas Bancarias}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -656,7 +654,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \end{tabular}
 \end{table}
 
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
@@ -674,7 +672,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     \item \textbf{Microservicio}: Este módulo pertenece al microservicio \texttt{account-catalogue}, a diferencia de Centros de Costo y Tipos de Documentos que pertenecen al microservicio \texttt{configuration}.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 
@@ -691,24 +689,24 @@ public class BankAccountMessagingConstants {
 % ANEXO D: MÉTODOS DE PAGO
 %======================================================================
 
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Métodos de Pago}\label{AnexoD}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Métodos de Pago}\label{AnexoD}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Métodos de Pago, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Métodos de Pago actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite registrar cuántas veces se ha utilizado cada método de pago en operaciones como ventas, cobros, pagos a proveedores, entre otros.
 
-\section{Arquitectura de Mensajería}
+\section{Arquitectura de mensajería}
 
-\subsection{Tipo de Exchange}
+\subsection{Tipo de exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Métodos de Pago}
+\caption{Configuración de exchange y cola para Métodos de Pago}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -728,14 +726,14 @@ Queue Durable & Sí \\
 \end{tabular}
 \end{table}
 
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Métodos de Pago que un método de pago específico ha sido utilizado por otro microservicio (por ejemplo, al registrar una venta con tarjeta de crédito, un pago en efectivo, una transferencia electrónica, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados para Métodos de Pago}
+\caption{Tipos de eventos soportados para Métodos de Pago}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -745,9 +743,9 @@ USED & \texttt{USED} & Indica que un método de pago ha sido utilizado. Incremen
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 
 \begin{verbatim}
@@ -757,11 +755,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 }
 \end{verbatim}
 
-\subsection{Estructura del Payload de Datos (PaymentMethodUsageDto)}
+\subsection{Estructura del Payload de datos (PaymentMethodUsageDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Método de Pago}
+\caption{Estructura del DTO de uso de Método de Pago}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -775,7 +773,7 @@ quantityUsed & Integer & No & Cantidad de veces que se utilizó (informativo) \\
 \end{tabular}
 \end{table}
 
-\section{Ejemplo de Mensaje JSON}
+\section{Ejemplo de mensaje JSON}
 
 A continuación se presenta un ejemplo completo de mensaje que debe publicarse en el exchange:
 
@@ -790,7 +788,7 @@ A continuación se presenta un ejemplo completo de mensaje que debe publicarse e
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -798,7 +796,7 @@ Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio c
 \subsection{Paso 2: Crear los DTOs}
 Implemente las siguientes clases en su microservicio publicador:
 
-\subsubsection{EventDto Genérico}
+\subsubsection{EventDto genérico}
 \begin{verbatim}
 public class EventDto<T, U> {    
     private T data;
@@ -826,7 +824,7 @@ public enum EventUsageType {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -855,7 +853,7 @@ public class PaymentMethodEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Métodos de Pago realiza las siguientes validaciones al recibir un evento:
 
@@ -867,11 +865,11 @@ El módulo de Métodos de Pago realiza las siguientes validaciones al recibir un
     \item El \texttt{enterpriseId} debe ser válido y corresponder a una empresa registrada
 \end{itemize}
 
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor de Métodos de Pago}
+\caption{Manejo de errores en el suscriptor de Métodos de Pago}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -889,7 +887,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \end{tabular}
 \end{table}
 
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
@@ -907,7 +905,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     \item \textbf{Microservicio}: Este módulo pertenece al microservicio \texttt{account-catalogue}, junto con Cuentas Bancarias.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 
@@ -924,24 +922,24 @@ public class PaymentMethodMessagingConstants {
 % ANEXO E: IMPUESTOS
 %======================================================================
 
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Impuestos}\label{AnexoE}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Impuestos}\label{AnexoE}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Impuestos, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Impuestos actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite registrar cuántas veces se ha utilizado cada impuesto en operaciones como facturación, cálculo de retenciones, aplicación de IVA, entre otros.
 
-\section{Arquitectura de Mensajería}
+\section{Arquitectura de mensajería}
 
-\subsection{Tipo de Exchange}
+\subsection{Tipo de exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Impuestos}
+\caption{Configuración de exchange y cola para Impuestos}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -962,14 +960,14 @@ Queue Durable & Sí \\
 \end{table}
 
 \newpage
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Impuestos que un impuesto específico ha sido utilizado por otro microservicio (por ejemplo, al aplicar IVA en una factura, calcular retención en la fuente, aplicar ICA, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados para Impuestos}
+\caption{Tipos de eventos soportados para Impuestos}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -979,9 +977,9 @@ USED & \texttt{USED} & Indica que un impuesto ha sido utilizado. Incrementa el c
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 
 \begin{verbatim}
@@ -991,11 +989,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 }
 \end{verbatim}
 
-\subsection{Estructura del Payload de Datos (TaxUsageDto)}
+\subsection{Estructura del Payload de datos (TaxUsageDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Impuesto}
+\caption{Estructura del DTO de uso de impuesto}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -1009,7 +1007,7 @@ quantityUsed & Integer & No & Cantidad de veces que se utilizó (informativo) \\
 \end{tabular}
 \end{table}
 
-\section{Ejemplo de Mensaje JSON}
+\section{Ejemplo de mensaje JSON}
 
 A continuación se presenta un ejemplo completo de mensaje que debe publicarse en el exchange:
 
@@ -1024,7 +1022,7 @@ A continuación se presenta un ejemplo completo de mensaje que debe publicarse e
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -1060,7 +1058,7 @@ public enum EventUsageType {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -1088,7 +1086,7 @@ public class TaxEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Impuestos realiza las siguientes validaciones al recibir un evento:
 
@@ -1100,11 +1098,11 @@ El módulo de Impuestos realiza las siguientes validaciones al recibir un evento
     \item El \texttt{enterpriseId} debe ser válido y corresponder a una empresa registrada
 \end{itemize}
 
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor de Impuestos}
+\caption{Manejo de errores en el suscriptor de Impuestos}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -1122,7 +1120,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \end{tabular}
 \end{table}
 
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
@@ -1142,7 +1140,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     \item \textbf{Arquitectura Hexagonal}: A diferencia de otros módulos, el módulo de Impuestos implementa arquitectura hexagonal con puertos de entrada y salida (\texttt{ITaxUsageInputPort}), lo que proporciona mayor desacoplamiento.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 
@@ -1159,24 +1157,23 @@ public class TaxMessagingConstants {
 % ANEXO F: CATÁLOGO DE CUENTAS CONTABLES
 %======================================================================
 
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Catálogo de Cuentas Contables}\label{AnexoF}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Catálogo de Cuentas}\label{AnexoF}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Catálogo de Cuentas Contables, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Catálogo de Cuentas Contables actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite registrar cuántas veces se ha utilizado cada cuenta contable en operaciones como asientos contables, registros de compras, ventas, movimientos de inventario, entre otros.
 
-\section{Arquitectura de Mensajería}
-
-\subsection{Tipo de Exchange}
+\section{Arquitectura de mensajería}
+\subsection{Tipo de exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Catálogo de Cuentas}
+\caption{Configuración de exchange y cola para Catálogo de Cuentas}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -1196,14 +1193,14 @@ Queue Durable & Sí \\
 \end{tabular}
 \end{table}
 \newpage
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Catálogo de Cuentas que una cuenta contable específica ha sido utilizada por otro microservicio (por ejemplo, al registrar un asiento contable, crear una factura, registrar un pago, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados para Catálogo de Cuentas}
+\caption{Tipos de eventos soportados para Catálogo de Cuentas}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -1213,9 +1210,9 @@ USED & \texttt{USED} & Indica que una cuenta contable ha sido utilizada. Increme
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura:
 
 \begin{verbatim}
@@ -1227,11 +1224,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura:
 
 \textbf{Nota importante}: A diferencia de otros módulos, este EventDto tiene el campo \texttt{type} como String directamente, no como enum genérico.
 
-\subsection{Estructura del Payload de Datos (AccountUsedEventDto)}
+\subsection{Estructura del Payload de datos (AccountUsedEventDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Cuenta Contable}
+\caption{Estructura del DTO de uso de Cuenta Contable}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -1245,7 +1242,7 @@ sourceAccountType & String & Sí & Indica cómo interpretar el campo \texttt{acc
 \end{tabular}
 \end{table}
 
-\subsection{Tipos de Fuente de Cuenta (sourceAccountType)}
+\subsection{Tipos de fuente de cuenta (sourceAccountType)}
 
 \begin{table}[h!]
 \centering
@@ -1261,7 +1258,7 @@ sourceAccountType & String & Sí & Indica cómo interpretar el campo \texttt{acc
 \end{tabular}
 \end{table}
 
-\section{Ejemplos de Mensaje JSON}
+\section{Ejemplos de mensaje JSON}
 
 \subsection{Ejemplo usando ID de cuenta}
 \begin{verbatim}
@@ -1287,7 +1284,7 @@ sourceAccountType & String & Sí & Indica cómo interpretar el campo \texttt{acc
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -1316,7 +1313,7 @@ public class AccountUsedEventDto {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -1360,7 +1357,7 @@ public class AccountUsageEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Catálogo de Cuentas realiza las siguientes validaciones al recibir un evento:
 
@@ -1374,11 +1371,11 @@ El módulo de Catálogo de Cuentas realiza las siguientes validaciones al recibi
     \item La cuenta contable debe existir en el catálogo de la empresa especificada
 \end{itemize}
 
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor de Catálogo de Cuentas}
+\caption{Manejo de errores en el suscriptor de Catálogo de Cuentas}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -1396,7 +1393,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \end{tabular}
 \end{table}
 
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Flexibilidad de búsqueda}: Este módulo permite buscar cuentas tanto por ID interno como por código contable, lo que facilita la integración con sistemas que manejan diferentes identificadores.
@@ -1420,7 +1417,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     \item \textbf{Arquitectura Hexagonal}: El módulo implementa arquitectura hexagonal con puertos de entrada (\texttt{IAccountCatalogueUsagePort}) y salida, proporcionando mayor desacoplamiento.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 
@@ -1441,24 +1438,23 @@ public class AccountCatalogueMessagingConstants {
 % ANEXO G: TERCEROS
 %======================================================================
 
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Terceros}\label{AnexoG}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Terceros}\label{AnexoG}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Terceros (clientes, proveedores, empleados, etc.), proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Terceros actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite registrar cuántas veces se ha utilizado cada tercero en operaciones como facturación, pagos, compras, nómina, entre otros.
 
-\section{Arquitectura de Mensajería}
-
+\section{Arquitectura de mensajería}
 \subsection{Tipo de Exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Terceros}
+\caption{Configuración de exchange y cola para Terceros}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -1479,14 +1475,14 @@ Queue Durable & Sí \\
 \end{table}
 
 \newpage
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Terceros que un tercero específico ha sido utilizado por otro microservicio (por ejemplo, al crear una factura de venta a un cliente, registrar una compra a un proveedor, procesar un pago de nómina, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados para Terceros}
+\caption{Tipos de eventos soportados para Terceros}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -1496,9 +1492,9 @@ USED & \texttt{USED} & Indica que un tercero ha sido utilizado. Incrementa el co
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 
 \begin{verbatim}
@@ -1509,11 +1505,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 \end{verbatim}
 
 \newpage
-\subsection{Estructura del Payload de Datos (ThirdUsageEventDto)}
+\subsection{Estructura del Payload de datos (ThirdUsageEventDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Tercero}
+\caption{Estructura del DTO de uso de Tercero}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -1529,7 +1525,7 @@ quantityUsed & Integer & Sí & Cantidad de veces que se utilizó (debe ser mayor
 
 \textbf{*Nota}: Aunque \texttt{enterpriseId} no es obligatorio actualmente, se recomienda enviarlo para mantener consistencia con otros módulos y posibles validaciones futuras.
 
-\section{Ejemplo de Mensaje JSON}
+\section{Ejemplo de mensaje JSON}
 
 A continuación se presenta un ejemplo completo de mensaje que debe publicarse en el exchange:
 
@@ -1544,7 +1540,7 @@ A continuación se presenta un ejemplo completo de mensaje que debe publicarse e
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -1580,7 +1576,7 @@ public enum EventUsageType {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -1608,7 +1604,7 @@ public class ThirdEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Terceros realiza las siguientes validaciones al recibir un evento:
 
@@ -1620,11 +1616,11 @@ El módulo de Terceros realiza las siguientes validaciones al recibir un evento:
     \item El tercero debe existir en el sistema
 \end{itemize}
 
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor de Terceros}
+\caption{Manejo de errores en el suscriptor de Terceros}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -1642,7 +1638,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
 \end{tabular}
 \end{table}
 
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
@@ -1664,7 +1660,7 @@ Error de procesamiento & Se registra el error y se lanza la excepción para rein
     \item \textbf{Arquitectura Hexagonal}: El módulo implementa arquitectura hexagonal con puertos de entrada (\texttt{IThirdUsagePort}), proporcionando mayor desacoplamiento.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 
@@ -1681,24 +1677,23 @@ public class ThirdMessagingConstants {
 % ANEXO H: PRODUCTOS
 %======================================================================
 
-\chapter{Anexo: Guía de Integración de Eventos RabbitMQ para Productos}\label{AnexoH}
+\chapter{Anexo: Guía de integración de eventos RabbitMQ para Productos}\label{AnexoH}
 
 Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Productos, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
 
-\section{Descripción General}
+\section{Descripción general}
 
 El módulo de Productos actúa como \textbf{suscriptor} en el sistema de mensajería RabbitMQ, recibiendo eventos de uso desde otros microservicios. Esta arquitectura permite registrar cuántas veces se ha utilizado cada producto en operaciones como ventas, compras, movimientos de inventario (PEPS, promedio ponderado), facturación, entre otros.
 
-\section{Arquitectura de Mensajería}
-
-\subsection{Tipo de Exchange}
+\section{Arquitectura de mensajería}
+\subsection{Tipo de exchange}
 El módulo utiliza un \textbf{Fanout Exchange}, lo que significa que todos los mensajes publicados en el exchange serán entregados a todas las colas vinculadas, sin importar la routing key.
 
-\subsection{Configuración del Exchange y Cola}
+\subsection{Configuración del exchange y cola}
 
 \begin{table}[h!]
 \centering
-\caption{Configuración de Exchange y Cola para Productos}
+\caption{Configuración de exchange y cola para Productos}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Parámetro} & \textbf{Valor} \\
@@ -1719,14 +1714,14 @@ Queue Durable & Sí \\
 \end{table}
 
 \newpage
-\section{Eventos Soportados}
+\section{Eventos soportados}
 
 \subsection{Evento: USED}
 Este evento notifica al módulo de Productos que un producto específico ha sido utilizado por otro microservicio (por ejemplo, al registrar una venta, procesar un movimiento de inventario PEPS, realizar una compra, etc.).
 
 \begin{table}[h!]
 \centering
-\caption{Tipos de Eventos Soportados para Productos}
+\caption{Tipos de eventos soportados para Productos}
 \begin{tabular}{|l|l|p{7cm}|}
 \hline
 \textbf{Tipo de Evento} & \textbf{Valor} & \textbf{Descripción} \\
@@ -1736,9 +1731,9 @@ USED & \texttt{USED} & Indica que un producto ha sido utilizado. Incrementa el c
 \end{tabular}
 \end{table}
 
-\section{Estructura del Mensaje}
+\section{Estructura del mensaje}
 
-\subsection{Formato del Evento (EventDto)}
+\subsection{Formato del evento (EventDto)}
 El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 
 \begin{verbatim}
@@ -1748,11 +1743,11 @@ El mensaje debe enviarse en formato JSON con la siguiente estructura genérica:
 }
 \end{verbatim}
 
-\subsection{Estructura del Payload de Datos (ProductUsageEventDto)}
+\subsection{Estructura del Payload de datos (ProductUsageEventDto)}
 
 \begin{table}[h!]
 \centering
-\caption{Estructura del DTO de Uso de Producto}
+\caption{Estructura del DTO de uso de Producto}
 \begin{tabular}{|l|l|l|p{5cm}|}
 \hline
 \textbf{Campo} & \textbf{Tipo} & \textbf{Requerido} & \textbf{Descripción} \\
@@ -1768,7 +1763,7 @@ quantityUsed & Integer & Sí & Cantidad de veces que se utilizó (debe ser mayor
 
 \textbf{*Nota}: Aunque \texttt{enterpriseId} no es obligatorio actualmente, se recomienda enviarlo para mantener consistencia con otros módulos y posibles validaciones futuras.
 
-\section{Ejemplo de Mensaje JSON}
+\section{Ejemplo de mensaje JSON}
 
 A continuación se presenta un ejemplo completo de mensaje que debe publicarse en el exchange:
 
@@ -1783,7 +1778,7 @@ A continuación se presenta un ejemplo completo de mensaje que debe publicarse e
 }
 \end{verbatim}
 
-\section{Guía de Implementación para Publicadores}
+\section{Guía de implementación para publicadores}
 
 \subsection{Paso 1: Configurar el RabbitTemplate}
 Asegúrese de tener configurado el \texttt{RabbitTemplate} en su microservicio con el serializador JSON adecuado.
@@ -1819,7 +1814,7 @@ public enum EventUsageType {
 }
 \end{verbatim}
 
-\subsection{Paso 3: Publicar el Evento}
+\subsection{Paso 3: Publicar el evento}
 Ejemplo de código para publicar un evento de uso:
 
 \begin{verbatim}
@@ -1847,7 +1842,7 @@ public class ProductEventPublisher {
 }
 \end{verbatim}
 
-\section{Validaciones del Suscriptor}
+\section{Validaciones del suscriptor}
 
 El módulo de Productos realiza las siguientes validaciones al recibir un evento:
 
@@ -1859,11 +1854,11 @@ El módulo de Productos realiza las siguientes validaciones al recibir un evento
     \item El producto debe existir en el sistema
 \end{itemize}
 \newpage
-\section{Manejo de Errores}
+\section{Manejo de errores}
 
 \begin{table}[h!]
 \centering
-\caption{Manejo de Errores en el Suscriptor de Productos}
+\caption{Manejo de errores en el suscriptor de Productos}
 \begin{tabular}{|l|p{8cm}|}
 \hline
 \textbf{Escenario} & \textbf{Comportamiento} \\
@@ -1881,7 +1876,7 @@ Error de procesamiento & Se registra el error y el mensaje se pierde intencional
 \end{tabular}
 \end{table}
 
-\section{Consideraciones Importantes}
+\section{Consideraciones importantes}
 
 \begin{enumerate}
     \item \textbf{Idempotencia}: Aunque el sistema incrementa el contador de uso, considere diseñar sus eventos de manera idempotente para evitar incrementos duplicados en caso de reintentos.
@@ -1905,7 +1900,7 @@ Error de procesamiento & Se registra el error y el mensaje se pierde intencional
     \item \textbf{Arquitectura Hexagonal}: El módulo implementa arquitectura hexagonal con puertos de entrada (\texttt{IProductUsagePort}), proporcionando mayor desacoplamiento.
 \end{enumerate}
 
-\section{Constantes de Configuración}
+\section{Constantes de configuración}
 
 Para facilitar la integración, utilice las siguientes constantes en su microservicio:
 

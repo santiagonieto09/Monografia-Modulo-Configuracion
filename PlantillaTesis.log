@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  4 DEC 2025 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  6 DEC 2025 01:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,8 +1161,8 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 56.
 Package tocbasic Info: Using my definition of `\numberline' on input line 57.
 Package tocbasic Info: Using my definition of `\numberline' on input line 58.
 Package tocbasic Info: Using my definition of `\numberline' on input line 59.
-Package tocbasic Info: Using my definition of `\numberline' on input line 60.
-Package tocbasic Info: Using my definition of `\numberline' on input line 63.
+Package tocbasic Info: Using my definition of `\numberline' on input line 62.
+Package tocbasic Info: Using my definition of `\numberline' on input line 65.
 Package tocbasic Info: Using my definition of `\numberline' on input line 66.
 Package tocbasic Info: Using my definition of `\numberline' on input line 67.
 Package tocbasic Info: Using my definition of `\numberline' on input line 68.
@@ -1173,19 +1173,16 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 72.
 Package tocbasic Info: Using my definition of `\numberline' on input line 73.
 Package tocbasic Info: Using my definition of `\numberline' on input line 74.
 Package tocbasic Info: Using my definition of `\numberline' on input line 75.
-Package tocbasic Info: Using my definition of `\numberline' on input line 76.
+Package tocbasic Info: Using my definition of `\numberline' on input line 78.
 Package tocbasic Info: Using my definition of `\numberline' on input line 79.
 Package tocbasic Info: Using my definition of `\numberline' on input line 80.
 Package tocbasic Info: Using my definition of `\numberline' on input line 81.
-
-Underfull \vbox (badness 2020) has occurred while \output is active []
-
- [3]
 Package tocbasic Info: Using my definition of `\numberline' on input line 82.
+ [3]
 Package tocbasic Info: Using my definition of `\numberline' on input line 83.
 Package tocbasic Info: Using my definition of `\numberline' on input line 84.
 Package tocbasic Info: Using my definition of `\numberline' on input line 85.
-Package tocbasic Info: Using my definition of `\numberline' on input line 86.
+Package tocbasic Info: Using my definition of `\numberline' on input line 87.
 Package tocbasic Info: Using my definition of `\numberline' on input line 88.
 Package tocbasic Info: Using my definition of `\numberline' on input line 89.
 Package tocbasic Info: Using my definition of `\numberline' on input line 90.
@@ -1199,7 +1196,12 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 97.
 Package tocbasic Info: Using my definition of `\numberline' on input line 98.
 Package tocbasic Info: Using my definition of `\numberline' on input line 99.
 Package tocbasic Info: Using my definition of `\numberline' on input line 100.
-Package tocbasic Info: Using my definition of `\numberline' on input line 101.
+Package tocbasic Info: Using my definition of `\numberline' on input line 104.
+
+Overfull \hbox (1.29184pt too wide) detected at line 104
+ []\T1/phv/m/n/10.95 100
+ []
+
 Package tocbasic Info: Using my definition of `\numberline' on input line 105.
 
 Overfull \hbox (1.29184pt too wide) detected at line 105
@@ -1209,7 +1211,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 105
 Package tocbasic Info: Using my definition of `\numberline' on input line 106.
 
 Overfull \hbox (1.29184pt too wide) detected at line 106
- []\T1/phv/m/n/10.95 100
+ []\T1/phv/m/n/10.95 101
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 107.
@@ -1220,31 +1222,31 @@ Overfull \hbox (1.29184pt too wide) detected at line 107
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 108.
 
+Package tocbasic Warning: number width of section toc entries should be increased!
+(tocbasic)                Currently used number width = 25.56778pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input line 108.
+
+
+Overfull \hbox (0.38277pt too wide) detected at line 108
+\T1/phv/m/n/10.95 A.10. 
+ []
+
+
 Overfull \hbox (1.29184pt too wide) detected at line 108
  []\T1/phv/m/n/10.95 101
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 109.
 
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 25.56778pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 109.
-
-
-Overfull \hbox (0.38277pt too wide) detected at line 109
-\T1/phv/m/n/10.95 A.10. 
- []
-
-
 Overfull \hbox (1.29184pt too wide) detected at line 109
- []\T1/phv/m/n/10.95 101
+ []\T1/phv/b/n/10.95 103
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 110.
 
 Overfull \hbox (1.29184pt too wide) detected at line 110
- []\T1/phv/b/n/10.95 103
+ []\T1/phv/m/n/10.95 103
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 111.
@@ -1268,7 +1270,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 113
 Package tocbasic Info: Using my definition of `\numberline' on input line 114.
 
 Overfull \hbox (1.29184pt too wide) detected at line 114
- []\T1/phv/m/n/10.95 103
+ []\T1/phv/m/n/10.95 104
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 115.
@@ -1298,7 +1300,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 118
 Package tocbasic Info: Using my definition of `\numberline' on input line 119.
 
 Overfull \hbox (1.29184pt too wide) detected at line 119
- []\T1/phv/m/n/10.95 104
+ []\T1/phv/m/n/10.95 105
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 120.
@@ -1319,10 +1321,10 @@ Overfull \hbox (1.29184pt too wide) detected at line 122
  []\T1/phv/m/n/10.95 105
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 123.
+Package tocbasic Info: Using my definition of `\numberline' on input line 126.
 
-Overfull \hbox (1.29184pt too wide) detected at line 123
- []\T1/phv/m/n/10.95 105
+Overfull \hbox (1.29184pt too wide) detected at line 126
+ []\T1/phv/m/n/10.95 106
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 127.
@@ -1331,20 +1333,32 @@ Overfull \hbox (1.29184pt too wide) detected at line 127
  []\T1/phv/m/n/10.95 106
  []
 
-[4]
 Package tocbasic Info: Using my definition of `\numberline' on input line 128.
 
 Overfull \hbox (1.29184pt too wide) detected at line 128
- []\T1/phv/m/n/10.95 106
+ []\T1/phv/m/n/10.95 107
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 129.
 
 Overfull \hbox (1.29184pt too wide) detected at line 129
- []\T1/phv/m/n/10.95 107
+ []\T1/phv/m/n/10.95 108
  []
 
+[4]
 Package tocbasic Info: Using my definition of `\numberline' on input line 130.
+
+
+Package tocbasic Warning: number width of section toc entries should be increased!
+(tocbasic)                Currently used number width = 25.34883pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input line 130.
+
+
+Overfull \hbox (0.16382pt too wide) detected at line 130
+\T1/phv/m/n/10.95 B.10. 
+ []
+
 
 Overfull \hbox (1.29184pt too wide) detected at line 130
  []\T1/phv/m/n/10.95 108
@@ -1352,25 +1366,14 @@ Overfull \hbox (1.29184pt too wide) detected at line 130
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 131.
 
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 25.34883pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 131.
-
-
-Overfull \hbox (0.16382pt too wide) detected at line 131
-\T1/phv/m/n/10.95 B.10. 
- []
-
-
 Overfull \hbox (1.29184pt too wide) detected at line 131
- []\T1/phv/m/n/10.95 108
+ []\T1/phv/b/n/10.95 109
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 132.
 
 Overfull \hbox (1.29184pt too wide) detected at line 132
- []\T1/phv/b/n/10.95 109
+ []\T1/phv/m/n/10.95 109
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 133.
@@ -1394,7 +1397,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 135
 Package tocbasic Info: Using my definition of `\numberline' on input line 136.
 
 Overfull \hbox (1.29184pt too wide) detected at line 136
- []\T1/phv/m/n/10.95 109
+ []\T1/phv/m/n/10.95 110
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 137.
@@ -1424,7 +1427,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 140
 Package tocbasic Info: Using my definition of `\numberline' on input line 141.
 
 Overfull \hbox (1.29184pt too wide) detected at line 141
- []\T1/phv/m/n/10.95 110
+ []\T1/phv/m/n/10.95 111
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 142.
@@ -1445,10 +1448,10 @@ Overfull \hbox (1.29184pt too wide) detected at line 144
  []\T1/phv/m/n/10.95 111
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 145.
+Package tocbasic Info: Using my definition of `\numberline' on input line 148.
 
-Overfull \hbox (1.29184pt too wide) detected at line 145
- []\T1/phv/m/n/10.95 111
+Overfull \hbox (1.29184pt too wide) detected at line 148
+ []\T1/phv/m/n/10.95 112
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 149.
@@ -1460,7 +1463,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 149
 Package tocbasic Info: Using my definition of `\numberline' on input line 150.
 
 Overfull \hbox (1.29184pt too wide) detected at line 150
- []\T1/phv/m/n/10.95 112
+ []\T1/phv/m/n/10.95 113
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 151.
@@ -1471,31 +1474,31 @@ Overfull \hbox (1.29184pt too wide) detected at line 151
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 152.
 
-Overfull \hbox (1.29184pt too wide) detected at line 152
- []\T1/phv/m/n/10.95 113
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 153.
-
 Package tocbasic Warning: number width of section toc entries should be increased!
 (tocbasic)                Currently used number width = 25.84164pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 153.
+(tocbasic)                Reserved number width       = 25.18501pt on input line 152.
 
 
-Overfull \hbox (0.65663pt too wide) detected at line 153
+Overfull \hbox (0.65663pt too wide) detected at line 152
 \T1/phv/m/n/10.95 C.10. 
  []
 
 
-Overfull \hbox (1.29184pt too wide) detected at line 153
+Overfull \hbox (1.29184pt too wide) detected at line 152
  []\T1/phv/m/n/10.95 114
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 153.
+
+Overfull \hbox (1.29184pt too wide) detected at line 153
+ []\T1/phv/b/n/10.95 115
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 154.
 
 Overfull \hbox (1.29184pt too wide) detected at line 154
- []\T1/phv/b/n/10.95 115
+ []\T1/phv/m/n/10.95 115
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 155.
@@ -1519,7 +1522,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 157
 Package tocbasic Info: Using my definition of `\numberline' on input line 158.
 
 Overfull \hbox (1.29184pt too wide) detected at line 158
- []\T1/phv/m/n/10.95 115
+ []\T1/phv/m/n/10.95 116
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 159.
@@ -1549,7 +1552,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 162
 Package tocbasic Info: Using my definition of `\numberline' on input line 163.
 
 Overfull \hbox (1.29184pt too wide) detected at line 163
- []\T1/phv/m/n/10.95 116
+ []\T1/phv/m/n/10.95 117
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 164.
@@ -1570,10 +1573,10 @@ Overfull \hbox (1.29184pt too wide) detected at line 166
  []\T1/phv/m/n/10.95 117
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 167.
+Package tocbasic Info: Using my definition of `\numberline' on input line 170.
 
-Overfull \hbox (1.29184pt too wide) detected at line 167
- []\T1/phv/m/n/10.95 117
+Overfull \hbox (1.29184pt too wide) detected at line 170
+ []\T1/phv/m/n/10.95 118
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 171.
@@ -1585,7 +1588,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 171
 Package tocbasic Info: Using my definition of `\numberline' on input line 172.
 
 Overfull \hbox (1.29184pt too wide) detected at line 172
- []\T1/phv/m/n/10.95 118
+ []\T1/phv/m/n/10.95 119
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 173.
@@ -1596,34 +1599,37 @@ Overfull \hbox (1.29184pt too wide) detected at line 173
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 174.
 
-Overfull \hbox (1.29184pt too wide) detected at line 174
- []\T1/phv/m/n/10.95 119
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 175.
-
 Package tocbasic Warning: number width of section toc entries should be increased!
 (tocbasic)                Currently used number width = 25.40363pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 175.
+(tocbasic)                Reserved number width       = 25.18501pt on input line 174.
 
 
-Overfull \hbox (0.21861pt too wide) detected at line 175
+Overfull \hbox (0.21861pt too wide) detected at line 174
 \T1/phv/m/n/10.95 D.10. 
  []
 
 
-Overfull \hbox (1.29184pt too wide) detected at line 175
+Overfull \hbox (1.29184pt too wide) detected at line 174
  []\T1/phv/m/n/10.95 120
  []
 
-[5]
-Package tocbasic Info: Using my definition of `\numberline' on input line 176.
+Package tocbasic Info: Using my definition of `\numberline' on input line 175.
 
-Overfull \hbox (1.29184pt too wide) detected at line 176
+Overfull \hbox (1.29184pt too wide) detected at line 175
  []\T1/phv/b/n/10.95 121
  []
 
+Package tocbasic Info: Using my definition of `\numberline' on input line 176.
+
+Overfull \hbox (1.29184pt too wide) detected at line 176
+ []\T1/phv/m/n/10.95 121
+ []
+
+
+Underfull \vbox (badness 5771) has occurred while \output is active []
+
+ [5]
 Package tocbasic Info: Using my definition of `\numberline' on input line 177.
 
 Overfull \hbox (1.29184pt too wide) detected at line 177
@@ -1645,7 +1651,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 179
 Package tocbasic Info: Using my definition of `\numberline' on input line 180.
 
 Overfull \hbox (1.29184pt too wide) detected at line 180
- []\T1/phv/m/n/10.95 121
+ []\T1/phv/m/n/10.95 122
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 181.
@@ -1675,7 +1681,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 184
 Package tocbasic Info: Using my definition of `\numberline' on input line 185.
 
 Overfull \hbox (1.29184pt too wide) detected at line 185
- []\T1/phv/m/n/10.95 122
+ []\T1/phv/m/n/10.95 123
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 186.
@@ -1696,10 +1702,10 @@ Overfull \hbox (1.29184pt too wide) detected at line 188
  []\T1/phv/m/n/10.95 123
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 189.
+Package tocbasic Info: Using my definition of `\numberline' on input line 192.
 
-Overfull \hbox (1.29184pt too wide) detected at line 189
- []\T1/phv/m/n/10.95 123
+Overfull \hbox (1.29184pt too wide) detected at line 192
+ []\T1/phv/m/n/10.95 124
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 193.
@@ -1711,7 +1717,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 193
 Package tocbasic Info: Using my definition of `\numberline' on input line 194.
 
 Overfull \hbox (1.29184pt too wide) detected at line 194
- []\T1/phv/m/n/10.95 124
+ []\T1/phv/m/n/10.95 125
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 195.
@@ -1722,31 +1728,31 @@ Overfull \hbox (1.29184pt too wide) detected at line 195
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 196.
 
-Overfull \hbox (1.29184pt too wide) detected at line 196
- []\T1/phv/m/n/10.95 125
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 197.
-
 Package tocbasic Warning: number width of section toc entries should be increased!
 (tocbasic)                Currently used number width = 25.56778pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 197.
+(tocbasic)                Reserved number width       = 25.18501pt on input line 196.
 
 
-Overfull \hbox (0.38277pt too wide) detected at line 197
+Overfull \hbox (0.38277pt too wide) detected at line 196
 \T1/phv/m/n/10.95 E.10. 
  []
 
 
-Overfull \hbox (1.29184pt too wide) detected at line 197
+Overfull \hbox (1.29184pt too wide) detected at line 196
  []\T1/phv/m/n/10.95 126
+ []
+
+Package tocbasic Info: Using my definition of `\numberline' on input line 197.
+
+Overfull \hbox (1.29184pt too wide) detected at line 197
+ []\T1/phv/b/n/10.95 127
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 198.
 
 Overfull \hbox (1.29184pt too wide) detected at line 198
- []\T1/phv/b/n/10.95 127
+ []\T1/phv/m/n/10.95 127
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 199.
@@ -1770,7 +1776,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 201
 Package tocbasic Info: Using my definition of `\numberline' on input line 202.
 
 Overfull \hbox (1.29184pt too wide) detected at line 202
- []\T1/phv/m/n/10.95 127
+ []\T1/phv/m/n/10.95 128
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 203.
@@ -1800,19 +1806,19 @@ Overfull \hbox (1.29184pt too wide) detected at line 206
 Package tocbasic Info: Using my definition of `\numberline' on input line 207.
 
 Overfull \hbox (1.29184pt too wide) detected at line 207
- []\T1/phv/m/n/10.95 129
+ []\T1/phv/m/n/10.95 128
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 208.
 
 Overfull \hbox (1.29184pt too wide) detected at line 208
- []\T1/phv/m/n/10.95 129
+ []\T1/phv/m/n/10.95 128
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 209.
 
 Overfull \hbox (1.29184pt too wide) detected at line 209
- []\T1/phv/m/n/10.95 129
+ []\T1/phv/m/n/10.95 128
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 210.
@@ -1824,7 +1830,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 210
 Package tocbasic Info: Using my definition of `\numberline' on input line 211.
 
 Overfull \hbox (1.29184pt too wide) detected at line 211
- []\T1/phv/m/n/10.95 129
+ []\T1/phv/m/n/10.95 130
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 212.
@@ -1839,9 +1845,9 @@ Overfull \hbox (1.29184pt too wide) detected at line 213
  []\T1/phv/m/n/10.95 130
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 214.
+Package tocbasic Info: Using my definition of `\numberline' on input line 216.
 
-Overfull \hbox (1.29184pt too wide) detected at line 214
+Overfull \hbox (1.29184pt too wide) detected at line 216
  []\T1/phv/m/n/10.95 130
  []
 
@@ -1866,22 +1872,25 @@ Overfull \hbox (1.29184pt too wide) detected at line 219
 Package tocbasic Info: Using my definition of `\numberline' on input line 220.
 
 Overfull \hbox (1.29184pt too wide) detected at line 220
- []\T1/phv/m/n/10.95 132
+ []\T1/phv/m/n/10.95 133
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 221.
 
 Overfull \hbox (1.29184pt too wide) detected at line 221
- []\T1/phv/m/n/10.95 133
- []
-
-[6]
-Package tocbasic Info: Using my definition of `\numberline' on input line 222.
-
-Overfull \hbox (1.29184pt too wide) detected at line 222
  []\T1/phv/b/n/10.95 134
  []
 
+Package tocbasic Info: Using my definition of `\numberline' on input line 222.
+
+Overfull \hbox (1.29184pt too wide) detected at line 222
+ []\T1/phv/m/n/10.95 134
+ []
+
+
+Underfull \vbox (badness 4954) has occurred while \output is active []
+
+ [6]
 Package tocbasic Info: Using my definition of `\numberline' on input line 223.
 
 Overfull \hbox (1.29184pt too wide) detected at line 223
@@ -1903,7 +1912,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 225
 Package tocbasic Info: Using my definition of `\numberline' on input line 226.
 
 Overfull \hbox (1.29184pt too wide) detected at line 226
- []\T1/phv/m/n/10.95 134
+ []\T1/phv/m/n/10.95 135
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 227.
@@ -1927,7 +1936,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 229
 Package tocbasic Info: Using my definition of `\numberline' on input line 230.
 
 Overfull \hbox (1.29184pt too wide) detected at line 230
- []\T1/phv/m/n/10.95 135
+ []\T1/phv/m/n/10.95 136
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 231.
@@ -1954,16 +1963,16 @@ Overfull \hbox (1.29184pt too wide) detected at line 234
  []\T1/phv/m/n/10.95 136
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 235.
+Package tocbasic Info: Using my definition of `\numberline' on input line 238.
 
-Overfull \hbox (1.29184pt too wide) detected at line 235
- []\T1/phv/m/n/10.95 136
+Overfull \hbox (1.29184pt too wide) detected at line 238
+ []\T1/phv/m/n/10.95 137
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 239.
 
 Overfull \hbox (1.29184pt too wide) detected at line 239
- []\T1/phv/m/n/10.95 137
+ []\T1/phv/m/n/10.95 138
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 240.
@@ -1975,10 +1984,21 @@ Overfull \hbox (1.29184pt too wide) detected at line 240
 Package tocbasic Info: Using my definition of `\numberline' on input line 241.
 
 Overfull \hbox (1.29184pt too wide) detected at line 241
- []\T1/phv/m/n/10.95 138
+ []\T1/phv/m/n/10.95 139
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 242.
+
+Package tocbasic Warning: number width of section toc entries should be increased!
+(tocbasic)                Currently used number width = 26.7832pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input line 242.
+
+
+Overfull \hbox (1.59819pt too wide) detected at line 242
+\T1/phv/m/n/10.95 G.10. 
+ []
+
 
 Overfull \hbox (1.29184pt too wide) detected at line 242
  []\T1/phv/m/n/10.95 139
@@ -1986,25 +2006,14 @@ Overfull \hbox (1.29184pt too wide) detected at line 242
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 243.
 
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 26.7832pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 243.
-
-
-Overfull \hbox (1.59819pt too wide) detected at line 243
-\T1/phv/m/n/10.95 G.10. 
- []
-
-
 Overfull \hbox (1.29184pt too wide) detected at line 243
- []\T1/phv/m/n/10.95 139
+ []\T1/phv/b/n/10.95 140
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 244.
 
 Overfull \hbox (1.29184pt too wide) detected at line 244
- []\T1/phv/b/n/10.95 140
+ []\T1/phv/m/n/10.95 140
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 245.
@@ -2028,7 +2037,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 247
 Package tocbasic Info: Using my definition of `\numberline' on input line 248.
 
 Overfull \hbox (1.29184pt too wide) detected at line 248
- []\T1/phv/m/n/10.95 140
+ []\T1/phv/m/n/10.95 141
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 249.
@@ -2058,7 +2067,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 252
 Package tocbasic Info: Using my definition of `\numberline' on input line 253.
 
 Overfull \hbox (1.29184pt too wide) detected at line 253
- []\T1/phv/m/n/10.95 141
+ []\T1/phv/m/n/10.95 142
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 254.
@@ -2079,10 +2088,10 @@ Overfull \hbox (1.29184pt too wide) detected at line 256
  []\T1/phv/m/n/10.95 142
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 257.
+Package tocbasic Info: Using my definition of `\numberline' on input line 260.
 
-Overfull \hbox (1.29184pt too wide) detected at line 257
- []\T1/phv/m/n/10.95 142
+Overfull \hbox (1.29184pt too wide) detected at line 260
+ []\T1/phv/m/n/10.95 143
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 261.
@@ -2094,7 +2103,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 261
 Package tocbasic Info: Using my definition of `\numberline' on input line 262.
 
 Overfull \hbox (1.29184pt too wide) detected at line 262
- []\T1/phv/m/n/10.95 143
+ []\T1/phv/m/n/10.95 145
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 263.
@@ -2105,24 +2114,18 @@ Overfull \hbox (1.29184pt too wide) detected at line 263
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 264.
 
-Overfull \hbox (1.29184pt too wide) detected at line 264
- []\T1/phv/m/n/10.95 145
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 265.
-
 Package tocbasic Warning: number width of section toc entries should be increased!
 (tocbasic)                Currently used number width = 26.17007pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 265.
+(tocbasic)                Reserved number width       = 25.18501pt on input line 264.
 
 
-Overfull \hbox (0.98506pt too wide) detected at line 265
+Overfull \hbox (0.98506pt too wide) detected at line 264
 \T1/phv/m/n/10.95 H.10. 
  []
 
 
-Overfull \hbox (1.29184pt too wide) detected at line 265
+Overfull \hbox (1.29184pt too wide) detected at line 264
  []\T1/phv/m/n/10.95 146
  []
 
@@ -2332,7 +2335,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 41
 Package tocbasic Info: Using my definition of `\numberline' on input line 43.
 
 Overfull \hbox (1.29184pt too wide) detected at line 43
- []\T1/phv/m/n/10.95 128
+ []\T1/phv/m/n/10.95 127
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 44.
@@ -2421,8 +2424,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-] [2] [3] [4] (Cap1/Tablas/Iteracion1.tex
-Underfull \hbox (badness 3907) in paragraph at lines 36--36
+] [2]
+<Cap1/Figuras/PBL.png, id=769, 885.3075pt x 599.99156pt>
+File: Cap1/Figuras/PBL.png Graphic file (type png)
+<use Cap1/Figuras/PBL.png>
+Package pdftex.def Info: Cap1/Figuras/PBL.png  used on input line 51.
+(pdftex.def)             Requested size: 472.03406pt x 319.90742pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] [4 <./Cap1/Figuras/PBL.png>] [5] (Cap1/Tablas/Iteracion1.tex
+Underfull \hbox (badness 3907) in paragraph at lines 34--34
 []|\T1/phv/b/n/10.95 Rol del prac-ti-
  []
 
@@ -2430,14 +2443,6 @@ Underfull \hbox (badness 3907) in paragraph at lines 36--36
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion2.tex
-Underfull \hbox (badness 3907) in paragraph at lines 34--34
-[]|\T1/phv/b/n/10.95 Rol del prac-ti-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (Cap1/Tablas/Iteracion3.tex
 Underfull \hbox (badness 3907) in paragraph at lines 32--32
 []|\T1/phv/b/n/10.95 Rol del prac-ti-
  []
@@ -2445,8 +2450,16 @@ Underfull \hbox (badness 3907) in paragraph at lines 32--32
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+) (Cap1/Tablas/Iteracion3.tex
+Underfull \hbox (badness 3907) in paragraph at lines 30--30
+[]|\T1/phv/b/n/10.95 Rol del prac-ti-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (Cap1/Tablas/Iteracion4.tex
-Underfull \hbox (badness 3907) in paragraph at lines 33--33
+Underfull \hbox (badness 3907) in paragraph at lines 31--31
 []|\T1/phv/b/n/10.95 Rol del prac-ti-
  []
 
@@ -2454,7 +2467,7 @@ Underfull \hbox (badness 3907) in paragraph at lines 33--33
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion5.tex
-Underfull \hbox (badness 3907) in paragraph at lines 34--34
+Underfull \hbox (badness 3907) in paragraph at lines 32--32
 []|\T1/phv/b/n/10.95 Rol del prac-ti-
  []
 
@@ -2462,20 +2475,20 @@ Underfull \hbox (badness 3907) in paragraph at lines 34--34
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion6.tex
-Underfull \hbox (badness 3907) in paragraph at lines 36--36
+Underfull \hbox (badness 3907) in paragraph at lines 34--34
 []|\T1/phv/b/n/10.95 Rol del prac-ti-
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [5] [6] [7] [8] [9]
+)) [6] [7] [8] [9] [10]
 \openout2 = `Cap2/Cap2.aux'.
 
  (Cap2/Cap2.tex
 Underfull \vbox (badness 4556) has occurred while \output is active []
 
- [10
+ [11
 
 
 
@@ -2483,30 +2496,30 @@ Underfull \vbox (badness 4556) has occurred while \output is active []
 ]
 Underfull \vbox (badness 1205) has occurred while \output is active []
 
- [11] [12] [13]
-Underfull \vbox (badness 8113) has occurred while \output is active []
-
- [14]
-<Cap2/Figuras/Figura1.png, id=900, 581.17125pt x 334.24875pt>
+ [12] [13] [14] [15]
+<Cap2/Figuras/Figura1.png, id=904, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura1.png Graphic file (type png)
 <use Cap2/Figuras/Figura1.png>
-Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 126.
+Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 127.
 (pdftex.def)             Requested size: 283.22452pt x 162.89078pt.
-<Cap2/Figuras/Figura2.png, id=901, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura2.png, id=905, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura2.png Graphic file (type png)
 <use Cap2/Figuras/Figura2.png>
-Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 133.
-(pdftex.def)             Requested size: 283.22452pt x 162.89078pt.
-<Cap2/Figuras/Figura3.png, id=902, 581.17125pt x 334.24875pt>
-File: Cap2/Figuras/Figura3.png Graphic file (type png)
-<use Cap2/Figuras/Figura3.png>
-Package pdftex.def Info: Cap2/Figuras/Figura3.png  used on input line 140.
+Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 134.
 (pdftex.def)             Requested size: 283.22452pt x 162.89078pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <./Cap2/Figuras/Figura1.png> <./Cap2/Figuras/Figura2.png>] (Cap2/Tablas/LineamientosDesarrollo.tex
+<Cap2/Figuras/Figura3.png, id=906, 581.17125pt x 334.24875pt>
+File: Cap2/Figuras/Figura3.png Graphic file (type png)
+<use Cap2/Figuras/Figura3.png>
+Package pdftex.def Info: Cap2/Figuras/Figura3.png  used on input line 141.
+(pdftex.def)             Requested size: 283.22452pt x 162.89078pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./Cap2/Figuras/Figura1.png>] (Cap2/Tablas/LineamientosDesarrollo.tex
 Underfull \hbox (badness 1281) in paragraph at lines 22--22
 []|\T1/phv/m/n/10.95 Bases de da-tos Real
  []
@@ -2514,11 +2527,11 @@ Underfull \hbox (badness 1281) in paragraph at lines 22--22
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [16 <./Cap2/Figuras/Figura3.png>] [17]
+) [17 <./Cap2/Figuras/Figura2.png> <./Cap2/Figuras/Figura3.png>]) [18]
 \openout2 = `Cap3/Cap3.aux'.
 
  (Cap3/Cap3.tex
-<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=923, 1790.69pt x 867.24pt>
+<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=929, 1790.69pt x 867.24pt>
 File: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png  used on input line 8.
@@ -2526,86 +2539,83 @@ Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18
+ [19
 
 
 
 
  <./Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>]
-<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=930, 4199.69pt x 2304.61pt>
+<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=936, 4199.69pt x 2304.61pt>
 File: Cap3/Figuras/Diagrama General-Cuentas contables.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuentas contables.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.png  used on input line 22.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.png  used on input line 24.
 (pdftex.def)             Requested size: 424.79976pt x 233.11191pt.
- [19 <./Cap3/Figuras/Diagrama General-Cuentas contables.png>]
-<Cap3/Figuras/Diagrama General-Impuestos.png, id=936, 2380.895pt x 1654.18pt>
+ [20 <./Cap3/Figuras/Diagrama General-Cuentas contables.png>]
+<Cap3/Figuras/Diagrama General-Impuestos.png, id=943, 2380.895pt x 1654.18pt>
 File: Cap3/Figuras/Diagrama General-Impuestos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Impuestos.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.png  used on input line 33.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.png  used on input line 37.
 (pdftex.def)             Requested size: 424.80067pt x 295.13976pt.
- [20 <./Cap3/Figuras/Diagrama General-Impuestos.png>]
-<Cap3/Figuras/Diagrama General-Terceros.png, id=943, 3697.815pt x 1818.795pt>
+ [21 <./Cap3/Figuras/Diagrama General-Impuestos.png>]
+<Cap3/Figuras/Diagrama General-Terceros.png, id=949, 3697.815pt x 1818.795pt>
 File: Cap3/Figuras/Diagrama General-Terceros.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Terceros.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.png  used on input line 44.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.png  used on input line 50.
 (pdftex.def)             Requested size: 471.9871pt x 232.15001pt.
- [21 <./Cap3/Figuras/Diagrama General-Terceros.png>]
-<Cap3/Figuras/Diagrama General-Inventario productos.png, id=949, 3693.8pt x 1682.285pt>
+ [22 <./Cap3/Figuras/Diagrama General-Terceros.png>]
+<Cap3/Figuras/Diagrama General-Inventario productos.png, id=955, 3693.8pt x 1682.285pt>
 File: Cap3/Figuras/Diagrama General-Inventario productos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Inventario productos.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.png  used on input line 55.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.png  used on input line 62.
 (pdftex.def)             Requested size: 471.9819pt x 214.95697pt.
- [22 <./Cap3/Figuras/Diagrama General-Inventario productos.png>]
-<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=955, 3505.095pt x 1658.195pt>
+ [23 <./Cap3/Figuras/Diagrama General-Inventario productos.png>]
+<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=961, 3505.095pt x 1658.195pt>
 File: Cap3/Figuras/Diagrama General-Metodos de pago.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Metodos de pago.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.png  used on input line 66.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.png  used on input line 75.
 (pdftex.def)             Requested size: 471.99078pt x 223.29002pt.
- [23 <./Cap3/Figuras/Diagrama General-Metodos de pago.png>]
-<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=961, 3854.4pt x 1778.645pt>
+ [24 <./Cap3/Figuras/Diagrama General-Metodos de pago.png>]
+<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=967, 3854.4pt x 1778.645pt>
 File: Cap3/Figuras/Diagrama General-Tipos de documentos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Tipos de documentos.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.png  used on input line 77.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.png  used on input line 88.
 (pdftex.def)             Requested size: 471.977pt x 217.79771pt.
- [24 <./Cap3/Figuras/Diagrama General-Tipos de documentos.png>]
-<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=967, 3481.005pt x 1606.0pt>
+ [25 <./Cap3/Figuras/Diagrama General-Tipos de documentos.png>]
+<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=973, 3481.005pt x 1606.0pt>
 File: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png  used on input line 88.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png  used on input line 101.
 (pdftex.def)             Requested size: 471.98692pt x 217.75636pt.
- [25 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>]
-<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=973, 3569.335pt x 1846.9pt>
+ [26 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>]
+<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=980, 3569.335pt x 1846.9pt>
 File: Cap3/Figuras/Diagrama General-Centros de Costo.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Centros de Costo.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.png  used on input line 99.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.png  used on input line 114.
 (pdftex.def)             Requested size: 471.98154pt x 244.21991pt.
- [26 <./Cap3/Figuras/Diagrama General-Centros de Costo.png>]
-<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=980, 855.195pt x 1260.71pt>
+ [27 <./Cap3/Figuras/Diagrama General-Centros de Costo.png>]
+<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=986, 855.195pt x 1260.71pt>
 File: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png  used on input line 110.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png  used on input line 126.
 (pdftex.def)             Requested size: 188.80899pt x 278.33813pt.
- [27 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>]
-<Cap3/Figuras/Diagrama General-Calendario contable.png, id=986, 3741.98pt x 1750.54pt>
+ [28 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>]
+<Cap3/Figuras/Diagrama General-Calendario contable.png, id=992, 3741.98pt x 1750.54pt>
 File: Cap3/Figuras/Diagrama General-Calendario contable.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Calendario contable.png>
-Package pdftex.def Info: Cap3/Figuras/Diagrama General-Calendario contable.png  used on input line 121.
+Package pdftex.def Info: Cap3/Figuras/Diagrama General-Calendario contable.png  used on input line 139.
 (pdftex.def)             Requested size: 472.0287pt x 220.82028pt.
-) [28 <./Cap3/Figuras/Diagrama General-Calendario contable.png>]
+) [29 <./Cap3/Figuras/Diagrama General-Calendario contable.png>]
 \openout2 = `Cap4/Cap4.aux'.
 
- (Cap4/Cap4.tex [29
+ (Cap4/Cap4.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30
 
 
 
 
-]
-<Cap4/Figuras/PBL.png, id=998, 885.3075pt x 599.99156pt>
-File: Cap4/Figuras/PBL.png Graphic file (type png)
-<use Cap4/Figuras/PBL.png>
-Package pdftex.def Info: Cap4/Figuras/PBL.png  used on input line 22.
-(pdftex.def)             Requested size: 472.03406pt x 319.90742pt.
- [30 <./Cap4/Figuras/PBL.png>] (Cap4/Tablas/stakeholders.tex) (Cap4/Tablas/listaTareas.tex
+] (Cap4/Tablas/stakeholders.tex) (Cap4/Tablas/listaTareas.tex
 Overfull \hbox (4.76006pt too wide) in alignment at lines 1--7
  [] [] [] [] 
  []
@@ -2892,25 +2902,25 @@ ignored error: Infinite glue shrinkage found in box being split [37]) [38] [39]
 <Cap4/Figuras/catalogo de cuentas.png, id=1048, 2890.8pt x 1773.62625pt>
 File: Cap4/Figuras/catalogo de cuentas.png Graphic file (type png)
 <use Cap4/Figuras/catalogo de cuentas.png>
-Package pdftex.def Info: Cap4/Figuras/catalogo de cuentas.png  used on input line 91.
+Package pdftex.def Info: Cap4/Figuras/catalogo de cuentas.png  used on input line 75.
 (pdftex.def)             Requested size: 472.0211pt x 289.60461pt.
  [40 <./Cap4/Figuras/catalogo de cuentas.png>]
 <Cap4/Figuras/inventario de productos.png, id=1054, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/inventario de productos.png Graphic file (type png)
 <use Cap4/Figuras/inventario de productos.png>
-Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input line 103.
+Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input line 87.
 (pdftex.def)             Requested size: 472.0211pt x 265.51187pt.
  [41 <./Cap4/Figuras/inventario de productos.png>]
 <Cap4/Figuras/terceros.png, id=1060, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/terceros.png Graphic file (type png)
 <use Cap4/Figuras/terceros.png>
-Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 115.
+Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 99.
 (pdftex.def)             Requested size: 472.0211pt x 265.51187pt.
  [42 <./Cap4/Figuras/terceros.png>]
 <Cap4/Figuras/impuestos.png, id=1066, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/impuestos.png Graphic file (type png)
 <use Cap4/Figuras/impuestos.png>
-Package pdftex.def Info: Cap4/Figuras/impuestos.png  used on input line 128.
+Package pdftex.def Info: Cap4/Figuras/impuestos.png  used on input line 112.
 (pdftex.def)             Requested size: 472.0211pt x 265.51187pt.
 ) [43 <./Cap4/Figuras/impuestos.png>]
 \openout2 = `Cap5/Cap5.aux'.
@@ -2930,7 +2940,7 @@ Package pdftex.def Info: Cap5/Figuras/contexto.png  used on input line 25.
 <Cap5/Figuras/contenedor.png, id=1087, 2545.51pt x 1824.8175pt>
 File: Cap5/Figuras/contenedor.png Graphic file (type png)
 <use Cap5/Figuras/contenedor.png>
-Package pdftex.def Info: Cap5/Figuras/contenedor.png  used on input line 46.
+Package pdftex.def Info: Cap5/Figuras/contenedor.png  used on input line 45.
 (pdftex.def)             Requested size: 471.99954pt x 338.3656pt.
 
 
@@ -2978,7 +2988,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Cap5/Figuras/componentes.png, id=1100, 1589.2173pt x 1128.1347pt>
 File: Cap5/Figuras/componentes.png Graphic file (type png)
 <use Cap5/Figuras/componentes.png>
-Package pdftex.def Info: Cap5/Figuras/componentes.png  used on input line 65.
+Package pdftex.def Info: Cap5/Figuras/componentes.png  used on input line 64.
 (pdftex.def)             Requested size: 472.01598pt x 335.06909pt.
 
 
@@ -2988,7 +2998,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Cap5/Figuras/hexagonal.png, id=1112, 848.4197pt x 588.69937pt>
 File: Cap5/Figuras/hexagonal.png Graphic file (type png)
 <use Cap5/Figuras/hexagonal.png>
-Package pdftex.def Info: Cap5/Figuras/hexagonal.png  used on input line 84.
+Package pdftex.def Info: Cap5/Figuras/hexagonal.png  used on input line 83.
 (pdftex.def)             Requested size: 424.83022pt x 294.78014pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2997,7 +3007,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Cap5/Figuras/capas.png, id=1123, 6114.845pt x 2027.575pt>
 File: Cap5/Figuras/capas.png Graphic file (type png)
 <use Cap5/Figuras/capas.png>
-Package pdftex.def Info: Cap5/Figuras/capas.png  used on input line 101.
+Package pdftex.def Info: Cap5/Figuras/capas.png  used on input line 100.
 (pdftex.def)             Requested size: 472.0295pt x 156.51666pt.
 ) [51 <./Cap5/Figuras/capas.png>]
 \openout2 = `Cap6/Cap6.aux'.
@@ -3427,12 +3437,12 @@ chapter A.
 
 
 ] [98] [99] [100]
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 []|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 203--204
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 202--203
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
@@ -3441,12 +3451,12 @@ chapter B.
 [103
 
 ] [104] [105] [106]
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 []|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
  []
 
 [107]
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 433--434
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 431--432
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
@@ -3455,17 +3465,17 @@ chapter C.
 [109
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
 []|\T1/phv/m/n/10.95 Identificador úni-co de la
  []
 
 [110] [111] [112]
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 []|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 664--665
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 662--663
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
@@ -3474,12 +3484,12 @@ chapter D.
 [115
 
 ] [116] [117] [118]
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
+Underfull \hbox (badness 10000) in paragraph at lines 879--880
 []|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 897--898
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 895--896
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
@@ -3488,63 +3498,60 @@ chapter E.
 [121
 
 ]
-Underfull \hbox (badness 3302) in paragraph at lines 1003--1004
+Underfull \hbox (badness 3302) in paragraph at lines 1001--1002
 []|\T1/phv/m/n/10.95 Identificador úni-co del im-
  []
 
 [122] [123] [124]
-Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
 []|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 1130--1131
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 1128--1129
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
 [125] [126]
 chapter F.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [127
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 []|\T1/phv/m/n/10.95 Identificador de la cuen-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 1239--1240
+Underfull \hbox (badness 6396) in paragraph at lines 1236--1237
 \T1/phv/m/n/10.95 ta (pue-de ser ID o có-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 \T1/phv/m/n/10.95 di-go nu-mé-ri-co se-gún
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 1243--1244
+Underfull \hbox (badness 3838) in paragraph at lines 1240--1241
 []|\T1/phv/m/n/10.95 Indica có-mo in-ter-pre-tar el
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[128] [129]
-Underfull \vbox (badness 1158) has occurred while \output is active []
 
- [130]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[128]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131]
-Overfull \hbox (3.30888pt too wide) in paragraph at lines 1390--1391
+ [129] [130] [131]
+Overfull \hbox (3.30888pt too wide) in paragraph at lines 1387--1388
 []|\T1/phv/m/n/10.95 Se lan-za \T1/cmtt/m/n/10.95 AccountCatalogueNotFoundException| 
  []
 
 
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 1408--1409
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 1405--1406
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
@@ -3553,7 +3560,7 @@ chapter G.
 [134
 
 ] [135] [136] [137]
-Underfull \hbox (badness 10000) in paragraph at lines 1634--1635
+Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
 []|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
  []
 
@@ -3561,7 +3568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1634--1635
 Underfull \vbox (badness 2837) has occurred while \output is active []
 
  [138]
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 1650--1651
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 1646--1647
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
@@ -3570,17 +3577,17 @@ chapter H.
 [140
 
 ]
-Underfull \hbox (badness 1430) in paragraph at lines 1760--1761
+Underfull \hbox (badness 1430) in paragraph at lines 1755--1756
 []|\T1/phv/m/n/10.95 Identificador úni-co del pro-
  []
 
 [141] [142] [143] [144]
-Underfull \hbox (badness 10000) in paragraph at lines 1873--1874
+Underfull \hbox (badness 10000) in paragraph at lines 1868--1869
 []|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (73.67564pt too wide) in paragraph at lines 1889--1890
+Overfull \hbox (73.67564pt too wide) in paragraph at lines 1884--1885
 []\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : Ase-gú-re-se de que su \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 es-té con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
  []
 
@@ -3598,17 +3605,17 @@ Package logreq Info: Writing requests to 'PlantillaTesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28588 strings out of 467870
- 541988 string characters out of 5418838
- 1332418 words of memory out of 5000000
- 56307 multiletter control sequences out of 15000+600000
+ 28593 strings out of 467870
+ 542291 string characters out of 5418838
+ 1337540 words of memory out of 5000000
+ 56312 multiletter control sequences out of 15000+600000
  681736 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,14n,107p,11328b,2368s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on PlantillaTesis.pdf (157 pages, 8891110 bytes).
+Output written on PlantillaTesis.pdf (157 pages, 8891649 bytes).
 PDF statistics:
- 2799 PDF objects out of 2984 (max. 8388607)
+ 2798 PDF objects out of 2984 (max. 8388607)
  690 named destinations out of 1000 (max. 500000)
- 2178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -375,6 +375,13 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT .\Cap1\Figuras\PBL.png
+INPUT .\Cap1\Figuras\PBL.png
+INPUT .\Cap1\Figuras\PBL.png
+INPUT .\Cap1\Figuras\PBL.png
+INPUT .\Cap1\Figuras\PBL.png
+INPUT .\Cap1\Figuras\PBL.png
+INPUT .\Cap1\Figuras\PBL.png
 INPUT .\Cap1\Tablas\Iteracion1.tex
 INPUT .\Cap1\Tablas\Iteracion1.tex
 INPUT .\Cap1\Tablas\Iteracion1.tex
@@ -526,13 +533,6 @@ OUTPUT Cap4\Cap4.aux
 INPUT .\Cap4\Cap4.tex
 INPUT .\Cap4\Cap4.tex
 INPUT Cap4\Cap4.tex
-INPUT .\Cap4\Figuras\PBL.png
-INPUT .\Cap4\Figuras\PBL.png
-INPUT .\Cap4\Figuras\PBL.png
-INPUT .\Cap4\Figuras\PBL.png
-INPUT .\Cap4\Figuras\PBL.png
-INPUT .\Cap4\Figuras\PBL.png
-INPUT .\Cap4\Figuras\PBL.png
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT .\Cap4\Tablas\stakeholders.tex
 INPUT .\Cap4\Tablas\stakeholders.tex

@@ -73,7 +73,7 @@ Existen diferentes tipos pruebas de software, algunas de ellas son \cite{ibmPrue
 
 Para el desarrollo del módulo es necesario utilizar diversas tecnologías que permitan su correcto funcionamiento, permitiendo tanto la interacción con los usuarios como el procesamiento de la información. Estas herramientas han sido seleccionadas con el objetivo de mejorar la experiencia del usuario, la eficiencia en el manejo de datos y la estabilidad del sistema. A continuación, se presentan las principales tecnologías que serán empleadas, abarcando desde el diseño de la interfaz hasta la gestión de la información en el servidor y la base de datos. 
 
-\subsection{Tecnologías Frontend}
+\subsection{Tecnologías frontend}
 
 \textbf{Angular y Tailwind:} En el desarrollo frontend, la combinación de herramientas que atienden
 tanto la lógica funcional como el diseño visual de las aplicaciones resulta fundamental para construir soluciones eficientes, escalables y mantenibles. En este contexto, Angular y Tailwind CSS se presentan como tecnologías que, aunque abordan áreas distintas, pueden integrarse de forma complementaria para optimizar el proceso de desarrollo.
@@ -83,16 +83,15 @@ Estas vistas se comunican mediante la inyección de dependencias con servicios q
 
 Por su parte, Tailwind CSS es un framework de estilos que permite aplicar directamente clases predefinidas en el HTML, eliminando la necesidad de escribir archivos CSS personalizados. Este enfoque promueve la rapidez en la maquetación de interfaces, permitiendo ajustes visuales inmediatos sin salir del flujo de trabajo del código. Tailwind favorece un diseño consistente, reutilizable y altamente personalizable, facilitando la implementación de interfaces modernas y adaptables a distintas resoluciones y dispositivos \cite{Tailwind1MT}.
 
-\subsection{Tecnologías Backend}
+\subsection{Tecnologías backend}
 
 El desarrollo backend moderno se fundamenta en la integración de diversas tecnologías que, en conjunto, permiten estructurar aplicaciones web eficientes, escalables y orientadas a servicios. Tecnologías como JSON, REST, Spring Framework, Java y herramientas de registro de servicios como Eureka no solo cumplen funciones individuales dentro del ecosistema de desarrollo, sino que trabajan de forma articulada para facilitar el procesamiento, la entrega y la organización de los datos en una aplicación.
 
 En este flujo de trabajo, JSON actúa como el formato de intercambio de datos por excelencia, gracias a su ligereza, legibilidad y compatibilidad con múltiples lenguajes. Su estructura basada en pares clave-valor lo hace ideal para representar objetos y transmitir información
 entre cliente y servidor de forma sencilla y estructurada \cite{Json1MT}. Este formato cobra especial relevancia dentro de arquitecturas REST, donde los datos se transportan principalmente en formato JSON. REST define un estilo de arquitectura que permite que los distintos sistemas se
-comuniquen a través de HTTP mediante operaciones estándar (GET, POST, PUT, DELETE), y que los recursos se identifiquen a través de URLs claras \cite{Rest1MT}. Al combinar REST con JSON, se obtiene una interfaz de comunicación eficiente y estandarizada para consumir y exponer servicios web.
+comuniquen a través de HTTP mediante operaciones estándar (GET, POST, PUT, DELETE), y que los recursos se identifiquen a través de URLs claras. Al combinar REST con JSON, se obtiene una interfaz de comunicación eficiente y estandarizada para consumir y exponer servicios web \cite{Rest1MT}.
 
-Para implementar esta lógica de negocio entra en juego Spring Framework, una herramienta robusta que proporciona todos los componentes necesarios para desarrollar APIs de manera modular y mantenible. Spring no solo ofrece soporte para la construcción de controladores que gestionen solicitudes HTTP y devuelvan respuestas en formato JSON, sino que también simplifica aspectos internos como la inyección de dependencias, la gestión de datos
-o la configuración de pruebas \cite{Spring1MT}. Su compatibilidad nativa con REST y su estructura basada en componentes lo convierten en un puente ideal entre los principios arquitectónicos REST y el desarrollo práctico de servicios web.
+Para implementar esta lógica de negocio entra en juego Spring Framework, una herramienta robusta que proporciona todos los componentes necesarios para desarrollar APIs de manera modular y mantenible. Spring no solo ofrece soporte para la construcción de controladores que gestionen solicitudes HTTP y devuelvan respuestas en formato JSON, sino que también simplifica aspectos internos como la inyección de dependencias, la gestión de datos o la configuración de pruebas. Su compatibilidad nativa con REST y su estructura basada en componentes lo convierten en un puente ideal entre los principios arquitectónicos REST y el desarrollo práctico de servicios web \cite{Spring1MT}.
 
 En arquitecturas distribuidas de microservicios, se hace necesario incorporar herramientas especializadas para el registro y descubrimiento de servicios. Eureka Server, desarrollado inicialmente por Netflix, cumple esta función al actuar como un servidor centralizado donde los microservicios pueden registrarse automáticamente para ser localizados por otros servicios. Esta herramienta elimina la necesidad de definir manualmente las direcciones de cada servicio, gestionando dinámicamente el proceso de descubrimiento y comunicación entre componentes distribuidos \cite{EurekaServer}.
 
@@ -103,7 +102,7 @@ adapta perfectamente al uso de frameworks como Spring, asegurando rendimiento y 
 en aplicaciones backend de cualquier escala \cite{JAVA1MT}.
 
 
-\subsection{Tecnologías para Base de Datos}
+\subsection{Tecnologías para base de datos}
 
 La gestión eficiente de la persistencia de datos en una aplicación requiere herramientas
 que reduzcan la complejidad del acceso a bases de datos relacionales y que, al mismo tiempo,
@@ -114,6 +113,8 @@ con bases de datos desde entornos orientados a objetos como Java.
 JPA proporciona una especificación estándar para mapear clases Java a tablas de una base de datos, permitiendo manipular datos como objetos sin tener que interactuar directamente con el lenguaje SQL. Esto se traduce en una capa de abstracción que permite al desarrollador realizar operaciones como insertar, actualizar, eliminar o consultar registros, utilizando una sintaxis más cercana al paradigma orientado a objetos \cite{JPA1MT}.
 
 Por su parte, Hibernate es una implementación concreta y extendida de esa especificación.No solo cumple con los lineamientos definidos por JPA, sino que añade funcionalidades avanzadas que automatizan procesos comunes como la sincronización entre objetos y registros, el control de transacciones o el uso de caché para mejorar el rendimiento. Hibernate actúa como el motor que lleva a cabo las operaciones indicadas por JPA, reduciendo la necesidad de código repetitivo y facilitando el mantenimiento del sistema \cite{Hibernate1MT}.
+
+El sistema relacional que sirve de soporte a esta arquitectura de persistencia es PostgreSQL. Este sistema de gestión de bases de datos objeto-relacional (SGBDOR) de código abierto es reconocido por su robustez, su fuerte cumplimiento del estándar SQL y sus avanzadas capacidades transaccionales, incluyendo el control de concurrencia multi-versión (MVCC), lo que lo hace ideal para aplicaciones empresariales que requieren alta integridad y consistencia de datos \cite{googleQuPostgreSQL}.
 
 \section{Lineamientos división TIC }
 
