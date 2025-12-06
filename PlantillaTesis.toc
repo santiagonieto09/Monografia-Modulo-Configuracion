@@ -17,57 +17,60 @@
 \contentsline {subsection}{\numberline {2.1.2}Framework}{12}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Modelo C4}{13}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Pruebas de software}{13}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Arquitectura hexagonal}{13}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Arquitectura en capas}{15}{subsection.2.1.6}%
-\contentsline {section}{\numberline {2.2}Tecnologías para el desarrollo}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1.5}Patrones arquitectónicos}{13}{subsection.2.1.5}%
+\contentsline {subsubsection}{\nonumberline Arquitectura hexagonal}{13}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Arquitectura en capas}{15}{subsubsection*.22}%
+\contentsline {subsection}{\numberline {2.1.6}Patrones de diseño}{15}{subsection.2.1.6}%
+\contentsline {subsubsection}{\nonumberline Patrón strategy}{16}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Patrón publicador-suscriptor}{16}{subsubsection*.27}%
+\contentsline {section}{\numberline {2.2}Tecnologías para el desarrollo}{16}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Tecnologías frontend}{16}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Tecnologías backend}{16}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Tecnologías para base de datos}{17}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Tecnologías backend}{17}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Tecnologías para base de datos}{18}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Lineamientos división TIC}{18}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Lineamientos de diseño}{18}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Lineamientos de desarrollo}{19}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Lineamientos de usabilidad}{19}{subsection.2.3.3}%
-\contentsline {chapter}{Capítulo 3. Descripción de los submódulos a implementar}{21}{chapter*.24}%
-\contentsline {section}{\numberline {3.1}Gestión de catálogo de cuentas}{22}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Gestión de tarifas de impuestos}{23}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Gestión de terceros}{24}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Gestión de inventario de productos}{25}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Gestión de métodos de pago}{26}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Gestión de tipos de documentos}{27}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Gestión de banco y cuentas bancarias}{28}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Gestión de centros de costo}{29}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Gestión de centro de ayuda}{30}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Gestión de calendario contable}{31}{section.3.10}%
-\contentsline {chapter}{Capítulo 4. Ingeniería de requisitos}{32}{chapter*.37}%
-\contentsline {section}{\numberline {4.1}Elicitación de requisitos}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Especificación de requisitos funcionales}{35}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Definición de requisitos no funcionales}{40}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Prototipos}{41}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Vista de catálogo de cuentas}{41}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Vista de inventario de productos}{42}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Vista de terceros}{43}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Vista de impuestos}{44}{subsection.4.4.4}%
-\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{46}{chapter*.47}%
-\contentsline {section}{\numberline {5.1}Modelo C4: Descripción de la arquitectura}{46}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Diagrama de contexto}{46}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Diagrama de contenedores}{47}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Diagrama de componentes}{50}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Patrones arquitectónicos del backend}{50}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Arquitectura hexagonal en el submódulo de Catálogo de Cuentas}{51}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Arquitectura en capas en el submódulo de......}{51}{subsection.5.2.2}%
-\contentsline {chapter}{Capítulo 6. Implementación}{52}{chapter*.53}%
-\contentsline {section}{\numberline {6.1}Backend}{52}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Patrones de diseño}{52}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Patrón strategy}{53}{subsection.6.1.2}%
-\contentsline {subsubsection}{\nonumberline Diagrama de clases}{53}{subsubsection*.56}%
-\contentsline {subsubsection}{\nonumberline Motivación e implementación}{54}{subsubsection*.59}%
-\contentsline {subsection}{\numberline {6.1.3}Patrón observer}{57}{subsection.6.1.3}%
-\contentsline {subsubsection}{\nonumberline Diagrama de clases}{58}{subsubsection*.64}%
-\contentsline {subsubsection}{\nonumberline Motivación e implementación}{58}{subsubsection*.67}%
-\contentsline {section}{\numberline {6.2}Frontend}{61}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Estilos visuales}{61}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {2.3.2}Lineamientos de desarrollo}{20}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Lineamientos de usabilidad}{20}{subsection.2.3.3}%
+\contentsline {chapter}{Capítulo 3. Descripción de los submódulos a implementar}{22}{chapter*.32}%
+\contentsline {section}{\numberline {3.1}Gestión de catálogo de cuentas}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Gestión de tarifas de impuestos}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Gestión de terceros}{25}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Gestión de inventario de productos}{26}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Gestión de métodos de pago}{27}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Gestión de tipos de documentos}{28}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Gestión de banco y cuentas bancarias}{29}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Gestión de centros de costo}{30}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Gestión de centro de ayuda}{31}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Gestión de calendario contable}{32}{section.3.10}%
+\contentsline {chapter}{Capítulo 4. Ingeniería de requisitos}{33}{chapter*.45}%
+\contentsline {section}{\numberline {4.1}Elicitación de requisitos}{34}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Especificación de requisitos funcionales}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Definición de requisitos no funcionales}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Prototipos}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Vista de catálogo de cuentas}{42}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Vista de inventario de productos}{43}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Vista de terceros}{44}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Vista de impuestos}{45}{subsection.4.4.4}%
+\contentsline {chapter}{Capítulo 5. Arquitectura del sistema}{47}{chapter*.55}%
+\contentsline {section}{\numberline {5.1}Modelo C4: Descripción de la arquitectura}{47}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Diagrama de contexto}{47}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Diagrama de contenedores}{48}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Diagrama de componentes}{51}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Patrones arquitectónicos del backend}{51}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Arquitectura hexagonal en el submódulo de Catálogo de Cuentas}{52}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Arquitectura en capas en el submódulo de......}{52}{subsection.5.2.2}%
+\contentsline {chapter}{Capítulo 6. Implementación}{53}{chapter*.61}%
+\contentsline {section}{\numberline {6.1}Backend}{53}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Patrón strategy}{53}{subsection.6.1.1}%
+\contentsline {subsubsection}{\nonumberline Diagrama de clases}{53}{subsubsection*.64}%
+\contentsline {subsubsection}{\nonumberline Motivación e implementación}{55}{subsubsection*.67}%
+\contentsline {subsection}{\numberline {6.1.2}Patrón observer}{57}{subsection.6.1.2}%
+\contentsline {subsubsection}{\nonumberline Diagrama de clases}{57}{subsubsection*.72}%
+\contentsline {subsubsection}{\nonumberline Motivación e implementación}{58}{subsubsection*.75}%
+\contentsline {section}{\numberline {6.2}Frontend}{60}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Estilos visuales}{60}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Implementación técnica con Tailwind CSS}{62}{subsection.6.2.2}%
-\contentsline {chapter}{Capítulo 7. Evaluación de funcionalidades}{66}{chapter*.76}%
+\contentsline {chapter}{Capítulo 7. Evaluación de funcionalidades}{66}{chapter*.84}%
 \contentsline {section}{\numberline {7.1}Pruebas del backend}{66}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}Pruebas unitarias}{66}{subsection.7.1.1}%
 \contentsline {subsection}{\numberline {7.1.2}Pruebas de integración}{72}{subsection.7.1.2}%
@@ -75,16 +78,16 @@
 \contentsline {subsection}{\numberline {7.1.4}Implementación con Postman y Newman}{73}{subsection.7.1.4}%
 \contentsline {subsection}{\numberline {7.1.5}Casos de prueba: Escenarios positivos y negativos}{73}{subsection.7.1.5}%
 \contentsline {subsection}{\numberline {7.1.6}Ejecución automatizada con Newman}{75}{subsection.7.1.6}%
-\contentsline {subsubsection}{\nonumberline Entorno de ejecución de pruebas}{76}{subsubsection*.92}%
-\contentsline {subsubsection}{\nonumberline Resultados de las pruebas de integración}{76}{subsubsection*.94}%
+\contentsline {subsubsection}{\nonumberline Entorno de ejecución de pruebas}{76}{subsubsection*.100}%
+\contentsline {subsubsection}{\nonumberline Resultados de las pruebas de integración}{76}{subsubsection*.102}%
 \contentsline {subsection}{\numberline {7.1.7}Cobertura de pruebas de integración}{86}{subsection.7.1.7}%
 \contentsline {section}{\numberline {7.2}Pruebas de aceptación}{87}{section.7.2}%
 \contentsline {subsection}{\numberline {7.2.1}Ejemplo de prueba de aceptación}{88}{subsection.7.2.1}%
-\contentsline {chapter}{Capítulo 8. Conclusiones, lecciones aprendidas y trabajos futuros}{90}{chapter*.106}%
+\contentsline {chapter}{Capítulo 8. Conclusiones, lecciones aprendidas y trabajos futuros}{90}{chapter*.114}%
 \contentsline {section}{\numberline {8.1}Conclusiones}{90}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Lecciones aprendidas}{91}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Trabajos futuros}{92}{section.8.3}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{93}{section*.108}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliografía}{93}{section*.116}%
 \def \@chapapp {\appendixname }
 \contentsline {chapter}{\numberline {A}Anexo: Guía de integración de eventos RabbitMQ para Centros de Costo}{97}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}Descripción general}{97}{section.Alph1.1}%
@@ -100,9 +103,9 @@
 \contentsline {section}{\numberline {A.6}Guía de implementación para publicadores}{99}{section.Alph1.6}%
 \contentsline {subsection}{\numberline {A.6.1}Paso 1: Configurar el RabbitTemplate}{99}{subsection.Alph1.6.1}%
 \contentsline {subsection}{\numberline {A.6.2}Paso 2: Crear los DTOs}{99}{subsection.Alph1.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto Genérico}{99}{subsubsection*.114}%
-\contentsline {subsubsection}{\nonumberline CostCenterUsageDto}{99}{subsubsection*.116}%
-\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{100}{subsubsection*.118}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{99}{subsubsection*.122}%
+\contentsline {subsubsection}{\nonumberline CostCenterUsageDto}{99}{subsubsection*.124}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{100}{subsubsection*.126}%
 \contentsline {subsection}{\numberline {A.6.3}Paso 3: Publicar el evento}{100}{subsection.Alph1.6.3}%
 \contentsline {section}{\numberline {A.7}Validaciones del suscriptor}{100}{section.Alph1.7}%
 \contentsline {section}{\numberline {A.8}Manejo de errores}{101}{section.Alph1.8}%
@@ -122,9 +125,9 @@
 \contentsline {section}{\numberline {B.6}Guía de implementación para publicadores}{105}{section.Alph2.6}%
 \contentsline {subsection}{\numberline {B.6.1}Paso 1: Configurar el RabbitTemplate}{105}{subsection.Alph2.6.1}%
 \contentsline {subsection}{\numberline {B.6.2}Paso 2: Crear los DTOs}{105}{subsection.Alph2.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto genérico}{105}{subsubsection*.124}%
-\contentsline {subsubsection}{\nonumberline DocumentTypeUsageDto}{105}{subsubsection*.126}%
-\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{106}{subsubsection*.128}%
+\contentsline {subsubsection}{\nonumberline EventDto genérico}{105}{subsubsection*.132}%
+\contentsline {subsubsection}{\nonumberline DocumentTypeUsageDto}{105}{subsubsection*.134}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{106}{subsubsection*.136}%
 \contentsline {subsection}{\numberline {B.6.3}Paso 3: Publicar el evento}{106}{subsection.Alph2.6.3}%
 \contentsline {section}{\numberline {B.7}Validaciones del suscriptor}{106}{section.Alph2.7}%
 \contentsline {section}{\numberline {B.8}Manejo de errores}{107}{section.Alph2.8}%
@@ -144,9 +147,9 @@
 \contentsline {section}{\numberline {C.6}Guía de implementación para publicadores}{111}{section.Alph3.6}%
 \contentsline {subsection}{\numberline {C.6.1}Paso 1: Configurar el RabbitTemplate}{111}{subsection.Alph3.6.1}%
 \contentsline {subsection}{\numberline {C.6.2}Paso 2: Crear los DTOs}{111}{subsection.Alph3.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto Genérico}{111}{subsubsection*.134}%
-\contentsline {subsubsection}{\nonumberline BankAccountUsageDto}{111}{subsubsection*.136}%
-\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{112}{subsubsection*.138}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{111}{subsubsection*.142}%
+\contentsline {subsubsection}{\nonumberline BankAccountUsageDto}{111}{subsubsection*.144}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{112}{subsubsection*.146}%
 \contentsline {subsection}{\numberline {C.6.3}Paso 3: Publicar el evento}{112}{subsection.Alph3.6.3}%
 \contentsline {section}{\numberline {C.7}Validaciones del suscriptor}{112}{section.Alph3.7}%
 \contentsline {section}{\numberline {C.8}Manejo de errores}{113}{section.Alph3.8}%
@@ -166,9 +169,9 @@
 \contentsline {section}{\numberline {D.6}Guía de implementación para publicadores}{117}{section.Alph4.6}%
 \contentsline {subsection}{\numberline {D.6.1}Paso 1: Configurar el RabbitTemplate}{117}{subsection.Alph4.6.1}%
 \contentsline {subsection}{\numberline {D.6.2}Paso 2: Crear los DTOs}{117}{subsection.Alph4.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto genérico}{117}{subsubsection*.144}%
-\contentsline {subsubsection}{\nonumberline PaymentMethodUsageDto}{117}{subsubsection*.146}%
-\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{118}{subsubsection*.148}%
+\contentsline {subsubsection}{\nonumberline EventDto genérico}{117}{subsubsection*.152}%
+\contentsline {subsubsection}{\nonumberline PaymentMethodUsageDto}{117}{subsubsection*.154}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{118}{subsubsection*.156}%
 \contentsline {subsection}{\numberline {D.6.3}Paso 3: Publicar el evento}{118}{subsection.Alph4.6.3}%
 \contentsline {section}{\numberline {D.7}Validaciones del suscriptor}{118}{section.Alph4.7}%
 \contentsline {section}{\numberline {D.8}Manejo de errores}{119}{section.Alph4.8}%
@@ -188,9 +191,9 @@
 \contentsline {section}{\numberline {E.6}Guía de implementación para publicadores}{123}{section.Alph5.6}%
 \contentsline {subsection}{\numberline {E.6.1}Paso 1: Configurar el RabbitTemplate}{123}{subsection.Alph5.6.1}%
 \contentsline {subsection}{\numberline {E.6.2}Paso 2: Crear los DTOs}{123}{subsection.Alph5.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto Genérico}{123}{subsubsection*.154}%
-\contentsline {subsubsection}{\nonumberline TaxUsageDto}{123}{subsubsection*.156}%
-\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{124}{subsubsection*.158}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{123}{subsubsection*.162}%
+\contentsline {subsubsection}{\nonumberline TaxUsageDto}{123}{subsubsection*.164}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{124}{subsubsection*.166}%
 \contentsline {subsection}{\numberline {E.6.3}Paso 3: Publicar el evento}{124}{subsection.Alph5.6.3}%
 \contentsline {section}{\numberline {E.7}Validaciones del suscriptor}{124}{section.Alph5.7}%
 \contentsline {section}{\numberline {E.8}Manejo de errores}{125}{section.Alph5.8}%
@@ -213,8 +216,8 @@
 \contentsline {section}{\numberline {F.6}Guía de implementación para publicadores}{130}{section.Alph6.6}%
 \contentsline {subsection}{\numberline {F.6.1}Paso 1: Configurar el RabbitTemplate}{130}{subsection.Alph6.6.1}%
 \contentsline {subsection}{\numberline {F.6.2}Paso 2: Crear los DTOs}{130}{subsection.Alph6.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto}{130}{subsubsection*.165}%
-\contentsline {subsubsection}{\nonumberline AccountUsedEventDto}{130}{subsubsection*.167}%
+\contentsline {subsubsection}{\nonumberline EventDto}{130}{subsubsection*.173}%
+\contentsline {subsubsection}{\nonumberline AccountUsedEventDto}{130}{subsubsection*.175}%
 \contentsline {subsection}{\numberline {F.6.3}Paso 3: Publicar el evento}{130}{subsection.Alph6.6.3}%
 \contentsline {section}{\numberline {F.7}Validaciones del suscriptor}{131}{section.Alph6.7}%
 \contentsline {section}{\numberline {F.8}Manejo de errores}{132}{section.Alph6.8}%
@@ -234,9 +237,9 @@
 \contentsline {section}{\numberline {G.6}Guía de implementación para publicadores}{136}{section.Alph7.6}%
 \contentsline {subsection}{\numberline {G.6.1}Paso 1: Configurar el RabbitTemplate}{136}{subsection.Alph7.6.1}%
 \contentsline {subsection}{\numberline {G.6.2}Paso 2: Crear los DTOs}{136}{subsection.Alph7.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto Genérico}{137}{subsubsection*.173}%
-\contentsline {subsubsection}{\nonumberline ThirdUsageEventDto}{137}{subsubsection*.175}%
-\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{137}{subsubsection*.177}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{137}{subsubsection*.181}%
+\contentsline {subsubsection}{\nonumberline ThirdUsageEventDto}{137}{subsubsection*.183}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{137}{subsubsection*.185}%
 \contentsline {subsection}{\numberline {G.6.3}Paso 3: Publicar el evento}{137}{subsection.Alph7.6.3}%
 \contentsline {section}{\numberline {G.7}Validaciones del suscriptor}{138}{section.Alph7.7}%
 \contentsline {section}{\numberline {G.8}Manejo de errores}{138}{section.Alph7.8}%
@@ -256,9 +259,9 @@
 \contentsline {section}{\numberline {H.6}Guía de implementación para publicadores}{142}{section.Alph8.6}%
 \contentsline {subsection}{\numberline {H.6.1}Paso 1: Configurar el RabbitTemplate}{142}{subsection.Alph8.6.1}%
 \contentsline {subsection}{\numberline {H.6.2}Paso 2: Crear los DTOs}{142}{subsection.Alph8.6.2}%
-\contentsline {subsubsection}{\nonumberline EventDto Genérico}{142}{subsubsection*.183}%
-\contentsline {subsubsection}{\nonumberline ProductUsageEventDto}{142}{subsubsection*.185}%
-\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{143}{subsubsection*.187}%
+\contentsline {subsubsection}{\nonumberline EventDto Genérico}{142}{subsubsection*.191}%
+\contentsline {subsubsection}{\nonumberline ProductUsageEventDto}{142}{subsubsection*.193}%
+\contentsline {subsubsection}{\nonumberline EventUsageType Enum}{143}{subsubsection*.195}%
 \contentsline {subsection}{\numberline {H.6.3}Paso 3: Publicar el evento}{143}{subsection.Alph8.6.3}%
 \contentsline {section}{\numberline {H.7}Validaciones del suscriptor}{143}{section.Alph8.7}%
 \contentsline {section}{\numberline {H.8}Manejo de errores}{145}{section.Alph8.8}%

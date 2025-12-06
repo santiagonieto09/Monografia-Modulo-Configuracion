@@ -68,23 +68,23 @@ Existen diferentes tipos pruebas de software, algunas de ellas son \cite{ibmPrue
     \item \textbf{Pruebas de usabilidad:} Validan la facilidad con que un usuario puede interactuar con un sistema o aplicación web para llevar a cabo una tarea específica.
 \end{itemize}
 
-
-\subsection{Arquitectura hexagonal}
+\subsection{Patrones arquitectónicos}
+\subsubsection{Arquitectura hexagonal}
 La arquitectura hexagonal, también conocida como arquitectura de puertos y adaptadores, es un patrón diseñado para crear componentes de aplicación débilmente acoplados, facilitando la conexión con el entorno externo. Su objetivo principal es aislar la lógica de negocio del núcleo de la aplicación de factores externos como bases de datos, interfaces de usuario o sistemas de mensajería, lo que mejora la modularidad, mantenibilidad y testabilidad. El sistema se divide en componentes intercambiables conectados a través de puertos (interfaces que representan puntos de entrada y salida) e implementados por adaptadores, que traducen las interacciones entre el mundo exterior y el núcleo \cite{HexagonalArchitecture}.
 
-Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en capas concéntricas: el núcleo del dominio contiene entidades y lógica de negocio; la capa de aplicación incluye servicios que orquestan casos de uso; y la capa de infraestructura alberga adaptadores. Estos se clasifican en primarios (como controladores REST o interfaces gráficas, que inician la comunicación) y secundarios (como repositorios de bases de datos o servicios de mensajería, que responden a la aplicación). En el proyecto, los adaptadores primarios incluyen la API REST y la interfaz de línea de comandos, mientras que los secundarios comprenden PostgreSQL para persistencia y RabbitMQ para comunicación asíncrona entre microservicios.
+Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en capas concéntricas: el núcleo del dominio contiene entidades y lógica de negocio; la capa de aplicación incluye servicios que orquestan casos de uso; y la capa de infraestructura alberga adaptadores. Estos se clasifican en primarios (como controladores REST o interfaces gráficas, que inician la comunicación) y secundarios (como repositorios de bases de datos o servicios de mensajería, que responden a la aplicación). Los adaptadores primarios incluyen la API REST y la interfaz de línea de comandos, mientras que los secundarios comprenden PostgreSQL para persistencia y RabbitMQ para comunicación asíncrona entre microservicios.
 
 
 \begin{figure}[h!]    
     \centering%
     \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Cap2/Figuras/hexagonal.png}    
-    \caption{Arquitectura general con patrón hexagonal.}
+    \caption{Arquitectura con patrón hexagonal.}
     \label{fig:hexagonal}
 \end{figure}
 
  Esta separación garantiza que la lógica de negocio permanezca independiente de los detalles de implementación tecnológicos, permitiendo reemplazar cualquier adaptador sin afectar el núcleo del dominio. El principio de inversión de control se aplica a nivel arquitectónico, donde las dependencias se dirigen hacia el centro del sistema, haciendo que la lógica de negocio solo dependa de los puertos (interfaces) diseñados para satisfacer sus necesidades y no de herramientas o adaptadores específicos.
  
-\subsection{Arquitectura en capas}
+\subsubsection{Arquitectura en capas}
 
 La arquitectura por capas es una de las más empleadas, debido a su sencillez y al hecho de que se adopta automáticamente cuando no se tiene certeza sobre qué patrón arquitectónico elegir para el desarrollo de la aplicación. Este enfoque implica segmentar la aplicación en diferentes niveles, con el propósito de asignar a cada uno una función específica, tales como una capa de interfaz de usuario (UI), una capa de lógica de negocio (servicios) y una capa de acceso a datos (DAO). No obstante, este patrón no establece un número fijo de capas para la aplicación, sino que enfatiza la división de la aplicación en niveles (aplicando el principio de Separación de Responsabilidades (SoC)) \cite{ArquitecturaCapas}.
 
@@ -95,10 +95,21 @@ En la \autoref{fig:capas} se observa la arquitectura organizada en cuatro capas 
 \begin{figure}[h!]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap2/Figuras/capas.png}    
-    \caption{Arquitectura general con patrón en capas.}
+    \caption{Arquitectura con patrón en capas.}
     \label{fig:capas}
 \end{figure}
 
+\subsection{Patrones de diseño}
+
+Los patrones de diseño representan estrategias recurrentes para abordar problemas comunes en el desarrollo de software, que funcionan como guías conceptuales que pueden adaptarse y personalizarse según las necesidades específicas de cada proyecto. A diferencia de una función o biblioteca lista para usar, un patrón de diseño no es un fragmento de código concreto, sino una solución abstracta que orienta la estructura y organización del programa. Su implementación requiere interpretar el concepto y ajustarlo a las particularidades del sistema en desarrollo \cite{patterndesign}.
+
+\subsubsection{Patrón strategy}
+
+Es una solución de diseño orientada al comportamiento que facilita la definición de múltiples algoritmos relacionados, encapsulando cada uno en una clase distinta y permitiendo que sus instancias se puedan intercambiar dinámicamente según las necesidades del sistema. El patrón Strategy se compone de tres elementos fundamentales: el contexto, que mantiene una referencia a una estrategia y delega en ella la ejecución de la tarea, la interfaz Strategy, que establece un contrato común para todas las estrategias concretas y las estrategias concretas, que implementan las distintas variantes del algoritmo. Esta organización permite separar la lógica de negocio de los detalles específicos de cada algoritmo, lo que facilita la realización de pruebas y la evolución del sistema \cite{refactoringStrategy}.
+
+\subsubsection{Patrón publicador-suscriptor}
+
+Es un patrón de diseño de comportamiento en el que un objeto, llamado sujeto, mantiene una lista de sus dependientes, llamados observadores, y les notifica automáticamente cualquier cambio de estado. Este patrón es útil cuando los cambios en el estado de un objeto pueden requerir cambios en otros objetos, y el grupo de objetos puede ser desconocido de antemano o cambiar dinámicamente. Además, el patrón publicador-suscriptor ayuda a desacoplar los componentes del sistema, lo que facilita su mantenimiento y escalabilidad \cite{Observer}. 
 
 \section{Tecnologías para el desarrollo}
 

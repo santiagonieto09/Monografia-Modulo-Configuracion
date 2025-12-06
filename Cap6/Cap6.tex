@@ -16,17 +16,7 @@ Por motivos de seguridad de la División de TIC, dentro de la institución es ne
 \end{itemize}
 
 \section{Backend}
-\subsection{Patrones de diseño}
-
-Los patrones de diseño representan estrategias recurrentes para abordar problemas comunes en el desarrollo de software, que funcionan como guías conceptuales que pueden adaptarse y personalizarse según las necesidades específicas de cada proyecto. A diferencia de una función o biblioteca lista para usar, un patrón de diseño no es un fragmento de código concreto, sino una solución abstracta que orienta la estructura y organización del programa. Su implementación requiere interpretar el concepto y ajustarlo a las particularidades del sistema en desarrollo \cite{patterndesign}.
-
-En las siguientes secciones se contextualizan los patrones de diseño implementados. Para cada patrón se presenta una breve introducción, se explican las motivaciones que llevaron a su uso y se incluyen representaciones gráficas que ilustran su aplicación dentro del módulo de configuración.
-
-
 \subsection{Patrón strategy}
-
-Es una solución de diseño orientada al comportamiento que facilita la definición de múltiples algoritmos relacionados, encapsulando cada uno en una clase distinta y permitiendo que sus instancias se puedan intercambiar dinámicamente según las necesidades del sistema. El patrón Strategy se compone de tres elementos fundamentales: el contexto, que mantiene una referencia a una estrategia y delega en ella la ejecución de la tarea, la interfaz Strategy, que establece un contrato común para todas las estrategias concretas y las estrategias concretas, que implementan las distintas variantes del algoritmo. Esta organización permite separar la lógica de negocio de los detalles específicos de cada algoritmo, lo que facilita la realización de pruebas y la evolución del sistema \cite{refactoringStrategy}.
-
 
  \subsubsection{Diagrama de clases}
 
@@ -78,7 +68,6 @@ La clase \texttt{ExcelFileValidator} (estrategia concreta) en la Figura \ref{fig
 
 \subsection{Patrón observer}
 
-Es un patrón de diseño de comportamiento en el que un objeto, llamado sujeto, mantiene una lista de sus dependientes, llamados observadores, y les notifica automáticamente cualquier cambio de estado. Este patrón es útil cuando los cambios en el estado de un objeto pueden requerir cambios en otros objetos, y el grupo de objetos puede ser desconocido de antemano o cambiar dinámicamente. Además, el patrón Observer ayuda a desacoplar los componentes del sistema, lo que facilita su mantenimiento y escalabilidad \cite{Observer}. 
 
  \subsubsection{Diagrama de clases}
 La implementación del patrón Observer en el módulo de configuración se centra en la actualización asíncrona de contadores de uso de recursos, como centros de costo, en respuesta a eventos generados por otros microservicios, como \texttt{ms-debt-payments}. El microservicio \texttt{ms-debt-payments} actúa como publicador que envía notificaciones cuando se utiliza un recurso. Estas notificaciones son consumidas por el microservicio \texttt{ms-configuration} que contiene el módulo de centros de costo, que actúa como suscriptor, actualizando el contador de uso en la base de datos.
