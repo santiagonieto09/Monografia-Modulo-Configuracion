@@ -1,0 +1,78 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {figure}{\numberline {1-1}{\ignorespaces Etapas del enfoque de aprendizaje basado en proyectos.}}{4}{figure.caption.9}%
+\contentsline {figure}{\numberline {2-1}{\ignorespaces Arquitectura con patrón hexagonal.}}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {2-2}{\ignorespaces Arquitectura con patrón en capas.}}{15}{figure.caption.23}%
+\contentsline {figure}{\numberline {2-3}{\ignorespaces Color institucional primario}}{19}{figure.caption.28}%
+\contentsline {figure}{\numberline {2-4}{\ignorespaces Color institucional secundario}}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {2-5}{\ignorespaces Otros colores destacados}}{20}{figure.caption.30}%
+\contentsline {figure}{\numberline {3-1}{\ignorespaces Submódulos que componen el módulo de Configuración}}{22}{figure.caption.34}%
+\contentsline {figure}{\numberline {3-2}{\ignorespaces Relación del submódulo gestión de Cuentas contables.}}{23}{figure.caption.35}%
+\contentsline {figure}{\numberline {3-3}{\ignorespaces Relación del submódulo gestión de Tarifas de Impuestos.}}{24}{figure.caption.36}%
+\contentsline {figure}{\numberline {3-4}{\ignorespaces Relación del submódulo gestión de Terceros.}}{25}{figure.caption.37}%
+\contentsline {figure}{\numberline {3-5}{\ignorespaces Relación del submódulo gestión de Inventario de Productos.}}{26}{figure.caption.38}%
+\contentsline {figure}{\numberline {3-6}{\ignorespaces Relación del submódulo gestión de Métodos de Pago.}}{27}{figure.caption.39}%
+\contentsline {figure}{\numberline {3-7}{\ignorespaces Relación del submódulo gestión de Tipos de Documentos.}}{28}{figure.caption.40}%
+\contentsline {figure}{\numberline {3-8}{\ignorespaces Relación del submódulo gestión de Bancos y Cuentas bancarias.}}{29}{figure.caption.41}%
+\contentsline {figure}{\numberline {3-9}{\ignorespaces Relación del submódulo gestión de Centros de Costo.}}{30}{figure.caption.42}%
+\contentsline {figure}{\numberline {3-10}{\ignorespaces Relación del submódulo gestión de Centro de Ayuda.}}{31}{figure.caption.43}%
+\contentsline {figure}{\numberline {3-11}{\ignorespaces Relación del submódulo gestión de Calendario Contable.}}{32}{figure.caption.44}%
+\contentsline {figure}{\numberline {4-1}{\ignorespaces Evidencia sesiones de negociación.}}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {4-2}{\ignorespaces Evidencia sesión de revisión de especificaciones.}}{35}{figure.caption.49}%
+\contentsline {figure}{\numberline {4-3}{\ignorespaces Evidencia sesión de revisión de prototipos.}}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {4-4}{\ignorespaces Prototipo vista catálogo de cuentas.}}{43}{figure.caption.51}%
+\contentsline {figure}{\numberline {4-5}{\ignorespaces Prototipo vista inventario de productos.}}{44}{figure.caption.52}%
+\contentsline {figure}{\numberline {4-6}{\ignorespaces Prototipo vista de terceros.}}{45}{figure.caption.53}%
+\contentsline {figure}{\numberline {4-7}{\ignorespaces Prototipo vista de impuestos.}}{46}{figure.caption.54}%
+\contentsline {figure}{\numberline {5-1}{\ignorespaces Diagrama de contexto.}}{48}{figure.caption.57}%
+\contentsline {figure}{\numberline {5-2}{\ignorespaces Diagrama de contenedores.}}{49}{figure.caption.58}%
+\contentsline {figure}{\numberline {5-3}{\ignorespaces Diagrama de componentes submódulo Catálogo de Cuentas.}}{51}{figure.caption.60}%
+\contentsline {figure}{\numberline {5-4}{\ignorespaces Capas de la arquitectura hexagonal en Catálogo de cuentas.}}{52}{figure.caption.61}%
+\contentsline {figure}{\numberline {5-5}{\ignorespaces Operación de búsqueda de cuentas contables.}}{53}{figure.caption.64}%
+\contentsline {figure}{\numberline {5-6}{\ignorespaces Estructura de la arquitectura en capas de Métodos de Pago.}}{54}{figure.caption.65}%
+\contentsline {figure}{\numberline {5-7}{\ignorespaces Operación de búsqueda de métodos de pago.}}{54}{figure.caption.68}%
+\contentsline {figure}{\numberline {6-1}{\ignorespaces Diagrama de clases del patrón Strategy}}{56}{figure.caption.73}%
+\contentsline {figure}{\numberline {6-2}{\ignorespaces Clase FileValidator interfaz}}{57}{figure.caption.76}%
+\contentsline {figure}{\numberline {6-3}{\ignorespaces Clase PdfFileValidator estrategia concreta}}{58}{figure.caption.77}%
+\contentsline {figure}{\numberline {6-4}{\ignorespaces Clase ExcelFileValidator estrategia concreta}}{59}{figure.caption.78}%
+\contentsline {figure}{\numberline {6-5}{\ignorespaces Diagrama de clases del patrón Observer}}{60}{figure.caption.81}%
+\contentsline {figure}{\numberline {6-6}{\ignorespaces Publicador de notificaciones de uso de recursos}}{61}{figure.caption.84}%
+\contentsline {figure}{\numberline {6-7}{\ignorespaces Manejo de la notificación}}{62}{figure.caption.85}%
+\contentsline {figure}{\numberline {6-8}{\ignorespaces Listener para el consumo de eventos de uso de centros de costo}}{63}{figure.caption.86}%
+\contentsline {figure}{\numberline {6-9}{\ignorespaces Estilos de alertas del sistema}}{63}{figure.caption.87}%
+\contentsline {figure}{\numberline {6-10}{\ignorespaces Estilos de botones globales}}{64}{figure.caption.88}%
+\contentsline {figure}{\numberline {6-11}{\ignorespaces Definición de variables CSS personalizadas para Tailwind CSS}}{65}{figure.caption.89}%
+\contentsline {figure}{\numberline {6-12}{\ignorespaces Configuración de tipografías globales}}{66}{figure.caption.90}%
+\contentsline {figure}{\numberline {6-13}{\ignorespaces Aplicación de estilos globales en el código HTML}}{67}{figure.caption.91}%
+\contentsline {figure}{\numberline {7-1}{\ignorespaces Resultado ejecución pruebas unitarias microservicio \texttt {account\_catalogue}}}{69}{figure.caption.94}%
+\contentsline {figure}{\numberline {7-2}{\ignorespaces Resultados jacoco \texttt {account\_catalogue} parte 1}}{69}{figure.caption.95}%
+\contentsline {figure}{\numberline {7-3}{\ignorespaces Resultados jacoco \texttt {account\_catalogue} parte 2}}{70}{figure.caption.96}%
+\contentsline {figure}{\numberline {7-4}{\ignorespaces Resultados jacoco \texttt {account\_catalogue} parte 3}}{70}{figure.caption.97}%
+\contentsline {figure}{\numberline {7-5}{\ignorespaces Resultado de ejecución pruebas unitarias \texttt {ms-configuration} }}{71}{figure.caption.98}%
+\contentsline {figure}{\numberline {7-6}{\ignorespaces Resultados jacoco \texttt {ms-configuration} parte 1}}{71}{figure.caption.99}%
+\contentsline {figure}{\numberline {7-7}{\ignorespaces Resultados jacoco \texttt {ms-configuration} parte 2}}{72}{figure.caption.100}%
+\contentsline {figure}{\numberline {7-8}{\ignorespaces Resultado de ejecución pruebas unitarias \texttt {ms-productos} }}{72}{figure.caption.101}%
+\contentsline {figure}{\numberline {7-9}{\ignorespaces Resultado jacoco microservicio \texttt {ms-productos} }}{73}{figure.caption.102}%
+\contentsline {figure}{\numberline {7-10}{\ignorespaces Resultado de ejecución pruebas unitarias \texttt {ms-terceros} }}{73}{figure.caption.103}%
+\contentsline {figure}{\numberline {7-11}{\ignorespaces Resultado jacoco microservicio \texttt {ms-terceros} }}{74}{figure.caption.104}%
+\contentsline {figure}{\numberline {7-12}{\ignorespaces Estructura de la colección de pruebas en Postman}}{76}{figure.caption.105}%
+\contentsline {figure}{\numberline {7-13}{\ignorespaces Implementación de scripts post-respuesta en Postman}}{77}{figure.caption.106}%
+\contentsline {figure}{\numberline {7-14}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Métodos de Pago}}{79}{figure.caption.111}%
+\contentsline {figure}{\numberline {7-15}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Centro de Ayuda}}{80}{figure.caption.112}%
+\contentsline {figure}{\numberline {7-16}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Cuentas Bancarias}}{81}{figure.caption.113}%
+\contentsline {figure}{\numberline {7-17}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Impuestos}}{82}{figure.caption.114}%
+\contentsline {figure}{\numberline {7-18}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Tipos de Documentos}}{83}{figure.caption.115}%
+\contentsline {figure}{\numberline {7-19}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Centro de Costo}}{84}{figure.caption.116}%
+\contentsline {figure}{\numberline {7-20}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Productos}}{85}{figure.caption.117}%
+\contentsline {figure}{\numberline {7-21}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Terceros}}{86}{figure.caption.118}%
+\contentsline {figure}{\numberline {7-22}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Calendario}}{87}{figure.caption.119}%
+\contentsline {figure}{\numberline {7-23}{\ignorespaces Resultados de 20 iteraciones consecutivas del módulo Catálogo}}{88}{figure.caption.120}%
+\def \@chapapp {\appendixname }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
