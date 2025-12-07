@@ -1,21 +1,23 @@
 \mychapter{Capítulo 6. Implementación}
 
-En este capítulo se presentan los aspectos técnicos y las decisiones de diseño adoptadas durante la construcción del sistema, organizando la implementación en dos grandes áreas: el desarrollo del backend (lado del servidor) y la interfaz de usuario (frontend). La aplicación está desplegada en un entorno de pruebas, accesible mediante la siguiente \href{http://contables.unicauca.edu.co/dev}{\underline{\textcolor{blue}{URL}}}.
+En este capítulo se presentan los aspectos técnicos y las decisiones de diseño adoptadas durante la construcción del sistema, organizando la implementación en dos grandes áreas: el desarrollo del backend (lado del servidor) y la interfaz de usuario (frontend). La aplicación está desplegada en un entorno de pruebas, accesible mediante el siguiente enlace http://contables.unicauca.edu.co/dev
 
 Por motivos de seguridad de la División de TIC, dentro de la institución es necesario conectarse a través de una VPN para acceder al entorno; fuera de la red universitaria, el acceso es libre. El código fuente de los microservicios que conforman el módulo de configuración está disponible en los siguientes repositorios de GitHub:
 
 \begin{itemize}
-    \item \textbf{account-catalogue:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/account-catalogue/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    \item \textbf{Repositorio de git \href{https://github.com/Equipo-dinamita-escuadron-lobo/account-catalogue/tree/develop}{{\textcolor{blue}{account-catalogue}}}:}
     Contiene los módulos de catálogo de cuentas, métodos de pago, impuestos, bancos y cuentas bancarias.
-    \item \textbf{thirds-management:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/thirds-management/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    \item \textbf{Repositorio de git \href{https://github.com/Equipo-dinamita-escuadron-lobo/thirds-management/tree/develop}{{\textcolor{blue}{thirds-management}}}:} 
     Incluye la gestión de terceros, tipos de identificación y tipos de terceros.
-    \item \textbf{products-management:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/products-management/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    \item \textbf{Repositorio de git \href{https://github.com/Equipo-dinamita-escuadron-lobo/products-management/tree/develop}{{\textcolor{blue}{products-management}}}:} 
     Incluye la gestión de productos, categorías, unidades de medida y tipos de producto.
-    \item \textbf{ms-configuration:} \href{https://github.com/Equipo-dinamita-escuadron-lobo/ms-configuration/tree/develop}{\underline{\textcolor{blue}{Enlace}}} \\ 
+    \item \textbf{Repositorio de git \href{https://github.com/Equipo-dinamita-escuadron-lobo/ms-configuration/tree/develop}{{\textcolor{blue}{ms-configuration}}}:} 
     Abarca los módulos de calendario contable, clases y tipos de documentos, centros de costo y centro de ayuda.
 \end{itemize}
 
 \section{Backend}
+
+\subsection{Patrones de diseño implementados}
 \subsection{Patrón strategy}
 
  \subsubsection{Diagrama de clases}

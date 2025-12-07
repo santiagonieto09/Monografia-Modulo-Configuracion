@@ -43,7 +43,7 @@
 % Configuración de nombres para \autoref (debe ir después de hyperref)
 \addto\extrasspanish{%
   \def\chapterautorefname{Capítulo}%
-  \def\sectionautorefname{Sección}%
+  \def\sectionautorefname{Capítulo}%
   \def\subsectionautorefname{Subsección}%
   \def\figureautorefname{Figura}%
   \def\tableautorefname{Tabla}%
@@ -98,7 +98,7 @@
     \else%
         \chapter*{\centering #1}%
         \addcontentsline{toc}{chapter}{#1}%
-        \stepcounter{chapter}%
+        \refstepcounter{chapter}%
         \phantomsection
     \fi%
 }
