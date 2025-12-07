@@ -1,8 +1,8 @@
 \mychapter{Capítulo 6. Implementación}
 
-En este capítulo se presentan los aspectos técnicos y las decisiones de diseño adoptadas durante la construcción del sistema, organizando la implementación en dos grandes áreas: el desarrollo del backend (lado del servidor) y la interfaz de usuario (frontend). La aplicación está desplegada en un entorno de pruebas, accesible mediante el siguiente enlace http://contables.unicauca.edu.co/dev
+En este capítulo se presentan los aspectos técnicos y las decisiones de diseño durante la construcción del sistema, organizando la implementación en dos grandes áreas: el desarrollo del backend (lado del servidor) y la interfaz de usuario (frontend). La aplicación está desplegada en un entorno de pruebas, accesible mediante el siguiente enlace http://contables.unicauca.edu.co/dev
 
-Por motivos de seguridad de la División de TIC, dentro de la institución es necesario conectarse a través de una VPN para acceder al entorno; fuera de la red universitaria, el acceso es libre. El código fuente de los microservicios que conforman el módulo de configuración está disponible en los siguientes repositorios de GitHub:
+Por motivos de seguridad de la División de TIC, dentro de la institución es necesario conectarse a través de una VPN para acceder al entorno; fuera de la red universitaria, el acceso es libre. El código fuente de los microservicios que conforman el módulo de Configuración está disponible en los siguientes repositorios de GitHub:
 
 \begin{itemize}
     \item \textbf{Repositorio de git \href{https://github.com/Equipo-dinamita-escuadron-lobo/account-catalogue/tree/develop}{{\textcolor{blue}{account-catalogue}}}:}
@@ -17,7 +17,7 @@ Por motivos de seguridad de la División de TIC, dentro de la institución es ne
 
 \section{Backend}
 
-En las siguientes secciones se contextualizan los patrones de diseño implementados. Para cada patrón se presenta una breve introducción, se explican las motivaciones que llevaron a su uso y se incluyen representaciones gráficas que ilustran su aplicación dentro del módulo de Configuración.
+En esta sección se detallan los aspectos técnicos del desarrollo backend, enfocándose en los patrones de diseño implementados para resolver problemas específicos en el módulo de Configuración. Para cada patrón, se explican las motivaciones que llevaron a su adopción, se describen sus implementaciones y se incluyen diagramas que ilustran su aplicación práctica.
 
 \subsection{Implementación del patrón strategy}
 
@@ -26,7 +26,7 @@ La \autoref{fig:strategy} ilustra la implementación del patrón strategy en el 
 \begin{figure}[h!]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/strategy.png}    
-    \caption{Diagrama de clases del patrón strategy}
+    \caption{Diagrama de clases del patrón strategy implementado}
     \label{fig:strategy}
 \end{figure}
 
@@ -69,7 +69,7 @@ La clase \texttt{ExcelFileValidator} (estrategia concreta) en la Figura \ref{fig
 
 \subsection{Implementación del patrón publicador-suscriptor}
 
-La implementación del patrón publicador-suscriptor en el módulo de configuración se enfoca en la actualización asíncrona de contadores de uso de recursos, tales como Centros de Costo, en respuesta a eventos generados por otros microservicios, como \texttt{ms-debt-payments}. En este esquema, \texttt{ms-debt-payments} actúa como publicador, enviando notificaciones al utilizar un recurso. Estas notificaciones son consumidas por \texttt{ms-configuration}, que funciona como suscriptor, actualizando el contador correspondiente en la base de datos.
+La implementación del patrón publicador-suscriptor en el módulo de Configuración se enfoca en la actualización asíncrona de contadores de uso de recursos, tales como Centros de Costo, en respuesta a eventos generados por otros microservicios, como \texttt{ms-debt-payments}. En este esquema, \texttt{ms-debt-payments} actúa como publicador, enviando notificaciones al utilizar un recurso. Estas notificaciones son consumidas por \texttt{ms-configuration}, que funciona como suscriptor, actualizando el contador correspondiente en la base de datos.
 
 El sistema implementa una arquitectura orientada a eventos para desacoplar el microservicio \texttt{ms-debt-payments} del microservicio \texttt{ms-configuration}. El diagrama general de la \autoref{fig:observer} ilustra cómo se aplica el patrón publicador-suscriptor para la actualización asíncrona de contadores.
 
@@ -120,7 +120,7 @@ Este diseño permite manejar distintos tipos de recursos enviando eventos a exch
 \end{figure}
 
 \newpage
-Para el manejo específico de la notificación, la \autoref{fig:handler} detalla el método \verb|handle| encargado de transformar la notificación interna en un evento de integración. En doonde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
+Para el manejo específico de la notificación, la \autoref{fig:handler} detalla el método \verb|handle| encargado de transformar la notificación interna en un evento de integración. En donde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
 
 \begin{figure}[h!]
     \centering%
@@ -141,10 +141,10 @@ Para el consumo del evento la Figura \ref{fig:listener} muestra la clase \verb|C
 El procesamiento del evento en \verb|processEvent| sigue estos pasos:
 
 \begin{itemize}
-\item Switch de tipo: Evalúa \verb|event.getType()|, actualmente soporta \verb|EventUsageType.USED|.
-\item Validación: Llama a \verb|isValidEvent()| para asegurar que \verb|costCenterId| no sea nulo y que \verb|quantityUsed| sea mayor que cero.
-\item Acción: Si es válido, invoca a \verb|incrementUsageCount(data.getCostCenterId())|.
-\item Manejo de Errores: Si el evento no es válido o el tipo no es soportado, lanza excepciones como \verb|IllegalArgumentException|.
+\item \textbf{Switch de tipo:} Evalúa \verb|event.getType()|, actualmente soporta \verb|EventUsageType.USED|.
+\item \textbf{Validación:} Llama a \verb|isValidEvent()| para asegurar que \verb|costCenterId| no sea nulo y que \verb|quantityUsed| sea mayor que cero.
+\item \textbf{Acción:} Si es válido, invoca a \verb|incrementUsageCount(data.getCostCenterId())|.
+\item \textbf{Manejo de Errores:} Si el evento no es válido o el tipo no es soportado, lanza excepciones como \verb|IllegalArgumentException|.
 \end{itemize}
 
 \begin{figure}[h!]
@@ -154,7 +154,7 @@ El procesamiento del evento en \verb|processEvent| sigue estos pasos:
     \label{fig:listener}
 \end{figure}
 
-
+\newpage
 \section{Frontend}
 
 \subsection{Estilos visuales}
@@ -202,7 +202,7 @@ Complementariamente, la Figura \ref{fig:tipografias} detalla la configuración t
 \end{figure}
 
 \newpage
-Esta metodología de desarrollo no únicamente garantiza la adherencia a las directrices de diseño, sino que además mejora la eficiencia en el proceso de trabajo de los programadores. La Figura \ref{fig:utilitarias} ilustra la manera en que se integran estos estilos en el código HTML, fusionando la sintaxis utilitaria de Tailwind con las configuraciones específicas del sistema de diseño.
+Esta metodología de desarrollo no solo permite la adherencia a las directrices de diseño, sino que además mejora la eficiencia en el proceso de trabajo de los programadores. La Figura \ref{fig:utilitarias} ilustra la manera en que se integran estos estilos en el código HTML, fusionando la sintaxis utilitaria de Tailwind con las configuraciones específicas del sistema de diseño.
 
 \begin{figure}[h!]
     \centering%
@@ -211,4 +211,4 @@ Esta metodología de desarrollo no únicamente garantiza la adherencia a las dir
     \label{fig:utilitarias}
 \end{figure}
 
-El resultado de esta abstracción es un código fuente más ordenado y fácil de mantener, en el cual la complejidad visual queda contenida dentro de las configuraciones del framework, asegurando que cualquier modificación posterior en la identidad visual se pueda difundir de manera efectiva por todo el sistema alterando solo las variables globales.
+El resultado de esta abstracción es un código fuente más ordenado y fácil de mantener, en el cual la complejidad visual queda contenida dentro de las configuraciones del framework, facilitando que cualquier modificación posterior en la identidad visual se pueda difundir de manera efectiva por todo el sistema alterando solo las variables globales.

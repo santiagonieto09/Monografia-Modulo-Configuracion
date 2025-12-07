@@ -51,7 +51,7 @@ Para asegurar una cobertura adecuada del código, se utilizó JaCoCo (Java Code 
 \end{figure}
 
 \newpage
-El informe de JaCoCo revela una cobertura general del 57\% del código, lo que representa un nivel inferior, esta cobertura reducida se explica principalmente por el hecho de que el microservicio \texttt{account\_catalogue} es compartido entre el módulo de cartera y el módulo contable cartera, lo que implica que las funcionalidades y clases del módulo de contabilidad no se cubrieron en las pruebas unitarias, ya que dichos módulos están en construcción y no han alcanzado su fase de pruebas hasta el momento.
+El informe de JaCoCo revela una cobertura general del 57\% del código, lo que representa un nivel inferior, esta cobertura reducida se explica principalmente por el hecho de que el microservicio \texttt{account\_catalogue} es compartido entre el módulo de cartera y el módulo contable cartera, lo que implica que las funcionalidades y clases de dichos módulos no se cubrieron en las pruebas unitarias, debido a que están en construcción y no han alcanzado su fase de pruebas.
 
 
 Como se muestra en la Figura \ref{fig:testconfiguracion}, se ejecutaron un total de 603 pruebas unitarias para el microservicio \texttt{ms-configuration}, todas ellas completadas satisfactoriamente.
@@ -105,7 +105,7 @@ La Figura \ref{fig:jacocoProductos} muestra el informe de cobertura generado por
 \end{figure}
 
 \newpage
-El informe de JaCoCo revela una cobertura general del 81\% del código, con algunas clases alcanzando el 100\% de cobertura. Este nivel de cobertura se considera aceptable para el proyecto, aunque se identifican áreas de oportunidad para mejorar la cobertura en algunas clases específicas.
+El informe de JaCoCo revela una cobertura general del 81\% del código, con algunas clases alcanzando el 100\% de cobertura. Este nivel de cobertura se considera bastante aceptable para el proyecto, aunque se identifican áreas de oportunidad para mejorar la cobertura en algunas clases específicas.
 
 
 Como se muestra en la Figura \ref{fig:testterceros}, se ejecutaron un total de 1720 pruebas unitarias para el microservicio \texttt{thirds-management}, todas ellas completadas satisfactoriamente.
@@ -127,16 +127,16 @@ La Figura \ref{fig:jacocoTerceros} muestra el informe de cobertura generado por 
 \end{figure}
 
 
-El informe de JaCoCo revela una cobertura general del 83\% del código, con algunas clases alcanzando el 100\% de cobertura. Este nivel de cobertura se considera aceptable para el proyecto, aunque se identifican áreas de oportunidad para mejorar la cobertura en algunas clases específicas.
+El informe de JaCoCo revela una cobertura general del 83\% del código, con algunas clases alcanzando el 100\% de cobertura. Este nivel de cobertura se considera bastante aceptable para el proyecto, aunque se identifican áreas de oportunidad para mejorar la cobertura en algunas clases específicas.
 
 
 \subsection{Pruebas de integración}
 
-Las pruebas de integración representan un elemento esencial para comprobar que los diversos componentes del sistema operen de forma adecuada en conjunto. En el marco de este proyecto, resultaba indispensable asegurar que el módulo de configuración no únicamente operara correctamente en aislamiento, sino que además interactuara de manera perfecta y segura con los demás elementos del entorno de microservicios. Una integración apropiada es vital para mantener la coherencia y la integridad de la información a lo largo de toda la aplicación, particularmente en un sistema distribuido que emplea eventos para la comunicación.
+Las pruebas de integración representan un elemento esencial para comprobar que los diversos componentes del sistema operen de forma adecuada en conjunto. En el marco de este proyecto, resultaba indispensable asegurar que el módulo de Configuración no solo operara correctamente en aislamiento, sino que además interactuara de manera perfecta y segura con los demás elementos del entorno de microservicios. Una integración apropiada es vital para mantener la coherencia y la integridad de la información a lo largo de toda la aplicación.
 
 \subsection{Estrategia de pruebas de integración}
 
-Para lograr este objetivo se diseñó una estrategia de pruebas de integración de caja negra que simula el comportamiento real del sistema. Dado que el módulo de configuración opera de forma mayoritariamente síncrona, respondiendo a solicitudes HTTP directas a través de endpoints REST, la estrategia se enfoca en validar el flujo completo de manera directa. La estrategia implementada valida el flujo completo mediante un proceso de dos etapas:
+Para lograr este objetivo se diseñó una estrategia de pruebas de integración de caja negra que simula el comportamiento real del sistema. Dado que el módulo de Configuración opera de forma mayoritariamente síncrona, respondiendo a solicitudes HTTP directas a través de endpoints REST, la estrategia se enfoca en validar el flujo completo de manera directa mediante un proceso de dos etapas:
 
 \begin{enumerate}
 \item \textbf{Invocación del endpoint}: Se realiza una llamada HTTP directa al endpoint REST correspondiente. Esta solicitud simula una operación real del sistema, como la creación o consulta de un recurso, permitiendo probar el punto de entrada principal del módulo. Esta etapa valida la capacidad del sistema para procesar y validar correctamente las solicitudes entrantes.
@@ -144,12 +144,12 @@ Para lograr este objetivo se diseñó una estrategia de pruebas de integración 
 \item \textbf{Verificación del resultado}: Dado que el procesamiento es síncrono, se verifica inmediatamente la respuesta del endpoint y se consulta la base de datos para confirmar el estado actualizado. Esto permite confirmar si la lógica de negocio se ejecutó correctamente y si el estado del sistema se actualizó como se esperaba, validando tanto la persistencia en la base de datos como la correcta exposición de los resultados a través de la API.
 \end{enumerate}
 
-Este enfoque valida la integración completa del módulo de configuración con tres componentes críticos de la arquitectura:
+Este enfoque valida la integración completa del módulo de Configuración con tres componentes fundamentales de la arquitectura:
 
 \begin{itemize}
-\item API REST: Se demuestra que el módulo procesa y responde a las solicitudes correctamente.
-\item Base de datos: Se confirma que tras procesar una solicitud, el estado se persiste de forma correcta.
-\item Lógica de validación: Se asegura que las y validaciones se ejecutan de manera correcta.
+\item \textbf{API REST:} Se demuestra que el módulo procesa y responde a las solicitudes correctamente.
+\item \textbf{Base de datos:} Se confirma que tras procesar una solicitud, el estado persiste de forma correcta.
+\item \textbf{Lógica de validación:} Se asegura que las validaciones se ejecutan de manera correcta.
 \end{itemize}
 
 Esta cobertura proporciona una alta confianza en que el módulo no solo realiza sus operaciones de forma correcta, sino que está correctamente integrado en el flujo de trabajo general de la aplicación.
@@ -157,11 +157,11 @@ Esta cobertura proporciona una alta confianza en que el módulo no solo realiza 
 
 \subsection{Implementación con Postman y Newman}
 
-Se empleó Postman para diseñar las pruebas de integración y Newman para su ejecución automática. El conjunto de pruebas aplica la estrategia previamente detallada, abarcando casos positivos y negativos. La recopilación de pruebas se organizó de manera estructurada, como se muestra en la Figura \ref{fig:postman}, donde se distinguen dos estructuras principales: la fase de obtención de Token, Init, Integration y Tear Down.
+Se empleó Postman para diseñar las pruebas de integración y Newman para su ejecución automática. El conjunto de pruebas aplica la estrategia previamente detallada, abarcando casos positivos y negativos. La recopilación de pruebas se organizó de manera estructurada, como se muestra en la \autoref{fig:postman}, donde se distinguen dos estructuras principales: la fase de obtención de Token, Init, Integration y Tear Down.
 
-Para los módulos de tipos de documentos, calendario contable, catálogo de cuentas, centros de costo y centro de ayuda, no se requería la fase Init, puesto que estos módulos no necesitan una inicialización previa de datos para su funcionamiento.
+Para los módulos de Tipos de documentos, Calendario contable, Catálogo de cuentas, Centros de costo y Centro de ayuda, no era necesaria la fase Init, puesto que estos módulos no necesitan una inicialización previa de datos para su funcionamiento.
 
-Por otro lado, el módulo de cuentas bancarias necesita datos iniciales de cuentas contables auxiliares, al igual que impuestos y métodos de pago. El módulo de productos requiere inicialmente un tipo de producto, categoría y unidad de medida. Finalmente, el módulo de terceros necesita datos como tipos de identificación y tipos de terceros para la correcta ejecución de las pruebas.
+Por otro lado, el módulo de Cuentas bancarias necesita datos iniciales de cuentas contables auxiliares, al igual que Impuestos y Métodos de pago. El módulo de Productos requiere inicialmente un tipo de producto, categoría y unidad de medida. Finalmente, el módulo de Terceros necesita datos como tipos de identificación y tipos de terceros para la correcta ejecución de las pruebas.
 
 \begin{figure}[h!]
     \centering%
@@ -170,6 +170,7 @@ Por otro lado, el módulo de cuentas bancarias necesita datos iniciales de cuent
     \label{fig:postman} 
 \end{figure}
 
+\newpage
 \subsection{Casos de prueba: Escenarios positivos y negativos}
 
 La implementación de pruebas se divide en dos categorías fundamentales que validan la robustez del sistema:
@@ -198,7 +199,7 @@ Los scripts verifican múltiples aspectos de las respuestas:
 
 
 
-\subsection{Pruebas funcionales de API}
+\subsection{Pruebas funcionales de API REST}
 
 Para estas pruebas de ejecución automatizada se empleó Newman, la interfaz de línea de comandos de Postman. Esta herramienta permite ejecutar colecciones de Postman de manera programada, lo que simplifica su incorporación en pipelines de CI/CD y la creación de informes detallados.
 
@@ -208,10 +209,16 @@ Cabe destacar que las pruebas se realizaron en un computador de escritorio con l
 
 \begin{itemize}
 \item Modelo placa base: GIGABYTE H610M K DDR4
-\item Procesador: Intel(R) Core(TM) i5-8250U
+\item Procesador: 12th Gen Intel(R) Core(TM) i5-12400F
 \item Memoria RAM: 16 GB
+\item Tarjeta gráfica:	NVIDIA GeForce GTX 1050 Ti (4 GB)
 \item Sistema Operativo: Windows 10 Pro 64 bits
 \end{itemize}
+
+
+
+
+
 
 Para evaluar la estabilidad y consistencia del sistema bajo múltiples ejecuciones, se llevaron a cabo pruebas iterativas ejecutando la suite completa 20 veces consecutivamente. A continuación, se muestran resultados seleccionados de las pruebas de integración. Para consultar los resultados completos, estos están disponibles en el \autoref{AnexoNewman}.
 
@@ -229,7 +236,7 @@ Para evaluar la estabilidad y consistencia del sistema bajo múltiples ejecucion
     \begin{figure}[h!]
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanMetodosPago20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Métodos de Pago}
+    \caption{Resultados de iteraciones del submódulo Métodos de Pago}
     \label{fig:metodosdepago} 
     \end{figure}
 
@@ -246,14 +253,18 @@ Para evaluar la estabilidad y consistencia del sistema bajo múltiples ejecucion
     \begin{figure}[h!]
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCentroAyuda20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Centro de Ayuda}
+    \caption{Resultados de iteraciones del submódulo Centro de Ayuda}
     \label{fig:centrodeayuda} 
     \end{figure}
 
 \newpage
 \section{Pruebas de aceptación}
 
-Las pruebas de aceptación tienen como propósito validar que las funcionalidades implementadas satisfagan los requerimientos del usuario final, siendo este último quien directamente opera el sistema para evaluar su desempeño. En el contexto de este proyecto, dichas pruebas se ejecutaron en las dependencias del centro deportivo de la Universidad del Cauca durante un encuentro presencial con el coordinador del programa, quien recibió un dispositivo equipado con la aplicación en su versión de prueba, la cual incorpora las características objeto de evaluación. A partir de la interacción del usuario con el sistema, se determina si cada funcionalidad recibe el estatus de "aprobada" o "rechazada"; en caso de un resultado desfavorable, se registra la motivación del rechazo para posteriormente efectuar una nueva ronda de pruebas tras implementar las correcciones necesarias. El modelo de documento empleado para registrar estas pruebas de aceptación se detalla en la Tabla \ref{tabla:formato-pruebas-aceptacion}.
+Las pruebas de aceptación constituyen la etapa de validación final del software, donde se verifica que las funcionalidades implementadas satisfagan efectivamente los requerimientos y expectativas del usuario final quien, en última instancia, determina la calidad y utilidad del sistema desarrollado. En este proyecto, dichas pruebas se ejecutaron de manera virtual mediante sesiones en videoconferencia utilizando la aplicación en su versión de prueba desplegada en un ambiente controlado. 
+
+Durante estas sesiones, los usuarios finales expertos Omar Gomez Gomez y Brayan Neil Vargas, quienes poseen amplia experiencia en el dominio contable y conocimiento profundo de los procesos educativos del programa de Contaduría Pública, evaluaron sistemáticamente las funcionalidades desarrolladas del módulo de Configuración. Los evaluadores interactuaron directamente con la aplicación a través de sus propios dispositivos, navegando por las diferentes interfaces, ejecutando operaciones y explorando los flujos de trabajo implementados. Durante este proceso, no solo verificaban el correcto funcionamiento técnico, sino que también aportaban observaciones valiosas sobre la usabilidad, coherencia pedagógica y pertinencia de las funcionalidades en escenarios reales de uso académico.
+
+La dinámica de las pruebas permitió un intercambio fluido de retroalimentación, donde los evaluadores expresaban sus opiniones, planteaban inquietudes, sugerían mejoras y validaban aspectos específicos del sistema. Cada funcionalidad evaluada recibió un estatus de ``aprobada'' o ``rechazada'' según cumpliera o no con las expectativas y criterios de aceptación previamente establecidos. En los casos donde se identificaron deficiencias, observaciones o aspectos susceptibles de mejora, se documentó detalladamente la motivación del rechazo junto con las sugerencias específicas proporcionadas por los evaluadores. Esta retroalimentación fundamentó las correcciones e iteraciones posteriores, siguiendo un ciclo de mejora continua hasta alcanzar la aprobación de cada funcionalidad. El formato estructurado empleado para registrar sistemáticamente estas pruebas de aceptación se presenta en la Tabla \ref{tabla:formato-pruebas-aceptacion}.
 
 \input{Cap7/Tablas/formato.tex}
 
