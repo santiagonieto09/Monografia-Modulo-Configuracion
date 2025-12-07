@@ -1,7 +1,187 @@
 \begin{appendix}
+\chapter{Anexo: Resultados de pruebas de integración con Newman} \label{AnexoNewman}
+Este anexo detalla los resultados completos de las pruebas de integración automatizadas ejecutadas con Newman, la interfaz de línea de comandos de Postman. Estas pruebas validan la funcionalidad, estabilidad y rendimiento de los submódulos del módulo de Configuración bajo múltiples iteraciones consecutivas.
+
+
+ \textbf{Métodos de pago}: Los resultados de las 20 iteraciones en la Figura \ref{fig:metodosdepago} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 4240 (212 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 1420
+        \item Duración total: 2 minutos 17.1 segundos
+        \item Tiempo promedio de respuesta: 12ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanMetodosPago20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Métodos de Pago}
+    \label{fig:metodosdepagos} 
+    \end{figure}
+
+    \textbf{Centro de ayuda}: Los resultados de las 20 iteraciones en la Figura \ref{fig:centrodeayuda} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 2580 (129 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 1220
+        \item Duración total: 2 minutos 0.5 segundos
+        \item Tiempo promedio de respuesta: 14ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCentroAyuda20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Centro de Ayuda}
+    \label{fig:centrosdeayuda} 
+    \end{figure}
+
+
+    \textbf{Cuentas bancarias}: Los resultados de las 20 iteraciones en la Figura \ref{fig:cuentasbancarias} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 5700 (285 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 2080
+        \item Duración total: 3 minutos 17.4 segundos
+        \item Tiempo promedio de respuesta: 10ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCuentasBancarias20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Cuentas Bancarias}
+    \label{fig:cuentasbancarias} 
+    \end{figure}
+
+
+    \textbf{Impuestos}: Los resultados de las 20 iteraciones en la Figura \ref{fig:impuesto} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 3220 (161 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 1080
+        \item Duración total: 1 minuto 46.4 segundos
+        \item Tiempo promedio de respuesta: 14ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanImpuestos20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Impuestos}
+    \label{fig:impuesto} 
+    \end{figure}
+
+    \newpage
+    \textbf{Tipos de documentos}: Los resultados de las 20 iteraciones en la Figura \ref{fig:tiposdedocumentos} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 3480 (174 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 1740
+        \item Duración total: 2 minutos 46.1 segundos
+        \item Tiempo promedio de respuesta: 11ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanTiposDoc20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Tipos de Documentos}
+    \label{fig:tiposdedocumentos} 
+    \end{figure}
+
+
+    \textbf{Centro de costo}: Los resultados de las 20 iteraciones en la Figura \ref{fig:centrodecosto} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 2540 (127 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 1120
+        \item Duración total: 1 minuto 50.5 segundos
+        \item Tiempo promedio de respuesta: 15ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCentrosCosto20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Centro de Costo}
+    \label{fig:centrodecosto} 
+    \end{figure}
+
+ 
+    \textbf{Productos}: Los resultados de las 20 iteraciones en la Figura \ref{fig:productos} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 10040 (502 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 3400
+        \item Duración total: 5 minutos 15.8 segundos
+        \item Tiempo promedio de respuesta: 8ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanProductos20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Productos}
+    \label{fig:productos} 
+    \end{figure}
+
+
+    \textbf{Terceros}: Los resultados de las 20 iteraciones en la Figura \ref{fig:terceros} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 11840 (592 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 2880
+        \item Duración total: 5 minutos 40.6 segundos
+        \item Tiempo promedio de respuesta: 21ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanTerceros20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Terceros}
+    \label{fig:terceros} 
+    \end{figure}
+
+
+    \textbf{Calendario contable}: Los resultados de las 20 iteraciones en la Figura \ref{fig:calendario} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 1540 (77 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 880
+        \item Duración total: 1 minuto 42.1 segundos
+        \item Tiempo promedio de respuesta: 29ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCalendario20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Calendario}
+    \label{fig:calendario} 
+    \end{figure}
+
+ 
+    \textbf{Catálogo de cuentas}: Los resultados de las 20 iteraciones en la Figura \ref{fig:catalogo} muestran:
+    \begin{itemize}
+        \item Total de aserciones: 2520 (126 por iteración $\times$ 20 iteraciones), todas exitosas
+        \item Pruebas fallidas: 0
+        \item Requests ejecutados: 1260
+        \item Duración total: 2 minutos 2.5 segundos
+        \item Tiempo promedio de respuesta: 13ms
+    \end{itemize}
+
+    \begin{figure}[h!]
+    \centering%
+    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCatalogo20.png}    
+    \caption{Resultados de 20 iteraciones consecutivas del módulo Catálogo}
+    \label{fig:catalogo} 
+    \end{figure}
+
+
+
+
+
+
+
+
+
 \chapter{Anexo: Guía de integración de eventos RabbitMQ para Centros de Costo} \label{AnexoA}
 
-Este anexo documenta la arquitectura de mensajería asíncrona implementada para el módulo de Centros de Costo, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este módulo.
+Este anexo documenta la arquitectura de mensajería asíncrona implementada para el submódulo de Centros de Costo, proporcionando una guía técnica para que otros microservicios puedan publicar eventos y comunicarse correctamente con este submódulo.
 
 \section{Descripción general}
 

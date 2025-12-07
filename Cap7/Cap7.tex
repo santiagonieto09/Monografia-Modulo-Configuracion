@@ -1,6 +1,6 @@
 \mychapter{Capítulo 7. Evaluación de funcionalidades}
 
-En este capítulo se describen las pruebas realizadas al módulo de configuración, con el objetivo de evaluar sus funcionalidades y verificar su correcto funcionamiento e integración con el resto del sistema.
+En este capítulo, se describen las pruebas realizadas al módulo de configuración, con el objetivo de evaluar sus funcionalidades y verificar su correcto funcionamiento e integración con el resto del sistema.
 
 
 \section{Pruebas del backend}
@@ -198,22 +198,22 @@ Los scripts verifican múltiples aspectos de las respuestas:
 
 
 
-\subsection{Ejecución automatizada con Newman}
+\subsection{Pruebas funcionales de API}
 
-Para permitir la ejecución automatizada de las pruebas en el servidor de despliegue, se empleó Newman, la interfaz de línea de comandos de Postman. Esta herramienta posibilita ejecutar colecciones de Postman de manera programada, lo que simplifica su incorporación en pipelines de CI/CD y la creación de informes pormenorizados.
+Para estas pruebas de ejecución automatizada se empleó Newman, la interfaz de línea de comandos de Postman. Esta herramienta permite ejecutar colecciones de Postman de manera programada, lo que simplifica su incorporación en pipelines de CI/CD y la creación de informes detallados.
 
 \subsubsection{Entorno de ejecución de pruebas}
 
-Cabe destacar que las pruebas se realizaron en un dispositivo con las siguientes características técnicas:
+Cabe destacar que las pruebas se realizaron en un computador de escritorio con las siguientes características técnicas:
 
 \begin{itemize}
-\item Modelo PC placa base: GIGABYTE H610M K DDR4
+\item Modelo placa base: GIGABYTE H610M K DDR4
 \item Procesador: Intel(R) Core(TM) i5-8250U
 \item Memoria RAM: 16 GB
 \item Sistema Operativo: Windows 10 Pro 64 bits
 \end{itemize}
 
-Para validar la estabilidad y consistencia del sistema bajo múltiples ejecuciones, se realizaron pruebas iterativas ejecutando la suite completa 20 veces de forma consecutiva. A continuación, se presentan los resultados obtenidos tras la ejecución de las pruebas de integración para cada uno de los módulos que pertenecen al módulo de configuración.
+Para evaluar la estabilidad y consistencia del sistema bajo múltiples ejecuciones, se llevaron a cabo pruebas iterativas ejecutando la suite completa 20 veces consecutivamente. A continuación, se muestran resultados seleccionados de las pruebas de integración. Para consultar los resultados completos, estos están disponibles en el \autoref{AnexoNewman}.
 
 \subsubsection{Resultados de las pruebas de integración}
 
@@ -250,172 +250,7 @@ Para validar la estabilidad y consistencia del sistema bajo múltiples ejecucion
     \label{fig:centrodeayuda} 
     \end{figure}
 
-    \newpage
-    \textbf{Cuentas bancarias}: Los resultados de las 20 iteraciones en la Figura \ref{fig:cuentasbancarias} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 5700 (285 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 2080
-        \item Duración total: 3 minutos 17.4 segundos
-        \item Tiempo promedio de respuesta: 10ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCuentasBancarias20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Cuentas Bancarias}
-    \label{fig:cuentasbancarias} 
-    \end{figure}
-
-    \newpage
-    \textbf{Impuestos}: Los resultados de las 20 iteraciones en la Figura \ref{fig:impuesto} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 3220 (161 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 1080
-        \item Duración total: 1 minuto 46.4 segundos
-        \item Tiempo promedio de respuesta: 14ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanImpuestos20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Impuestos}
-    \label{fig:impuesto} 
-    \end{figure}
-
-    \newpage
-    \textbf{Tipos de documentos}: Los resultados de las 20 iteraciones en la Figura \ref{fig:tiposdedocumentos} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 3480 (174 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 1740
-        \item Duración total: 2 minutos 46.1 segundos
-        \item Tiempo promedio de respuesta: 11ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanTiposDoc20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Tipos de Documentos}
-    \label{fig:tiposdedocumentos} 
-    \end{figure}
-
-    \newpage
-    \textbf{Centro de costo}: Los resultados de las 20 iteraciones en la Figura \ref{fig:centrodecosto} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 2540 (127 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 1120
-        \item Duración total: 1 minuto 50.5 segundos
-        \item Tiempo promedio de respuesta: 15ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCentrosCosto20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Centro de Costo}
-    \label{fig:centrodecosto} 
-    \end{figure}
-
-    \newpage
-    \textbf{Productos}: Los resultados de las 20 iteraciones en la Figura \ref{fig:productos} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 10040 (502 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 3400
-        \item Duración total: 5 minutos 15.8 segundos
-        \item Tiempo promedio de respuesta: 8ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanProductos20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Productos}
-    \label{fig:productos} 
-    \end{figure}
-
-    \newpage
-    \textbf{Terceros}: Los resultados de las 20 iteraciones en la Figura \ref{fig:terceros} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 11840 (592 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 2880
-        \item Duración total: 5 minutos 40.6 segundos
-        \item Tiempo promedio de respuesta: 21ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanTerceros20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Terceros}
-    \label{fig:terceros} 
-    \end{figure}
-
-    \newpage
-    \textbf{Calendario contable}: Los resultados de las 20 iteraciones en la Figura \ref{fig:calendario} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 1540 (77 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 880
-        \item Duración total: 1 minuto 42.1 segundos
-        \item Tiempo promedio de respuesta: 29ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCalendario20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Calendario}
-    \label{fig:calendario} 
-    \end{figure}
-
-    \newpage
-    \textbf{Catálogo de cuentas}: Los resultados de las 20 iteraciones en la Figura \ref{fig:catalogo} muestran:
-    \begin{itemize}
-        \item Total de aserciones: 2520 (126 por iteración $\times$ 20 iteraciones), todas exitosas
-        \item Pruebas fallidas: 0
-        \item Requests ejecutados: 1260
-        \item Duración total: 2 minutos 2.5 segundos
-        \item Tiempo promedio de respuesta: 13ms
-    \end{itemize}
-
-    \begin{figure}[h!]
-    \centering%
-    \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCatalogo20.png}    
-    \caption{Resultados de 20 iteraciones consecutivas del módulo Catálogo}
-    \label{fig:catalogo} 
-    \end{figure}
-
-
 \newpage
-\subsection{Cobertura de pruebas de integración}
-
-Las pruebas de integración implementadas cubren todas las funcionalidades importantes del módulo de configuración. Los siguientes módulos implementan CRUD completo con validaciones:
-
-\begin{itemize}
-\item \textbf{Calendario contable}
-\item \textbf{Cuentas bancarias}
-\item \textbf{Impuestos}
-\item \textbf{Métodos de pago}
-\item \textbf{Tipos de documentos}
-\item \textbf{Clases de documentos}
-\item \textbf{Unidades de medida}
-\item \textbf{Categorías de productos}
-\item \textbf{Tipos de productos}
-\item \textbf{Tipos de terceros}
-\item \textbf{Tipos de identificación}
-\item \textbf{Centro de ayuda}
-\end{itemize}
-
-Además, los siguientes módulos incluyen funcionalidades adicionales de importación y exportación:
-
-\begin{itemize}
-\item \textbf{Catálogo de cuentas:} importación y exportación
-\item \textbf{Centro de costo:} exportación
-\item \textbf{Productos:} importación y exportación
-\item \textbf{Terceros:} importación y exportación
-\end{itemize}
-
 \section{Pruebas de aceptación}
 
 Las pruebas de aceptación tienen como propósito validar que las funcionalidades implementadas satisfagan los requerimientos del usuario final, siendo este último quien directamente opera el sistema para evaluar su desempeño. En el contexto de este proyecto, dichas pruebas se ejecutaron en las dependencias del centro deportivo de la Universidad del Cauca durante un encuentro presencial con el coordinador del programa, quien recibió un dispositivo equipado con la aplicación en su versión de prueba, la cual incorpora las características objeto de evaluación. A partir de la interacción del usuario con el sistema, se determina si cada funcionalidad recibe el estatus de "aprobada" o "rechazada"; en caso de un resultado desfavorable, se registra la motivación del rechazo para posteriormente efectuar una nueva ronda de pruebas tras implementar las correcciones necesarias. El modelo de documento empleado para registrar estas pruebas de aceptación se detalla en la Tabla \ref{tabla:formato-pruebas-aceptacion}.

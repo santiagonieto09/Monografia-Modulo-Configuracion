@@ -17,24 +17,23 @@ Por motivos de seguridad de la División de TIC, dentro de la institución es ne
 
 \section{Backend}
 
-\subsection{Patrones de diseño implementados}
-\subsection{Patrón strategy}
+En las siguientes secciones se contextualizan los patrones de diseño implementados. Para cada patrón se presenta una breve introducción, se explican las motivaciones que llevaron a su uso y se incluyen representaciones gráficas que ilustran su aplicación dentro del módulo de Configuración.
 
- \subsubsection{Diagrama de clases}
+\subsection{Implementación del patrón strategy}
 
-La \autoref{fig:strategy} ilustra la implementación del patrón Strategy en el módulo de terceros en las funciones de importación para validar archivos de diferentes tipos (como PDF y Excel) de manera flexible y extensible. Esto permite encapsular algoritmos de validación específicos en clases concretas (\texttt{PdfFileValidator} y \texttt{ExcelFileValidator}), que implementan la interfaz común \texttt{FileValidator}. Los servicios como \texttt{PdfRUTService} y \texttt{ExcelParsingService} dependen de la interfaz, no de implementaciones concretas, lo que facilita intercambiar validadores dinámicamente sin modificar el código cliente. Esta separación mejora la mantenibilidad, permite agregar nuevos tipos de validación (por ejemplo, para CSV) siguiendo el principio Abierto/Cerrado y evita duplicación de lógica de validación en múltiples servicios, simplificando la estructura del backend.
+La \autoref{fig:strategy} ilustra la implementación del patrón strategy en el submódulo de Terceros en las funciones de importación para validar archivos de diferentes tipos (como PDF y Excel) de manera flexible y extensible. Esto permite encapsular algoritmos de validación específicos en clases concretas (\texttt{PdfFileValidator} y \texttt{ExcelFileValidator}), que implementan la interfaz común \texttt{FileValidator}. Los servicios como \texttt{PdfRUTService} y \texttt{ExcelParsingService} dependen de la interfaz, no de implementaciones concretas, lo que facilita intercambiar validadores dinámicamente sin modificar el código cliente. Esta separación mejora la mantenibilidad, permite agregar nuevos tipos de validación (por ejemplo, para CSV) siguiendo el principio Abierto/Cerrado y evita duplicación de lógica de validación en múltiples servicios, simplificando la estructura del backend.
 
 \begin{figure}[h!]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/strategy.png}    
-    \caption{Diagrama de clases del patrón Strategy}
+    \caption{Diagrama de clases del patrón strategy}
     \label{fig:strategy}
 \end{figure}
 
 \newpage
-\subsubsection{Motivación e implementación}
+\subsubsection{Motivación}
 
-La implementación del patrón Strategy en este proyecto surge de la necesidad de manejar diferentes tipos de archivos al importar datos en el módulo de terceros. Este módulo debía ser capaz de procesar tanto archivos PDF del RUT de la DIAN como archivos Excel para la importación masiva de terceros. El patrón Strategy permitió encapsular las distintas estrategias de validación y procesamiento de archivos en clases separadas, facilitando la adición de nuevos formatos en el futuro sin afectar la lógica existente. Al depender de una interfaz común, los servicios pueden intercambiar fácilmente las estrategias según el tipo de archivo que se esté manejando. 
+La implementación del patrón Strategy en este proyecto surge de la necesidad de manejar diferentes tipos de archivos al importar datos en el submódulo de Terceros. Este submódulo debía ser capaz de procesar tanto archivos PDF del RUT de la DIAN como archivos Excel para la importación masiva de terceros. El patrón strategy permitió encapsular las distintas estrategias de validación y procesamiento de archivos en clases separadas, facilitando la adición de nuevos formatos en el futuro sin afectar la lógica existente. Al depender de una interfaz común, los servicios pueden intercambiar fácilmente las estrategias según el tipo de archivo que se esté manejando. 
 
 La clase \texttt{FileValidator} en la \autoref{fig:FileValidator} define el contrato para validar archivos subidos, con métodos como \texttt{validate(MultipartFile file)} para verificar integridad, \texttt{getSupportedMimeTypes()} para tipos MIME admitidos y \texttt{getSupportedExtensions()} para extensiones (.pdf, .xlsx), esto asegura una validación uniforme sin importar el tipo de archivo.
 
@@ -68,33 +67,31 @@ La clase \texttt{ExcelFileValidator} (estrategia concreta) en la Figura \ref{fig
 
 
 
-\subsection{Patrón observer}
+\subsection{Implementación del patrón publicador-suscriptor}
 
+La implementación del patrón publicador-suscriptor en el módulo de configuración se enfoca en la actualización asíncrona de contadores de uso de recursos, tales como Centros de Costo, en respuesta a eventos generados por otros microservicios, como \texttt{ms-debt-payments}. En este esquema, \texttt{ms-debt-payments} actúa como publicador, enviando notificaciones al utilizar un recurso. Estas notificaciones son consumidas por \texttt{ms-configuration}, que funciona como suscriptor, actualizando el contador correspondiente en la base de datos.
 
- \subsubsection{Diagrama de clases}
-La implementación del patrón Observer en el módulo de configuración se centra en la actualización asíncrona de contadores de uso de recursos, como centros de costo, en respuesta a eventos generados por otros microservicios, como \texttt{ms-debt-payments}. El microservicio \texttt{ms-debt-payments} actúa como publicador que envía notificaciones cuando se utiliza un recurso. Estas notificaciones son consumidas por el microservicio \texttt{ms-configuration} que contiene el módulo de centros de costo, que actúa como suscriptor, actualizando el contador de uso en la base de datos.
-
-El sistema implementa una arquitectura orientada a eventos para desacoplar el microservicio \texttt{ms-debt-payments} del microservicio \texttt{ms-configuration}. El diagrama general de la \autoref{fig:observer} ilustra cómo se aplica el patrón Observer para la actualización asíncrona de contadores.
+El sistema implementa una arquitectura orientada a eventos para desacoplar el microservicio \texttt{ms-debt-payments} del microservicio \texttt{ms-configuration}. El diagrama general de la \autoref{fig:observer} ilustra cómo se aplica el patrón publicador-suscriptor para la actualización asíncrona de contadores.
 
 \begin{figure}[h!]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/observer.png}    
-    \caption{Diagrama de clases del patrón Observer}
+    \caption{Diagrama de clases del patrón publicador-suscriptor}
     \label{fig:observer}
 \end{figure}
 
-\subsubsection{Motivación e implementación}
+\subsubsection{Motivación}
 
- La motivación para implementar el patrón Observer en este contexto radica en la necesidad de mantener actualizados los contadores de uso de recursos (como centros de costo) en el módulo de configuración con el fin de validar las acciones de editar y eliminar si estos parametros han tenido movimientos contables lo cual evita inconsistencias en la generacion de reportes o procesos contables.
+ La motivación para implementar el patrón publicador-suscriptor en este contexto radica en la necesidad de mantener actualizados los contadores de uso de recursos en el módulo de Configuración con el fin de validar las acciones de editar y eliminar si estos parametros han tenido movimientos contables lo cual evita inconsistencias en la generacion de reportes o procesos contables.
 
-El flujo de eventos para la actualización del contador de uso de centros de costo sigue estos pasos:
+El flujo de eventos para la actualización del contador de uso de Centros de Costo sigue estos pasos:
 
 
 \begin{itemize}
     \item El microservicio \texttt{ms-debt-payments} detecta el uso de un recurso (centro de costo) y crea una notificación interna (\texttt{CostCenterUsedNotification}).
     \item La notificación es enviada al exchange \texttt{costcenter.used.exchange} mediante el publicador (\texttt{ResourceUsagePublisher}).
     \item La cola \texttt{costcenter.used.queue} recibe el mensaje.
-    \item El microservicio \texttt{ms-configuration}, que contiene el módulo de centros de costo, consume el evento a través del listener (\texttt{CostCenterUsageListener}).
+    \item El microservicio \texttt{ms-configuration}, que contiene el submódulo de Centros de Costo, consume el evento a través del listener (\texttt{CostCenterUsageListener}).
     \item El listener procesa el evento y actualiza la base de datos mediante la interfaz \texttt{IUsageCostCenter}, incrementando el contador de uso del centro de costo correspondiente.
 \end{itemize}
 
@@ -112,7 +109,7 @@ Este diseño permite manejar distintos tipos de recursos enviando eventos a exch
 \end{itemize}
 
 
-\textbf{Nota adicional:} El microservicio \verb|debt payments| no solo gestiona centros de costo. También envía eventos a terceros y métodos de pago utilizando el mismo tipo de evento de uso (\verb|EventUsageType.USED|). Estos eventos incrementan sus respectivos contadores siguiendo una lógica análoga a la descrita aquí.
+\textbf{Nota adicional:} El microservicio \verb|debt payments| no solo gestiona centros de costo. También envía eventos a Terceros y Métodos de pago utilizando el mismo tipo de evento de uso (\verb|EventUsageType.USED|). Estos eventos incrementan sus respectivos contadores siguiendo una lógica análoga a la descrita anteriormente.
 
 
 \begin{figure}[h!]
@@ -123,7 +120,7 @@ Este diseño permite manejar distintos tipos de recursos enviando eventos a exch
 \end{figure}
 
 \newpage
-Para el manejo específico de la notificación, la \autoref{fig:handler} detalla el método \verb|"handle"| encargado de transformar la notificación interna en un evento de integración. En doonde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
+Para el manejo específico de la notificación, la \autoref{fig:handler} detalla el método \verb|handle| encargado de transformar la notificación interna en un evento de integración. En doonde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
 
 \begin{figure}[h!]
     \centering%
