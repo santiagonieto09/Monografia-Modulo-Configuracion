@@ -18,7 +18,7 @@ El diagrama de contexto del sistema que se muestra en la \autoref{fig:Contexto} 
  \item Los sistemas de software externos con los que interactúa y se conecta
 \end{itemize}
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/contexto.png}    
     \caption{Diagrama de contexto.}
@@ -37,7 +37,7 @@ El sistema consta de seis contenedores principales: Aplicación web, API Gateway
 \item \textbf{Uso de HTTP:} Se respetan los verbos HTTP estándar (GET para consultas, POST para creación, PUT para actualización, DELETE para eliminación) y los códigos de respuesta apropiados para cada operación. 
 \end{itemize}
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/contenedor.png}    
     \caption{Diagrama de contenedores.}
@@ -54,7 +54,7 @@ La descripción de cada contenedor y la participación del presente proyecto se 
 
 En la \autoref{fig:componentes} se observa el diagrama de componentes del contenedor asociado al submódulo de Catálogo de cuentas, el cual detalla los componentes y sus interacciones, proporcionando un nivel de detalle alto. Uno de los patrones arquitectónicos reflejados en este diagrama es la arquitectura limpia (o hexagonal), cuyas capas corresponden a: Domain, Application e Infrastructure.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/componentes.png}    
     \caption{Diagrama de componentes submódulo Catálogo de Cuentas.}
@@ -81,7 +81,7 @@ La arquitectura hexagonal, también conocida como arquitectura de puertos y adap
 \end{enumerate}
 
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap5/Figuras/patronhexagonal.png}    
     \caption{Capas de la arquitectura hexagonal en Catálogo de cuentas.}
@@ -94,7 +94,7 @@ Para ilustrar mejor cómo funciona la arquitectura hexagonal en la práctica, a 
 
 En la \autoref{fig:patronhexagonalflow} se muestra el flujo completo de una operación de búsqueda de cuentas contables. El diagrama ilustra cómo la petición del cliente atraviesa las tres capas de la arquitectura hexagonal: desde la capa de Infraestructura (\texttt{AccountCatalogueController}) que recibe la petición HTTP, pasando por la capa de Aplicación (\texttt{AccountCatalogueSearchService}) que orquesta la lógica de negocio utilizando el Dominio (\texttt{AccountCatalogue}), hasta la persistencia mediante el adaptador JPA y finalmente el retorno de la respuesta al cliente.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.3\textheight]{Cap5/Figuras/flujohexagonal.png}    
     \caption{Operación de búsqueda de cuentas contables.}
@@ -115,7 +115,7 @@ La arquitectura en capas se aplicó en el submódulo de Métodos de pago, facili
 \end{enumerate}
 
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap5/Figuras/patroncapas.png}    
     \caption{Estructura de la arquitectura en capas de Métodos de Pago.}
@@ -128,7 +128,7 @@ De manera similar, para ilustrar el funcionamiento de la arquitectura en capas, 
 
 En la \autoref{fig:patroncapasflow} se presenta el flujo de una operación de búsqueda de métodos de pago. El diagrama muestra cómo la petición del cliente atraviesa secuencialmente las tres capas: desde la capa de Presentation (\texttt{PaymentMethodController}) que recibe la petición HTTP, pasando por la capa de Domain (\texttt{PaymentMethodServiceImpl}) que ejecuta la lógica de negocio, hasta la capa de DataAccess que gestiona la persistencia con el repositorio JPA y finalmente el retorno de la respuesta al cliente.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.35\textheight]{Cap5/Figuras/flujocapas.png}    
     \caption{Operación de búsqueda de métodos de pago.}

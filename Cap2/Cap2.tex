@@ -75,7 +75,7 @@ La arquitectura hexagonal, también conocida como arquitectura de puertos y adap
 Como se ilustra en la Figura \ref{fig:hexagonal}, la arquitectura se organiza en capas concéntricas: el núcleo del dominio contiene entidades y lógica de negocio; la capa de aplicación incluye servicios que orquestan casos de uso; y la capa de infraestructura alberga adaptadores. Estos se clasifican en primarios (como controladores REST o interfaces gráficas, que inician la comunicación) y secundarios (como repositorios de bases de datos o servicios de mensajería, que responden a la aplicación). Los adaptadores primarios incluyen la API REST y la interfaz de línea de comandos, mientras que los secundarios comprenden PostgreSQL para persistencia y RabbitMQ para comunicación asíncrona entre microservicios.
 
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Cap2/Figuras/hexagonal.png}    
     \caption{Arquitectura con patrón hexagonal.}
@@ -92,7 +92,7 @@ En la implementación práctica, generalmente se utiliza un esquema de 4 capas: 
 
 En la \autoref{fig:capas} se observa la arquitectura organizada en cuatro capas horizontales que representan la separación de responsabilidades.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap2/Figuras/capas.png}    
     \caption{Arquitectura con patrón en capas.}
@@ -164,28 +164,26 @@ El sistema relacional que sirve de soporte a esta arquitectura de persistencia e
 
 El documento ``Lineamientos de diseño UX-UI para proyectos de desarrollo de software en la División TIC de la Universidad del Cauca'', desarrollado por el área de soporte y desarrollo en su primera versión, define directrices para el diseño en proyectos de desarrollo de software. Este incluye consideraciones sobre tipografía, esquemas cromáticos y enfoques de diseño, ya que los ``proyectos deben mantener la identidad visual del Alma Mater, con la finalidad de reforzar la institucionalidad y el posicionamiento de la marca en diversos entornos digitales'' \cite{TICS}. Entre estas directrices se encuentran especificaciones tipográficas que determinan el uso de las fuentes Titillium Web y Open Sans, así como definiciones cromáticas que establecen diferentes gamas de colores y su aplicación. En las figuras \ref{fig:fig1}, \ref{fig:fig2} y \ref{fig:fig3} se presentan algunos de los colores fundamentales.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.6\textwidth, height=0.3\textheight, keepaspectratio]{Cap2/Figuras/Figura1.png}    
     \caption{Color institucional primario}
     \label{fig:fig1}
 \end{figure}
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=0.6\textwidth, height=0.3\textheight, keepaspectratio]{Cap2/Figuras/Figura2.png}    
     \caption{Color institucional secundario}
     \label{fig:fig2}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.6\textwidth, height=0.3\textheight, keepaspectratio]{Cap2/Figuras/Figura3.png}    
     \caption{Otros colores destacados}
     \label{fig:fig3}
 \end{figure}
-
-\newpage
 \subsection{Lineamientos de desarrollo}
 La Universidad del Cauca, a través de su división TIC, establece directrices de desarrollo que determinan, entre otros aspectos, las tecnologías a utilizar para el desarrollo de aplicaciones institucionales, las cuales incluyen las siguientes \cite{TICS2}:
 

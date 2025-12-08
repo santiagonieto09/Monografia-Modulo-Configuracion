@@ -3,7 +3,7 @@
 Este capítulo describe el módulo de Configuración mediante la descomposición en submódulos funcionales, presentados en un lenguaje de alto nivel para facilitar la comprensión. Estos submódulos permiten la operatividad, personalización y adaptabilidad del sistema a contextos académicos. Se detallan las responsabilidades de cada uno y cómo estos influyen en las demás funcionalidades del sistema contable educativo. Además, cubren gran parte de las dimensiones necesarias para simular entornos empresariales, desde la gestión de cuentas contables e impuestos hasta el control de inventarios, métodos de pago y centros de costo, entre otros parámetros operativos que se observan en la \autoref{fig:DiagramaPrincipal}.
 
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png}    
     \caption{Submódulos que componen el módulo de Configuración}
@@ -19,7 +19,7 @@ Este submódulo constituye el núcleo fundamental del sistema contable. Su impor
 
 Asimismo, interactúa con los módulos de Tesorería y Cartera en el registro de movimientos financieros, sirviendo además como base para los módulos Contable-Comercial y Contable-Cartera, los cuales dependen directamente de este catálogo. Finalmente, proporciona la información necesaria tanto para los reportes financieros (Libros Auxiliares y Estados Financieros) como para alimentar el Módulo Educativo Contable en sus ejercicios de simulación. De esta manera, se consolida como el elemento vertebral. A continuación se muestran de manera gráfica las relaciones correspondientes del submódulo de gestión de Cuentas Contables.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Cuentas contables.png}    
     \caption{Relación del submódulo gestión de Cuentas contables.}
@@ -32,7 +32,7 @@ Asimismo, interactúa con los módulos de Tesorería y Cartera en el registro de
 
 Este componente se relaciona con múltiples áreas como por ejemplo, se conecta con los módulos de Inventario (Promedio Ponderado y PEPS), ya que las tarifas pueden influir directamente en el costo final de los productos; resulta esencial para el Módulo Comercial, facilitando el cálculo de los impuestos en las facturas de compra y venta y se integra con el Módulo Contable-Comercial, donde los asientos generados incorporan los valores tributarios calculados conforme a lo establecido. De esta forma, constituye un elemento central para el manejo fiscal en todas las operaciones del sistema. A continuación, se muestran de manera gráfica las relaciones correspondientes del submódulo de gestión de Tarifas de Impuestos.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Impuestos.png}    
     \caption{Relación del submódulo gestión de Tarifas de Impuestos.}
@@ -45,7 +45,7 @@ Este componente se relaciona con múltiples áreas como por ejemplo, se conecta 
 
 Este componente es indispensable debido a sus múltiples interconexiones, es esencial en el Módulo Comercial para la identificación de clientes y proveedores en transacciones de compra y venta, se vincula con el módulo de Tesorería y Cartera para la gestión de pagos y cobros, respectivamente; e interactúa con los mósulos de Reportes Financieros (Libros Auxiliares y Estados Financieros), donde la información puede ser filtrada por tercero específico. Adicionalmente, alimenta el Módulo Educativo Contable al proveer información de las entidades para el desarrollo de simulaciones y ejercicios prácticos. De esta manera, constituye la base informativa que soporta la totalidad de las relaciones comerciales y financieras del sistema. A continuación se muestran de manera gráfica las relaciones correspondientes del submódulo de Terceros.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Terceros.png}    
     \caption{Relación del submódulo gestión de Terceros.}
@@ -57,7 +57,7 @@ Este componente es indispensable debido a sus múltiples interconexiones, es ese
 \section{Gestión de inventario de productos} El submódulo de Inventario de Productos tiene como objetivo mantener el catálogo de existencias actualizado y correctamente asociado a las cuentas contables y los impuestos correspondientes. Sus funcionalidades principales permiten la administración completa de los registros, incluyendo la creación, modificación, eliminación, consulta, y la importación o exportación desde archivos planos.
 
 Este submódulo constituye el repositorio fundamental para toda la operativa de inventario y comercial. Provee información a los módulos de Inventario con Promedio Ponderado e Inventario con PEPS para su gestión correspondiente. Además, es el elemento central del Módulo Comercial, dado que las existencias representan el núcleo de las transacciones de compra y venta. Finalmente, se relaciona con el Módulo Contable Comercial, donde los movimientos de estos ítems afectan directamente el costo de ventas y la generación de asientos contables. De esta manera, centraliza la información necesaria para el manejo comercial y contable de los productos dentro del sistema. A continuación se muestran de manera gráfica las relaciones correspondientes del submódulo de gestión de Productos.
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Inventario productos.png}    
     \caption{Relación del submódulo gestión de Inventario de Productos.}
@@ -70,7 +70,7 @@ Este submódulo constituye el repositorio fundamental para toda la operativa de 
 
 La relevancia de este componente se manifiesta en su integración con otros módulos, por ejemplo, habilita la selección del método en el Módulo de Tesorería para los comprobantes de egreso y en el Módulo de Cartera para los recibos de caja. Adicionalmente, sirve de base a los módulos Contable Comercial y Contable Cartera, donde la parametrización establecida es utilizada para la generación de los asientos contables correspondientes a los pagos y cobros. De esta forma, constituye el elemento que define y controla la aplicación contable de las diversas formas de pago empleadas en las transacciones del sistema.. A continuación se muestran de manera gráfica las relaciones correspondientes del submódulo de gestión de Métodos de Pago.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Metodos de pago.png}    
     \caption{Relación del submódulo gestión de Métodos de Pago.}
@@ -83,7 +83,7 @@ La relevancia de este componente se manifiesta en su integración con otros mód
 
 Como elemento normativo, su integración es fundamental con varios módulos: define los documentos comerciales utilizados en el Módulo Comercial (facturas, cotizaciones, órdenes), y establece los documentos de Tesorería (comprobantes de egreso) y Cartera (recibos de caja). A su vez, es fundamental para los módulos de Contable Comercial y Contable Cartera, ya que la generación de asientos contables está directamente ligada al tipo de registro seleccionado. Finalmente, se vincula con el Módulo de Auditoría, el cual utiliza esta clasificación para filtrar y visualizar las acciones realizadas en el sistema. De esta forma, constituye el elemento normativo que define y controla la estructura documental de las operaciones. A continuación se muestran de manera gráfica las relaciones correspondientes del submódulo de gestión de Tipos de Documentos.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Tipos de documentos.png}    
     \caption{Relación del submódulo gestión de Tipos de Documentos.}
@@ -96,7 +96,7 @@ Como elemento normativo, su integración es fundamental con varios módulos: def
 
 Su configuración es indispensable para la operativa del sistema, ya que se conecta con el módulo de Tesorería y Cartera, donde los pagos y cobros que involucren movimientos de fondos se registran contra estas cuentas. Además, se integra con los módulos de Reportes Financieros en los estados de flujos de efectivo, ya que dicha información es vital para su elaboración. Finalmente, se relaciona con los módulos Contable Comercial y Contable Cartera, permitiendo que los asientos contables derivados de las transacciones bancarias se generen con base en esta parametrización. De esta manera, se consolida como el repositorio fundamental que vincula las operaciones bancarias físicas con su registro contable en el sistema. A continuación se muestran de manera gráfica las relaciones correspondientes del submódulo de gestión de Bancos y Cuentas bancarias.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png}    
     \caption{Relación del submódulo gestión de Bancos y Cuentas bancarias.}
@@ -109,7 +109,7 @@ Su configuración es indispensable para la operativa del sistema, ya que se cone
 
 Su integración es transversal a la operación del sistema, dado que permite que las ventas y compras en el Módulo Comercial, así como los egresos en Tesorería, se asignen a estos ítems dimensionales. Además, es indispensable para los módulos Contable Comercial y Contable Cartera, ya que los asientos contables pueden incluir esta dimensión analítica. Finalmente, es fundamental para los módulos de Reportes Financieros (Libros Auxiliares y Estados Financieros), donde la información puede filtrarse y presentarse por unidad específica. Constituye, de esta manera, el elemento dimensional que enriquece el análisis gerencial y la trazabilidad de las operaciones. A continuación se muestran de manera gráfica  las relaciones correspondientes del submódulo de gestión de Centros de Costo.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Centros de Costo.png}    
     \caption{Relación del submódulo gestión de Centros de Costo.}
@@ -121,7 +121,7 @@ Su integración es transversal a la operación del sistema, dado que permite que
 \section{Gestión de centro de ayuda} El submódulo de Centro de Ayuda contribuye a la comprensión y el uso del sistema por parte de los usuarios, permitiendo la gestión de contenido auxiliar (mensajes informativos y explicativos). Sus funcionalidades incluyen la creación, modificación y eliminación de ayudas contextuales.
 
 Este componente establece relaciones transversales con todos los módulos funcionales del sistema, ya que sus cuadros informativos pueden aparecer en cualquier lugar para proporcionar ayuda contextual, explicaciones de conceptos o advertencias. Dicho contenido se visualiza en un sitio web tipo blog, lo cual mejora la experiencia del usuario al ofrecer información relevante y oportuna durante la navegación. De esta forma, se consolida como un elemento de soporte vital que contribuye significativamente a la usabilidad y accesibilidad de la plataforma en su conjunto. A continuación se muestran de manera gráfica las relaciones correspondientes del submódulo de gestión de Centro de Ayuda.
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=0.4\textwidth, height=0.5\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png}    
     \caption{Relación del submódulo gestión de Centro de Ayuda.}
@@ -134,7 +134,7 @@ Este componente establece relaciones transversales con todos los módulos funcio
 
 La validación temporal que ofrece es indispensable ya que restringe la generación de asientos contables en periodos cerrados y valida las fechas de registro en todos los módulos operativos (inventarios, facturación, tesorería y cartera) antes de permitir transacciones. Además, filtra los reportes financieros basándose únicamente en las fechas activas. A continuación se muestran de manera gráfica las relaciones correspondientes del módulo de gestión de Calendario Contable .
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=0.8\textheight, keepaspectratio]{Cap3/Figuras/Diagrama General-Calendario contable.png}    
     \caption{Relación del submódulo gestión de Calendario Contable.}

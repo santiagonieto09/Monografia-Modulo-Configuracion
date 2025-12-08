@@ -20,6 +20,12 @@
 \usepackage{amscd}
 \usepackage{here}
 \usepackage{graphicx}
+
+% Configuración para que figuras y tablas se queden en su posición
+\usepackage{float} % Proporciona la opción [H] para posicionamiento fijo
+\floatplacement{figure}{H} % Por defecto, las figuras se quedan donde están
+\floatplacement{table}{H} % Por defecto, las tablas se quedan donde están
+
 \usepackage{lscape}
 \usepackage{tabularx}
 \usepackage{subcaption}
@@ -84,6 +90,9 @@
 \marginparwidth0cm
 \parindent0cm %Define la distancia de la primera linea de un parrafo a la margen
 \parskip 0.6em %Espacio entre pÃ¡rrafos
+
+% Evitar que LaTeX distribuya verticalmente el contenido en la página
+\raggedbottom % Deja el espacio sobrante al final de la página
 
 %Para tablas,  redefine el backschlash en tablas donde se define la posici\'{o}n del texto en las
 %casillas (con \centering \raggedright o \raggedleft)

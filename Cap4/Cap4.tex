@@ -17,7 +17,9 @@ La fase de elicitación de requisitos se llevó a cabo mediante un proceso siste
 El proceso se organizó en cinco actividades principales:
 
 \begin{itemize}
-\item \textbf{Captura:} Se realizaron entrevistas estructuradas con los stakeholders listados en la  \autoref{tab:stakeholders}, se analizó documentación institucional y se levantaron modelos de negocio para comprender los flujos contables educativos.
+\item \textbf{Captura:} Se realizaron entrevistas estructuradas con los stakeholders listados en la \autoref{tab:stakeholders}, se analizó documentación institucional y se levantaron modelos de negocio para comprender los flujos contables educativos.
+
+\input{Cap4/Tablas/stakeholders}
 
 \item \textbf{Especificación:} Los requisitos se formalizaron mediante historias de usuario, criterios de aceptación detallados y prototipos, lo que facilitó su comprensión y validación temprana.
 
@@ -26,27 +28,24 @@ El proceso se organizó en cinco actividades principales:
 \item \textbf{Verificación:} Se aplicó revisión por pares como se evidencia en la \autoref{fig:evidenciaHU}, en la cual se presentaron las especificaciones a los directores del proyecto para confirmar su corrección, integridad, claridad y coherencia con los objetivos del sistema.
 
 \item \textbf{Validación:} Los requisitos fueron expuestos y validados con los stakeholders clave, incluyendo docentes del programa de Contaduría Pública y asesores técnicos, mediante demostraciones de prototipos y pruebas funcionales preliminares como se muestra en la \autoref{fig:evidenciaprototipos}, asegurando su alineación con las expectativas y necesidades educativas.
-\end{itemize}
+\end{itemize}  
 
-
-\input{Cap4/Tablas/stakeholders}
-
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/evidencia1.png}    
     \caption{Evidencia sesiones de negociación.}
     \label{fig:evidencia1}
 \end{figure}
 
-    
-\begin{figure}[h!]    
+
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/evidenciaHU.png}    
     \caption{Evidencia sesión de revisión de especificaciones.}
     \label{fig:evidenciaHU}
 \end{figure}
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/evidenciaprototipos.jpeg}    
     \caption{Evidencia sesión de revisión de prototipos.}
@@ -94,7 +93,7 @@ Para el diseño de los prototipos se hizo necesario el uso de una herramienta fl
 
 La \autoref{fig:CatalogoCuentas} muestra el prototipo asociado al catálogo de cuentas, que establece la estructura maestra de clasificación contable donde se definen, organizan y gestionan todas las cuentas que registrarán las transacciones financieras del sistema. Configura el esquema contable maestro del sistema a través de una interfaz que permite gestionar jerárquicamente la estructura de clasificación financiera. Desde este módulo central, el administrador puede crear, importar o exportar cuentas codificadas numéricamente del 1 al 9, organizadas según naturaleza contable (Activo, Pasivos, Patrimonio, Ingresos, Gastos, Costos de transformación y Cuentas de orden), con control de estado activo/inactivo para mantener vigente el plan de cuentas.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/catalogo de cuentas.png}    
     \caption{Prototipo vista catálogo de cuentas.}
@@ -105,19 +104,18 @@ La \autoref{fig:CatalogoCuentas} muestra el prototipo asociado al catálogo de c
 
 La \autoref{fig:InventarioProductos} muestra el prototipo asociado al inventario de productos establece el catálogo maestro de artículos donde se centraliza la gestión de insumos, productos terminados y mercancías a través de una interfaz que permite crear, importar, exportar y administrar registros con atributos clave como referencia, nombre, descripción, costo, cantidad, unidad de medida, categoría, tipo de producto y estado activo.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/inventario de productos.png}    
     \caption{Prototipo vista inventario de productos.}
     \label{fig:InventarioProductos}
 \end{figure}
 
-\newpage
 \subsection{Vista de terceros}
 
 La \autoref{fig:tercero} muestra el prototipo asociado a terceros,  configura el registro maestro de entidades externas a través de una interfaz que permite crear, importar, exportar y administrar personas naturales y jurídicas, capturando atributos esenciales como identificación, tipo de entidad, correo electrónico y estado activo. Incorpora la funcionalidad específica de procesar archivos PDF del RUT para automatizar la creación de registros, validando duplicados y formatos de datos requeridos. Este módulo opera como repositorio centralizado que estructura y mantiene actualizada la base de datos de clientes, proveedores y otros actores, habilitando búsquedas dinámicas por nombre o numero de identificación.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/terceros.png}    
     \caption{Prototipo vista de terceros.}
@@ -130,7 +128,7 @@ La \autoref{fig:tercero} muestra el prototipo asociado a terceros,  configura el
 
 La \autoref{fig:impuestos} muestra el prototipo asociado a impuestos encargado de la configuracion maestra de tarifas mediante una interfaz que permite crear, modificar y eliminar registros, asignando descripciones, porcentajes y las cuentas contables específicas para compras y ventas. Centraliza la parametrización de tributos como IVA y retenciones, validando la existencia de las cuentas asociadas.
 
-\begin{figure}[h!]    
+\begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap4/Figuras/impuestos.png}    
     \caption{Prototipo vista de impuestos.}

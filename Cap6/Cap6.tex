@@ -23,7 +23,7 @@ En esta sección se detallan los aspectos técnicos del desarrollo backend, enfo
 
 La \autoref{fig:strategy} ilustra la implementación del patrón strategy en el submódulo de Terceros en las funciones de importación para validar archivos de diferentes tipos (como PDF y Excel) de manera flexible y extensible. Esto permite encapsular algoritmos de validación específicos en clases concretas (\texttt{PdfFileValidator} y \texttt{ExcelFileValidator}), que implementan la interfaz común \texttt{FileValidator}. Los servicios como \texttt{PdfRUTService} y \texttt{ExcelParsingService} dependen de la interfaz, no de implementaciones concretas, lo que facilita intercambiar validadores dinámicamente sin modificar el código cliente. Esta separación mejora la mantenibilidad, permite agregar nuevos tipos de validación (por ejemplo, para CSV) siguiendo el principio Abierto/Cerrado y evita duplicación de lógica de validación en múltiples servicios, simplificando la estructura del backend.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/strategy.png}    
     \caption{Diagrama de clases del patrón strategy implementado}
@@ -37,7 +37,7 @@ La implementación del patrón Strategy en este proyecto surge de la necesidad d
 
 La clase \texttt{FileValidator} en la \autoref{fig:FileValidator} define el contrato para validar archivos subidos, con métodos como \texttt{validate(MultipartFile file)} para verificar integridad, \texttt{getSupportedMimeTypes()} para tipos MIME admitidos y \texttt{getSupportedExtensions()} para extensiones (.pdf, .xlsx), esto asegura una validación uniforme sin importar el tipo de archivo.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/FileValidator.png}    
     \caption{Clase FileValidator interfaz}
@@ -48,7 +48,7 @@ La clase \texttt{FileValidator} en la \autoref{fig:FileValidator} define el cont
 \newpage
 La clase \texttt{PdfFileValidator} (estrategia concreta) en la \autoref{fig:PDFValidator} valida archivos PDF del RUT, verificando que cumplan con propiedades como tamaño máximo y extensiones permitidas definidas en \texttt{FileUploadProperties}. Se inyecta en servicios específicos para PDFs.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/PDFValidator.png}    
     \caption{Clase PdfFileValidator estrategia concreta}
@@ -58,7 +58,7 @@ La clase \texttt{PdfFileValidator} (estrategia concreta) en la \autoref{fig:PDFV
 \newpage
 La clase \texttt{ExcelFileValidator} (estrategia concreta) en la Figura \ref{fig:Excelvalidator} valida archivos Excel para importación masiva de terceros, aplicando las mismas reglas de configuración. Ambas clases dependen de \texttt{FileUploadProperties} para configuraciones centralizadas, evitando hardcoding.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/Excelvalidator.png}    
     \caption{Clase ExcelFileValidator estrategia concreta}
@@ -73,7 +73,7 @@ La implementación del patrón publicador-suscriptor en el módulo de Configurac
 
 El sistema implementa una arquitectura orientada a eventos para desacoplar el microservicio \texttt{ms-debt-payments} del microservicio \texttt{ms-configuration}. El diagrama general de la \autoref{fig:observer} ilustra cómo se aplica el patrón publicador-suscriptor para la actualización asíncrona de contadores.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/observer.png}    
     \caption{Diagrama de clases del patrón publicador-suscriptor}
@@ -112,17 +112,16 @@ Este diseño permite manejar distintos tipos de recursos enviando eventos a exch
 \textbf{Nota adicional:} El microservicio \verb|debt payments| no solo gestiona centros de costo. También envía eventos a Terceros y Métodos de pago utilizando el mismo tipo de evento de uso (\verb|EventUsageType.USED|). Estos eventos incrementan sus respectivos contadores siguiendo una lógica análoga a la descrita anteriormente.
 
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/publisher.png}    
     \caption{Publicador de notificaciones de uso de recursos}
     \label{fig:publisher}
 \end{figure}
 
-\newpage
 Para el manejo específico de la notificación, la \autoref{fig:handler} detalla el método \verb|handle| encargado de transformar la notificación interna en un evento de integración. En donde se crea un objeto \verb|CostCenterUsedDto| con el \verb|costCenterId|, \verb|enterpriseId| y una \verb|quantityUsed|, envuelve el DTO en un \verb|EventDto| con el tipo \verb|"USED"| y utiliza \verb|convertAndSend| para publicar en \verb|COSTCENTER_USED_EXCHANGE|.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/handler.png}    
     \caption{Manejo de la notificación}
@@ -147,7 +146,7 @@ El procesamiento del evento en \verb|processEvent| sigue estos pasos:
 \item \textbf{Manejo de Errores:} Si el evento no es válido o el tipo no es soportado, lanza excepciones como \verb|IllegalArgumentException|.
 \end{itemize}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/listener.png}    
     \caption{Listener para el consumo de eventos de uso de centros de costo}
@@ -161,14 +160,14 @@ El procesamiento del evento en \verb|processEvent| sigue estos pasos:
 
 Se definieron estilos visuales específicos siguiendo las guias de diseño para componentes de retroalimentación e interacción proporcionadas por la división TICS de la Universidad del Cauca. La Figura \ref{fig:fig4} y Figura \ref{fig:fig5} muestran los estilos estandarizados para las alertas del sistema y los botones globales, asegurando que el usuario reciba feedback visual consistente ante sus acciones.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.4\textheight, keepaspectratio]{Cap6/Figuras/notificacion.png}    
     \caption{Estilos de alertas del sistema}
     \label{fig:fig4}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.4\textheight, keepaspectratio]{Cap6/Figuras/botones.png}    
     \caption{Estilos de botones globales}
@@ -182,7 +181,7 @@ Con el propósito de simplificar la implementación de estos estilos para el gru
 
 Tal como se muestra en la Figura \ref{fig:variablescss}, se establecieron las variables CSS para la gama de colores, la ilustración muestra un ejemplo representativo de los matices definidos, con configuraciones extra para abarcar todos los estados y variantes necesarios en la interfaz. Esta aproximación facilita la expansión de la configuración de Tailwind para emplear clases semánticas tales como bg-primary o text-neutral-50, evitando la dispersión de códigos hexadecimales en el código.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap6/Figuras/variablescss.png}    
     \caption{Definición de variables CSS personalizadas para Tailwind CSS}
@@ -194,7 +193,7 @@ Complementariamente, la Figura \ref{fig:tipografias} detalla la configuración t
  Se establecieron las reglas \verb|@font-face| para las familias Open Sans y Titillium Web,
  asegurando su disponibilidad y correcta renderización en toda la aplicación.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/tipografia.png}    
     \caption{Configuración de tipografías globales}
@@ -204,7 +203,7 @@ Complementariamente, la Figura \ref{fig:tipografias} detalla la configuración t
 \newpage
 Esta metodología de desarrollo no solo permite la adherencia a las directrices de diseño, sino que además mejora la eficiencia en el proceso de trabajo de los programadores. La Figura \ref{fig:utilitarias} ilustra la manera en que se integran estos estilos en el código HTML, fusionando la sintaxis utilitaria de Tailwind con las configuraciones específicas del sistema de diseño.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap6/Figuras/utilitarias.png}    
     \caption{Aplicación de estilos globales en el código HTML}

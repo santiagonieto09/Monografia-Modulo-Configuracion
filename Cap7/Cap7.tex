@@ -5,6 +5,8 @@ En este capítulo, se describen las pruebas realizadas al módulo de configuraci
 
 \section{Pruebas del backend}
 
+La pruebas del backend del módulo de Configuración se llevaron a cabo mediante un enfoque integral que combina diferentes tipos de pruebas. Este proceso de verificación abarca desde la validación de componentes individuales hasta la comprobación de la interacción entre los diferentes elementos del sistema. A continuación, se presentan las pruebas unitarias que validan el comportamiento aislado de cada componente, las pruebas de integración que verifican la correcta comunicación entre servicios y las pruebas funcionales de API REST que confirman el cumplimiento de los requisitos funcionales establecidos.
+
 \subsection{Pruebas unitarias}
 
 Las pruebas unitarias juegan un rol esencial en la ingeniería de software, ya que permiten comprobar el funcionamiento adecuado de partes específicas del código de forma aislada. En el marco de este proyecto, se implementaron pruebas unitarias utilizando JUnit 5 y Mockito, herramientas que colaboran para facilitar la generación de pruebas automáticas. JUnit 5 suministra el esqueleto para planificar, organizar y ejecutar los tests, mientras que Mockito replica el comportamiento de dependencias externas usando objetos simulados, lo que asegura un completo aislamiento de cada unidad durante su evaluación. Esta integración de tecnologías asegura que cada componente funcional satisfaga los criterios establecidos antes de integrarse con el resto del sistema. 
@@ -20,7 +22,7 @@ Los aspectos generales de cobertura incluyen:
 
 Como se muestra en la Figura \ref{fig:testcatalogue}, se ejecutaron un total de 1496 pruebas unitarias para el microservicio \texttt{account\_catalogue}, todas ellas completadas satisfactoriamente, lo que puede ayudar a una mayor confianza y estabilidad del código implementado.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.7\textwidth, height=0.7\textheight, keepaspectratio]{Cap7/Figuras/testCatalogue.png}    
     \caption{Resultado ejecución pruebas unitarias microservicio \texttt{account\_catalogue}}
@@ -29,34 +31,33 @@ Como se muestra en la Figura \ref{fig:testcatalogue}, se ejecutaron un total de 
  
 Para asegurar una cobertura adecuada del código, se utilizó JaCoCo (Java Code Coverage), una herramienta que permite medir y visualizar la cobertura de código alcanzada por las pruebas unitarias. Debido a que los paquetes del microservicio \texttt{account\_catalogue} son demasiados se mostraran los resultados por partes, las Figuras \ref{fig:jacocoCataloguep1}, \ref{fig:jacocoCataloguep2} y \ref{fig:jacocoCataloguep3} muestran el informe de cobertura generado por JaCoCo.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/jacocoCataloguep1.png}    
     \caption{Resultados jacoco \texttt{account\_catalogue} parte 1}
     \label{fig:jacocoCataloguep1}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/jacocoCataloguep2.png}    
     \caption{Resultados jacoco \texttt{account\_catalogue} parte 2}
     \label{fig:jacocoCataloguep2}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/jacocoCataloguep3.png}    
     \caption{Resultados jacoco \texttt{account\_catalogue} parte 3}
     \label{fig:jacocoCataloguep3}
 \end{figure}
 
-\newpage
 El informe de JaCoCo revela una cobertura general del 57\% del código, lo que representa un nivel inferior, esta cobertura reducida se explica principalmente por el hecho de que el microservicio \texttt{account\_catalogue} es compartido entre el módulo de cartera y el módulo contable cartera, lo que implica que las funcionalidades y clases de dichos módulos no se cubrieron en las pruebas unitarias, debido a que están en construcción y no han alcanzado su fase de pruebas.
 
 
 Como se muestra en la Figura \ref{fig:testconfiguracion}, se ejecutaron un total de 603 pruebas unitarias para el microservicio \texttt{ms-configuration}, todas ellas completadas satisfactoriamente.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.7\textwidth, height=0.7\textheight, keepaspectratio]{Cap7/Figuras/testConfiguracion.png}    
     \caption{Resultado de ejecución pruebas unitarias \texttt{ms-configuration} }
@@ -67,14 +68,14 @@ Como se muestra en la Figura \ref{fig:testconfiguracion}, se ejecutaron un total
 Las Figuras \ref{fig:jacocoConfiguracion1} y \ref{fig:jacocoConfiguracion2} muestran el informe de cobertura generado por JaCoCo.
 
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/jacocoConfig1.png}    
     \caption{Resultados jacoco \texttt{ms-configuration} parte 1}
     \label{fig:jacocoConfiguracion1} 
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/jacocoConfig2.png}    
     \caption{Resultados jacoco \texttt{ms-configuration} parte 2}
@@ -88,7 +89,7 @@ la cobertura en algunas clases específicas.
 
 Como se muestra en la Figura \ref{fig:testproductos}, se ejecutaron un total de 776 pruebas unitarias para el microservicio \texttt{products-management}, todas ellas completadas satisfactoriamente.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.7\textwidth, height=0.7\textheight, keepaspectratio]{Cap7/Figuras/testProductos.png}    
     \caption{Resultado de ejecución pruebas unitarias \texttt{ms-productos} }
@@ -97,20 +98,19 @@ Como se muestra en la Figura \ref{fig:testproductos}, se ejecutaron un total de 
 
 La Figura \ref{fig:jacocoProductos} muestra el informe de cobertura generado por JaCoCo.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/jacocoProductos.png}    
     \caption{Resultado jacoco microservicio \texttt{ms-productos} }
     \label{fig:jacocoProductos} 
 \end{figure}
 
-\newpage
 El informe de JaCoCo revela una cobertura general del 81\% del código, con algunas clases alcanzando el 100\% de cobertura. Este nivel de cobertura se considera bastante aceptable para el proyecto, aunque se identifican áreas de oportunidad para mejorar la cobertura en algunas clases específicas.
 
 
 Como se muestra en la Figura \ref{fig:testterceros}, se ejecutaron un total de 1720 pruebas unitarias para el microservicio \texttt{thirds-management}, todas ellas completadas satisfactoriamente.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.7\textwidth, height=0.7\textheight, keepaspectratio]{Cap7/Figuras/testTerceros.png}    
     \caption{Resultado de ejecución pruebas unitarias \texttt{ms-terceros} }
@@ -119,7 +119,7 @@ Como se muestra en la Figura \ref{fig:testterceros}, se ejecutaron un total de 1
 
 La Figura \ref{fig:jacocoTerceros} muestra el informe de cobertura generado por JaCoCo.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/jacocoTerceros.png}    
     \caption{Resultado jacoco microservicio \texttt{ms-terceros} }
@@ -163,14 +163,13 @@ Para los módulos de Tipos de documentos, Calendario contable, Catálogo de cuen
 
 Por otro lado, el módulo de Cuentas bancarias necesita datos iniciales de cuentas contables auxiliares, al igual que Impuestos y Métodos de pago. El módulo de Productos requiere inicialmente un tipo de producto, categoría y unidad de medida. Finalmente, el módulo de Terceros necesita datos como tipos de identificación y tipos de terceros para la correcta ejecución de las pruebas.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=0.5\textwidth, height=0.5\textheight, keepaspectratio]{Cap7/Figuras/postman.png}    
     \caption{Estructura de la colección de pruebas en Postman}
     \label{fig:postman} 
 \end{figure}
 
-\newpage
 \subsection{Casos de prueba: Escenarios positivos y negativos}
 
 La implementación de pruebas se divide en dos categorías fundamentales que validan la robustez del sistema:
@@ -181,7 +180,7 @@ La implementación de pruebas se divide en dos categorías fundamentales que val
 
 Para validar los resultados de manera automática, se implementaron scripts post-respuesta en Postman, como se muestra en la Figura \ref{fig:postmanscripts}. Estos scripts permiten ejecutar verificaciones automáticas sobre las respuestas recibidas, validando tanto la estructura de los datos como los valores esperados en cada escenario.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap7/Figuras/postmanscripts.png}    
     \caption{Implementación de scripts post-respuesta en Postman}
@@ -233,7 +232,7 @@ Para evaluar la estabilidad y consistencia del sistema bajo múltiples ejecucion
         \item Tiempo promedio de respuesta: 12ms
     \end{itemize}
 
-    \begin{figure}[h!]
+    \begin{figure}[H]
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanMetodosPago20.png}    
     \caption{Resultados de iteraciones del submódulo Métodos de Pago}
@@ -250,14 +249,13 @@ Para evaluar la estabilidad y consistencia del sistema bajo múltiples ejecucion
         \item Tiempo promedio de respuesta: 14ms
     \end{itemize}
 
-    \begin{figure}[h!]
+    \begin{figure}[H]
     \centering%
     \includegraphics[width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{Cap7/newman/newmanCentroAyuda20.png}    
     \caption{Resultados de iteraciones del submódulo Centro de Ayuda}
     \label{fig:centrodeayuda} 
     \end{figure}
 
-\newpage
 \section{Pruebas de aceptación}
 
 Las pruebas de aceptación constituyen la etapa de validación final del software, donde se verifica que las funcionalidades implementadas satisfagan efectivamente los requerimientos y expectativas del usuario final quien, en última instancia, determina la calidad y utilidad del sistema desarrollado. En este proyecto, dichas pruebas se ejecutaron de manera virtual mediante sesiones en videoconferencia utilizando la aplicación en la versión de prueba desplegada. 
