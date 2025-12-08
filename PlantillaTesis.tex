@@ -1,7 +1,16 @@
-﻿\documentclass[11pt,spanish,fleqn,openany,letterpaper,pagesize]{scrbook}
+﻿\documentclass[12pt,spanish,fleqn,openany,letterpaper,pagesize]{scrbook}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}%escribir con acentos sin necesidad de comandos \'{} .
 \usepackage[margin=2.5cm]{geometry} % Márgenes de 2.5cm en todos los lados
+
+% Configuración para mejorar la justificación y evitar cortes de palabras
+\usepackage{microtype} % Mejora la tipografía y justificación
+\tolerance=1000 % Permite mayor flexibilidad en el espaciado
+\emergencystretch=3em % Espacio adicional para evitar overfull
+\hyphenpenalty=5000 % Penaliza mucho el corte de palabras
+\widowpenalty=10000 % Evita líneas viudas
+\clubpenalty=10000 % Evita líneas huérfanas
+
 \usepackage{fancyhdr}
 \usepackage{epsfig}
 \usepackage{epic}
@@ -14,6 +23,11 @@
 \usepackage{lscape}
 \usepackage{tabularx}
 \usepackage{subcaption}
+% Forzar tamaño de letra en captions a normalsize (12pt en este documento)
+\usepackage{caption}
+\captionsetup{font=normalsize}
+% Paquete para personalizar el título del índice (ToC)
+\usepackage{tocloft}
 \usepackage{longtable}
 \usepackage{multirow}
 \usepackage{calligra} 
@@ -114,6 +128,31 @@
 \renewcommand{\listtablename}{Lista de Tablas}
 \renewcommand{\listfigurename}{Lista de Figuras}
 \renewcommand{\contentsname}{Contenido}
+% Centrar solo el título del índice
+\renewcommand{\cfttoctitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+% Centrar los títulos de "Lista de figuras" y "Lista de tablas"
+\renewcommand{\cftloftitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+% Ajustar fuentes de encabezados: capítulos 16pt, secciones 14pt, KOMA-Script
+\setkomafont{chapter}{\fontsize{16}{19}\selectfont\bfseries}
+\setkomafont{section}{\fontsize{14}{17}\selectfont\bfseries}
+\setkomafont{subsection}{\fontsize{14}{17}\selectfont\bfseries}
+\setkomafont{subsubsection}{\normalsize\bfseries}
+\setkomafont{paragraph}{\normalsize\bfseries}
+\setkomafont{subparagraph}{\normalsize\bfseries}
+
+% Eliminar espacio adicional antes de los capítulos
+\RedeclareSectionCommand[
+  beforeskip=0pt,
+  afterskip=1.5\baselineskip
+]{chapter}
+
+% Asegurar que el Código mostrado con listings también use 12pt
+\lstset{basicstyle=\ttfamily\normalsize}
 \renewcommand{\appendixname}{Anexo}
 \addto\captionsspanish{\renewcommand{\appendixname}{Anexo}}
 

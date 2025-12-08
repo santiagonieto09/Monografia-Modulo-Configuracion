@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  7 DEC 2025 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  7 DEC 2025 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -32,12 +32,12 @@ Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 143.
-Package scrbook Info: You've used standard option `11pt'.
+Package scrbook Info: You've used standard option `12pt'.
 (scrbook)             This is correct!
-(scrbook)             Internally I'm using `fontsize=11pt'.
+(scrbook)             Internally I'm using `fontsize=12pt'.
 (scrbook)             If you'd like to set the option with \KOMAoptions,
-(scrbook)             you'd have to use `fontsize=11pt' there
-(scrbook)             instead of `11pt', too.
+(scrbook)             you'd have to use `fontsize=12pt' there
+(scrbook)             instead of `12pt', too.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo
 File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
 \mathindent=\skip50
@@ -54,9 +54,9 @@ Class scrbook Info: You've used standard option `openany'.
 (scrbook)           If you'd like to set the option with \KOMAoptions,
 (scrbook)           you'd have to use `open=any' there
 (scrbook)           instead of `openany', too.
-Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input line 2710.
- (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.clo
-File: scrsize11pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (11pt)
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input line 2710.
+ (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize12pt.clo
+File: scrsize12pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (12pt)
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
 Package: typearea 2025/09/09 v3.48 KOMA-Script package (type area)
 \ta@bcor=\skip51
@@ -79,21 +79,21 @@ Package typearea Info: With paper sizes other than (almost) `A4' predefined
 Package typearea Info: DIV calculation for classic typearea. on input line 1807.
 
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 7
+(typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 614.295pt
-(typearea)              \textwidth      = 351.02573pt
-(typearea)              DIV departure   = 3%
-(typearea)              \evensidemargin = 103.24286pt
-(typearea)              \oddsidemargin  = 15.48643pt
+(typearea)              \textwidth      = 383.9344pt
+(typearea)              DIV departure   = 1%
+(typearea)              \evensidemargin = 81.30374pt
+(typearea)              \oddsidemargin  = 4.51688pt
 (typearea)             \paperheight     = 794.96999pt
-(typearea)              \textheight     = 459.8002pt
-(typearea)              \topmargin      = 3.89714pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 505.0pt
+(typearea)              \topmargin      = -12.77374pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1807.
 )
 \c@part=\count276
@@ -212,7 +212,36 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen156
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks21
- (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+ (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+ (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count291
+)
+\MT@toks=\toks22
+\MT@tempbox=\box55
+\MT@count=\count292
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks23
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen158
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count293
+ (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip67
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
 
 Class scrbook Warning: Usage of package `fancyhdr' together
 (scrbook)              with a KOMA-Script class is not recommended.
@@ -225,25 +254,25 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 (scrbook)              `\addtokomafont' for the page style elements need
 (scrbook)              explicite user intervention to work.
 (scrbook)              Nevertheless, using requested
-(scrbook)              package `fancyhdr' on input line 6.
+(scrbook)              package `fancyhdr' on input line 15.
 
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip67
-\f@nch@offset@elh=\skip68
-\f@nch@offset@erh=\skip69
-\f@nch@offset@olh=\skip70
-\f@nch@offset@orh=\skip71
-\f@nch@offset@elf=\skip72
-\f@nch@offset@erf=\skip73
-\f@nch@offset@olf=\skip74
-\f@nch@offset@orf=\skip75
-\f@nch@height=\skip76
-\f@nch@footalignment=\skip77
-\f@nch@widthL=\skip78
-\f@nch@widthC=\skip79
-\f@nch@widthR=\skip80
-\@temptokenb=\toks22
+\f@nch@headwidth=\skip68
+\f@nch@offset@elh=\skip69
+\f@nch@offset@erh=\skip70
+\f@nch@offset@olh=\skip71
+\f@nch@offset@orh=\skip72
+\f@nch@offset@elf=\skip73
+\f@nch@offset@erf=\skip74
+\f@nch@offset@olf=\skip75
+\f@nch@offset@orf=\skip76
+\f@nch@height=\skip77
+\f@nch@footalignment=\skip78
+\f@nch@widthL=\skip79
+\f@nch@widthC=\skip80
+\f@nch@widthR=\skip81
+\@temptokenb=\toks24
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
@@ -259,151 +288,151 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
 )
-\epsfxsize=\dimen160
-\epsfysize=\dimen161
+\epsfxsize=\dimen161
+\epsfysize=\dimen162
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/eepic\epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count291
-\d@lta=\count292
-\@delta=\dimen162
-\@@delta=\dimen163
-\@gridcnt=\count293
-\@joinkind=\count294
-\@dotgap=\dimen164
-\@ddotgap=\dimen165
-\@x@diff=\count295
-\@y@diff=\count296
-\x@diff=\dimen166
-\y@diff=\dimen167
-\@dotbox=\box55
-\num@segments=\count297
-\num@segmentsi=\count298
+\@@multicnt=\count294
+\d@lta=\count295
+\@delta=\dimen163
+\@@delta=\dimen164
+\@gridcnt=\count296
+\@joinkind=\count297
+\@dotgap=\dimen165
+\@ddotgap=\dimen166
+\@x@diff=\count298
+\@y@diff=\count299
+\x@diff=\dimen167
+\y@diff=\dimen168
+\@dotbox=\box56
+\num@segments=\count300
+\num@segmentsi=\count301
 \@datafile=\read3
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/eepic\eepic.sty
 Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
-\@gphlinewidth=\count299
-\@eepictcnt=\count300
-\@tempdimc=\dimen168
-\maxovaldiam=\dimen169
-\@filltype=\box56
+\@gphlinewidth=\count302
+\@eepictcnt=\count303
+\@tempdimc=\dimen169
+\maxovaldiam=\dimen170
+\@filltype=\box57
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip81
+\@mathmargin=\skip82
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen170
+\@emptytoks=\toks25
+\ex@=\dimen171
 )) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen171
+\pmbraise@=\dimen172
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count301
+\inf@bad=\count304
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count302
-\leftroot@=\count303
+\uproot@=\count305
+\leftroot@=\count306
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count304
-\DOTSCASE@=\count305
+\classnum@=\count307
+\DOTSCASE@=\count308
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box57
-\strutbox@=\box58
+\Mathstrutbox@=\box58
+\strutbox@=\box59
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen172
+\big@size=\dimen173
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count306
+\macc@depth=\count309
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count307
+\c@MaxMatrixCols=\count310
 \dotsspace@=\muskip17
-\c@parentequation=\count308
-\dspbrk@lvl=\count309
-\tag@help=\toks24
-\row@=\count310
-\column@=\count311
-\maxfields@=\count312
-\andhelp@=\toks25
-\eqnshift@=\dimen173
-\alignsep@=\dimen174
-\tagshift@=\dimen175
-\tagwidth@=\dimen176
-\totwidth@=\dimen177
-\lineht@=\dimen178
-\@envbody=\toks26
-\multlinegap=\skip82
-\multlinetaggap=\skip83
-\mathdisplay@stack=\toks27
+\c@parentequation=\count311
+\dspbrk@lvl=\count312
+\tag@help=\toks26
+\row@=\count313
+\column@=\count314
+\maxfields@=\count315
+\andhelp@=\toks27
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
+\@envbody=\toks28
+\multlinegap=\skip83
+\multlinetaggap=\skip84
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box59
+\@tempboxb=\box60
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
-\athelp@=\toks28
-\minaw@=\dimen179
-\bigaw@=\dimen180
-\minCDarrowwidth=\dimen181
+\athelp@=\toks30
+\minaw@=\dimen180
+\bigaw@=\dimen181
+\minCDarrowwidth=\dimen182
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/here\here.sty) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count313
-\float@exts=\toks29
-\float@box=\box60
-\@float@everytoks=\toks30
-\@floatcapt=\box61
+\c@float@type=\count316
+\float@exts=\toks31
+\float@box=\box61
+\@float@everytoks=\toks32
+\@floatcapt=\box62
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen182
-\ar@mcellbox=\box62
-\extrarowheight=\dimen183
-\NC@list=\toks31
-\extratabsurround=\skip84
-\backup@length=\skip85
-\ar@cellbox=\box63
+\col@sep=\dimen183
+\ar@mcellbox=\box63
+\extrarowheight=\dimen184
+\NC@list=\toks33
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box64
 )
-\TX@col@width=\dimen184
-\TX@old@table=\dimen185
-\TX@old@col=\dimen186
-\TX@target=\dimen187
-\TX@delta=\dimen188
-\TX@cols=\count314
-\TX@ftn=\toks32
+\TX@col@width=\dimen185
+\TX@old@table=\dimen186
+\TX@old@col=\dimen187
+\TX@target=\dimen188
+\TX@delta=\dimen189
+\TX@cols=\count317
+\TX@ftn=\toks34
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen189
-\captionmargin=\dimen190
-\caption@leftmargin=\dimen191
-\caption@rightmargin=\dimen192
-\caption@width=\dimen193
-\caption@indent=\dimen194
-\caption@parindent=\dimen195
-\caption@hangindent=\dimen196
+\caption@tempdima=\dimen190
+\captionmargin=\dimen191
+\caption@leftmargin=\dimen192
+\caption@rightmargin=\dimen193
+\caption@width=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\@abovecaptionbreak \vskip \abovecaptionskip \@abovecaptionbreak \@@makecaption \@firstofone {#1}{#2}\@belowcaptionbreak \vskip \belowcaptionskip \@belowcaptionbreak  on input line 1175.
@@ -413,41 +442,102 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count315
-\c@continuedfloat=\count316
+\c@caption@flags=\count318
+\c@continuedfloat=\count319
 Package caption Info: float package is loaded.
 Package caption Info: threeparttable package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count317
+\c@subfigure=\count320
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count318
+\c@subtable=\count321
+)
+
+Class scrbook Warning: Usage of package `tocloft' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use options like `listof=entryprefix',
+(scrbook)              commands like `\listoflofentryname' or
+(scrbook)              `\listoflotentryname', and `\DeclareTOCStyleEntry' or
+(scrbook)              `\RedeclareSectionCommand' instead of this package,
+(scrbook)              because it breaks several KOMA-Script features of
+(scrbook)              the list of figures, list of tables and table of
+(scrbook)              contents, i.e., options like `listof=numbered',
+(scrbook)              `listof=flat or `toc=flat', commands like
+(scrbook)              `\BeforeTOCHead{...}' and `\AfterTOCHead{...}',
+(scrbook)              `\BeforeStartingTOC{...}' and \AfterStartingTOC{...}',
+(scrbook)              all features of `\DeclareTOCStyleEntry',
+(scrbook)              and the ToC entry features of `\DeclareSecionCommand'
+(scrbook)              and `\RedeclareSectionCommand' of levels
+(scrbook)              `part', `section', `subsection',
+(scrbook)              `subsubsection', `paragraph' and `subparagraph'.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `tocloft' on input line 31.
+
+(C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip87
+\cftbeforetoctitleskip=\skip88
+\cftaftertoctitleskip=\skip89
+\cftbeforepartskip=\skip90
+\cftpartnumwidth=\skip91
+\cftpartindent=\skip92
+\cftbeforechapskip=\skip93
+\cftchapindent=\skip94
+\cftchapnumwidth=\skip95
+\cftbeforesecskip=\skip96
+\cftsecindent=\skip97
+\cftsecnumwidth=\skip98
+\cftbeforesubsecskip=\skip99
+\cftsubsecindent=\skip100
+\cftsubsecnumwidth=\skip101
+\cftbeforesubsubsecskip=\skip102
+\cftsubsubsecindent=\skip103
+\cftsubsubsecnumwidth=\skip104
+\cftbeforeparaskip=\skip105
+\cftparaindent=\skip106
+\cftparanumwidth=\skip107
+\cftbeforesubparaskip=\skip108
+\cftsubparaindent=\skip109
+\cftsubparanumwidth=\skip110
+\cftbeforeloftitleskip=\skip111
+\cftafterloftitleskip=\skip112
+\cftbeforefigskip=\skip113
+\cftfigindent=\skip114
+\cftfignumwidth=\skip115
+\c@lofdepth=\count322
+\c@lotdepth=\count323
+\cftbeforelottitleskip=\skip116
+\cftafterlottitleskip=\skip117
+\cftbeforetabskip=\skip118
+\cfttabindent=\skip119
+\cfttabnumwidth=\skip120
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip86
-\LTright=\skip87
-\LTpre=\skip88
-\LTpost=\skip89
-\LTchunksize=\count319
-\LTcapwidth=\dimen197
-\LT@head=\box64
-\LT@firsthead=\box65
-\LT@foot=\box66
-\LT@lastfoot=\box67
-\LT@gbox=\box68
-\LT@cols=\count320
-\LT@rows=\count321
-\c@LT@tables=\count322
-\c@LT@chunks=\count323
-\LT@p@ftn=\toks33
+\LTleft=\skip121
+\LTright=\skip122
+\LTpre=\skip123
+\LTpost=\skip124
+\LTchunksize=\count324
+\LTcapwidth=\dimen198
+\LT@head=\box65
+\LT@firsthead=\box66
+\LT@foot=\box67
+\LT@lastfoot=\box68
+\LT@gbox=\box69
+\LT@cols=\count325
+\LT@rows=\count326
+\c@LT@tables=\count327
+\c@LT@chunks=\count328
+\LT@p@ftn=\toks35
 )
-Class scrbook Info: longtable captions redefined on input line 18.
+Class scrbook Info: longtable captions redefined on input line 32.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip90
-\multirow@cntb=\count324
-\multirow@dima=\skip91
-\bigstrutjot=\dimen198
+\multirow@colwidth=\skip125
+\multirow@cntb=\count329
+\multirow@dima=\skip126
+\bigstrutjot=\dimen199
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/fundus-calligra\calligra.sty
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
@@ -455,7 +545,7 @@ Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty \lstset,
-\lst@mode=\count325
+\lst@mode=\count330
  
 new hook `InitVars',
 
@@ -466,16 +556,16 @@ new hook `ExitVars',
 new hook `ModeTrue',
 
 new hook `EOL',
-\lst@gtempboxa=\box69
-\lst@token=\toks34
-\lst@length=\count326
+\lst@gtempboxa=\box70
+\lst@token=\toks36
+\lst@length=\count331
 
 new hook `InitVarsBOL',
-\lst@currlwidth=\dimen199
-\lst@column=\count327
-\lst@pos=\count328
-\lst@lostspace=\dimen256
-\lst@width=\dimen257
+\lst@currlwidth=\dimen256
+\lst@column=\count332
+\lst@pos=\count333
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
 basewidth, 
 new hook `FontAdjust',
 fontadjust, 
@@ -485,7 +575,7 @@ new hook `OutputBox',
 
 new hook `InitBOL',
 columns, flexiblecolumns,
-\lst@newlines=\count329
+\lst@newlines=\count334
  
 new hook `OnNewLine',
 emptylines, 
@@ -504,7 +594,7 @@ extendedchars, useoutput, rescanchars, alsoletter, alsodigit, alsoother,
 new hook `SelectCharTable',
 excludedelims, delim, moredelim, deletedelim, literate, basicstyle, inputencoding, multicols, 
 new hook `EveryLine',
-\lst@lineno=\count330
+\lst@lineno=\count335
 print, firstline, lastline, 
 new hook `PreSet',
 nolol, linerange, consecutivenumbers, rangeprefix, rangesuffix, rangebeginprefix, rangebeginsuffix, rangeendprefix, rangeendsuffix, includerangemarker, 
@@ -518,7 +608,7 @@ new hook `PreInit',
 
 new hook `EveryPar',
 showlines,
-\lst@maxwidth=\dimen258
+\lst@maxwidth=\dimen259
  
 new hook `InitVarsEOL',
 gobble, name, \lstlistlistingname, \lstlistoflistings, inputpath, \lstnewenvironment, fancyvrb, (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -563,8 +653,8 @@ Define lst-aspect `language': \lstlanguagefiles, \lstdefinelanguage, \lst@define
 Allocs: none
 
 Define lst-aspect `labels': numbers, stepnumber, numberfirstline, numberstyle, numbersep, numberblanklines, firstnumber,
-\c@lstnumber=\count331
-\lst@skipnumbers=\count332
+\c@lstnumber=\count336
+\lst@skipnumbers=\count337
  
 Allocs: 2\count, 
 
@@ -574,7 +664,7 @@ linewidth, lineskip, breaklines, breakindent, breakautoindent, breakatwhitespace
 Allocs: none
 
 Define lst-aspect `frames': framexleftmargin, framexrightmargin, framextopmargin, framexbottommargin, backgroundcolor, fillcolor, rulecolor, rulesepcolor, rulesep, framerule, framesep, frameshape, frameround, frame,
-\lst@framebox=\box70
+\lst@framebox=\box71
  
 Allocs: 1\box, 
 ) 
@@ -602,16 +692,13 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count333
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count334
+\lrq@indent=\count338
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
@@ -620,63 +707,63 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count335
-\c@listtotal=\count336
-\c@listcount=\count337
-\c@liststart=\count338
-\c@liststop=\count339
-\c@citecount=\count340
-\c@citetotal=\count341
-\c@multicitecount=\count342
-\c@multicitetotal=\count343
-\c@instcount=\count344
-\c@maxnames=\count345
-\c@minnames=\count346
-\c@maxitems=\count347
-\c@minitems=\count348
-\c@citecounter=\count349
-\c@maxcitecounter=\count350
-\c@savedcitecounter=\count351
-\c@uniquelist=\count352
-\c@uniquename=\count353
-\c@refsection=\count354
-\c@refsegment=\count355
-\c@maxextratitle=\count356
-\c@maxextratitleyear=\count357
-\c@maxextraname=\count358
-\c@maxextradate=\count359
-\c@maxextraalpha=\count360
-\c@abbrvpenalty=\count361
-\c@highnamepenalty=\count362
-\c@lownamepenalty=\count363
-\c@maxparens=\count364
-\c@parenlevel=\count365
-\blx@tempcnta=\count366
-\blx@tempcntb=\count367
-\blx@tempcntc=\count368
-\c@blx@maxsection=\count369
-\blx@maxsegment@0=\count370
-\blx@notetype=\count371
-\blx@parenlevel@text=\count372
-\blx@parenlevel@foot=\count373
-\blx@sectionciteorder@0=\count374
-\blx@sectionciteorderinternal@0=\count375
-\blx@entrysetcounter=\count376
-\blx@biblioinstance=\count377
-\labelnumberwidth=\skip92
-\labelalphawidth=\skip93
-\biblabelsep=\skip94
-\bibitemsep=\skip95
-\bibnamesep=\skip96
-\bibinitsep=\skip97
-\bibparsep=\skip98
-\bibhang=\skip99
+\c@tabx@nest=\count339
+\c@listtotal=\count340
+\c@listcount=\count341
+\c@liststart=\count342
+\c@liststop=\count343
+\c@citecount=\count344
+\c@citetotal=\count345
+\c@multicitecount=\count346
+\c@multicitetotal=\count347
+\c@instcount=\count348
+\c@maxnames=\count349
+\c@minnames=\count350
+\c@maxitems=\count351
+\c@minitems=\count352
+\c@citecounter=\count353
+\c@maxcitecounter=\count354
+\c@savedcitecounter=\count355
+\c@uniquelist=\count356
+\c@uniquename=\count357
+\c@refsection=\count358
+\c@refsegment=\count359
+\c@maxextratitle=\count360
+\c@maxextratitleyear=\count361
+\c@maxextraname=\count362
+\c@maxextradate=\count363
+\c@maxextraalpha=\count364
+\c@abbrvpenalty=\count365
+\c@highnamepenalty=\count366
+\c@lownamepenalty=\count367
+\c@maxparens=\count368
+\c@parenlevel=\count369
+\blx@tempcnta=\count370
+\blx@tempcntb=\count371
+\blx@tempcntc=\count372
+\c@blx@maxsection=\count373
+\blx@maxsegment@0=\count374
+\blx@notetype=\count375
+\blx@parenlevel@text=\count376
+\blx@parenlevel@foot=\count377
+\blx@sectionciteorder@0=\count378
+\blx@sectionciteorderinternal@0=\count379
+\blx@entrysetcounter=\count380
+\blx@biblioinstance=\count381
+\labelnumberwidth=\skip127
+\labelalphawidth=\skip128
+\biblabelsep=\skip129
+\bibitemsep=\skip130
+\bibnamesep=\skip131
+\bibinitsep=\skip132
+\bibparsep=\skip133
+\bibhang=\skip134
 \blx@bcfin=\read4
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count378
-\c@maxcomprange=\count379
-\c@mincompwidth=\count380
+\c@mincomprange=\count382
+\c@maxcomprange=\count383
+\c@mincompwidth=\count384
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -686,88 +773,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count381
-\c@savedafterword=\count382
-\c@annotator=\count383
-\c@savedannotator=\count384
-\c@author=\count385
-\c@savedauthor=\count386
-\c@bookauthor=\count387
-\c@savedbookauthor=\count388
-\c@commentator=\count389
-\c@savedcommentator=\count390
-\c@editor=\count391
-\c@savededitor=\count392
-\c@editora=\count393
-\c@savededitora=\count394
-\c@editorb=\count395
-\c@savededitorb=\count396
-\c@editorc=\count397
-\c@savededitorc=\count398
-\c@foreword=\count399
-\c@savedforeword=\count400
-\c@holder=\count401
-\c@savedholder=\count402
-\c@introduction=\count403
-\c@savedintroduction=\count404
-\c@namea=\count405
-\c@savednamea=\count406
-\c@nameb=\count407
-\c@savednameb=\count408
-\c@namec=\count409
-\c@savednamec=\count410
-\c@translator=\count411
-\c@savedtranslator=\count412
-\c@shortauthor=\count413
-\c@savedshortauthor=\count414
-\c@shorteditor=\count415
-\c@savedshorteditor=\count416
-\c@labelname=\count417
-\c@savedlabelname=\count418
-\c@institution=\count419
-\c@savedinstitution=\count420
-\c@lista=\count421
-\c@savedlista=\count422
-\c@listb=\count423
-\c@savedlistb=\count424
-\c@listc=\count425
-\c@savedlistc=\count426
-\c@listd=\count427
-\c@savedlistd=\count428
-\c@liste=\count429
-\c@savedliste=\count430
-\c@listf=\count431
-\c@savedlistf=\count432
-\c@location=\count433
-\c@savedlocation=\count434
-\c@organization=\count435
-\c@savedorganization=\count436
-\c@origlocation=\count437
-\c@savedoriglocation=\count438
-\c@origpublisher=\count439
-\c@savedorigpublisher=\count440
-\c@publisher=\count441
-\c@savedpublisher=\count442
-\c@language=\count443
-\c@savedlanguage=\count444
-\c@origlanguage=\count445
-\c@savedoriglanguage=\count446
-\c@pageref=\count447
-\c@savedpageref=\count448
-\shorthandwidth=\skip100
-\shortjournalwidth=\skip101
-\shortserieswidth=\skip102
-\shorttitlewidth=\skip103
-\shortauthorwidth=\skip104
-\shorteditorwidth=\skip105
-\locallabelnumberwidth=\skip106
-\locallabelalphawidth=\skip107
-\localshorthandwidth=\skip108
-\localshortjournalwidth=\skip109
-\localshortserieswidth=\skip110
-\localshorttitlewidth=\skip111
-\localshortauthorwidth=\skip112
-\localshorteditorwidth=\skip113
+\c@afterword=\count385
+\c@savedafterword=\count386
+\c@annotator=\count387
+\c@savedannotator=\count388
+\c@author=\count389
+\c@savedauthor=\count390
+\c@bookauthor=\count391
+\c@savedbookauthor=\count392
+\c@commentator=\count393
+\c@savedcommentator=\count394
+\c@editor=\count395
+\c@savededitor=\count396
+\c@editora=\count397
+\c@savededitora=\count398
+\c@editorb=\count399
+\c@savededitorb=\count400
+\c@editorc=\count401
+\c@savededitorc=\count402
+\c@foreword=\count403
+\c@savedforeword=\count404
+\c@holder=\count405
+\c@savedholder=\count406
+\c@introduction=\count407
+\c@savedintroduction=\count408
+\c@namea=\count409
+\c@savednamea=\count410
+\c@nameb=\count411
+\c@savednameb=\count412
+\c@namec=\count413
+\c@savednamec=\count414
+\c@translator=\count415
+\c@savedtranslator=\count416
+\c@shortauthor=\count417
+\c@savedshortauthor=\count418
+\c@shorteditor=\count419
+\c@savedshorteditor=\count420
+\c@labelname=\count421
+\c@savedlabelname=\count422
+\c@institution=\count423
+\c@savedinstitution=\count424
+\c@lista=\count425
+\c@savedlista=\count426
+\c@listb=\count427
+\c@savedlistb=\count428
+\c@listc=\count429
+\c@savedlistc=\count430
+\c@listd=\count431
+\c@savedlistd=\count432
+\c@liste=\count433
+\c@savedliste=\count434
+\c@listf=\count435
+\c@savedlistf=\count436
+\c@location=\count437
+\c@savedlocation=\count438
+\c@organization=\count439
+\c@savedorganization=\count440
+\c@origlocation=\count441
+\c@savedoriglocation=\count442
+\c@origpublisher=\count443
+\c@savedorigpublisher=\count444
+\c@publisher=\count445
+\c@savedpublisher=\count446
+\c@language=\count447
+\c@savedlanguage=\count448
+\c@origlanguage=\count449
+\c@savedoriglanguage=\count450
+\c@pageref=\count451
+\c@savedpageref=\count452
+\shorthandwidth=\skip135
+\shortjournalwidth=\skip136
+\shortserieswidth=\skip137
+\shorttitlewidth=\skip138
+\shortauthorwidth=\skip139
+\shorteditorwidth=\skip140
+\locallabelnumberwidth=\skip141
+\locallabelalphawidth=\skip142
+\localshorthandwidth=\skip143
+\localshortjournalwidth=\skip144
+\localshortserieswidth=\skip145
+\localshorttitlewidth=\skip146
+\localshortauthorwidth=\skip147
+\localshorteditorwidth=\skip148
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -787,19 +874,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count449
-\c@textcitetotal=\count450
-\c@textcitemaxnames=\count451
-\c@biburlbigbreakpenalty=\count452
-\c@biburlbreakpenalty=\count453
-\c@biburlnumpenalty=\count454
-\c@biburlucpenalty=\count455
-\c@biburllcpenalty=\count456
+\c@textcitecount=\count453
+\c@textcitetotal=\count454
+\c@textcitemaxnames=\count455
+\c@biburlbigbreakpenalty=\count456
+\c@biburlbreakpenalty=\count457
+\c@biburlnumpenalty=\count458
+\c@biburlucpenalty=\count459
+\c@biburllcpenalty=\count460
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count457
+\c@smartand=\count461
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -809,8 +896,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count458
-\c@bbx:relatedtotal=\count459
+\c@bbx:relatedcount=\count462
+\c@bbx:relatedtotal=\count463
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -839,7 +926,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2025-10-24 L3 programming layer (loader) 
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count460
+\l__color_backend_stack_int=\count464
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2025-10-24 L3 programming layer (loader) 
@@ -851,11 +938,11 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 )) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
-\c@r@tfl@t=\count461
-\rotFPtop=\skip114
-\rotFPbot=\skip115
-\rot@float@box=\box71
-\rot@mess@toks=\toks35
+\c@r@tfl@t=\count465
+\rotFPtop=\skip149
+\rotFPbot=\skip150
+\rot@float@box=\box72
+\rot@mess@toks=\toks37
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
@@ -871,13 +958,13 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count462
+\c@section@level=\count466
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen259
-\Hy@linkcounter=\count463
-\Hy@pagecounter=\count464
+\@linkdim=\dimen260
+\Hy@linkcounter=\count467
+\Hy@pagecounter=\count468
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -885,7 +972,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count465
+\Hy@SavedSpaceFactor=\count469
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -898,17 +985,17 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count466
+\c@Hy@tempcnt=\count470
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen260
+\XeTeXLinkMargin=\dimen261
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count467
-\Field@Width=\dimen261
-\Fld@charsize=\dimen262
+\Fld@menulength=\count471
+\Field@Width=\dimen262
+\Fld@charsize=\dimen263
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -916,15 +1003,15 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count468
-\c@Item=\count469
-\c@Hfootnote=\count470
+\Hy@abspage=\count472
+\c@Item=\count473
+\c@Hfootnote=\count474
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count471
-\c@bookmark@seq@number=\count472
+\Fld@listcount=\count475
+\c@bookmark@seq@number=\count476
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -932,16 +1019,16 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip116
+\Hy@SectionHShift=\skip151
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
  (Befehle.sty)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count473
-\@quotereset=\count474
+\@quotelevel=\count477
+\@quotereset=\count478
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
 (scrbook)           because of handling of possible bookmark level gaps.
@@ -949,16 +1036,16 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 107.
-Class scrbook Info: temporary deactivation of babel-spanish quoting  on input line 107.
+(scrbook)           before \begin{document} on input line 121.
+Class scrbook Info: temporary deactivation of babel-spanish quoting  on input line 121.
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count475
+\BKM@id=\count479
 ))
-Class scrbook Info: reactivation of babel-spanish quoting  on input line 107.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 107.
+Class scrbook Info: reactivation of babel-spanish quoting  on input line 121.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 121.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
@@ -969,26 +1056,26 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
  (Cap1/Cap1.aux) (Cap2/Cap2.aux) (Cap3/Cap3.aux) (Cap4/Cap4.aux) (Cap5/Cap5.aux) (Cap6/Cap6.aux) (Cap7/Cap7.aux) (Cap8/Cap8.aux) (Anexos/Anexos.aux))
 \openout1 = `PlantillaTesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1006,15 +1093,15 @@ LaTeX Info: Redefining \% on input line 107.
 * \textheight=652.70622pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-38.53812pt
-* \headheight=17.0pt
-* \headsep=20.40001pt
-* \topskip=11.0pt
-* \footskip=47.6pt
+* \topmargin=-41.0131pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
 * \marginparwidth=0.0pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1024,19 +1111,40 @@ LaTeX Info: Redefining \% on input line 107.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Info: Redefining \microtypecontext on input line 121.
+Package microtype Info: Applying patch `item' on input line 121.
+Package microtype Info: Applying patch `toc' on input line 121.
+Package microtype Info: Applying patch `eqnum' on input line 121.
+Package microtype Info: Applying patch `footnote' on input line 121.
+Package microtype Info: Applying patch `verbatim' on input line 121.
+LaTeX Info: Redefining \microtypesetup on input line 121.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count476
-\scratchdimen=\dimen263
-\scratchbox=\box72
-\nofMPsegments=\count477
-\nofMParguments=\count478
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count479
-\MPscratchDim=\dimen264
-\MPnumerator=\count480
-\makeMPintoPDFobject=\count481
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count480
+\scratchdimen=\dimen264
+\scratchbox=\box73
+\nofMPsegments=\count481
+\nofMParguments=\count482
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count483
+\MPscratchDim=\dimen265
+\MPnumerator=\count484
+\makeMPintoPDFobject=\count485
+\everyMPtoPDFconversion=\toks39
 ) (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1052,9 +1160,9 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count482
-Package tocbasic Info: setting babel extension for `lol' on input line 107.
-\scr@dte@lstlisting@maxnumwidth=\skip117
+\c@lstlisting=\count486
+Package tocbasic Info: setting babel extension for `lol' on input line 121.
+\scr@dte@lstlisting@maxnumwidth=\skip152
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
@@ -1071,8 +1179,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'PlantillaTesis.bbl' found.
  (PlantillaTesis.bbl)
-Package biblatex Info: Reference section=0 on input line 107.
-Package biblatex Info: Reference segment=0 on input line 107.
+Package biblatex Info: Reference section=0 on input line 121.
+Package biblatex Info: Reference segment=0 on input line 121.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -1080,7 +1188,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 107.
+Package hyperref Info: Link coloring ON on input line 121.
 \openout2 = `HojaTitulo/HojaTituloMSc.aux'.
 
  (HojaTitulo/HojaTituloMSc.tex
@@ -1089,7 +1197,7 @@ File: HojaTitulo/EscudoUnicauca.png Graphic file (type png)
 <use HojaTitulo/EscudoUnicauca.png>
 Package pdftex.def Info: HojaTitulo/EscudoUnicauca.png  used on input line 16.
 (pdftex.def)             Requested size: 115.02771pt x 123.76018pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 21.
 ) [1
 
@@ -1101,1422 +1209,104 @@ LaTeX Info: Redefining \% on input line 1.
 Package tocbasic Info: Using my definition of `\numberline' on input line 2.
 Package tocbasic Info: Using my definition of `\numberline' on input line 3.
 Package tocbasic Info: Using my definition of `\numberline' on input line 4.
-Package tocbasic Info: Using my definition of `\numberline' on input line 5.
-Package tocbasic Info: Using my definition of `\numberline' on input line 6.
-Package tocbasic Info: Using my definition of `\numberline' on input line 7.
-Package tocbasic Info: Using my definition of `\numberline' on input line 8.
-Package tocbasic Info: Using my definition of `\numberline' on input line 9.
-Package tocbasic Info: Using my definition of `\numberline' on input line 10.
-Package tocbasic Info: Using my definition of `\numberline' on input line 11.
-Package tocbasic Info: Using my definition of `\numberline' on input line 12.
-Package tocbasic Info: Using my definition of `\numberline' on input line 13.
+ (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
-Package tocbasic Info: Using my definition of `\numberline' on input line 15.
-Package tocbasic Info: Using my definition of `\numberline' on input line 16.
-Package tocbasic Info: Using my definition of `\numberline' on input line 17.
-Package tocbasic Info: Using my definition of `\numberline' on input line 18.
-Package tocbasic Info: Using my definition of `\numberline' on input line 19.
-Package tocbasic Info: Using my definition of `\numberline' on input line 20.
-Package tocbasic Info: Using my definition of `\numberline' on input line 23.
-Package tocbasic Info: Using my definition of `\numberline' on input line 26.
-Package tocbasic Info: Using my definition of `\numberline' on input line 27.
-Package tocbasic Info: Using my definition of `\numberline' on input line 28.
-Package tocbasic Info: Using my definition of `\numberline' on input line 29.
-Package tocbasic Info: Using my definition of `\numberline' on input line 30.
-Package tocbasic Info: Using my definition of `\numberline' on input line 31.
-Package tocbasic Info: Using my definition of `\numberline' on input line 32.
-Package tocbasic Info: Using my definition of `\numberline' on input line 33.
 Package tocbasic Info: Using my definition of `\numberline' on input line 34.
-Package tocbasic Info: Using my definition of `\numberline' on input line 35.
-Package tocbasic Info: Using my definition of `\numberline' on input line 36.
-Package tocbasic Info: Using my definition of `\numberline' on input line 37.
-Package tocbasic Info: Using my definition of `\numberline' on input line 38.
-Package tocbasic Info: Using my definition of `\numberline' on input line 39.
  [2
 
 
-
 ]
-Package tocbasic Info: Using my definition of `\numberline' on input line 40.
-Package tocbasic Info: Using my definition of `\numberline' on input line 41.
-Package tocbasic Info: Using my definition of `\numberline' on input line 42.
-Package tocbasic Info: Using my definition of `\numberline' on input line 43.
-Package tocbasic Info: Using my definition of `\numberline' on input line 44.
 Package tocbasic Info: Using my definition of `\numberline' on input line 45.
-Package tocbasic Info: Using my definition of `\numberline' on input line 46.
-Package tocbasic Info: Using my definition of `\numberline' on input line 47.
-Package tocbasic Info: Using my definition of `\numberline' on input line 48.
-Package tocbasic Info: Using my definition of `\numberline' on input line 49.
-Package tocbasic Info: Using my definition of `\numberline' on input line 50.
-Package tocbasic Info: Using my definition of `\numberline' on input line 51.
-Package tocbasic Info: Using my definition of `\numberline' on input line 52.
-Package tocbasic Info: Using my definition of `\numberline' on input line 53.
 Package tocbasic Info: Using my definition of `\numberline' on input line 54.
-Package tocbasic Info: Using my definition of `\numberline' on input line 55.
-Package tocbasic Info: Using my definition of `\numberline' on input line 56.
-Package tocbasic Info: Using my definition of `\numberline' on input line 57.
-Package tocbasic Info: Using my definition of `\numberline' on input line 58.
-Package tocbasic Info: Using my definition of `\numberline' on input line 59.
-Package tocbasic Info: Using my definition of `\numberline' on input line 60.
-Package tocbasic Info: Using my definition of `\numberline' on input line 62.
 Package tocbasic Info: Using my definition of `\numberline' on input line 64.
-Package tocbasic Info: Using my definition of `\numberline' on input line 65.
-Package tocbasic Info: Using my definition of `\numberline' on input line 66.
-Package tocbasic Info: Using my definition of `\numberline' on input line 68.
-Package tocbasic Info: Using my definition of `\numberline' on input line 70.
-Package tocbasic Info: Using my definition of `\numberline' on input line 71.
-Package tocbasic Info: Using my definition of `\numberline' on input line 72.
 Package tocbasic Info: Using my definition of `\numberline' on input line 73.
-Package tocbasic Info: Using my definition of `\numberline' on input line 74.
-Package tocbasic Info: Using my definition of `\numberline' on input line 75.
-Package tocbasic Info: Using my definition of `\numberline' on input line 76.
-Package tocbasic Info: Using my definition of `\numberline' on input line 77.
-Package tocbasic Info: Using my definition of `\numberline' on input line 78.
-Package tocbasic Info: Using my definition of `\numberline' on input line 79.
-Package tocbasic Info: Using my definition of `\numberline' on input line 80.
-Package tocbasic Info: Using my definition of `\numberline' on input line 83.
-Package tocbasic Info: Using my definition of `\numberline' on input line 84.
-Package tocbasic Info: Using my definition of `\numberline' on input line 85.
-
-Underfull \vbox (badness 2020) has occurred while \output is active []
-
  [3]
-Package tocbasic Info: Using my definition of `\numberline' on input line 86.
-Package tocbasic Info: Using my definition of `\numberline' on input line 87.
+Package tocbasic Info: Using my definition of `\numberline' on input line 84.
 Package tocbasic Info: Using my definition of `\numberline' on input line 88.
 Package tocbasic Info: Using my definition of `\numberline' on input line 90.
 Package tocbasic Info: Using my definition of `\numberline' on input line 91.
 
-Overfull \hbox (1.29184pt too wide) detected at line 91
- []\T1/phv/b/n/10.95 102
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 92.
-
-Overfull \hbox (1.29184pt too wide) detected at line 92
- []\T1/phv/m/n/10.95 102
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 93.
-
-Overfull \hbox (1.29184pt too wide) detected at line 93
- []\T1/phv/m/n/10.95 102
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 94.
-
-Overfull \hbox (1.29184pt too wide) detected at line 94
- []\T1/phv/m/n/10.95 102
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 95.
-
-Overfull \hbox (1.29184pt too wide) detected at line 95
- []\T1/phv/m/n/10.95 102
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 96.
-
-Overfull \hbox (1.29184pt too wide) detected at line 96
- []\T1/phv/m/n/10.95 103
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 97.
-
-Overfull \hbox (1.29184pt too wide) detected at line 97
- []\T1/phv/m/n/10.95 103
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 98.
-
-Overfull \hbox (1.29184pt too wide) detected at line 98
- []\T1/phv/m/n/10.95 103
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 99.
-
-Overfull \hbox (1.29184pt too wide) detected at line 99
- []\T1/phv/m/n/10.95 103
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 100.
-
-Overfull \hbox (1.29184pt too wide) detected at line 100
- []\T1/phv/m/n/10.95 103
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 101.
-
-Overfull \hbox (1.29184pt too wide) detected at line 101
- []\T1/phv/m/n/10.95 104
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 102.
-
-Overfull \hbox (1.29184pt too wide) detected at line 102
- []\T1/phv/m/n/10.95 104
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 103.
-
-Overfull \hbox (1.29184pt too wide) detected at line 103
- []\T1/phv/m/n/10.95 104
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 104.
-
-Overfull \hbox (1.29184pt too wide) detected at line 104
- []\T1/phv/m/n/10.95 104
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 108.
-
-Overfull \hbox (1.29184pt too wide) detected at line 108
- []\T1/phv/m/n/10.95 105
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 109.
-
-Overfull \hbox (1.29184pt too wide) detected at line 109
- []\T1/phv/m/n/10.95 105
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 110.
-
-Overfull \hbox (1.29184pt too wide) detected at line 110
- []\T1/phv/m/n/10.95 106
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 111.
-
-Overfull \hbox (1.29184pt too wide) detected at line 111
- []\T1/phv/m/n/10.95 106
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 112.
-
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 25.34883pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 112.
-
-
-Overfull \hbox (0.16382pt too wide) detected at line 112
-\T1/phv/m/n/10.95 B.10. 
- []
-
-
-Overfull \hbox (1.29184pt too wide) detected at line 112
- []\T1/phv/m/n/10.95 106
+Overfull \hbox (1.41573pt too wide) detected at line 91
+ []\T1/phv/b/n/12 106
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 113.
 
-Overfull \hbox (1.29184pt too wide) detected at line 113
- []\T1/phv/b/n/10.95 108
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 114.
-
-Overfull \hbox (1.29184pt too wide) detected at line 114
- []\T1/phv/m/n/10.95 108
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 115.
-
-Overfull \hbox (1.29184pt too wide) detected at line 115
- []\T1/phv/m/n/10.95 108
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 116.
-
-Overfull \hbox (1.29184pt too wide) detected at line 116
- []\T1/phv/m/n/10.95 108
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 117.
-
-Overfull \hbox (1.29184pt too wide) detected at line 117
- []\T1/phv/m/n/10.95 108
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 118.
-
-Overfull \hbox (1.29184pt too wide) detected at line 118
- []\T1/phv/m/n/10.95 109
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 119.
-
-Overfull \hbox (1.29184pt too wide) detected at line 119
- []\T1/phv/m/n/10.95 109
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 120.
-
-Overfull \hbox (1.29184pt too wide) detected at line 120
- []\T1/phv/m/n/10.95 109
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 121.
-
-Overfull \hbox (1.29184pt too wide) detected at line 121
- []\T1/phv/m/n/10.95 109
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 122.
-
-Overfull \hbox (1.29184pt too wide) detected at line 122
- []\T1/phv/m/n/10.95 109
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 123.
-
-Overfull \hbox (1.29184pt too wide) detected at line 123
- []\T1/phv/m/n/10.95 110
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 124.
-
-Overfull \hbox (1.29184pt too wide) detected at line 124
- []\T1/phv/m/n/10.95 110
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 125.
-
-Overfull \hbox (1.29184pt too wide) detected at line 125
- []\T1/phv/m/n/10.95 110
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 126.
-
-Overfull \hbox (1.29184pt too wide) detected at line 126
- []\T1/phv/m/n/10.95 110
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 130.
-
-Overfull \hbox (1.29184pt too wide) detected at line 130
- []\T1/phv/m/n/10.95 111
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 131.
-
-Overfull \hbox (1.29184pt too wide) detected at line 131
- []\T1/phv/m/n/10.95 111
+Overfull \hbox (1.41573pt too wide) detected at line 113
+ []\T1/phv/b/n/12 112
  []
 
 [4]
-Package tocbasic Info: Using my definition of `\numberline' on input line 132.
-
-Overfull \hbox (1.29184pt too wide) detected at line 132
- []\T1/phv/m/n/10.95 112
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 133.
-
-Overfull \hbox (1.29184pt too wide) detected at line 133
- []\T1/phv/m/n/10.95 113
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 134.
-
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 25.84164pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 134.
-
-
-Overfull \hbox (0.65663pt too wide) detected at line 134
-\T1/phv/m/n/10.95 C.10. 
- []
-
-
-Overfull \hbox (1.29184pt too wide) detected at line 134
- []\T1/phv/m/n/10.95 113
- []
-
 Package tocbasic Info: Using my definition of `\numberline' on input line 135.
 
-Overfull \hbox (1.29184pt too wide) detected at line 135
- []\T1/phv/b/n/10.95 114
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 136.
-
-Overfull \hbox (1.29184pt too wide) detected at line 136
- []\T1/phv/m/n/10.95 114
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 137.
-
-Overfull \hbox (1.29184pt too wide) detected at line 137
- []\T1/phv/m/n/10.95 114
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 138.
-
-Overfull \hbox (1.29184pt too wide) detected at line 138
- []\T1/phv/m/n/10.95 114
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 139.
-
-Overfull \hbox (1.29184pt too wide) detected at line 139
- []\T1/phv/m/n/10.95 114
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 140.
-
-Overfull \hbox (1.29184pt too wide) detected at line 140
- []\T1/phv/m/n/10.95 115
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 141.
-
-Overfull \hbox (1.29184pt too wide) detected at line 141
- []\T1/phv/m/n/10.95 115
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 142.
-
-Overfull \hbox (1.29184pt too wide) detected at line 142
- []\T1/phv/m/n/10.95 115
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 143.
-
-Overfull \hbox (1.29184pt too wide) detected at line 143
- []\T1/phv/m/n/10.95 115
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 144.
-
-Overfull \hbox (1.29184pt too wide) detected at line 144
- []\T1/phv/m/n/10.95 115
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 145.
-
-Overfull \hbox (1.29184pt too wide) detected at line 145
- []\T1/phv/m/n/10.95 116
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 146.
-
-Overfull \hbox (1.29184pt too wide) detected at line 146
- []\T1/phv/m/n/10.95 116
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 147.
-
-Overfull \hbox (1.29184pt too wide) detected at line 147
- []\T1/phv/m/n/10.95 116
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 148.
-
-Overfull \hbox (1.29184pt too wide) detected at line 148
- []\T1/phv/m/n/10.95 116
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 152.
-
-Overfull \hbox (1.29184pt too wide) detected at line 152
- []\T1/phv/m/n/10.95 117
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 153.
-
-Overfull \hbox (1.29184pt too wide) detected at line 153
- []\T1/phv/m/n/10.95 117
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 154.
-
-Overfull \hbox (1.29184pt too wide) detected at line 154
- []\T1/phv/m/n/10.95 118
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 155.
-
-Overfull \hbox (1.29184pt too wide) detected at line 155
- []\T1/phv/m/n/10.95 118
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 156.
-
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 25.40363pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 156.
-
-
-Overfull \hbox (0.21861pt too wide) detected at line 156
-\T1/phv/m/n/10.95 D.10. 
- []
-
-
-Overfull \hbox (1.29184pt too wide) detected at line 156
- []\T1/phv/m/n/10.95 119
+Overfull \hbox (1.41573pt too wide) detected at line 135
+ []\T1/phv/b/n/12 118
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 157.
 
-Overfull \hbox (1.29184pt too wide) detected at line 157
- []\T1/phv/b/n/10.95 120
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 158.
-
-Overfull \hbox (1.29184pt too wide) detected at line 158
- []\T1/phv/m/n/10.95 120
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 159.
-
-Overfull \hbox (1.29184pt too wide) detected at line 159
- []\T1/phv/m/n/10.95 120
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 160.
-
-Overfull \hbox (1.29184pt too wide) detected at line 160
- []\T1/phv/m/n/10.95 120
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 161.
-
-Overfull \hbox (1.29184pt too wide) detected at line 161
- []\T1/phv/m/n/10.95 120
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 162.
-
-Overfull \hbox (1.29184pt too wide) detected at line 162
- []\T1/phv/m/n/10.95 121
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 163.
-
-Overfull \hbox (1.29184pt too wide) detected at line 163
- []\T1/phv/m/n/10.95 121
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 164.
-
-Overfull \hbox (1.29184pt too wide) detected at line 164
- []\T1/phv/m/n/10.95 121
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 165.
-
-Overfull \hbox (1.29184pt too wide) detected at line 165
- []\T1/phv/m/n/10.95 121
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 166.
-
-Overfull \hbox (1.29184pt too wide) detected at line 166
- []\T1/phv/m/n/10.95 121
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 167.
-
-Overfull \hbox (1.29184pt too wide) detected at line 167
- []\T1/phv/m/n/10.95 122
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 168.
-
-Overfull \hbox (1.29184pt too wide) detected at line 168
- []\T1/phv/m/n/10.95 122
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 169.
-
-Overfull \hbox (1.29184pt too wide) detected at line 169
- []\T1/phv/m/n/10.95 122
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 170.
-
-Overfull \hbox (1.29184pt too wide) detected at line 170
- []\T1/phv/m/n/10.95 122
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 174.
-
-Overfull \hbox (1.29184pt too wide) detected at line 174
- []\T1/phv/m/n/10.95 123
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 175.
-
-Overfull \hbox (1.29184pt too wide) detected at line 175
- []\T1/phv/m/n/10.95 123
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 176.
-
-Overfull \hbox (1.29184pt too wide) detected at line 176
- []\T1/phv/m/n/10.95 124
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 177.
-
-Overfull \hbox (1.29184pt too wide) detected at line 177
- []\T1/phv/m/n/10.95 124
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 178.
-
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 25.56778pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 178.
-
-
-Overfull \hbox (0.38277pt too wide) detected at line 178
-\T1/phv/m/n/10.95 E.10. 
- []
-
-
-Overfull \hbox (1.29184pt too wide) detected at line 178
- []\T1/phv/m/n/10.95 125
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 179.
-
-Overfull \hbox (1.29184pt too wide) detected at line 179
- []\T1/phv/b/n/10.95 126
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 180.
-
-Overfull \hbox (1.29184pt too wide) detected at line 180
- []\T1/phv/m/n/10.95 126
+Overfull \hbox (1.41573pt too wide) detected at line 157
+ []\T1/phv/b/n/12 124
  []
 
 [5]
-Package tocbasic Info: Using my definition of `\numberline' on input line 181.
+Package tocbasic Info: Using my definition of `\numberline' on input line 179.
 
-Overfull \hbox (1.29184pt too wide) detected at line 181
- []\T1/phv/m/n/10.95 126
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 182.
-
-Overfull \hbox (1.29184pt too wide) detected at line 182
- []\T1/phv/m/n/10.95 126
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 183.
-
-Overfull \hbox (1.29184pt too wide) detected at line 183
- []\T1/phv/m/n/10.95 126
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 184.
-
-Overfull \hbox (1.29184pt too wide) detected at line 184
- []\T1/phv/m/n/10.95 127
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 185.
-
-Overfull \hbox (1.29184pt too wide) detected at line 185
- []\T1/phv/m/n/10.95 127
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 186.
-
-Overfull \hbox (1.29184pt too wide) detected at line 186
- []\T1/phv/m/n/10.95 127
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 187.
-
-Overfull \hbox (1.29184pt too wide) detected at line 187
- []\T1/phv/m/n/10.95 127
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 188.
-
-Overfull \hbox (1.29184pt too wide) detected at line 188
- []\T1/phv/m/n/10.95 127
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 189.
-
-Overfull \hbox (1.29184pt too wide) detected at line 189
- []\T1/phv/m/n/10.95 128
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 190.
-
-Overfull \hbox (1.29184pt too wide) detected at line 190
- []\T1/phv/m/n/10.95 128
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 191.
-
-Overfull \hbox (1.29184pt too wide) detected at line 191
- []\T1/phv/m/n/10.95 128
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 192.
-
-Overfull \hbox (1.29184pt too wide) detected at line 192
- []\T1/phv/m/n/10.95 128
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 196.
-
-Overfull \hbox (1.29184pt too wide) detected at line 196
- []\T1/phv/m/n/10.95 129
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 197.
-
-Overfull \hbox (1.29184pt too wide) detected at line 197
- []\T1/phv/m/n/10.95 129
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 198.
-
-Overfull \hbox (1.29184pt too wide) detected at line 198
- []\T1/phv/m/n/10.95 130
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 199.
-
-Overfull \hbox (1.29184pt too wide) detected at line 199
- []\T1/phv/m/n/10.95 130
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 200.
-
-Overfull \hbox (1.29184pt too wide) detected at line 200
- []\T1/phv/m/n/10.95 131
+Overfull \hbox (1.41573pt too wide) detected at line 179
+ []\T1/phv/b/n/12 130
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 201.
 
-Overfull \hbox (1.29184pt too wide) detected at line 201
- []\T1/phv/b/n/10.95 132
+Overfull \hbox (1.41573pt too wide) detected at line 201
+ []\T1/phv/b/n/12 136
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 202.
-
-Overfull \hbox (1.29184pt too wide) detected at line 202
- []\T1/phv/m/n/10.95 132
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 203.
-
-Overfull \hbox (1.29184pt too wide) detected at line 203
- []\T1/phv/m/n/10.95 132
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 204.
-
-Overfull \hbox (1.29184pt too wide) detected at line 204
- []\T1/phv/m/n/10.95 132
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 205.
-
-Overfull \hbox (1.29184pt too wide) detected at line 205
- []\T1/phv/m/n/10.95 132
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 206.
-
-Overfull \hbox (1.29184pt too wide) detected at line 206
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 207.
-
-Overfull \hbox (1.29184pt too wide) detected at line 207
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 208.
-
-Overfull \hbox (1.29184pt too wide) detected at line 208
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 209.
-
-Overfull \hbox (1.29184pt too wide) detected at line 209
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 210.
-
-Overfull \hbox (1.29184pt too wide) detected at line 210
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 211.
-
-Overfull \hbox (1.29184pt too wide) detected at line 211
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 212.
-
-Overfull \hbox (1.29184pt too wide) detected at line 212
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 213.
-
-Overfull \hbox (1.29184pt too wide) detected at line 213
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 214.
-
-Overfull \hbox (1.29184pt too wide) detected at line 214
- []\T1/phv/m/n/10.95 134
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 215.
-
-Overfull \hbox (1.29184pt too wide) detected at line 215
- []\T1/phv/m/n/10.95 135
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 216.
-
-Overfull \hbox (1.29184pt too wide) detected at line 216
- []\T1/phv/m/n/10.95 135
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 217.
-
-Overfull \hbox (1.29184pt too wide) detected at line 217
- []\T1/phv/m/n/10.95 135
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 220.
-
-Overfull \hbox (1.29184pt too wide) detected at line 220
- []\T1/phv/m/n/10.95 135
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 221.
-
-Overfull \hbox (1.29184pt too wide) detected at line 221
- []\T1/phv/m/n/10.95 136
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 222.
-
-Overfull \hbox (1.29184pt too wide) detected at line 222
- []\T1/phv/m/n/10.95 137
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 223.
-
-Overfull \hbox (1.29184pt too wide) detected at line 223
- []\T1/phv/m/n/10.95 137
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 224.
-
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 26.7832pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 224.
-
-
-Overfull \hbox (1.59819pt too wide) detected at line 224
-\T1/phv/m/n/10.95 G.10. 
- []
-
-
-Overfull \hbox (1.29184pt too wide) detected at line 224
- []\T1/phv/m/n/10.95 138
- []
-
+[6]
 Package tocbasic Info: Using my definition of `\numberline' on input line 225.
 
-Overfull \hbox (1.29184pt too wide) detected at line 225
- []\T1/phv/b/n/10.95 139
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 226.
-
-Overfull \hbox (1.29184pt too wide) detected at line 226
- []\T1/phv/m/n/10.95 139
- []
-
-
-Underfull \vbox (badness 4954) has occurred while \output is active []
-
- [6]
-Package tocbasic Info: Using my definition of `\numberline' on input line 227.
-
-Overfull \hbox (1.29184pt too wide) detected at line 227
- []\T1/phv/m/n/10.95 139
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 228.
-
-Overfull \hbox (1.29184pt too wide) detected at line 228
- []\T1/phv/m/n/10.95 139
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 229.
-
-Overfull \hbox (1.29184pt too wide) detected at line 229
- []\T1/phv/m/n/10.95 139
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 230.
-
-Overfull \hbox (1.29184pt too wide) detected at line 230
- []\T1/phv/m/n/10.95 140
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 231.
-
-Overfull \hbox (1.29184pt too wide) detected at line 231
- []\T1/phv/m/n/10.95 140
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 232.
-
-Overfull \hbox (1.29184pt too wide) detected at line 232
- []\T1/phv/m/n/10.95 140
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 233.
-
-Overfull \hbox (1.29184pt too wide) detected at line 233
- []\T1/phv/m/n/10.95 140
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 234.
-
-Overfull \hbox (1.29184pt too wide) detected at line 234
- []\T1/phv/m/n/10.95 141
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 235.
-
-Overfull \hbox (1.29184pt too wide) detected at line 235
- []\T1/phv/m/n/10.95 141
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 236.
-
-Overfull \hbox (1.29184pt too wide) detected at line 236
- []\T1/phv/m/n/10.95 141
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 237.
-
-Overfull \hbox (1.29184pt too wide) detected at line 237
- []\T1/phv/m/n/10.95 141
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 238.
-
-Overfull \hbox (1.29184pt too wide) detected at line 238
- []\T1/phv/m/n/10.95 141
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 242.
-
-Overfull \hbox (1.29184pt too wide) detected at line 242
- []\T1/phv/m/n/10.95 142
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 243.
-
-Overfull \hbox (1.29184pt too wide) detected at line 243
- []\T1/phv/m/n/10.95 143
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 244.
-
-Overfull \hbox (1.29184pt too wide) detected at line 244
- []\T1/phv/m/n/10.95 143
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 245.
-
-Overfull \hbox (1.29184pt too wide) detected at line 245
- []\T1/phv/m/n/10.95 144
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 246.
-
-Package tocbasic Warning: number width of section toc entries should be increased!
-(tocbasic)                Currently used number width = 26.17007pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 246.
-
-
-Overfull \hbox (0.98506pt too wide) detected at line 246
-\T1/phv/m/n/10.95 H.10. 
- []
-
-
-Overfull \hbox (1.29184pt too wide) detected at line 246
- []\T1/phv/m/n/10.95 144
+Overfull \hbox (1.41573pt too wide) detected at line 225
+ []\T1/phv/b/n/12 144
  []
 
 Package tocbasic Info: Using my definition of `\numberline' on input line 247.
 
-Overfull \hbox (1.29184pt too wide) detected at line 247
- []\T1/phv/b/n/10.95 145
+Overfull \hbox (1.41573pt too wide) detected at line 247
+ []\T1/phv/b/n/12 151
  []
 
-Package tocbasic Info: Using my definition of `\numberline' on input line 248.
-
-Overfull \hbox (1.29184pt too wide) detected at line 248
- []\T1/phv/m/n/10.95 145
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 249.
-
-Overfull \hbox (1.29184pt too wide) detected at line 249
- []\T1/phv/m/n/10.95 145
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 250.
-
-Overfull \hbox (1.29184pt too wide) detected at line 250
- []\T1/phv/m/n/10.95 145
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 251.
-
-Overfull \hbox (1.29184pt too wide) detected at line 251
- []\T1/phv/m/n/10.95 145
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 252.
-
-Overfull \hbox (1.29184pt too wide) detected at line 252
- []\T1/phv/m/n/10.95 146
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 253.
-
-Overfull \hbox (1.29184pt too wide) detected at line 253
- []\T1/phv/m/n/10.95 146
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 254.
-
-Overfull \hbox (1.29184pt too wide) detected at line 254
- []\T1/phv/m/n/10.95 146
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 255.
-
-Overfull \hbox (1.29184pt too wide) detected at line 255
- []\T1/phv/m/n/10.95 146
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 256.
-
-Overfull \hbox (1.29184pt too wide) detected at line 256
- []\T1/phv/m/n/10.95 146
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 257.
-
-Overfull \hbox (1.29184pt too wide) detected at line 257
- []\T1/phv/m/n/10.95 147
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 258.
-
-Overfull \hbox (1.29184pt too wide) detected at line 258
- []\T1/phv/m/n/10.95 147
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 259.
-
-Overfull \hbox (1.29184pt too wide) detected at line 259
- []\T1/phv/m/n/10.95 147
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 260.
-
-Overfull \hbox (1.29184pt too wide) detected at line 260
- []\T1/phv/m/n/10.95 147
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 264.
-
-Overfull \hbox (1.29184pt too wide) detected at line 264
- []\T1/phv/m/n/10.95 148
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 265.
-
-Overfull \hbox (1.29184pt too wide) detected at line 265
- []\T1/phv/m/n/10.95 148
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 266.
-
-Overfull \hbox (1.29184pt too wide) detected at line 266
- []\T1/phv/m/n/10.95 150
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 267.
-
-Overfull \hbox (1.29184pt too wide) detected at line 267
- []\T1/phv/m/n/10.95 150
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 268.
-
-Overfull \hbox (1.29184pt too wide) detected at line 268
- []\T1/phv/m/n/10.95 151
- []
-
-)
+[7])
 \tf@toc=\write4
 \openout4 = `PlantillaTesis.toc'.
 
- [7] (PlantillaTesis.lof
+ [8] (PlantillaTesis.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-Package tocbasic Info: Using my definition of `\numberline' on input line 2.
-Package tocbasic Info: Using my definition of `\numberline' on input line 3.
-Package tocbasic Info: Using my definition of `\numberline' on input line 4.
-Package tocbasic Info: Using my definition of `\numberline' on input line 5.
-Package tocbasic Info: Using my definition of `\numberline' on input line 6.
-Package tocbasic Info: Using my definition of `\numberline' on input line 7.
-Package tocbasic Info: Using my definition of `\numberline' on input line 8.
-Package tocbasic Info: Using my definition of `\numberline' on input line 9.
-Package tocbasic Info: Using my definition of `\numberline' on input line 10.
-Package tocbasic Info: Using my definition of `\numberline' on input line 11.
-Package tocbasic Info: Using my definition of `\numberline' on input line 12.
-Package tocbasic Info: Using my definition of `\numberline' on input line 13.
-Package tocbasic Info: Using my definition of `\numberline' on input line 14.
-Package tocbasic Info: Using my definition of `\numberline' on input line 15.
-Package tocbasic Info: Using my definition of `\numberline' on input line 16.
-Package tocbasic Info: Using my definition of `\numberline' on input line 17.
-Package tocbasic Info: Using my definition of `\numberline' on input line 18.
-Package tocbasic Info: Using my definition of `\numberline' on input line 19.
-Package tocbasic Info: Using my definition of `\numberline' on input line 20.
-Package tocbasic Info: Using my definition of `\numberline' on input line 21.
-Package tocbasic Info: Using my definition of `\numberline' on input line 22.
-Package tocbasic Info: Using my definition of `\numberline' on input line 23.
-Package tocbasic Info: Using my definition of `\numberline' on input line 24.
-Package tocbasic Info: Using my definition of `\numberline' on input line 25.
-Package tocbasic Info: Using my definition of `\numberline' on input line 26.
-Package tocbasic Info: Using my definition of `\numberline' on input line 27.
-Package tocbasic Info: Using my definition of `\numberline' on input line 28.
-Package tocbasic Info: Using my definition of `\numberline' on input line 29.
-Package tocbasic Info: Using my definition of `\numberline' on input line 30.
-Package tocbasic Info: Using my definition of `\numberline' on input line 31.
-Package tocbasic Info: Using my definition of `\numberline' on input line 32.
-Package tocbasic Info: Using my definition of `\numberline' on input line 33.
-Package tocbasic Info: Using my definition of `\numberline' on input line 34.
-Package tocbasic Info: Using my definition of `\numberline' on input line 35.
-Package tocbasic Info: Using my definition of `\numberline' on input line 36.
-Package tocbasic Info: Using my definition of `\numberline' on input line 37.
-Package tocbasic Info: Using my definition of `\numberline' on input line 38.
- [8
-
+ [9
 
 ]
-Package tocbasic Info: Using my definition of `\numberline' on input line 39.
-Package tocbasic Info: Using my definition of `\numberline' on input line 40.
-Package tocbasic Info: Using my definition of `\numberline' on input line 41.
-Package tocbasic Info: Using my definition of `\numberline' on input line 42.
-Package tocbasic Info: Using my definition of `\numberline' on input line 43.
-Package tocbasic Info: Using my definition of `\numberline' on input line 44.
-Package tocbasic Info: Using my definition of `\numberline' on input line 45.
-Package tocbasic Info: Using my definition of `\numberline' on input line 46.
-Package tocbasic Info: Using my definition of `\numberline' on input line 47.
-Package tocbasic Info: Using my definition of `\numberline' on input line 48.
-Package tocbasic Info: Using my definition of `\numberline' on input line 49.
-Package tocbasic Info: Using my definition of `\numberline' on input line 50.
-Package tocbasic Info: Using my definition of `\numberline' on input line 51.
-Package tocbasic Info: Using my definition of `\numberline' on input line 52.
-Package tocbasic Info: Using my definition of `\numberline' on input line 53.
-Package tocbasic Info: Using my definition of `\numberline' on input line 54.
-Package tocbasic Info: Using my definition of `\numberline' on input line 55.
-Package tocbasic Info: Using my definition of `\numberline' on input line 56.
-Package tocbasic Info: Using my definition of `\numberline' on input line 57.
-Package tocbasic Info: Using my definition of `\numberline' on input line 58.
-Package tocbasic Info: Using my definition of `\numberline' on input line 59.
-Package tocbasic Info: Using my definition of `\numberline' on input line 60.
-Package tocbasic Info: Using my definition of `\numberline' on input line 63.
-Package tocbasic Info: Using my definition of `\numberline' on input line 64.
-Package tocbasic Info: Using my definition of `\numberline' on input line 65.
-Package tocbasic Info: Using my definition of `\numberline' on input line 66.
-Package tocbasic Info: Using my definition of `\numberline' on input line 67.
-Package tocbasic Info: Using my definition of `\numberline' on input line 68.
-Package tocbasic Info: Using my definition of `\numberline' on input line 69.
-Package tocbasic Info: Using my definition of `\numberline' on input line 70.
-Package tocbasic Info: Using my definition of `\numberline' on input line 71.
-
-Overfull \hbox (1.29184pt too wide) detected at line 71
- []\T1/phv/m/n/10.95 100
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 72.
-
-Package tocbasic Warning: number width of figure toc entries should be increased!
-(tocbasic)                Currently used number width = 26.17009pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input line 72.
-
-
-Overfull \hbox (0.98508pt too wide) detected at line 72
-\T1/phv/m/n/10.95 A-10. 
- []
-
-
-Overfull \hbox (1.29184pt too wide) detected at line 72
- []\T1/phv/m/n/10.95 101
- []
-
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 )
 \tf@lof=\write5
 \openout5 = `PlantillaTesis.lof'.
 
- [9] (PlantillaTesis.lot
+ [10] (PlantillaTesis.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-Package tocbasic Info: Using my definition of `\numberline' on input line 2.
-Package tocbasic Info: Using my definition of `\numberline' on input line 3.
-Package tocbasic Info: Using my definition of `\numberline' on input line 4.
-Package tocbasic Info: Using my definition of `\numberline' on input line 5.
-Package tocbasic Info: Using my definition of `\numberline' on input line 6.
-Package tocbasic Info: Using my definition of `\numberline' on input line 7.
-Package tocbasic Info: Using my definition of `\numberline' on input line 8.
-Package tocbasic Info: Using my definition of `\numberline' on input line 9.
-Package tocbasic Info: Using my definition of `\numberline' on input line 10.
-Package tocbasic Info: Using my definition of `\numberline' on input line 11.
-Package tocbasic Info: Using my definition of `\numberline' on input line 12.
-Package tocbasic Info: Using my definition of `\numberline' on input line 13.
-Package tocbasic Info: Using my definition of `\numberline' on input line 14.
-Package tocbasic Info: Using my definition of `\numberline' on input line 18.
+ [11
 
-Overfull \hbox (1.29184pt too wide) detected at line 18
- []\T1/phv/m/n/10.95 102
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 19.
-
-Overfull \hbox (1.29184pt too wide) detected at line 19
- []\T1/phv/m/n/10.95 103
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 20.
-
-Overfull \hbox (1.29184pt too wide) detected at line 20
- []\T1/phv/m/n/10.95 103
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 21.
-
-Overfull \hbox (1.29184pt too wide) detected at line 21
- []\T1/phv/m/n/10.95 106
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 23.
-
-Overfull \hbox (1.29184pt too wide) detected at line 23
- []\T1/phv/m/n/10.95 108
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 24.
-
-Overfull \hbox (1.29184pt too wide) detected at line 24
- []\T1/phv/m/n/10.95 109
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 25.
-
-Overfull \hbox (1.29184pt too wide) detected at line 25
- []\T1/phv/m/n/10.95 109
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 26.
-
-Overfull \hbox (1.29184pt too wide) detected at line 26
- []\T1/phv/m/n/10.95 112
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 28.
-
-Overfull \hbox (1.29184pt too wide) detected at line 28
- []\T1/phv/m/n/10.95 114
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 29.
-
-Overfull \hbox (1.29184pt too wide) detected at line 29
- []\T1/phv/m/n/10.95 115
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 30.
-
-Overfull \hbox (1.29184pt too wide) detected at line 30
- []\T1/phv/m/n/10.95 115
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 31.
-
-Overfull \hbox (1.29184pt too wide) detected at line 31
- []\T1/phv/m/n/10.95 118
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 33.
-
-Overfull \hbox (1.29184pt too wide) detected at line 33
- []\T1/phv/m/n/10.95 120
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 34.
-
-Overfull \hbox (1.29184pt too wide) detected at line 34
- []\T1/phv/m/n/10.95 121
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 35.
-
-Overfull \hbox (1.29184pt too wide) detected at line 35
- []\T1/phv/m/n/10.95 121
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 36.
-
-Overfull \hbox (1.29184pt too wide) detected at line 36
- []\T1/phv/m/n/10.95 124
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 38.
-
-Overfull \hbox (1.29184pt too wide) detected at line 38
- []\T1/phv/m/n/10.95 126
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 39.
-
-Overfull \hbox (1.29184pt too wide) detected at line 39
- []\T1/phv/m/n/10.95 127
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 40.
-
-Overfull \hbox (1.29184pt too wide) detected at line 40
- []\T1/phv/m/n/10.95 127
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 41.
-
-Overfull \hbox (1.29184pt too wide) detected at line 41
- []\T1/phv/m/n/10.95 130
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 43.
-
-Overfull \hbox (1.29184pt too wide) detected at line 43
- []\T1/phv/m/n/10.95 132
- []
-
-[10
-
-
-]
-Package tocbasic Info: Using my definition of `\numberline' on input line 44.
-
-Overfull \hbox (1.29184pt too wide) detected at line 44
- []\T1/phv/m/n/10.95 133
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 45.
-
-Overfull \hbox (1.29184pt too wide) detected at line 45
- []\T1/phv/m/n/10.95 134
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 46.
-
-Overfull \hbox (1.29184pt too wide) detected at line 46
- []\T1/phv/m/n/10.95 134
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 47.
-
-Overfull \hbox (1.29184pt too wide) detected at line 47
- []\T1/phv/m/n/10.95 137
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 49.
-
-Overfull \hbox (1.29184pt too wide) detected at line 49
- []\T1/phv/m/n/10.95 139
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 50.
-
-Overfull \hbox (1.29184pt too wide) detected at line 50
- []\T1/phv/m/n/10.95 140
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 51.
-
-Overfull \hbox (1.29184pt too wide) detected at line 51
- []\T1/phv/m/n/10.95 141
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 52.
-
-Overfull \hbox (1.29184pt too wide) detected at line 52
- []\T1/phv/m/n/10.95 143
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 54.
-
-Overfull \hbox (1.29184pt too wide) detected at line 54
- []\T1/phv/m/n/10.95 145
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 55.
-
-Overfull \hbox (1.29184pt too wide) detected at line 55
- []\T1/phv/m/n/10.95 146
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 56.
-
-Overfull \hbox (1.29184pt too wide) detected at line 56
- []\T1/phv/m/n/10.95 146
- []
-
-Package tocbasic Info: Using my definition of `\numberline' on input line 57.
-
-Overfull \hbox (1.29184pt too wide) detected at line 57
- []\T1/phv/m/n/10.95 150
- []
-
-)
+])
 \tf@lot=\write6
 \openout6 = `PlantillaTesis.lot'.
 
- [11]
+ [12]
 \openout2 = `Cap1/Cap1.aux'.
 
  (Cap1/Cap1.tex
@@ -2536,95 +1326,106 @@ Package pdftex.def Info: Cap1/Figuras/PBL.png  used on input line 51.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] [4 <./Cap1/Figuras/PBL.png>] [5] (Cap1/Tablas/Iteracion1.tex
-Underfull \hbox (badness 3907) in paragraph at lines 34--34
-[]|\T1/phv/b/n/10.95 Rol del prac-ti-
+[3] [4 <./Cap1/Figuras/PBL.png>] [5] [6] (Cap1/Tablas/Iteracion1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/phv/b/n/12 (+20) Roles
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion2.tex
-Underfull \hbox (badness 3907) in paragraph at lines 32--32
-[]|\T1/phv/b/n/10.95 Rol del prac-ti-
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/phv/b/n/12 (+20) Roles
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion3.tex
-Underfull \hbox (badness 3907) in paragraph at lines 30--30
-[]|\T1/phv/b/n/10.95 Rol del prac-ti-
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/phv/b/n/12 (+20) Roles
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion4.tex
-Underfull \hbox (badness 3907) in paragraph at lines 31--31
-[]|\T1/phv/b/n/10.95 Rol del prac-ti-
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/phv/b/n/12 (+20) Roles
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion5.tex
-Underfull \hbox (badness 3907) in paragraph at lines 32--32
-[]|\T1/phv/b/n/10.95 Rol del prac-ti-
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/phv/b/n/12 (+20) Roles
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Cap1/Tablas/Iteracion6.tex
-Underfull \hbox (badness 3907) in paragraph at lines 34--34
-[]|\T1/phv/b/n/10.95 Rol del prac-ti-
+Underfull \hbox (badness 1701) in paragraph at lines 9--10
+[]|\T1/phv/m/n/12 (+20) Evaluación in-te-gral del mó-du-lo de con-fi-gu-ra-ción
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\T1/phv/b/n/12 (+20) Roles
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [6] [7] [8] [9] [10]
+)) [7] [8] [9] [10] [11]
 \openout2 = `Cap2/Cap2.aux'.
 
  (Cap2/Cap2.tex
-Underfull \vbox (badness 4556) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
-
-
+ [12
 
 
-]
-Underfull \vbox (badness 1205) has occurred while \output is active []
 
- [12] [13]
-<Cap2/Figuras/hexagonal.png, id=894, 848.4197pt x 588.69937pt>
+
+] [13] [14]
+<Cap2/Figuras/hexagonal.png, id=898, 848.4197pt x 588.69937pt>
 File: Cap2/Figuras/hexagonal.png Graphic file (type png)
 <use Cap2/Figuras/hexagonal.png>
 Package pdftex.def Info: Cap2/Figuras/hexagonal.png  used on input line 80.
 (pdftex.def)             Requested size: 424.83022pt x 294.78014pt.
- [14 <./Cap2/Figuras/hexagonal.png>]
-<Cap2/Figuras/capas.png, id=905, 6114.845pt x 2027.575pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15]
+<Cap2/Figuras/capas.png, id=911, 6114.845pt x 2027.575pt>
 File: Cap2/Figuras/capas.png Graphic file (type png)
 <use Cap2/Figuras/capas.png>
 Package pdftex.def Info: Cap2/Figuras/capas.png  used on input line 97.
 (pdftex.def)             Requested size: 472.0295pt x 156.51666pt.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./Cap2/Figuras/hexagonal.png>] [17 <./Cap2/Figuras/capas.png>] [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./Cap2/Figuras/capas.png>] [16] [17] [18]
-<Cap2/Figuras/Figura1.png, id=960, 581.17125pt x 334.24875pt>
+ [19]
+<Cap2/Figuras/Figura1.png, id=963, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura1.png Graphic file (type png)
 <use Cap2/Figuras/Figura1.png>
 Package pdftex.def Info: Cap2/Figuras/Figura1.png  used on input line 169.
 (pdftex.def)             Requested size: 283.22452pt x 162.89078pt.
-<Cap2/Figuras/Figura2.png, id=961, 581.17125pt x 334.24875pt>
+ [20]
+<Cap2/Figuras/Figura2.png, id=972, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura2.png Graphic file (type png)
 <use Cap2/Figuras/Figura2.png>
 Package pdftex.def Info: Cap2/Figuras/Figura2.png  used on input line 176.
 (pdftex.def)             Requested size: 283.22452pt x 162.89078pt.
-<Cap2/Figuras/Figura3.png, id=962, 581.17125pt x 334.24875pt>
+<Cap2/Figuras/Figura3.png, id=973, 581.17125pt x 334.24875pt>
 File: Cap2/Figuras/Figura3.png Graphic file (type png)
 <use Cap2/Figuras/Figura3.png>
 Package pdftex.def Info: Cap2/Figuras/Figura3.png  used on input line 183.
@@ -2633,104 +1434,101 @@ Package pdftex.def Info: Cap2/Figuras/Figura3.png  used on input line 183.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./Cap2/Figuras/Figura1.png> <./Cap2/Figuras/Figura2.png>] (Cap2/Tablas/LineamientosDesarrollo.tex
-Underfull \hbox (badness 1281) in paragraph at lines 22--22
-[]|\T1/phv/m/n/10.95 Bases de da-tos Real
- []
-
+[21 <./Cap2/Figuras/Figura1.png> <./Cap2/Figuras/Figura2.png>] (Cap2/Tablas/LineamientosDesarrollo.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [20 <./Cap2/Figuras/Figura3.png>] [21]
+)) [22 <./Cap2/Figuras/Figura3.png>] [23]
 \openout2 = `Cap3/Cap3.aux'.
 
  (Cap3/Cap3.tex
-<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=985, 1790.69pt x 867.24pt>
+<Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png, id=994, 1790.69pt x 867.24pt>
 File: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png  used on input line 8.
 (pdftex.def)             Requested size: 472.01682pt x 228.60007pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22
+ [24
 
 
 
 
  <./Cap3/Figuras/Diagrama General-Diagrama Principal.drawio.png>]
-<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=993, 4199.69pt x 2304.61pt>
+<Cap3/Figuras/Diagrama General-Cuentas contables.png, id=1002, 4199.69pt x 2304.61pt>
 File: Cap3/Figuras/Diagrama General-Cuentas contables.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuentas contables.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuentas contables.png  used on input line 24.
 (pdftex.def)             Requested size: 424.79976pt x 233.11191pt.
- [23 <./Cap3/Figuras/Diagrama General-Cuentas contables.png>]
-<Cap3/Figuras/Diagrama General-Impuestos.png, id=999, 2380.895pt x 1654.18pt>
+ [25 <./Cap3/Figuras/Diagrama General-Cuentas contables.png>]
+<Cap3/Figuras/Diagrama General-Impuestos.png, id=1009, 2380.895pt x 1654.18pt>
 File: Cap3/Figuras/Diagrama General-Impuestos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Impuestos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Impuestos.png  used on input line 37.
 (pdftex.def)             Requested size: 424.80067pt x 295.13976pt.
- [24 <./Cap3/Figuras/Diagrama General-Impuestos.png>]
-<Cap3/Figuras/Diagrama General-Terceros.png, id=1005, 3697.815pt x 1818.795pt>
+ [26 <./Cap3/Figuras/Diagrama General-Impuestos.png>]
+<Cap3/Figuras/Diagrama General-Terceros.png, id=1015, 3697.815pt x 1818.795pt>
 File: Cap3/Figuras/Diagrama General-Terceros.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Terceros.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Terceros.png  used on input line 50.
 (pdftex.def)             Requested size: 471.9871pt x 232.15001pt.
- [25 <./Cap3/Figuras/Diagrama General-Terceros.png>]
-<Cap3/Figuras/Diagrama General-Inventario productos.png, id=1011, 3693.8pt x 1682.285pt>
+ [27 <./Cap3/Figuras/Diagrama General-Terceros.png>]
+<Cap3/Figuras/Diagrama General-Inventario productos.png, id=1021, 3693.8pt x 1682.285pt>
 File: Cap3/Figuras/Diagrama General-Inventario productos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Inventario productos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Inventario productos.png  used on input line 62.
 (pdftex.def)             Requested size: 471.9819pt x 214.95697pt.
- [26 <./Cap3/Figuras/Diagrama General-Inventario productos.png>]
-<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=1018, 3505.095pt x 1658.195pt>
+ [28 <./Cap3/Figuras/Diagrama General-Inventario productos.png>]
+<Cap3/Figuras/Diagrama General-Metodos de pago.png, id=1027, 3505.095pt x 1658.195pt>
 File: Cap3/Figuras/Diagrama General-Metodos de pago.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Metodos de pago.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Metodos de pago.png  used on input line 75.
 (pdftex.def)             Requested size: 471.99078pt x 223.29002pt.
- [27 <./Cap3/Figuras/Diagrama General-Metodos de pago.png>]
-<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=1024, 3854.4pt x 1778.645pt>
+ [29 <./Cap3/Figuras/Diagrama General-Metodos de pago.png>]
+<Cap3/Figuras/Diagrama General-Tipos de documentos.png, id=1033, 3854.4pt x 1778.645pt>
 File: Cap3/Figuras/Diagrama General-Tipos de documentos.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Tipos de documentos.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Tipos de documentos.png  used on input line 88.
 (pdftex.def)             Requested size: 471.977pt x 217.79771pt.
- [28 <./Cap3/Figuras/Diagrama General-Tipos de documentos.png>]
-<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=1030, 3481.005pt x 1606.0pt>
+ [30 <./Cap3/Figuras/Diagrama General-Tipos de documentos.png>]
+<Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png, id=1039, 3481.005pt x 1606.0pt>
 File: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png  used on input line 101.
 (pdftex.def)             Requested size: 471.98692pt x 217.75636pt.
- [29 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>]
-<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=1036, 3569.335pt x 1846.9pt>
+ [31 <./Cap3/Figuras/Diagrama General-Banco y Cuentas Bancarias.png>]
+<Cap3/Figuras/Diagrama General-Centros de Costo.png, id=1046, 3569.335pt x 1846.9pt>
 File: Cap3/Figuras/Diagrama General-Centros de Costo.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Centros de Costo.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Centros de Costo.png  used on input line 114.
 (pdftex.def)             Requested size: 471.98154pt x 244.21991pt.
- [30 <./Cap3/Figuras/Diagrama General-Centros de Costo.png>]
-<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=1042, 855.195pt x 1260.71pt>
+ [32 <./Cap3/Figuras/Diagrama General-Centros de Costo.png>]
+<Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png, id=1052, 855.195pt x 1260.71pt>
 File: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png  used on input line 126.
 (pdftex.def)             Requested size: 188.80899pt x 278.33813pt.
- [31 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>]
-<Cap3/Figuras/Diagrama General-Calendario contable.png, id=1048, 3741.98pt x 1750.54pt>
+ [33 <./Cap3/Figuras/Diagrama General-Cuadros de Ayuda.png>]
+<Cap3/Figuras/Diagrama General-Calendario contable.png, id=1058, 3741.98pt x 1750.54pt>
 File: Cap3/Figuras/Diagrama General-Calendario contable.png Graphic file (type png)
 <use Cap3/Figuras/Diagrama General-Calendario contable.png>
 Package pdftex.def Info: Cap3/Figuras/Diagrama General-Calendario contable.png  used on input line 139.
 (pdftex.def)             Requested size: 472.0287pt x 220.82028pt.
-) [32 <./Cap3/Figuras/Diagrama General-Calendario contable.png>]
+) [34 <./Cap3/Figuras/Diagrama General-Calendario contable.png>]
 \openout2 = `Cap4/Cap4.aux'.
 
  (Cap4/Cap4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [35
 
 
 
 
-] (Cap4/Tablas/stakeholders.tex)
-<Cap4/Figuras/evidencia1.png, id=1066, 8584.07pt x 4842.09pt>
+] (Cap4/Tablas/stakeholders.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+<Cap4/Figuras/evidencia1.png, id=1075, 8584.07pt x 4842.09pt>
 File: Cap4/Figuras/evidencia1.png Graphic file (type png)
 <use Cap4/Figuras/evidencia1.png>
 Package pdftex.def Info: Cap4/Figuras/evidencia1.png  used on input line 36.
@@ -2739,7 +1537,7 @@ Package pdftex.def Info: Cap4/Figuras/evidencia1.png  used on input line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap4/Figuras/evidenciaHU.png, id=1067, 8592.1pt x 4826.03pt>
+<Cap4/Figuras/evidenciaHU.png, id=1076, 8592.1pt x 4826.03pt>
 File: Cap4/Figuras/evidenciaHU.png Graphic file (type png)
 <use Cap4/Figuras/evidenciaHU.png>
 Package pdftex.def Info: Cap4/Figuras/evidenciaHU.png  used on input line 44.
@@ -2747,7 +1545,7 @@ Package pdftex.def Info: Cap4/Figuras/evidenciaHU.png  used on input line 44.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap4/Figuras/evidenciaprototipos.jpeg, id=1068, 1027.84pt x 579.16376pt>
+<Cap4/Figuras/evidenciaprototipos.jpeg, id=1077, 1027.84pt x 579.16376pt>
 File: Cap4/Figuras/evidenciaprototipos.jpeg Graphic file (type jpg)
 <use Cap4/Figuras/evidenciaprototipos.jpeg>
 Package pdftex.def Info: Cap4/Figuras/evidenciaprototipos.jpeg  used on input line 51.
@@ -2755,59 +1553,44 @@ Package pdftex.def Info: Cap4/Figuras/evidenciaprototipos.jpeg  used on input li
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35 <./Cap4/Figuras/evidencia1.png> <./Cap4/Figuras/evidenciaHU.png>] (Cap4/Tablas/epicas.tex
-Overfull \hbox (4.76006pt too wide) in alignment at lines 1--7
- [] [] [] [] 
- []
-
-
-Overfull \hbox (4.76006pt too wide) in alignment at lines 7--12
- [] [] [] [] 
- []
-
-
-Overfull \hbox (4.76006pt too wide) in alignment at lines 12--14
- [] [] [] [] 
- []
-
-
-Overfull \hbox (4.76006pt too wide) in alignment at lines 14--15
- [] [] [] [] 
- []
-
-
+(Cap4/Tablas/epicas.tex
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
-[]|\T1/phv/m/n/10.95 Activar/Desactivar cuen-tas
+[]|\T1/phv/m/n/12 (+20) Activar/Desactivar cuen-tas
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 44--45
-[]|\T1/phv/m/n/10.95 Crear ter-ce-ros des-de PDF
+Underfull \hbox (badness 1342) in paragraph at lines 44--45
+[]|\T1/phv/m/n/12 (+20) Crear ter-ce-ros des-de PDF
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-[]|\T1/phv/m/n/10.95 Activar/Desactivar mé-to-dos
+Underfull \hbox (badness 3713) in paragraph at lines 58--59
+[]|\T1/phv/m/n/12 (+20) Modificar pro-duc-tos en el
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 96--97
-[]|\T1/phv/m/n/10.95 Activar/Desactivar ti-pos de
+Underfull \hbox (badness 3098) in paragraph at lines 64--65
+[]|\T1/phv/m/n/12 (+20) Exportar pro-duc-tos en un
  []
 
 
-Overfull \hbox (4.76006pt too wide) in alignment at lines 15--128
- [] [] [] [] 
+Underfull \hbox (badness 2393) in paragraph at lines 66--67
+[]|\T1/phv/m/n/12 (+20) Consultar pro-duc-tos en el
  []
 
-ignored error: Infinite glue shrinkage found in box being split [36 <./Cap4/Figuras/evidenciaprototipos.jpeg>]
-ignored error: Infinite glue shrinkage found in box being split [37]) (Cap4/Tablas/historiasUsuario.tex
+
+Underfull \hbox (badness 6961) in paragraph at lines 86--87
+[]|\T1/phv/m/n/12 (+20) Activar/Desactivar mé-to-dos
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 96--97
+[]|\T1/phv/m/n/12 (+20) Activar/Desactivar ti-pos de
+ []
+
+[36]
+ignored error: Infinite glue shrinkage found in box being split [37 <./Cap4/Figuras/evidencia1.png>]
+ignored error: Infinite glue shrinkage found in box being split [38]) (Cap4/Tablas/historiasUsuario.tex
 Overfull \hbox (18.98642pt too wide) in alignment at lines 1--7
  [] [] [] [] 
  []
@@ -2829,182 +1612,312 @@ Overfull \hbox (18.98642pt too wide) in alignment at lines 14--15
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/phv/m/n/10.95 HE-01-
+[]|\T1/phv/m/n/12 (+20) HE-01-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/phv/m/n/10.95 Activar/desactivar
+[]|\T1/phv/m/n/12 (+20) Activar/desactivar
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
-\T1/phv/m/n/10.95 Quiero ac-ti-
+[]|\T1/phv/m/n/12 (+20) Yo co-mo
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
-\T1/phv/m/n/10.95 var/desactivar las
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 16--18
-\T1/phv/m/n/10.95 cuen-tas con-ta-bles en
+\T1/phv/m/n/12 (+20) ad-mi-nis-tra-dor del
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
-\T1/phv/m/n/10.95 Para con-tro-lar qué
+\T1/phv/m/n/12 (+20) Quiero
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 16--18
-\T1/phv/m/n/10.95 cuen-tas es-tán dis-po-
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/phv/m/n/12 (+20) ac-ti-var/desactivar
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 18--22
-\T1/phv/m/n/10.95 la in-ter-faz con-fi-gu-ra-ción/catálogo
+Underfull \hbox (badness 4205) in paragraph at lines 16--18
+\T1/phv/m/n/12 (+20) en el ca-tá-lo-go de
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 18--22
-\T1/phv/m/n/10.95 la in-ter-faz con-fi-gu-ra-ción/catálogo
+Underfull \hbox (badness 4205) in paragraph at lines 16--18
+\T1/phv/m/n/12 (+20) Para con-tro-lar qué
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/phv/m/n/12 (+20) cuen-tas es-tán
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 16--18
+\T1/phv/m/n/12 (+20) en las ope-ra-cio-nes
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 18--22
+\T1/phv/m/n/12 (+20) tro en la in-ter-faz con-fi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 18--22
+\T1/phv/m/n/12 (+20) Entonces el sis-te-ma de-be-rá
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 18--22
+\T1/phv/m/n/12 (+20) tro en la in-ter-faz con-fi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 18--22
+\T1/phv/m/n/12 (+20) Entonces el sis-te-ma de-be-rá
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T1/phv/m/n/10.95 HE-02-
- []
-
-
-Underfull \hbox (badness 3396) in paragraph at lines 23--23
-[]|\T1/phv/m/n/10.95 Activar/desactivar ta-ri-
+[]|\T1/phv/m/n/12 (+20) HE-02-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
-\T1/phv/m/n/10.95 Quiero ac-ti-
+[]|\T1/phv/m/n/12 (+20) Yo co-mo
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
-\T1/phv/m/n/10.95 var/desactivar las
+\T1/phv/m/n/12 (+20) ad-mi-nis-tra-dor del
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
-\T1/phv/m/n/10.95 Para con-tro-lar qué
+\T1/phv/m/n/12 (+20) Quiero
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 23--25
+\T1/phv/m/n/12 (+20) Para con-tro-lar qué
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\T1/phv/m/n/12 (+20) im-pues-tos es-tán
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 23--25
+\T1/phv/m/n/12 (+20) en las ope-ra-cio-nes
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 25--31
+\T1/phv/m/n/12 (+20) tro en la in-ter-faz con-fi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 25--31
+\T1/phv/m/n/12 (+20) tro en la in-ter-faz con-fi-gu-ra-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T1/phv/m/n/10.95 HE-03-
+[]|\T1/phv/m/n/12 (+20) HE-03-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
-\T1/phv/m/n/10.95 Quiero ac-ti-
+[]|\T1/phv/m/n/12 (+20) Yo co-mo
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
-\T1/phv/m/n/10.95 var/desactivar la
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 32--34
-\T1/phv/m/n/10.95 des-de la in-ter-faz del
+\T1/phv/m/n/12 (+20) ad-mi-nis-tra-dor del
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
-\T1/phv/m/n/10.95 Para con-ser-var re-
+\T1/phv/m/n/12 (+20) Quiero
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
-\T1/phv/m/n/10.95 gis-tros vi-gen-tes y
+\T1/phv/m/n/12 (+20) ac-ti-var/desactivar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\T1/phv/m/n/12 (+20) la in-for-ma-ción de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\T1/phv/m/n/12 (+20) ter-ce-ros des-de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+\T1/phv/m/n/12 (+20) Para con-ser-var
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 32--34
+\T1/phv/m/n/12 (+20) re-gis-tros vi-gen-tes y
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) en la in-ter-faz con-fi-gu-ra-ción /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--42
-\T1/phv/m/n/10.95 Cuando doy clic en Ac-ti-
- []
-
-
-Underfull \hbox (badness 5260) in paragraph at lines 34--42
-\T1/phv/m/n/10.95 ter-ce-ro fue ac-ti-va-do/desactivado
+\T1/phv/m/n/12 (+20) Cuando doy clic en
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--42
-\T1/phv/m/n/10.95 Cuando doy clic en Ac-ti-
+\T1/phv/m/n/12 (+20) Entonces el sis-te-ma
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 34--42
-\T1/phv/m/n/10.95 ti-po de iden-ti-fi-ca-ción fue ac-ti-va-
+Underfull \hbox (badness 4569) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) de-be-rá mos-trar un men-sa-je
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--42
-\T1/phv/m/n/10.95 Cuando doy clic en Ac-ti-
+\T1/phv/m/n/12 (+20) in-di-can-do que el ter-ce-ro
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 34--42
-\T1/phv/m/n/10.95 trar un men-sa-je in-di-can-do que
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) fue ac-ti-va-do/desactivado
  []
 
 
-Underfull \hbox (badness 6141) in paragraph at lines 34--42
-\T1/phv/m/n/10.95 el ti-po de ter-ce-ro fue ac-ti-va-
+Underfull \hbox (badness 1365) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) en la in-ter-faz con-fi-gu-ra-ción /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) Cuando doy clic en
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) Entonces el sis-te-ma de-be-rá
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) que el ti-po de iden-ti-fi-ca-ción
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) fue ac-ti-va-do/desactivado
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) en la in-ter-faz con-fi-gu-ra-ción /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) Cuando doy clic en
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) Entonces el sis-te-ma de-be-rá
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) que el ti-po de ter-ce-ro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/phv/m/n/12 (+20) fue ac-ti-va-do/desactivado
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--43
-[]|\T1/phv/m/n/10.95 HE-06-
- []
-
-
-Underfull \hbox (badness 3690) in paragraph at lines 43--43
-[]|\T1/phv/m/n/10.95 Activar/desactivar mé-
+[]|\T1/phv/m/n/12 (+20) HE-06-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
-\T1/phv/m/n/10.95 Quiero ac-ti-
+[]|\T1/phv/m/n/12 (+20) Yo co-mo
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
-\T1/phv/m/n/10.95 Para con-ser-var re-
+\T1/phv/m/n/12 (+20) ad-mi-nis-tra-dor del
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
-\T1/phv/m/n/10.95 gis-tros vi-gen-tes y
+\T1/phv/m/n/12 (+20) Quiero
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 45--48
-\T1/phv/m/n/10.95 de pa-go y he se-lec-cio-na-do un
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+\T1/phv/m/n/12 (+20) ac-ti-var/desactivar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+\T1/phv/m/n/12 (+20) Para con-ser-var
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 43--45
+\T1/phv/m/n/12 (+20) re-gis-tros vi-gen-tes y
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 45--48
+\T1/phv/m/n/12 (+20) en la in-ter-faz con-fi-gu-ra-ción
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--48
-\T1/phv/m/n/10.95 Cuando doy clic en Ac-ti-
+\T1/phv/m/n/12 (+20) / mé-to-dos de pa-go y he
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 45--48
-\T1/phv/m/n/10.95 trar un men-sa-je in-di-can-do que
+Underfull \hbox (badness 4479) in paragraph at lines 45--48
+\T1/phv/m/n/12 (+20) se-lec-cio-na-do un mé-to-do de
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 45--48
-\T1/phv/m/n/10.95 el me-to-do de pa-go fue ac-ti-va-
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+\T1/phv/m/n/12 (+20) Cuando doy clic en
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 45--48
+\T1/phv/m/n/12 (+20) Entonces el sis-te-ma de-be-rá
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+\T1/phv/m/n/12 (+20) que el me-to-do de pa-go
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+\T1/phv/m/n/12 (+20) fue ac-ti-va-do/desactivado
  []
 
 
@@ -3012,15 +1925,21 @@ Overfull \hbox (18.98642pt too wide) in alignment at lines 15--49
  [] [] [] [] 
  []
 
-[38]
-ignored error: Infinite glue shrinkage found in box being split [39]
-ignored error: Infinite glue shrinkage found in box being split [40]) [41] [42]
-<Cap4/Figuras/catalogo de cuentas.png, id=1114, 2890.8pt x 1773.62625pt>
+[39]
+Underfull \vbox (badness 1460) has occurred while \output is active []
+
+ [40 <./Cap4/Figuras/evidenciaHU.png> <./Cap4/Figuras/evidenciaprototipos.jpeg>]
+ignored error: Infinite glue shrinkage found in box being split [41]
+ignored error: Infinite glue shrinkage found in box being split [42]) [43]
+Underfull \vbox (badness 3229) has occurred while \output is active []
+
+ [44]
+<Cap4/Figuras/catalogo de cuentas.png, id=1123, 2890.8pt x 1773.62625pt>
 File: Cap4/Figuras/catalogo de cuentas.png Graphic file (type png)
 <use Cap4/Figuras/catalogo de cuentas.png>
 Package pdftex.def Info: Cap4/Figuras/catalogo de cuentas.png  used on input line 99.
 (pdftex.def)             Requested size: 472.0211pt x 289.60461pt.
-<Cap4/Figuras/inventario de productos.png, id=1116, 2890.8pt x 1626.075pt>
+<Cap4/Figuras/inventario de productos.png, id=1125, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/inventario de productos.png Graphic file (type png)
 <use Cap4/Figuras/inventario de productos.png>
 Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input line 110.
@@ -3029,8 +1948,8 @@ Package pdftex.def Info: Cap4/Figuras/inventario de productos.png  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43 <./Cap4/Figuras/catalogo de cuentas.png>]
-<Cap4/Figuras/terceros.png, id=1122, 2890.8pt x 1626.075pt>
+[45 <./Cap4/Figuras/catalogo de cuentas.png>]
+<Cap4/Figuras/terceros.png, id=1131, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/terceros.png Graphic file (type png)
 <use Cap4/Figuras/terceros.png>
 Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 122.
@@ -3039,8 +1958,8 @@ Package pdftex.def Info: Cap4/Figuras/terceros.png  used on input line 122.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44 <./Cap4/Figuras/inventario de productos.png>]
-<Cap4/Figuras/impuestos.png, id=1129, 2890.8pt x 1626.075pt>
+[46 <./Cap4/Figuras/inventario de productos.png>]
+<Cap4/Figuras/impuestos.png, id=1137, 2890.8pt x 1626.075pt>
 File: Cap4/Figuras/impuestos.png Graphic file (type png)
 <use Cap4/Figuras/impuestos.png>
 Package pdftex.def Info: Cap4/Figuras/impuestos.png  used on input line 135.
@@ -3049,239 +1968,214 @@ Package pdftex.def Info: Cap4/Figuras/impuestos.png  used on input line 135.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [45 <./Cap4/Figuras/terceros.png>] [46 <./Cap4/Figuras/impuestos.png>]
+) [47 <./Cap4/Figuras/terceros.png>] [48 <./Cap4/Figuras/impuestos.png>]
 \openout2 = `Cap5/Cap5.aux'.
 
- (Cap5/Cap5.tex
-<Cap5/Figuras/contexto.png, id=1142, 1690.315pt x 1047.915pt>
-File: Cap5/Figuras/contexto.png Graphic file (type png)
-<use Cap5/Figuras/contexto.png>
-Package pdftex.def Info: Cap5/Figuras/contexto.png  used on input line 23.
-(pdftex.def)             Requested size: 472.02116pt x 292.63069pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[47
-
-
-
-
-] [48 <./Cap5/Figuras/contexto.png>]
-<Cap5/Figuras/contenedor.png, id=1157, 2545.51pt x 1824.8175pt>
-File: Cap5/Figuras/contenedor.png Graphic file (type png)
-<use Cap5/Figuras/contenedor.png>
-Package pdftex.def Info: Cap5/Figuras/contenedor.png  used on input line 42.
-(pdftex.def)             Requested size: 471.99954pt x 338.3656pt.
- [49 <./Cap5/Figuras/contenedor.png>] (Cap5/Tablas/contenedores.tex
-Underfull \hbox (badness 1199) in paragraph at lines 15--15
-[]|\T1/phv/m/n/10.95 Representa los mi-cro-ser-vi-cios de-sa-rro-lla-dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-[]|\T1/phv/m/n/10.95 Trabajo con-jun-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\T1/phv/m/n/10.95 to de di-se-ño
- []
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 19--20
-\T1/phv/m/n/10.95 con el pro-yec-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\T1/phv/m/n/10.95 yen dia-gra-mas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\T1/phv/m/n/10.95 entidad-relación,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\T1/phv/m/n/10.95 re-la-cio-na-les y
- []
-
-)
-<Cap5/Figuras/componentes.png, id=1165, 1589.2173pt x 1128.1347pt>
-File: Cap5/Figuras/componentes.png Graphic file (type png)
-<use Cap5/Figuras/componentes.png>
-Package pdftex.def Info: Cap5/Figuras/componentes.png  used on input line 59.
-(pdftex.def)             Requested size: 472.01598pt x 335.06909pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51 <./Cap5/Figuras/componentes.png>]
-<Cap5/Figuras/patronhexagonal.png, id=1177, 685.8122pt x 366.61969pt>
-File: Cap5/Figuras/patronhexagonal.png Graphic file (type png)
-<use Cap5/Figuras/patronhexagonal.png>
-Package pdftex.def Info: Cap5/Figuras/patronhexagonal.png  used on input line 86.
-(pdftex.def)             Requested size: 377.63739pt x 201.8764pt.
-<Cap5/Figuras/flujohexagonal.png, id=1179, 5002.69pt x 1595.9625pt>
-File: Cap5/Figuras/flujohexagonal.png Graphic file (type png)
-<use Cap5/Figuras/flujohexagonal.png>
-Package pdftex.def Info: Cap5/Figuras/flujohexagonal.png  used on input line 99.
-(pdftex.def)             Requested size: 471.9781pt x 195.79326pt.
- [52 <./Cap5/Figuras/patronhexagonal.png>]
-<Cap5/Figuras/patroncapas.png, id=1192, 956.82469pt x 375.65344pt>
-File: Cap5/Figuras/patroncapas.png Graphic file (type png)
-<use Cap5/Figuras/patroncapas.png>
-Package pdftex.def Info: Cap5/Figuras/patroncapas.png  used on input line 120.
-(pdftex.def)             Requested size: 377.62772pt x 148.25824pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[53 <./Cap5/Figuras/flujohexagonal.png>]
-<Cap5/Figuras/flujocapas.png, id=1202, 4274.97125pt x 2331.71124pt>
-File: Cap5/Figuras/flujocapas.png Graphic file (type png)
-<use Cap5/Figuras/flujocapas.png>
-Package pdftex.def Info: Cap5/Figuras/flujocapas.png  used on input line 134.
-(pdftex.def)             Requested size: 472.00954pt x 228.41719pt.
-) [54 <./Cap5/Figuras/patroncapas.png> <./Cap5/Figuras/flujocapas.png>]
-\openout2 = `Cap6/Cap6.aux'.
-
- (Cap6/Cap6.tex [55
+ (Cap5/Cap5.tex [49
 
 
 
 
 ]
-<Cap6/Figuras/strategy.png, id=1222, 2273.49374pt x 2262.4525pt>
+<Cap5/Figuras/contexto.png, id=1157, 1690.315pt x 1047.915pt>
+File: Cap5/Figuras/contexto.png Graphic file (type png)
+<use Cap5/Figuras/contexto.png>
+Package pdftex.def Info: Cap5/Figuras/contexto.png  used on input line 23.
+(pdftex.def)             Requested size: 472.02116pt x 292.63069pt.
+ [50 <./Cap5/Figuras/contexto.png>]
+<Cap5/Figuras/contenedor.png, id=1166, 2545.51pt x 1824.8175pt>
+File: Cap5/Figuras/contenedor.png Graphic file (type png)
+<use Cap5/Figuras/contenedor.png>
+Package pdftex.def Info: Cap5/Figuras/contenedor.png  used on input line 42.
+(pdftex.def)             Requested size: 471.99954pt x 338.3656pt.
+ [51 <./Cap5/Figuras/contenedor.png>] (Cap5/Tablas/contenedores.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]|\T1/phv/m/n/12 (+20) Sin
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 11--11
+\T1/phv/m/n/12 (+20) y los mi-cro-ser-vi-cios. Se co-nec-ta con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]|\T1/phv/m/n/12 (+20) Principal
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 19--19
+\T1/phv/m/n/12 (+20) de los mi-cro-ser-vi-cios, uti-li-zan-do Post-
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 19--20
+\T1/phv/m/n/12 (+20) de di-se-ño con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\T1/phv/m/n/12 (+20) se cons-tru-yen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\T1/phv/m/n/12 (+20) dia-gra-mas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\T1/phv/m/n/12 (+20) entidad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\T1/phv/m/n/12 (+20) relación,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\T1/phv/m/n/12 (+20) re-la-cio-na-les
+ []
+
+)
+<Cap5/Figuras/componentes.png, id=1174, 1589.2173pt x 1128.1347pt>
+File: Cap5/Figuras/componentes.png Graphic file (type png)
+<use Cap5/Figuras/componentes.png>
+Package pdftex.def Info: Cap5/Figuras/componentes.png  used on input line 59.
+(pdftex.def)             Requested size: 472.01598pt x 335.06909pt.
+ [52] [53 <./Cap5/Figuras/componentes.png>]
+<Cap5/Figuras/patronhexagonal.png, id=1185, 685.8122pt x 366.61969pt>
+File: Cap5/Figuras/patronhexagonal.png Graphic file (type png)
+<use Cap5/Figuras/patronhexagonal.png>
+Package pdftex.def Info: Cap5/Figuras/patronhexagonal.png  used on input line 86.
+(pdftex.def)             Requested size: 377.63739pt x 201.8764pt.
+ [54 <./Cap5/Figuras/patronhexagonal.png>]
+<Cap5/Figuras/flujohexagonal.png, id=1195, 5002.69pt x 1595.9625pt>
+File: Cap5/Figuras/flujohexagonal.png Graphic file (type png)
+<use Cap5/Figuras/flujohexagonal.png>
+Package pdftex.def Info: Cap5/Figuras/flujohexagonal.png  used on input line 99.
+(pdftex.def)             Requested size: 471.9781pt x 195.79326pt.
+ [55 <./Cap5/Figuras/flujohexagonal.png>]
+<Cap5/Figuras/patroncapas.png, id=1207, 956.82469pt x 375.65344pt>
+File: Cap5/Figuras/patroncapas.png Graphic file (type png)
+<use Cap5/Figuras/patroncapas.png>
+Package pdftex.def Info: Cap5/Figuras/patroncapas.png  used on input line 120.
+(pdftex.def)             Requested size: 377.62772pt x 148.25824pt.
+<Cap5/Figuras/flujocapas.png, id=1209, 4274.97125pt x 2331.71124pt>
+File: Cap5/Figuras/flujocapas.png Graphic file (type png)
+<use Cap5/Figuras/flujocapas.png>
+Package pdftex.def Info: Cap5/Figuras/flujocapas.png  used on input line 133.
+(pdftex.def)             Requested size: 472.00954pt x 228.41719pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [56 <./Cap5/Figuras/patroncapas.png>] [57 <./Cap5/Figuras/flujocapas.png>]
+\openout2 = `Cap6/Cap6.aux'.
+
+ (Cap6/Cap6.tex [58
+
+
+
+
+]
+<Cap6/Figuras/strategy.png, id=1234, 2273.49374pt x 2262.4525pt>
 File: Cap6/Figuras/strategy.png Graphic file (type png)
 <use Cap6/Figuras/strategy.png>
 Package pdftex.def Info: Cap6/Figuras/strategy.png  used on input line 28.
 (pdftex.def)             Requested size: 472.00134pt x 469.70906pt.
- [56 <./Cap6/Figuras/strategy.png>]
-<Cap6/Figuras/FileValidator.png, id=1230, 409.53pt x 283.0575pt>
+ [59 <./Cap6/Figuras/strategy.png>]
+<Cap6/Figuras/FileValidator.png, id=1241, 409.53pt x 283.0575pt>
 File: Cap6/Figuras/FileValidator.png Graphic file (type png)
 <use Cap6/Figuras/FileValidator.png>
 Package pdftex.def Info: Cap6/Figuras/FileValidator.png  used on input line 42.
 (pdftex.def)             Requested size: 472.06189pt x 326.27806pt.
- [57 <./Cap6/Figuras/FileValidator.png>]
-<Cap6/Figuras/PDFValidator.png, id=1239, 518.6878pt x 401.24907pt>
+ [60 <./Cap6/Figuras/FileValidator.png>]
+<Cap6/Figuras/PDFValidator.png, id=1250, 518.6878pt x 401.24907pt>
 File: Cap6/Figuras/PDFValidator.png Graphic file (type png)
 <use Cap6/Figuras/PDFValidator.png>
 Package pdftex.def Info: Cap6/Figuras/PDFValidator.png  used on input line 53.
 (pdftex.def)             Requested size: 472.05412pt x 365.17395pt.
- [58 <./Cap6/Figuras/PDFValidator.png>]
-<Cap6/Figuras/Excelvalidator.png, id=1246, 523.20468pt x 389.95688pt>
+ [61 <./Cap6/Figuras/PDFValidator.png>]
+<Cap6/Figuras/Excelvalidator.png, id=1258, 523.20468pt x 389.95688pt>
 File: Cap6/Figuras/Excelvalidator.png Graphic file (type png)
 <use Cap6/Figuras/Excelvalidator.png>
 Package pdftex.def Info: Cap6/Figuras/Excelvalidator.png  used on input line 63.
 (pdftex.def)             Requested size: 472.04544pt x 351.82668pt.
-<Cap6/Figuras/observer.png, id=1248, 3375.61125pt x 2266.4675pt>
+ [62 <./Cap6/Figuras/Excelvalidator.png>]
+<Cap6/Figuras/observer.png, id=1265, 3375.61125pt x 2266.4675pt>
 File: Cap6/Figuras/observer.png Graphic file (type png)
 <use Cap6/Figuras/observer.png>
 Package pdftex.def Info: Cap6/Figuras/observer.png  used on input line 78.
 (pdftex.def)             Requested size: 472.01578pt x 316.92287pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[59 <./Cap6/Figuras/Excelvalidator.png>]
-Overfull \hbox (15.21698pt too wide) in paragraph at lines 95--96
-[]\T1/phv/m/n/10.95 El lis-te-ner pro-ce-sa el even-to y ac-tua-li-za la ba-se de da-tos me-dian-te la in-ter-faz \T1/cmtt/m/n/10.95 IUsageCostCenter\T1/phv/m/n/10.95 ,
- []
-
-
-Underfull \vbox (badness 3118) has occurred while \output is active []
-
- [60 <./Cap6/Figuras/observer.png>]
-Overfull \hbox (29.27943pt too wide) in paragraph at lines 112--113
-\T1/phv/m/n/10.95 even-tos a Ter-ce-ros y Mé-to-dos de pa-go uti-li-zan-do el mis-mo ti-po de even-to de uso ([][]\T1/cmtt/m/n/10.95 EventUsageType.USED[]\T1/phv/m/n/10.95 ).
- []
-
-<Cap6/Figuras/publisher.png, id=1262, 682.04813pt x 324.46219pt>
+ [63 <./Cap6/Figuras/observer.png>]
+<Cap6/Figuras/publisher.png, id=1274, 682.04813pt x 324.46219pt>
 File: Cap6/Figuras/publisher.png Graphic file (type png)
 <use Cap6/Figuras/publisher.png>
 Package pdftex.def Info: Cap6/Figuras/publisher.png  used on input line 117.
 (pdftex.def)             Requested size: 472.0395pt x 224.5574pt.
-[61 <./Cap6/Figuras/publisher.png>]
-Overfull \hbox (14.6591pt too wide) in paragraph at lines 123--124
-\T1/phv/m/n/10.95 un [][]\T1/cmtt/m/n/10.95 EventDto []\T1/phv/m/n/10.95 con el ti-po [][]\T1/cmtt/m/n/10.95 "USED" []\T1/phv/m/n/10.95 y uti-li-za [][]\T1/cmtt/m/n/10.95 convertAndSend []\T1/phv/m/n/10.95 pa-ra pu-bli-car en [][]\T1/cmtt/m/n/10.95 COSTCENTER_USED_EXCHANGE[]\T1/phv/m/n/10.95 . 
- []
 
-<Cap6/Figuras/handler.png, id=1269, 769.37437pt x 161.85469pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[64]
+<Cap6/Figuras/handler.png, id=1280, 769.37437pt x 161.85469pt>
 File: Cap6/Figuras/handler.png Graphic file (type png)
 <use Cap6/Figuras/handler.png>
 Package pdftex.def Info: Cap6/Figuras/handler.png  used on input line 127.
 (pdftex.def)             Requested size: 472.04129pt x 99.30417pt.
-<Cap6/Figuras/listener.png, id=1271, 706.13812pt x 621.07031pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+[]\T1/phv/b/n/12 (+20) Switch de ti-po: \T1/phv/m/n/12 (+20) Eva-lúa [][]\T1/cmtt/m/n/12 event.getType()[]\T1/phv/m/n/12 (+20) , ac-tual-men-te so-por-ta
+ []
+
+[65 <./Cap6/Figuras/publisher.png> <./Cap6/Figuras/handler.png>]
+<Cap6/Figuras/listener.png, id=1288, 706.13812pt x 621.07031pt>
 File: Cap6/Figuras/listener.png Graphic file (type png)
 <use Cap6/Figuras/listener.png>
 Package pdftex.def Info: Cap6/Figuras/listener.png  used on input line 152.
 (pdftex.def)             Requested size: 472.03261pt x 415.16727pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[62 <./Cap6/Figuras/handler.png>]
-<Cap6/Figuras/notificacion.png, id=1280, 1020.81375pt x 316.93407pt>
+ [66 <./Cap6/Figuras/listener.png>]
+<Cap6/Figuras/notificacion.png, id=1296, 1020.81375pt x 316.93407pt>
 File: Cap6/Figuras/notificacion.png Graphic file (type png)
 <use Cap6/Figuras/notificacion.png>
 Package pdftex.def Info: Cap6/Figuras/notificacion.png  used on input line 166.
 (pdftex.def)             Requested size: 377.63287pt x 117.24442pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Cap6/Figuras/botones.png, id=1281, 1086.30844pt x 451.6875pt>
+<Cap6/Figuras/botones.png, id=1297, 1086.30844pt x 451.6875pt>
 File: Cap6/Figuras/botones.png Graphic file (type png)
 <use Cap6/Figuras/botones.png>
 Package pdftex.def Info: Cap6/Figuras/botones.png  used on input line 173.
 (pdftex.def)             Requested size: 377.62784pt x 157.0178pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63 <./Cap6/Figuras/listener.png>]
-<Cap6/Figuras/variablescss.png, id=1288, 606.01407pt x 488.57532pt>
+ [67 <./Cap6/Figuras/notificacion.png> <./Cap6/Figuras/botones.png>]
+<Cap6/Figuras/variablescss.png, id=1306, 606.01407pt x 488.57532pt>
 File: Cap6/Figuras/variablescss.png Graphic file (type png)
 <use Cap6/Figuras/variablescss.png>
 Package pdftex.def Info: Cap6/Figuras/variablescss.png  used on input line 187.
 (pdftex.def)             Requested size: 377.62973pt x 304.44931pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Cap6/Figuras/tipografia.png, id=1290, 633.11531pt x 735.49782pt>
+<Cap6/Figuras/tipografia.png, id=1308, 633.11531pt x 735.49782pt>
 File: Cap6/Figuras/tipografia.png Graphic file (type png)
 <use Cap6/Figuras/tipografia.png>
 Package pdftex.def Info: Cap6/Figuras/tipografia.png  used on input line 199.
 (pdftex.def)             Requested size: 472.04341pt x 548.37863pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[64 <./Cap6/Figuras/notificacion.png> <./Cap6/Figuras/botones.png>]
-<Cap6/Figuras/utilitarias.png, id=1298, 1144.275pt x 613.54219pt>
+[68 <./Cap6/Figuras/variablescss.png>]
+<Cap6/Figuras/utilitarias.png, id=1315, 1144.275pt x 613.54219pt>
 File: Cap6/Figuras/utilitarias.png Graphic file (type png)
 <use Cap6/Figuras/utilitarias.png>
 Package pdftex.def Info: Cap6/Figuras/utilitarias.png  used on input line 209.
 (pdftex.def)             Requested size: 472.03671pt x 253.09863pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [65 <./Cap6/Figuras/variablescss.png>] [66 <./Cap6/Figuras/tipografia.png>] [67 <./Cap6/Figuras/utilitarias.png>]
+ [69 <./Cap6/Figuras/tipografia.png>]) [70 <./Cap6/Figuras/utilitarias.png>]
 \openout2 = `Cap7/Cap7.aux'.
 
  (Cap7/Cap7.tex
-<Cap7/Figuras/testCatalogue.png, id=1315, 362.85562pt x 181.42781pt>
+<Cap7/Figuras/testCatalogue.png, id=1327, 362.85562pt x 181.42781pt>
 File: Cap7/Figuras/testCatalogue.png Graphic file (type png)
 <use Cap7/Figuras/testCatalogue.png>
 Package pdftex.def Info: Cap7/Figuras/testCatalogue.png  used on input line 25.
@@ -3290,18 +2184,21 @@ Package pdftex.def Info: Cap7/Figuras/testCatalogue.png  used on input line 25.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68
+
+Underfull \vbox (badness 3049) has occurred while \output is active []
+
+ [71
 
 
 
 
 ]
-<Cap7/Figuras/jacocoCataloguep1.png, id=1326, 1126.96031pt x 455.45157pt>
+<Cap7/Figuras/jacocoCataloguep1.png, id=1337, 1126.96031pt x 455.45157pt>
 File: Cap7/Figuras/jacocoCataloguep1.png Graphic file (type png)
 <use Cap7/Figuras/jacocoCataloguep1.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep1.png  used on input line 34.
 (pdftex.def)             Requested size: 472.03041pt x 190.76712pt.
-<Cap7/Figuras/jacocoCataloguep2.png, id=1327, 1120.185pt x 466.74374pt>
+<Cap7/Figuras/jacocoCataloguep2.png, id=1338, 1120.185pt x 466.74374pt>
 File: Cap7/Figuras/jacocoCataloguep2.png Graphic file (type png)
 <use Cap7/Figuras/jacocoCataloguep2.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep2.png  used on input line 41.
@@ -3310,7 +2207,7 @@ Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep2.png  used on input line 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Cap7/Figuras/jacocoCataloguep3.png, id=1328, 1120.185pt x 387.69844pt>
+<Cap7/Figuras/jacocoCataloguep3.png, id=1339, 1120.185pt x 387.69844pt>
 File: Cap7/Figuras/jacocoCataloguep3.png Graphic file (type png)
 <use Cap7/Figuras/jacocoCataloguep3.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep3.png  used on input line 48.
@@ -3318,8 +2215,8 @@ Package pdftex.def Info: Cap7/Figuras/jacocoCataloguep3.png  used on input line 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[69 <./Cap7/Figuras/testCatalogue.png> <./Cap7/Figuras/jacocoCataloguep1.png>]
-<Cap7/Figuras/testConfiguracion.png, id=1336, 319.1925pt x 177.66376pt>
+[72 <./Cap7/Figuras/testCatalogue.png> <./Cap7/Figuras/jacocoCataloguep1.png>]
+<Cap7/Figuras/testConfiguracion.png, id=1347, 319.1925pt x 177.66376pt>
 File: Cap7/Figuras/testConfiguracion.png Graphic file (type png)
 <use Cap7/Figuras/testConfiguracion.png>
 Package pdftex.def Info: Cap7/Figuras/testConfiguracion.png  used on input line 61.
@@ -3328,13 +2225,13 @@ Package pdftex.def Info: Cap7/Figuras/testConfiguracion.png  used on input line 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70 <./Cap7/Figuras/jacocoCataloguep2.png> <./Cap7/Figuras/jacocoCataloguep3.png>]
-<Cap7/Figuras/jacocoConfig1.png, id=1345, 1088.56688pt x 484.05844pt>
+[73 <./Cap7/Figuras/jacocoCataloguep2.png> <./Cap7/Figuras/jacocoCataloguep3.png>]
+<Cap7/Figuras/jacocoConfig1.png, id=1357, 1088.56688pt x 484.05844pt>
 File: Cap7/Figuras/jacocoConfig1.png Graphic file (type png)
 <use Cap7/Figuras/jacocoConfig1.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoConfig1.png  used on input line 72.
 (pdftex.def)             Requested size: 472.02786pt x 209.89896pt.
-<Cap7/Figuras/jacocoConfig2.png, id=1346, 1090.0725pt x 372.64218pt>
+<Cap7/Figuras/jacocoConfig2.png, id=1358, 1090.0725pt x 372.64218pt>
 File: Cap7/Figuras/jacocoConfig2.png Graphic file (type png)
 <use Cap7/Figuras/jacocoConfig2.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoConfig2.png  used on input line 79.
@@ -3343,13 +2240,13 @@ Package pdftex.def Info: Cap7/Figuras/jacocoConfig2.png  used on input line 79.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[71 <./Cap7/Figuras/testConfiguracion.png> <./Cap7/Figuras/jacocoConfig1.png>]
-<Cap7/Figuras/testProductos.png, id=1354, 328.22626pt x 190.46156pt>
+[74 <./Cap7/Figuras/testConfiguracion.png> <./Cap7/Figuras/jacocoConfig1.png>]
+<Cap7/Figuras/testProductos.png, id=1366, 328.22626pt x 190.46156pt>
 File: Cap7/Figuras/testProductos.png Graphic file (type png)
 <use Cap7/Figuras/testProductos.png>
 Package pdftex.def Info: Cap7/Figuras/testProductos.png  used on input line 93.
 (pdftex.def)             Requested size: 330.42409pt x 191.7369pt.
-<Cap7/Figuras/jacocoProductos.png, id=1356, 1024.57782pt x 583.42969pt>
+<Cap7/Figuras/jacocoProductos.png, id=1368, 1024.57782pt x 583.42969pt>
 File: Cap7/Figuras/jacocoProductos.png Graphic file (type png)
 <use Cap7/Figuras/jacocoProductos.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoProductos.png  used on input line 102.
@@ -3358,13 +2255,13 @@ Package pdftex.def Info: Cap7/Figuras/jacocoProductos.png  used on input line 10
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[72 <./Cap7/Figuras/jacocoConfig2.png> <./Cap7/Figuras/testProductos.png>]
-<Cap7/Figuras/testTerceros.png, id=1364, 347.79938pt x 180.675pt>
+[75 <./Cap7/Figuras/jacocoConfig2.png> <./Cap7/Figuras/testProductos.png>]
+<Cap7/Figuras/testTerceros.png, id=1376, 347.79938pt x 180.675pt>
 File: Cap7/Figuras/testTerceros.png Graphic file (type png)
 <use Cap7/Figuras/testTerceros.png>
 Package pdftex.def Info: Cap7/Figuras/testTerceros.png  used on input line 115.
 (pdftex.def)             Requested size: 330.43407pt x 171.65404pt.
-<Cap7/Figuras/jacocoTerceros.png, id=1366, 1099.85907pt x 581.17125pt>
+<Cap7/Figuras/jacocoTerceros.png, id=1378, 1099.85907pt x 581.17125pt>
 File: Cap7/Figuras/jacocoTerceros.png Graphic file (type png)
 <use Cap7/Figuras/jacocoTerceros.png>
 Package pdftex.def Info: Cap7/Figuras/jacocoTerceros.png  used on input line 124.
@@ -3373,107 +2270,148 @@ Package pdftex.def Info: Cap7/Figuras/jacocoTerceros.png  used on input line 124
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[73 <./Cap7/Figuras/jacocoProductos.png> <./Cap7/Figuras/testTerceros.png>] [74 <./Cap7/Figuras/jacocoTerceros.png>]
-<Cap7/Figuras/postman.png, id=1381, 279.29344pt x 367.3725pt>
+[76 <./Cap7/Figuras/jacocoProductos.png> <./Cap7/Figuras/testTerceros.png>] [77 <./Cap7/Figuras/jacocoTerceros.png>] [78]
+<Cap7/Figuras/postman.png, id=1397, 279.29344pt x 367.3725pt>
 File: Cap7/Figuras/postman.png Graphic file (type png)
 <use Cap7/Figuras/postman.png>
 Package pdftex.def Info: Cap7/Figuras/postman.png  used on input line 168.
 (pdftex.def)             Requested size: 236.02402pt x 310.45746pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[75]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [76 <./Cap7/Figuras/postman.png>]
-<Cap7/Figuras/postmanscripts.png, id=1393, 713.66624pt x 487.06969pt>
+ [79 <./Cap7/Figuras/postman.png>]
+<Cap7/Figuras/postmanscripts.png, id=1405, 713.66624pt x 487.06969pt>
 File: Cap7/Figuras/postmanscripts.png Graphic file (type png)
 <use Cap7/Figuras/postmanscripts.png>
 Package pdftex.def Info: Cap7/Figuras/postmanscripts.png  used on input line 186.
 (pdftex.def)             Requested size: 472.0339pt x 322.15816pt.
- [77 <./Cap7/Figuras/postmanscripts.png>]
-<Cap7/newman/newmanMetodosPago20.png, id=1401, 669.2503pt x 623.32875pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81 <./Cap7/Figuras/postmanscripts.png>]
+<Cap7/newman/newmanMetodosPago20.png, id=1419, 669.2503pt x 623.32875pt>
 File: Cap7/newman/newmanMetodosPago20.png Graphic file (type png)
 <use Cap7/newman/newmanMetodosPago20.png>
 Package pdftex.def Info: Cap7/newman/newmanMetodosPago20.png  used on input line 238.
 (pdftex.def)             Requested size: 377.63695pt x 351.72485pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[78]
-<Cap7/newman/newmanCentroAyuda20.png, id=1412, 666.99188pt x 608.2725pt>
+ [82 <./Cap7/newman/newmanMetodosPago20.png>]
+<Cap7/newman/newmanCentroAyuda20.png, id=1429, 666.99188pt x 608.2725pt>
 File: Cap7/newman/newmanCentroAyuda20.png Graphic file (type png)
 <use Cap7/newman/newmanCentroAyuda20.png>
 Package pdftex.def Info: Cap7/newman/newmanCentroAyuda20.png  used on input line 255.
 (pdftex.def)             Requested size: 377.63478pt x 344.38928pt.
+ [83 <./Cap7/newman/newmanCentroAyuda20.png>] (Cap7/Tablas/formato.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/phv/b/n/10.95 (+20) Versión de
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 5388) in paragraph at lines 12--13
+\T1/phv/m/n/10.95 (+20) ti-dad de ve-ces
+ []
 
-[79 <./Cap7/newman/newmanMetodosPago20.png>]
+
+Underfull \hbox (badness 2707) in paragraph at lines 14--14
+[]|\T1/phv/b/n/10.95 (+20) Fecha eje-cu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]|\T1/phv/b/n/10.95 (+20) Módulo del
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 32--32
+[]|\T1/phv/b/n/10.95 (+20) Resultado es-pe-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/phv/m/n/10.95 (+20) Si la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/phv/m/n/10.95 (+20) fun-cio-na-li-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/phv/m/n/10.95 (+20) cum-ple las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/phv/m/n/10.95 (+20) ex-pec-ta-ti-vas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/phv/m/n/10.95 (+20) del usua-rio
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 34--34
+\T1/phv/m/n/10.95 (+20) Apro-ba-do, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/phv/m/n/10.95 (+20) lo con-tra-rio
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 34--35
+[]|\T1/phv/m/n/10.95 (+20) en ca-so de re-
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./Cap7/newman/newmanCentroAyuda20.png>] (Cap7/Tablas/formato.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]|\T1/phv/b/n/10 Fecha eje-cu-
+ [84] (Cap7/Tablas/ejemploFormato.tex
+Underfull \hbox (badness 1132) in paragraph at lines 15--15
+[]|\T1/phv/m/n/12 (+20) Verificar que, al di-li-gen-ciar co-rrec-ta-men-te
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/phv/m/n/10 Historia de usua-rio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/phv/b/n/10 Módulo del
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\T1/phv/b/n/10 Entorno de eje-cu-
- []
-
-
-Underfull \hbox (badness 7963) in paragraph at lines 34--35
-[]|\T1/phv/m/n/10 en ca-so de re-
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 34--35
-\T1/phv/m/n/10 ben rea-li-zar pa-ra
- []
-
-) (Cap7/Tablas/ejemploFormato.tex
-ignored error: Infinite glue shrinkage found in box being split [81]
-ignored error: Infinite glue shrinkage found in box being split [82])) [83]
+ignored error: Infinite glue shrinkage found in box being split [85]
+ignored error: Infinite glue shrinkage found in box being split [86])) [87]
 \openout2 = `Cap8/Cap8.aux'.
 
- (Cap8/Cap8.tex [84
+ (Cap8/Cap8.tex
+Underfull \vbox (badness 2213) has occurred while \output is active []
 
+ [88
 
-
-
-] [85]) [86]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 151.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 151.
- (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 151.
- [87
 
 
 
 ]
-Overfull \hbox (19.49368pt too wide) in paragraph at lines 152--152
-[]\T1/phv/m/sl/10.95 Introduction to Tail-wind CSS - Geeks-for-Geeks\T1/phv/m/n/10.95 . Oct. de 2024. \T1/phv/m/sc/10.95 url\T1/phv/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / www . geeksforgeeks .
+Underfull \vbox (badness 3229) has occurred while \output is active []
+
+ [89]) [90]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 190.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 190.
+ (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <12> not available
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 190.
+
+Overfull \hbox (0.34154pt too wide) in paragraph at lines 191--191
+\T1/phv/m/sl/12 (-20) --- cloudgestion.com\T1/phv/m/n/12 (-20) . [][]$\T1/cmtt/m/n/12 https : / / www . cloudgestion . com / blog / software / configurar -[]
  []
 
-[88] [89] [90]
+[91
+
+
+
+] [92] [93] [94]
 \openout2 = `Anexos/Anexos.aux'.
 
  (Anexos/Anexos.tex
@@ -3499,7 +2437,7 @@ Package pdftex.def Info: Cap7/newman/newmanMetodosPago20.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[91
+[95
 
 
 ]
@@ -3511,8 +2449,8 @@ Package pdftex.def Info: Cap7/newman/newmanCentroAyuda20.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[92]
-<Cap7/newman/newmanCuentasBancarias20.png, id=1557, 753.5653pt x 698.61pt>
+[96]
+<Cap7/newman/newmanCuentasBancarias20.png, id=1573, 753.5653pt x 698.61pt>
 File: Cap7/newman/newmanCuentasBancarias20.png Graphic file (type png)
 <use Cap7/newman/newmanCuentasBancarias20.png>
 Package pdftex.def Info: Cap7/newman/newmanCuentasBancarias20.png  used on input line 51.
@@ -3521,8 +2459,8 @@ Package pdftex.def Info: Cap7/newman/newmanCuentasBancarias20.png  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[93]
-<Cap7/newman/newmanImpuestos20.png, id=1563, 666.23906pt x 622.57594pt>
+[97]
+<Cap7/newman/newmanImpuestos20.png, id=1580, 666.23906pt x 622.57594pt>
 File: Cap7/newman/newmanImpuestos20.png Graphic file (type png)
 <use Cap7/newman/newmanImpuestos20.png>
 Package pdftex.def Info: Cap7/newman/newmanImpuestos20.png  used on input line 68.
@@ -3531,8 +2469,8 @@ Package pdftex.def Info: Cap7/newman/newmanImpuestos20.png  used on input line 6
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[94 <./Cap7/newman/newmanCuentasBancarias20.png>]
-<Cap7/newman/newmanTiposDoc20.png, id=1570, 670.00313pt x 607.51968pt>
+[98 <./Cap7/newman/newmanCuentasBancarias20.png>]
+<Cap7/newman/newmanTiposDoc20.png, id=1587, 670.00313pt x 607.51968pt>
 File: Cap7/newman/newmanTiposDoc20.png Graphic file (type png)
 <use Cap7/newman/newmanTiposDoc20.png>
 Package pdftex.def Info: Cap7/newman/newmanTiposDoc20.png  used on input line 85.
@@ -3541,8 +2479,8 @@ Package pdftex.def Info: Cap7/newman/newmanTiposDoc20.png  used on input line 85
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[95 <./Cap7/newman/newmanImpuestos20.png>]
-<Cap7/newman/newmanCentrosCosto20.png, id=1577, 668.4975pt x 612.78937pt>
+[99 <./Cap7/newman/newmanImpuestos20.png>]
+<Cap7/newman/newmanCentrosCosto20.png, id=1594, 668.4975pt x 612.78937pt>
 File: Cap7/newman/newmanCentrosCosto20.png Graphic file (type png)
 <use Cap7/newman/newmanCentrosCosto20.png>
 Package pdftex.def Info: Cap7/newman/newmanCentrosCosto20.png  used on input line 102.
@@ -3551,8 +2489,8 @@ Package pdftex.def Info: Cap7/newman/newmanCentrosCosto20.png  used on input lin
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[96 <./Cap7/newman/newmanTiposDoc20.png>]
-<Cap7/newman/newmanProductos20.png, id=1584, 670.75594pt x 614.295pt>
+[100 <./Cap7/newman/newmanTiposDoc20.png>]
+<Cap7/newman/newmanProductos20.png, id=1601, 670.75594pt x 614.295pt>
 File: Cap7/newman/newmanProductos20.png Graphic file (type png)
 <use Cap7/newman/newmanProductos20.png>
 Package pdftex.def Info: Cap7/newman/newmanProductos20.png  used on input line 119.
@@ -3561,126 +2499,161 @@ Package pdftex.def Info: Cap7/newman/newmanProductos20.png  used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[97 <./Cap7/newman/newmanCentrosCosto20.png>] [98 <./Cap7/newman/newmanProductos20.png>]
-<Cap7/newman/newmanTerceros20.png, id=1597, 631.60968pt x 645.91313pt>
+[101 <./Cap7/newman/newmanCentrosCosto20.png>] [102 <./Cap7/newman/newmanProductos20.png>]
+<Cap7/newman/newmanTerceros20.png, id=1613, 631.60968pt x 645.91313pt>
 File: Cap7/newman/newmanTerceros20.png Graphic file (type png)
 <use Cap7/newman/newmanTerceros20.png>
 Package pdftex.def Info: Cap7/newman/newmanTerceros20.png  used on input line 137.
 (pdftex.def)             Requested size: 377.6291pt x 386.18091pt.
- [99 <./Cap7/newman/newmanTerceros20.png>]
-<Cap7/newman/newmanCalendario20.png, id=1604, 667.74469pt x 612.78937pt>
+ [103 <./Cap7/newman/newmanTerceros20.png>]
+<Cap7/newman/newmanCalendario20.png, id=1621, 667.74469pt x 612.78937pt>
 File: Cap7/newman/newmanCalendario20.png Graphic file (type png)
 <use Cap7/newman/newmanCalendario20.png>
 Package pdftex.def Info: Cap7/newman/newmanCalendario20.png  used on input line 154.
 (pdftex.def)             Requested size: 377.63306pt x 346.5539pt.
- [100 <./Cap7/newman/newmanCalendario20.png>]
-<Cap7/newman/newmanCatalogo20.png, id=1611, 758.835pt x 694.84593pt>
+ [104 <./Cap7/newman/newmanCalendario20.png>]
+<Cap7/newman/newmanCatalogo20.png, id=1628, 758.835pt x 694.84593pt>
 File: Cap7/newman/newmanCatalogo20.png Graphic file (type png)
 <use Cap7/newman/newmanCatalogo20.png>
 Package pdftex.def Info: Cap7/newman/newmanCatalogo20.png  used on input line 171.
 (pdftex.def)             Requested size: 377.63342pt x 345.78932pt.
- [101 <./Cap7/newman/newmanCatalogo20.png>]
+ [105 <./Cap7/newman/newmanCatalogo20.png>]
 chapter B.
-[102
+[106
 
-] [103] [104] [105]
+] [107] [108] [109]
 Underfull \hbox (badness 10000) in paragraph at lines 370--371
-[]|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
+[]|\T1/phv/m/n/12 (+20) Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 384--385
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 384--385
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[106] [107]
+[110] [111]
 chapter C.
-[108
+[112
 
-] [109] [110] [111]
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[113] [114] [115]
 Underfull \hbox (badness 10000) in paragraph at lines 596--597
-[]|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
+[]|\T1/phv/m/n/12 (+20) Se lan-za una ex-cep-ción
  []
 
-[112]
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 613--614
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+[116]
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 613--614
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[113]
+[117]
 chapter D.
-[114
+[118
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
-[]|\T1/phv/m/n/10.95 Identificador úni-co de la
+Underfull \hbox (badness 1077) in paragraph at lines 716--717
+[]|\T1/phv/m/n/12 (+20) Identificador úni-co de la
  []
 
-[115] [116] [117]
+
+Underfull \hbox (badness 1389) in paragraph at lines 718--719
+\T1/phv/m/n/12 (+20) pro-pie-ta-ria de la cuen-ta
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[119] [120] [121]
 Underfull \hbox (badness 10000) in paragraph at lines 828--829
-[]|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
+[]|\T1/phv/m/n/12 (+20) Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 844--845
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+Underfull \vbox (badness 6063) has occurred while \output is active []
+
+ [122]
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 844--845
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[118] [119]
+[123]
 chapter E.
-[120
+[124
 
-] [121] [122] [123]
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[125] [126] [127]
 Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
-[]|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
+[]|\T1/phv/m/n/12 (+20) Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 1077--1078
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+Underfull \vbox (badness 6063) has occurred while \output is active []
+
+ [128]
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 1077--1078
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[124] [125]
+
+Underfull \hbox (badness 5681) in paragraph at lines 1085--1086
+[]\T1/phv/b/n/12 (+20) Contexto de Em-pre-sa\T1/phv/m/n/12 (+20) : Si-mi-lar a los otros mó-du-los del mi-cro-ser-vi-cio
+ []
+
+[129]
 chapter F.
-[126
+[130
 
 ]
-Underfull \hbox (badness 3302) in paragraph at lines 1183--1184
-[]|\T1/phv/m/n/10.95 Identificador úni-co del im-
+Underfull \hbox (badness 2753) in paragraph at lines 1157--1158
+[]|\T1/phv/m/n/12 (+20) Indica que un im-pues-to ha si-do
  []
 
-[127] [128] [129]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[131] [132] [133]
 Underfull \hbox (badness 10000) in paragraph at lines 1294--1295
-[]|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
+[]|\T1/phv/m/n/12 (+20) Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 1310--1311
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 1310--1311
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[130] [131]
+[134]
+Underfull \hbox (badness 5681) in paragraph at lines 1318--1319
+[]\T1/phv/b/n/12 (+20) Contexto de Em-pre-sa\T1/phv/m/n/12 (+20) : Si-mi-lar a los otros mó-du-los del mi-cro-ser-vi-cio
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 1318--1319
+\T1/cmtt/m/n/12 account-catalogue\T1/phv/m/n/12 (+20) , el mó-du-lo de Im-pues-tos re-quie-re obli-ga-to-ria-men-te el
+ []
+
+[135]
 chapter G.
-[132
+[136
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
-[]|\T1/phv/m/n/10.95 Identificador de la cuen-
- []
-
-
-Underfull \hbox (badness 6396) in paragraph at lines 1418--1419
-\T1/phv/m/n/10.95 ta (pue-de ser ID o có-
+[]|\T1/phv/m/n/12 (+20) Identificador de la
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
-\T1/phv/m/n/10.95 di-go nu-mé-ri-co se-gún
+\T1/phv/m/n/12 (+20) cuen-ta (pue-de ser ID
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 1422--1423
-[]|\T1/phv/m/n/10.95 Indica có-mo in-ter-pre-tar el
+Underfull \hbox (badness 6110) in paragraph at lines 1422--1423
+\T1/phv/m/n/12 (+20) cam-po \T1/cmtt/m/n/12 account\T1/phv/m/n/12 (+20) : \T1/cmtt/m/n/12 ÏD" \T1/phv/m/n/12 (+20) o
  []
 
 
@@ -3689,56 +2662,62 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[133]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134] [135] [136]
-Overfull \hbox (3.30888pt too wide) in paragraph at lines 1569--1570
-[]|\T1/phv/m/n/10.95 Se lan-za \T1/cmtt/m/n/10.95 AccountCatalogueNotFoundException| 
+ [137]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [138] [139] [140]
+Overfull \hbox (23.67963pt too wide) in paragraph at lines 1569--1570
+[]|\T1/phv/m/n/12 (-20) Se lan-za \T1/cmtt/m/n/12 AccountCatalogueNotFoundException| 
  []
 
-
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 1587--1588
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+[141]
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 1587--1588
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[137] [138]
+[142] [143]
 chapter H.
-[139
+[144
 
-] [140] [141] [142]
+] [145] [146] [147]
 Underfull \hbox (badness 10000) in paragraph at lines 1812--1813
-[]|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
+[]|\T1/phv/m/n/12 (+20) Se lan-za una ex-cep-ción
  []
 
 
-Underfull \vbox (badness 2837) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [143]
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 1828--1829
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 1828--1829
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[144]
+[148] [149] [150]
 chapter I.
-[145
+[151
 
 ]
-Underfull \hbox (badness 1430) in paragraph at lines 1937--1938
-[]|\T1/phv/m/n/10.95 Identificador úni-co del pro-
+Underfull \hbox (badness 3343) in paragraph at lines 1911--1912
+[]|\T1/phv/m/n/12 (+20) Indica que un pro-duc-to ha si-do
  []
 
-[146] [147] [148] [149]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[152] [153] [154] [155]
 Underfull \hbox (badness 10000) in paragraph at lines 2050--2051
-[]|\T1/phv/m/n/10.95 Se lan-za una ex-cep-ción
+[]|\T1/phv/m/n/12 (+20) Se lan-za una ex-cep-ción
  []
 
 
-Overfull \hbox (0.36609pt too wide) in paragraph at lines 2066--2067
-[]\T1/phv/b/n/10.95 Serialización\T1/phv/m/n/10.95 : \T1/cmtt/m/n/10.95 RabbitTemplate \T1/phv/m/n/10.95 de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/10.95 Jackson2JsonMessageConverter
+Overfull \hbox (39.33511pt too wide) in paragraph at lines 2066--2067
+[]\T1/phv/b/n/12 (-20) Serialización\T1/phv/m/n/12 (-20) : \T1/cmtt/m/n/12 RabbitTemplate \T1/phv/m/n/12 (-20) de-be es-tar con-fi-gu-ra-do con \T1/cmtt/m/n/12 Jackson2JsonMessageConverter
  []
 
-[150]) [151] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
+[156]) [157] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \sptext on input line 18.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
@@ -3752,17 +2731,17 @@ Package logreq Info: Writing requests to 'PlantillaTesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28679 strings out of 467870
- 544444 string characters out of 5418838
- 1334462 words of memory out of 5000000
- 56366 multiletter control sequences out of 15000+600000
- 681736 words of font info for 92 fonts, out of 8000000 for 9000
+ 31307 strings out of 467870
+ 586973 string characters out of 5418838
+ 1408750 words of memory out of 5000000
+ 58510 multiletter control sequences out of 15000+600000
+ 702031 words of font info for 384 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,14n,107p,11328b,2368s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on PlantillaTesis.pdf (162 pages, 26753396 bytes).
+ 108i,14n,107p,11328b,2343s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on PlantillaTesis.pdf (169 pages, 26778160 bytes).
 PDF statistics:
- 2889 PDF objects out of 2984 (max. 8388607)
- 725 named destinations out of 1000 (max. 500000)
- 2205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2916 PDF objects out of 2984 (max. 8388607)
+ 729 named destinations out of 1000 (max. 500000)
+ 82589 words of extra memory for PDF output out of 89155 (max. 10000000)
 
