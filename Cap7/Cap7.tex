@@ -256,6 +256,18 @@ Para evaluar la estabilidad y consistencia del sistema bajo múltiples ejecucion
     \label{fig:centrodeayuda} 
     \end{figure}
 
+\section{Pruebas del frontend}
+
+La validación de la capa de presentación desarrollada en Angular se realizó mediante el framework Jest. Se estableció una estrategia de ejecución unificada que consolida tanto las pruebas unitarias como las de integración en un mismo ciclo de pruebas, diferenciándose del modelo segregado utilizado en el backend.
+
+El alcance de estas pruebas abarca:
+
+\begin{itemize}
+\item \textbf{Pruebas unitarias}: Verificación de la lógica interna, cálculos y métodos de los componentes y servicios de Angular, permitiendo que cada unidad funcional opere de forma aislada.
+
+\item \textbf{Pruebas de integración}: Validación del ciclo de vida de los componentes, renderizado del DOM y comunicación entre componentes mediante el uso de dobles de prueba (mocks), que permitió la correcta integración de las diferentes partes de la interfaz de usuario.
+\end{itemize}
+
 \section{Pruebas de aceptación}
 
 Las pruebas de aceptación constituyen la etapa de validación final del software, donde se verifica que las funcionalidades implementadas satisfagan efectivamente los requerimientos y expectativas del usuario final quien, en última instancia, determina la calidad y utilidad del sistema desarrollado. En este proyecto, dichas pruebas se ejecutaron de manera virtual mediante sesiones en videoconferencia utilizando la aplicación en la versión de prueba desplegada. 
