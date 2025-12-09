@@ -1,11 +1,9 @@
 \mychapter{Capítulo 5. Arquitectura del sistema}
 
 En el presente capítulo se explora la arquitectura del sistema, siendo este un plan en el que se definen aspectos y decisiones importantes para el software, teniendo en cuenta los requisitos del sistema, la organización y cómo se comunican los diferentes componentes entre sí.
-Es importante recordar que el software contable para uso educativo en construcción consta de múltiples módulos independientes desarrollados como microservicios: Módulo de Configuración, Módulo Comercial, Módulo de Inventario (Promedio Ponderado y PEPS), Módulo de Tesorería, Módulo de Cartera, Módulos Contable Comercial y Contable Cartera, Módulos de Reportes Financieros y Módulo Educativo Contable. A pesar de que varios de estos módulos interactúan entre sí mediante APIs REST y un servidor de descubrimiento Eureka, este proyecto se enfoca específicamente en el desarrollo del módulo de Configuración, que proporciona los parámetros maestros fundamentales para el funcionamiento de todo el sistema.
+Es importante recordar que el software contable para uso educativo en construcción consta de múltiples módulos independientes desarrollados como microservicios: Módulo de Configuración, Módulo Comercial, Módulo de Inventario (Promedio Ponderado y PEPS), Módulo de Tesorería, Módulo de Cartera, Módulos Contable Comercial y Contable Cartera, Módulos de Reportes Financieros y Módulo Educativo Contable. A pesar de que varios de estos módulos interactúan entre sí mediante APIs REST y un servidor de descubrimiento Eureka, este apartado profundiza en la arquitectura del módulo de Configuración y detalla su relación con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales presentan un avance suficiente para permitir la comunicación entre servicios.
 
-Este apartado profundiza en la arquitectura del módulo de Configuración y detalla su relación con los módulos de Inventario (Promedio Ponderado y PEPS) y Cartera, los cuales presentan un avance suficiente para permitir la comunicación entre servicios. Por otro lado, la documentación técnica necesaria para que los demás microservicios en desarrollo puedan integrarse con los submódulos de Configuración se presenta detalladamente del \autoref{AnexoA} al \autoref{AnexoH}.
-
-Para describir la arquitectura del sistema se emplea el modelo C4, que contempla cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. Dado que el módulo de Configuración está compuesto por múltiples submódulos, a continuación se utiliza el submódulo de Catálogo de Cuentas como referencia para ilustrar la arquitectura C4. Los diagramas C4 de todos los submódulos se encuentran disponibles en el siguiente \href{https://drive.google.com/drive/folders/1O5IuTREhMx5zNiTa6Jo7ET5LC2ph4cPg?usp=sharing}{\underline{\textcolor{blue}{enlace}}}.
+Por otro lado, la documentación técnica necesaria para que los demás microservicios en desarrollo puedan integrarse con los submódulos de Configuración se presenta detalladamente del \autoref{AnexoA} al \autoref{AnexoH}. Para describir la arquitectura del sistema se emplea el modelo C4, que contempla cuatro diagramas principales: Contexto, Contenedores, Componentes y Código. Dado que el módulo de Configuración está compuesto por múltiples submódulos, a continuación se utiliza el submódulo de Catálogo de Cuentas como referencia para ilustrar la arquitectura C4. Los diagramas C4 de todos los submódulos se encuentran disponibles en el siguiente \href{https://drive.google.com/drive/folders/1O5IuTREhMx5zNiTa6Jo7ET5LC2ph4cPg?usp=sharing}{\underline{\textcolor{blue}{enlace}}}.
 
 \section{Modelo C4: Descripción de la arquitectura}
 
@@ -40,15 +38,22 @@ El sistema consta de seis contenedores principales: Aplicación web, API Gateway
 \begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/contenedor.png}    
-    \caption{Diagrama de contenedores.}
+    \caption{Diagrama de contenedores parte 1.}
     \label{fig:contenedor}
 \end{figure}
-
-\newpage
 
 La descripción de cada contenedor y la participación del presente proyecto se encuentra en la \autoref{tab:contenedores}.
 
 \input{Cap5/Tablas/contenedores.tex}
+
+Como complemento, la \autoref{fig:contenedor2} detalla las interacciones específicas con el módulo de Cartera, mostrando su colaboración a través de RabbitMQ para procesar eventos de uso de recursos, manteniendo coherencia mediante comunicación asíncrona.
+
+\begin{figure}[H]    
+    \centering%
+    \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/contenedor2.png}    
+    \caption{Diagrama de contenedores parte 2.}
+    \label{fig:contenedor2}
+\end{figure}
 
 \subsection{Diagrama de componentes}
 
@@ -57,7 +62,7 @@ En la \autoref{fig:componentes} se observa el diagrama de componentes del conten
 \begin{figure}[H]    
     \centering%
     \includegraphics[width=1.0\textwidth, height=1.0\textheight, keepaspectratio]{Cap5/Figuras/componentes.png}    
-    \caption{Diagrama de componentes submódulo Catálogo de Cuentas.}
+    \caption{Diagrama de componentes submódulo Catálogo de cuentas.}
     \label{fig:componentes}
 \end{figure}
 
@@ -109,9 +114,9 @@ La arquitectura en capas se aplicó en el submódulo de Métodos de pago, facili
 \begin{enumerate}
     \item \textbf{Presentation (Capa de API):} Expone endpoints REST, valida entrada HTTP, transforma DTOs a modelos de dominio y retorna respuestas HTTP.
     
-    \item \textbf{Domain (Capa de Lógica de Negocio):} Contiene la lógica de negocio pura, reglas de validación, orquestación de operaciones y manejo de eventos de negocio. Los servicios de mensajería están integrados en esta capa y las interfaces de servicio definen los contratos.
+    \item \textbf{Domain (Capa de lógica de negocio):} Contiene la lógica de negocio pura, reglas de validación, orquestación de operaciones y manejo de eventos de negocio. Los servicios de mensajería están integrados en esta capa y las interfaces de servicio definen los contratos.
     
-    \item \textbf{DataAccess (Capa de Persistencia):} Maneja la persistencia en base de datos, consultas, transacciones y mapeo bidireccional entre entidades y modelos de dominio.
+    \item \textbf{DataAccess (Capa de persistencia):} Maneja la persistencia en base de datos, consultas, transacciones y mapeo bidireccional entre entidades y modelos de dominio.
 \end{enumerate}
 
 
