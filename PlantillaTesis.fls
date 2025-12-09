@@ -163,9 +163,6 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-bibtex.def
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-bibtex.def
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-bibtex.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
@@ -285,7 +282,7 @@ INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.st
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
-OUTPUT PlantillaTesis-blx.bib
+OUTPUT PlantillaTesis.bcf
 INPUT PlantillaTesis.bbl
 INPUT .\PlantillaTesis.bbl
 INPUT .\PlantillaTesis.bbl
@@ -920,15 +917,8 @@ INPUT .\Cap8\Cap8.tex
 INPUT .\Cap8\Cap8.tex
 INPUT Cap8\Cap8.tex
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8c.tfm
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
-INPUT C:\Users\John\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8c.vf
 INPUT .\Anexos\Anexos.tex
 INPUT .\Anexos\Anexos.tex
 OUTPUT Anexos\Anexos.aux

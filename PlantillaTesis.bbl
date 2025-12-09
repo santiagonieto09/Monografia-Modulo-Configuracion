@@ -3,8 +3,8 @@
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
 %
 \begingroup
 \makeatletter
@@ -16,1067 +16,1147 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global/global}
-  \entry{redemAprendizajeBasado}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-  \field{howpublished}{\url{https://www.redem.org/aprendizaje-basado-en-proyectos-pbl-casos-de-exito/}}
-    \field{note}{[Accessed 06-12-2025]}
-    \field{title}{{A}prendizaje {B}asado en {P}royectos ({P}{B}{L}): {C}asos de
-  exito; {R}{E}{D}{E}{M} --- redem.org}
-  \endentry
 
-  \entry{ArquitecturaCapas}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-  \field{howpublished}{\url{https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/capas}}
-    \field{note}{[Accessed 02-12-2025]}
-    \field{title}{Arquitectura en Capas - reactiveprogramming.io}
-  \endentry
-
-  \entry{Blount2016}{article}{}{}
-    \name{author}{4}{}{%
-      {{hash=BY}{%
-         family={Blount},
-         familyi={B\bibinitperiod},
-         given={Y.},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=AB}{%
-         family={Abedin},
-         familyi={A\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=VS}{%
-         family={Vatanasakdakul},
-         familyi={V\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=ES}{%
-         family={Erfani},
-         familyi={E\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BY+1}
-    \strng{fullhash}{BYABVSES1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \verb{doi}
-    \verb 10.1080/09639284.2016.1138136
-    \endverb
-    \field{number}{2}
-    \field{pages}{185\bibrangedash 202}
-    \field{title}{Integrating enterprise resource planning (SAP) in the
-  accounting curriculum: a systematic literature review and case study}
-    \field{volume}{25}
-    \field{journaltitle}{Accounting Education}
-    \field{year}{2016}
-  \endentry
-
-  \entry{Boulianne2014}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=BE}{%
-         family={Boulianne},
-         familyi={B\bibinitperiod},
-         given={E.},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BE1}
-    \strng{fullhash}{BE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \verb{doi}
-    \verb 10.1108/JAOC-12-2011-0064
-    \endverb
-    \field{number}{1}
-    \field{pages}{22\bibrangedash 48}
-    \field{title}{Impact of accounting software utilization on studentsâ€™
-  knowledge acquisition: An important change in accounting education}
-    \field{volume}{10}
-    \field{journaltitle}{Journal of Accounting and Organizational Change}
-    \field{year}{2014}
-  \endentry
-
-  \entry{ContaduriaPublica1Justi}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=dCU}{%
-         prefix={del},
-         prefixi={d\bibinitperiod},
-         family={Cauca},
-         familyi={C\bibinitperiod},
-         given={Universidad},
-         giveni={U\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CUd1}
-    \strng{fullhash}{CUd1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{title}{ContadurÃ­a PÃºblica}
-    \verb{url}
-    \verb https://portal.unicauca.edu.co/versionP/oferta-academica/programas-de
-    \verb -pregrado/contaduria-publica
-    \endverb
-  \field{journaltitle}{https://portal.unicauca.edu.co/versionP/oferta-academica/programas-de-pregrado/contaduria-publica}
-  \endentry
-
-  \entry{DominaArquitectura}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=CC}{%
-         family={Chill},
-         familyi={C\bibinitperiod},
-         given={Code\bibnamedelima {\&}},
-         giveni={C\bibinitperiod\bibinitdelim {\&}\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CC1}
-    \strng{fullhash}{CC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-  \field{howpublished}{\url{https://medium.com/@diego.coder/introduccion-a-las-apis-rest-6b3ad900acc9}}
-    \field{note}{[Accessed 03-12-2025]}
-    \field{title}{La guía definitiva para programadores --- diego.coder}
-  \endentry
-
-  \entry{cloudgestion}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=dCGE}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Cloud\bibnamedelima Gestion},
-         familyi={C\bibinitperiod\bibinitdelim G\bibinitperiod},
-         given={Equipo},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CGEd1}
-    \strng{fullhash}{CGEd1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-  \field{howpublished}{\url{https://www.cloudgestion.com/blog/software/configurar-modulo-contabilidad/}}
-    \field{note}{[Accessed 05-05-2025]}
-    \field{title}{{C}onfigurar el mÃ³dulo de contabilidad en un {S}oftware
-  {E}{R}{P} --- cloudgestion.com}
-  \endentry
-
-  \entry{Hibernate1MT}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=CT}{%
-         family={Contributor},
-         familyi={C\bibinitperiod},
-         given={TechTarget},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CT1}
-    \strng{fullhash}{CT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    Learn how Hibernate, a Java based ORM framework, compliments JPA, contrasts
-  with JDBC and simplifies the creation of database driven applications.%
-    }
-    \field{title}{What Is Hibernate? Definition from TheServerSide}
-    \verb{url}
-    \verb https://www.theserverside.com/definition/Hibernate
-    \endverb
-    \field{journaltitle}{https://www.theserverside.com/definition/Hibernate}
-  \endentry
-
-  \entry{Daff2021}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=DL}{%
-         family={Daff},
-         familyi={D\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DL1}
-    \strng{fullhash}{DL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \verb{doi}
-    \verb 10.1080/09639284.2021.1935282
-    \endverb
-    \field{number}{5}
-    \field{pages}{495\bibrangedash 524}
-    \field{title}{Employersâ€™ perspectives of accounting graduates and
-  their world of work: software use and ICT competencies}
-    \field{volume}{30}
-    \field{journaltitle}{Accounting Education}
-    \field{year}{2021}
-  \endentry
-
-  \entry{patterndesign}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{howpublished}{\url{https://refactoring.guru/es/design-patterns}}
-    \field{note}{[Accessed 04-12-2025]}
-    \field{title}{Design patterns --- refactoring.guru}
-  \endentry
-
-  \entry{TICS}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=D}{%
-         family={{Divisi{\'o}n de Tecnolog{\'\i}as de la Informaci{\'o}n y las
-  Comunicaciones}},
-         familyi={D\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {es}%
-    }
-    \strng{namehash}{D1}
-    \strng{fullhash}{D1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{Lineamientos de dise{\~n}o {UX-UI} para proyectos de
-  desarrollo de software en la Divisi{\'o}n {TIC} de la Universidad del Cauca}
-    \field{year}{2024}
-  \endentry
-
-  \entry{TICS3}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=D}{%
-         family={{Divisi{\'o}n de Tecnolog{\'\i}as de la Informaci{\'o}n y las
-  Comunicaciones}},
-         familyi={D\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {es}%
-    }
-    \strng{namehash}{D1}
-    \strng{fullhash}{D1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{Lineamientos normativos y pautas de usabilidad para el
-  dise{\~n}o de interfaces en los proyectos de desarrollo software en la
-  Divisi{\'o}n {TIC} de la Universidad del Cauca}
-    \field{month}{06}
-    \field{year}{2024}
-  \endentry
-
-  \entry{TICS2}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=D}{%
-         family={{Division TIC, Universidad del Cauca}},
-         familyi={D\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {es}%
-    }
-    \strng{namehash}{D2}
-    \strng{fullhash}{D2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{Lineamientos de Desarrollo, Pasant{\'\i}as {Y} Pr{\'a}cticas
-  Profesionales}
-    \field{year}{2024}
-  \endentry
-
-  \entry{managerCmoConfigurar}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=EM}{%
-         family={ERP},
-         familyi={E\bibinitperiod},
-         given={Manager},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{EM1}
-    \strng{fullhash}{EM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-  \field{howpublished}{\url{https://www.manager.cl/blog/como-configurar-un-erp/}}
-    \field{note}{[Accessed 05-05-2025]}
-    \field{title}{Â¿{C}Ã³mo configurar un {E}{R}{P}? - {M}anager {S}oftware
-  --- manager.cl}
-  \endentry
-
-  \entry{aptyImplementationSteps}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{howpublished}{\url{https://apty.ai/blog/erp-implementation/}}
-    \field{note}{[Accessed 05-05-2025]}
-    \field{title}{{E}{R}{P} {I}mplementation: {S}teps, {C}hallenges \& {B}est
-  {P}ractices - {A}pty --- apty.ai}
-  \endentry
-
-  \entry{FrameworkWikipedia}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{howpublished}{\url{https://es.wikipedia.org/wiki/Framework}}
-    \field{note}{[Accessed 15-07-2025]}
-    \field{title}{{F}ramework - {W}ikipedia, la enciclopedia libre ---
-  es.wikipedia.org}
-  \endentry
-
-  \entry{mygestion}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=dGmS}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Gestion\bibnamedelima myGESTION},
-         familyi={G\bibinitperiod\bibinitdelim m\bibinitperiod},
-         given={Software},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GmSd1}
-    \strng{fullhash}{GmSd1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-  \field{howpublished}{\url{https://www.mygestion.com/blog/parametrizacion-erp}}
-    \field{note}{[Accessed 05-05-2025]}
-    \field{title}{Â¿{Q}uÃ© es la parametrizaciÃ³n de un {E}{R}{P}? ---
-  mygestion.com}
-  \endentry
-
-  \entry{Gould2017}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=GS}{%
-         family={Gould},
-         familyi={G\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GS1}
-    \strng{fullhash}{GS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{title}{Disrupting the Accountancy Profession | IFAC}
-    \verb{url}
-    \verb https://www.ifac.org/knowledge-gateway/developing-accountancy-profess
-    \verb ion/discussion/disrupting-accountancy-profession
-    \endverb
-    \field{year}{2017}
-    \field{urlday}{06}
-    \field{urlmonth}{12}
-    \field{urlyear}{2024}
-  \endentry
-
-  \entry{EurekaServer}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=g}{%
-         family={grokkeepcoding},
-         familyi={g\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{g1}
-    \strng{fullhash}{g1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-  \field{howpublished}{\url{https://keepcoding.io/blog/que-es-eureka-server-en-la-arq-de-microservicio/}}
-    \field{note}{[Accessed 12-07-2025]}
-    \field{title}{{E}ureka {S}erver: su papel en la arquitectura de
-  microservicios}
-  \endentry
-
-  \entry{HexagonalArchitecture}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-  \field{howpublished}{\url{https://www.geeksforgeeks.org/system-design/hexagonal-architecture-system-design/}}
-    \field{note}{[Accessed 02-12-2025]}
-    \field{title}{{H}exagonal {A}rchitecture - {S}ystem {D}esign -
-  {G}eeksfor{G}eeks --- geeksforgeeks.org}
-  \endentry
-
-  \entry{c4modelHome}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{howpublished}{\url{https://c4model.com/}}
-    \field{note}{[Accessed 18-07-2025]}
-    \field{title}{{H}ome --- c4model.com}
-  \endentry
-
-  \entry{diariosigloxxiCEESASA}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=dHE}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Hoy},
-         familyi={H\bibinitperiod},
-         given={Emprendedores},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HEd1}
-    \strng{fullhash}{HEd1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-  \field{howpublished}{\url{https://www.diariosigloxxi.com/texto-diario/mostrar/5275054/ceesa-sa-impulsa-eficiencia-empresarial-software-erp-pymes}}
-    \field{note}{[Accessed 05-05-2025]}
-    \field{title}{â€‹{C}{E}{E}{S}{A}, {S}.{A}. impulsa la eficiencia
-  empresarial con su software {E}{R}{P} para pymesâ€‹ ---
-  diariosigloxxi.com}
-  \endentry
-
-  \entry{Huczynski2005}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=HA}{%
-         family={Huczynski},
-         familyi={H\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=JSP}{%
-         family={Johnston},
-         familyi={J\bibinitperiod},
-         given={S.\bibnamedelima P.},
-         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HAJSP1}
-    \strng{fullhash}{HAJSP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \verb{doi}
-    \verb 10.1080/03043790500087530
-    \endverb
-    \field{number}{2}
-    \field{pages}{287\bibrangedash 298}
-    \field{title}{Engineering studentsâ€™ use of computer assisted
-  learning (CAL)}
-    \field{volume}{30}
-    \field{journaltitle}{European Journal of Engineering Education}
-    \field{year}{2005}
-  \endentry
-
-  \entry{Humphrey2014}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=HRL}{%
-         family={Humphrey},
-         familyi={H\bibinitperiod},
-         given={R.\bibnamedelima L.},
-         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=BDF}{%
-         family={Beard},
-         familyi={B\bibinitperiod},
-         given={D.\bibnamedelima F.},
-         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HRLBDF1}
-    \strng{fullhash}{HRLBDF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \verb{doi}
-    \verb 10.1016/j.jaccedu.2014.06.001
-    \endverb
-    \field{number}{3}
-    \field{pages}{238\bibrangedash 258}
-    \field{title}{Faculty perceptions of online homework software in accounting
-  education}
-    \field{volume}{32}
-    \field{journaltitle}{Journal of Accounting Education}
-    \field{year}{2014}
-  \endentry
-
-  \entry{ibmPruebas}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=I}{%
-         family={IBM},
-         familyi={I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{I1}
-    \strng{fullhash}{I1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-  \field{howpublished}{\url{https://www.ibm.com/es-es/think/topics/software-testing}}
-    \field{note}{[Accessed 15-07-2025]}
-    \field{title}{Â¿{Q}uÃ© son las pruebas de software? | {I}{B}{M} ---
-  ibm.com}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Json1MT}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \field{abstract}{%
-    The JavaScript Object Notation (JSON) format is discussed.%
-    }
-    \field{title}{IBM Business Automation Workflow 23.x}
-    \verb{url}
-    \verb https://www.ibm.com/docs/en/baw/23.x?topic=formats-javascript-object-
-    \verb notation-json-format
-    \endverb
-  \field{journaltitle}{https://www.ibm.com/docs/en/baw/23.x?topic=formats-javascript-object-notation-json-format}
-    \field{month}{02}
-    \field{year}{2024}
-  \endentry
-
-  \entry{Tailwind1MT}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \field{abstract}{%
-    A Computer Science portal for geeks. It contains well written, well thought
-  and well explained computer science and programming articles, quizzes and
-  practice/competitive programming/company interview Questions.%
-    }
-    \field{title}{Introduction to Tailwind CSS - GeeksforGeeks}
-    \verb{url}
-    \verb https://www.geeksforgeeks.org/introduction-to-tailwind-css/
-    \endverb
-  \field{journaltitle}{https://www.geeksforgeeks.org/introduction-to-tailwind-css/}
-    \field{month}{10}
-    \field{year}{2024}
-  \endentry
-
-  \entry{Kanapathippillai2012}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=KS}{%
-         family={Kanapathippillai},
-         familyi={K\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SHA}{%
-         family={Shamlee\bibnamedelima Hasheem},
-         familyi={S\bibinitperiod\bibinitdelim H\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=DS}{%
-         family={Dellaportas},
-         familyi={D\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KSSHADS1}
-    \strng{fullhash}{KSSHADS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \verb{doi}
-    \verb 10.1108/13217341211224691
-    \endverb
-    \field{number}{1}
-    \field{pages}{4\bibrangedash 19}
-    \field{title}{The impact of a computerised consolidation accounting package
-  (CCAP) on student performance}
-    \field{volume}{20}
-    \field{journaltitle}{Asian Review of Accounting}
-    \field{year}{2012}
-  \endentry
-
-  \entry{Rest1MT}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=MJMR}{%
-         family={Moncayo},
-         familyi={M\bibinitperiod},
-         given={Jose Manuel\bibnamedelima Rosa},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MJMR1}
-    \strng{fullhash}{MJMR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{abstract}{%
-    Te contamos en menos de 8 minutos quÃ© es REST, la interfaz para conectar
-  varios sistemas basados en el protocolo HTTP.%
-    }
-    \field{title}{QuÃ© es REST: Conoce su potencia | OpenWebinars}
-    \verb{url}
-    \verb https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/
-    \endverb
-  \field{journaltitle}{https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/}
-    \field{month}{05}
-    \field{year}{2018}
-  \endentry
-
-  \entry{Spring1MT}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=MY}{%
-         family={Muradas},
-         familyi={M\bibinitperiod},
-         given={Yanina},
-         giveni={Y\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MY1}
-    \strng{fullhash}{MY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{abstract}{%
-    Si eres desarrollador Java te interesarÃ¡ este artÃ­culo, en el que te
-  contamos quÃ© es Spring Framework y por quÃ© utilizarlo.%
-    }
-    \field{title}{QuÃ© es Spring Framework y por quÃ© usarlo |
-  OpenWebinars}
-    \verb{url}
-    \verb https://openwebinars.net/blog/conoce-que-es-spring-framework-y-por-qu
-    \verb e-usarlo/
-    \endverb
-  \field{journaltitle}{https://openwebinars.net/blog/conoce-que-es-spring-framework-y-por-que-usarlo/}
-    \field{month}{06}
-    \field{year}{2018}
-  \endentry
-
-  \entry{Novak2021}{inproceedings}{}{}
-    \name{author}{3}{}{%
-      {{hash=NA}{%
-         family={Novak},
-         familyi={N\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=�K}{%
-         family={Å½ager},
-         familyi={�\bibinitperiod},
-         given={K.},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=BI}{%
-         family={BariÅ¡iÄ‡},
-         familyi={B\bibinitperiod},
-         given={I.},
-         giveni={I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NA�KBI1}
-    \strng{fullhash}{NA�KBI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{booktitle}{Proceedings of the European Conference on Innovation and
-  Entrepreneurship, ECIE}
-    \verb{doi}
-    \verb 10.34190/EIE.21.142
-    \endverb
-    \field{pages}{660\bibrangedash 667}
-    \field{title}{Innovation in accounting education: The impact of information
-  technology on teaching methods}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Observer}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-  \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/observer}}
-    \field{note}{[Accessed 04-12-2025]}
-    \field{title}{{O}bserver --- refactoring.guru}
-  \endentry
-
-  \entry{Osmani2020}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=OM}{%
-         family={Osmani},
-         familyi={O\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=HN}{%
-         family={Hindi},
-         familyi={H\bibinitperiod},
-         given={N.},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=WV}{%
-         family={Weerakkody},
-         familyi={W\bibinitperiod},
-         given={V.},
-         giveni={V\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{OMHNWV1}
-    \strng{fullhash}{OMHNWV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \verb{doi}
-    \verb 10.4018/IJICTE.2020100107
-    \endverb
-    \field{number}{4}
-    \field{pages}{100\bibrangedash 110}
-    \field{title}{Incorporating information communication technology skills in
-  accounting education}
-    \field{volume}{16}
-    \field{journaltitle}{International Journal of Information and Communication
-  Technology Education}
-    \field{year}{2020}
-  \endentry
-
-  \entry{mividalaboralFreelanceGua}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{Q}
-    \field{sortinithash}{Q}
-    \field{howpublished}{\url{https://mividalaboral.com/freelance/}}
-    \field{note}{[Accessed 06-05-2025]}
-    \field{title}{{Q}uÃ© es un freelance | {G}uÃ­a del trabajador
-  independiente --- mividalaboral.com}
-  \endentry
-
-  \entry{Angular1MT}{inproceedings}{}{}
-    \name{author}{1}{}{%
-      {{hash=RS}{%
-         family={Rathinam},
-         familyi={R\bibinitperiod},
-         given={Suryaansh},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \name{editor}{3}{}{%
-      {{hash=PS}{%
-         family={Prabhu},
-         familyi={P\bibinitperiod},
-         given={Srikanth},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=PSR}{%
-         family={Pokhrel},
-         familyi={P\bibinitperiod},
-         given={Shiva\bibnamedelima Raj},
-         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=LG}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Gang},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer Nature Singapore}%
-    }
-    \strng{namehash}{RS1}
-    \strng{fullhash}{RS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{booktitle}{Applications and Techniques in Information Security}
-    \field{pages}{243\bibrangedash 257}
-    \field{title}{Analysis and Comparison of Different Frontend Frameworks}
-    \list{location}{1}{%
-      {Singapore}%
-    }
-    \field{year}{2023}
-  \endentry
-
-  \entry{Sangster1992}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=SA}{%
-         family={Sangster},
-         familyi={S\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SA1}
-    \strng{fullhash}{SA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \verb{doi}
-    \verb 10.1080/09639289200000003
-    \endverb
-    \field{number}{1}
-    \field{pages}{13\bibrangedash 32}
-    \field{title}{Computer-based instruction in accounting education}
-    \field{volume}{1}
-    \field{journaltitle}{Accounting Education}
-    \field{year}{1992}
-  \endentry
-
-  \entry{Sloan1995}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=SB}{%
-         family={Sloan},
-         familyi={S\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SB1}
-    \strng{fullhash}{SB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \verb{doi}
-    \verb 10.1080/01446199500000049
-    \endverb
-    \field{number}{5}
-    \field{pages}{435\bibrangedash 439}
-    \field{title}{In search of excellence in learning: The strategic value of
-  computer-assisted learning (CAL)}
-    \field{volume}{13}
-    \field{journaltitle}{Construction Management and Economics}
-    \field{year}{1995}
-  \endentry
-
-  \entry{refactoringStrategy}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-  \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/strategy}}
-    \field{note}{[Accessed 04-12-2025]}
-    \field{title}{{S}trategy --- refactoring.guru}
-  \endentry
-
-  \entry{guiaKanban}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=UK}{%
-         family={University},
-         familyi={U\bibinitperiod},
-         given={Kanban},
-         giveni={K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{UK1}
-    \strng{fullhash}{UK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{U}
-    \field{sortinithash}{U}
-  \field{howpublished}{\url{https://resources.kanban.university/wp-content/uploads/2021/08/The-Official-Kanban-Guide_Spanish_A4}}
-    \field{note}{[Accessed 05-05-2025]}
-    \field{title}{La Guia Oficial del Metodo Kanban}
-  \endentry
-
-  \entry{Wadi2021}{incollection}{}{}
-    \name{author}{2}{}{%
-      {{hash=WRMA}{%
-         family={Wadi},
-         familyi={W\bibinitperiod},
-         given={R.\bibnamedelima M.\bibnamedelima A.},
-         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-      }}%
-      {{hash=JRJ}{%
-         family={Jaber},
-         familyi={J\bibinitperiod},
-         given={R.\bibnamedelima J.},
-         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WRMAJRJ1}
-    \strng{fullhash}{WRMAJRJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{booktitle}{Lecture Notes in Networks and Systems: Vol. 194 LNNS}
-    \verb{doi}
-    \verb 10.1007/978-3-030-69221-6_61
-    \endverb
-    \field{pages}{801\bibrangedash 811}
-    \field{title}{The Use of Information Technology in Accounting Education,
-  Evidence from Jordan}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Wali2021}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=WM}{%
-         family={Wali},
-         familyi={W\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=AL}{%
-         family={Ahmad},
-         familyi={A\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WMAL1}
-    \strng{fullhash}{WMAL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \verb{doi}
-    \verb 10.14704/WEB/V18I1/WEB18090
-    \endverb
-    \field{number}{1}
-    \field{pages}{299\bibrangedash 314}
-    \field{title}{Computer Assisted Learning (CAL): A Learning Support System
-  Solution}
-    \field{volume}{18}
-    \field{journaltitle}{Webology}
-    \field{year}{2021}
-  \endentry
-
-  \entry{WanMohdNori2016}{article}{}{}
-    \name{author}{4}{}{%
-      {{hash=WMNWMN}{%
-         family={Wan Mohd\bibnamedelima Nori},
-         familyi={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  N\bibinitperiod},
-         given={W.\bibnamedelima M.\bibnamedelima N.},
-         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  N\bibinitperiod},
-      }}%
-      {{hash=KCKHCK}{%
-         family={Kassim},
-         familyi={K\bibinitperiod},
-         given={C.\bibnamedelima K. H. C.\bibnamedelima K.},
-         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
-  H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=AS}{%
-         family={Ahmad},
-         familyi={A\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NNEM}{%
-         family={Nasir},
-         familyi={N\bibinitperiod},
-         given={N.\bibnamedelima E.\bibnamedelima M.},
-         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WMNWMN+1}
-    \strng{fullhash}{WMNWMNKCKHCKASNNEM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \verb{doi}
-    \verb 10.3923/sscience.2016.3315.3320
-    \endverb
-    \field{number}{13}
-    \field{pages}{3315\bibrangedash 3320}
-    \field{title}{The use of accounting software for effective teaching and
-  learning introductory accounting: A pedagogical discussion}
-    \field{volume}{11}
-    \field{journaltitle}{Social Sciences (Pakistan)}
-    \field{year}{2016}
-  \endentry
-
-  \entry{Willis2016}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=WVF}{%
-         family={Willis},
-         familyi={W\bibinitperiod},
-         given={V.\bibnamedelima F.},
-         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WVF1}
-    \strng{fullhash}{WVF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \verb{doi}
-    \verb 10.1016/j.jaccedu.2016.05.002
-    \endverb
-    \field{pages}{87\bibrangedash 99}
-    \field{title}{A model for teaching technology: Using Excel in an accounting
-  information systems course}
-    \field{volume}{36}
-    \field{journaltitle}{Journal of Accounting Education}
-    \field{year}{2016}
-  \endentry
-
-  \entry{googleQuPostgreSQL}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{�}
-    \field{sortinithash}{�}
-  \field{howpublished}{\url{https://cloud.google.com/discover/what-is-postgresql?hl=es-419}}
-    \field{note}{[Accessed 06-12-2025]}
-    \field{title}{¿Que es PPostgreSQL? Explicacion de las bases de datos ---
-  cloud.google.com}
-  \endentry
-
-  \entry{JAVA1MT}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{�}
-    \field{sortinithash}{�}
-    \field{abstract}{%
-    Descubra quÃ© es Java, cÃ³mo y por quÃ© las empresas lo usan y
-  cÃ³mo puede usarlo con AWS.%
-    }
-    \field{title}{Â¿QuÃ© es Java? - ExplicaciÃ³n del lenguaje de
-  programaciÃ³n Java - AWS}
-    \verb{url}
-    \verb https://aws.amazon.com/es/what-is/java/
-    \endverb
-    \field{journaltitle}{https://aws.amazon.com/es/what-is/java/}
-  \endentry
-
-  \entry{JPA1MT}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{�}
-    \field{sortinithash}{�}
-    \field{title}{Â¿QuÃ© es JPA y ORM?}
-    \verb{url}
-    \verb https://platzi.com/clases/8048-java-sql/64356-que-es-jpa-y-orm/
-    \endverb
-  \field{journaltitle}{https://platzi.com/clases/8048-java-sql/64356-que-es-jpa-y-orm/}
-  \endentry
-\enddatalist
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{JAVA1MT}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Descubra qué es Java, cómo y por qué las empresas lo usan y cómo puede usarlo con AWS.}
+      \field{journaltitle}{https://aws.amazon.com/es/what-is/java/}
+      \field{title}{¿Qué es Java? - Explicación del lenguaje de programación Java - AWS}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/es/what-is/java/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/es/what-is/java/
+      \endverb
+    \endentry
+    \entry{JPA1MT}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{https://platzi.com/clases/8048-java-sql/64356-que-es-jpa-y-orm/}
+      \field{title}{¿Qué es JPA y ORM?}
+      \verb{urlraw}
+      \verb https://platzi.com/clases/8048-java-sql/64356-que-es-jpa-y-orm/
+      \endverb
+      \verb{url}
+      \verb https://platzi.com/clases/8048-java-sql/64356-que-es-jpa-y-orm/
+      \endverb
+    \endentry
+    \entry{googleQuPostgreSQL}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://cloud.google.com/discover/what-is-postgresql?hl=es-419}}
+      \field{note}{[Accessed 06-12-2025]}
+      \field{title}{¿Que es PPostgreSQL? Explicacion de las bases de datos --- cloud.google.com}
+    \endentry
+    \entry{redemAprendizajeBasado}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.redem.org/aprendizaje-basado-en-proyectos-pbl-casos-de-exito/}}
+      \field{note}{[Accessed 06-12-2025]}
+      \field{title}{{A}prendizaje {B}asado en {P}royectos ({P}{B}{L}): {C}asos de exito; {R}{E}{D}{E}{M} --- redem.org}
+    \endentry
+    \entry{ArquitecturaCapas}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/capas}}
+      \field{note}{[Accessed 02-12-2025]}
+      \field{title}{Arquitectura en Capas - reactiveprogramming.io}
+    \endentry
+    \entry{Blount2016}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=b805e89431a8fd2cd7bf30cd5d254c7a}{%
+           family={Blount},
+           familyi={B\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8b7f203dc1256fafde5995cfe4fc5630}{%
+           family={Abedin},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9360a530a86a37e7178b12dc82693ad6}{%
+           family={Vatanasakdakul},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=89a0ed4eb8dea203ed9f155731514d57}{%
+           family={Erfani},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{63f89463f10b1b864971112041bca795}
+      \strng{fullhash}{992330e5c940f535f247f74551fd3055}
+      \strng{fullhashraw}{992330e5c940f535f247f74551fd3055}
+      \strng{bibnamehash}{63f89463f10b1b864971112041bca795}
+      \strng{authorbibnamehash}{63f89463f10b1b864971112041bca795}
+      \strng{authornamehash}{63f89463f10b1b864971112041bca795}
+      \strng{authorfullhash}{992330e5c940f535f247f74551fd3055}
+      \strng{authorfullhashraw}{992330e5c940f535f247f74551fd3055}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Accounting Education}
+      \field{number}{2}
+      \field{title}{Integrating enterprise resource planning (SAP) in the accounting curriculum: a systematic literature review and case study}
+      \field{volume}{25}
+      \field{year}{2016}
+      \field{pages}{185\bibrangedash 202}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1080/09639284.2016.1138136
+      \endverb
+    \endentry
+    \entry{Boulianne2014}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ca107de1cd9ba57933e7573e8d6d5eaa}{%
+           family={Boulianne},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \strng{fullhash}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \strng{fullhashraw}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \strng{bibnamehash}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \strng{authorbibnamehash}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \strng{authornamehash}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \strng{authorfullhash}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \strng{authorfullhashraw}{ca107de1cd9ba57933e7573e8d6d5eaa}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Accounting and Organizational Change}
+      \field{number}{1}
+      \field{title}{Impact of accounting software utilization on students' knowledge acquisition: An important change in accounting education}
+      \field{volume}{10}
+      \field{year}{2014}
+      \field{pages}{22\bibrangedash 48}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1108/JAOC-12-2011-0064
+      \endverb
+    \endentry
+    \entry{ContaduriaPublica1Justi}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f44ea20b52d857136d4d60a9a1850ec7}{%
+           family={Cauca},
+           familyi={C\bibinitperiod},
+           given={Universidad},
+           giveni={U\bibinitperiod},
+           prefix={del},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{f44ea20b52d857136d4d60a9a1850ec7}
+      \strng{fullhash}{f44ea20b52d857136d4d60a9a1850ec7}
+      \strng{fullhashraw}{f44ea20b52d857136d4d60a9a1850ec7}
+      \strng{bibnamehash}{f44ea20b52d857136d4d60a9a1850ec7}
+      \strng{authorbibnamehash}{f44ea20b52d857136d4d60a9a1850ec7}
+      \strng{authornamehash}{f44ea20b52d857136d4d60a9a1850ec7}
+      \strng{authorfullhash}{f44ea20b52d857136d4d60a9a1850ec7}
+      \strng{authorfullhashraw}{f44ea20b52d857136d4d60a9a1850ec7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{https://portal.unicauca.edu.co/versionP/oferta-academica/programas-de-pregrado/contaduria-publica}
+      \field{title}{Contaduría Pública}
+      \verb{urlraw}
+      \verb https://portal.unicauca.edu.co/versionP/oferta-academica/programas-de-pregrado/contaduria-publica
+      \endverb
+      \verb{url}
+      \verb https://portal.unicauca.edu.co/versionP/oferta-academica/programas-de-pregrado/contaduria-publica
+      \endverb
+    \endentry
+    \entry{DominaArquitectura}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=62c474e060776caac6a60581a75743f7}{%
+           family={Chill},
+           familyi={C\bibinitperiod},
+           given={Code\bibnamedelima {\&}},
+           giveni={C\bibinitperiod\bibinitdelim \\bibinitperiod}}}%
+      }
+      \strng{namehash}{62c474e060776caac6a60581a75743f7}
+      \strng{fullhash}{62c474e060776caac6a60581a75743f7}
+      \strng{fullhashraw}{62c474e060776caac6a60581a75743f7}
+      \strng{bibnamehash}{62c474e060776caac6a60581a75743f7}
+      \strng{authorbibnamehash}{62c474e060776caac6a60581a75743f7}
+      \strng{authornamehash}{62c474e060776caac6a60581a75743f7}
+      \strng{authorfullhash}{62c474e060776caac6a60581a75743f7}
+      \strng{authorfullhashraw}{62c474e060776caac6a60581a75743f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://medium.com/@diego.coder/introduccion-a-las-apis-rest-6b3ad900acc9}}
+      \field{note}{[Accessed 03-12-2025]}
+      \field{title}{La guía definitiva para programadores --- diego.coder}
+    \endentry
+    \entry{cloudgestion}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=eb47621665d6af64ec7b5a94dbe67668}{%
+           family={Cloud\bibnamedelima Gestion},
+           familyi={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Equipo},
+           giveni={E\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb47621665d6af64ec7b5a94dbe67668}
+      \strng{fullhash}{eb47621665d6af64ec7b5a94dbe67668}
+      \strng{fullhashraw}{eb47621665d6af64ec7b5a94dbe67668}
+      \strng{bibnamehash}{eb47621665d6af64ec7b5a94dbe67668}
+      \strng{authorbibnamehash}{eb47621665d6af64ec7b5a94dbe67668}
+      \strng{authornamehash}{eb47621665d6af64ec7b5a94dbe67668}
+      \strng{authorfullhash}{eb47621665d6af64ec7b5a94dbe67668}
+      \strng{authorfullhashraw}{eb47621665d6af64ec7b5a94dbe67668}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.cloudgestion.com/blog/software/configurar-modulo-contabilidad/}}
+      \field{note}{[Accessed 05-05-2025]}
+      \field{title}{{C}onfigurar el módulo de contabilidad en un {S}oftware {E}{R}{P} --- cloudgestion.com}
+    \endentry
+    \entry{Hibernate1MT}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5a26af7902a1692845b10091fedd4ec5}{%
+           family={Contributor},
+           familyi={C\bibinitperiod},
+           given={TechTarget},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a26af7902a1692845b10091fedd4ec5}
+      \strng{fullhash}{5a26af7902a1692845b10091fedd4ec5}
+      \strng{fullhashraw}{5a26af7902a1692845b10091fedd4ec5}
+      \strng{bibnamehash}{5a26af7902a1692845b10091fedd4ec5}
+      \strng{authorbibnamehash}{5a26af7902a1692845b10091fedd4ec5}
+      \strng{authornamehash}{5a26af7902a1692845b10091fedd4ec5}
+      \strng{authorfullhash}{5a26af7902a1692845b10091fedd4ec5}
+      \strng{authorfullhashraw}{5a26af7902a1692845b10091fedd4ec5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learn how Hibernate, a Java based ORM framework, compliments JPA, contrasts with JDBC and simplifies the creation of database driven applications.}
+      \field{journaltitle}{https://www.theserverside.com/definition/Hibernate}
+      \field{title}{What Is Hibernate? Definition from TheServerSide}
+      \verb{urlraw}
+      \verb https://www.theserverside.com/definition/Hibernate
+      \endverb
+      \verb{url}
+      \verb https://www.theserverside.com/definition/Hibernate
+      \endverb
+    \endentry
+    \entry{Daff2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d3b97e8cae31aebf231765eda7c34060}{%
+           family={Daff},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b97e8cae31aebf231765eda7c34060}
+      \strng{fullhash}{d3b97e8cae31aebf231765eda7c34060}
+      \strng{fullhashraw}{d3b97e8cae31aebf231765eda7c34060}
+      \strng{bibnamehash}{d3b97e8cae31aebf231765eda7c34060}
+      \strng{authorbibnamehash}{d3b97e8cae31aebf231765eda7c34060}
+      \strng{authornamehash}{d3b97e8cae31aebf231765eda7c34060}
+      \strng{authorfullhash}{d3b97e8cae31aebf231765eda7c34060}
+      \strng{authorfullhashraw}{d3b97e8cae31aebf231765eda7c34060}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Accounting Education}
+      \field{number}{5}
+      \field{title}{Employers' perspectives of accounting graduates and their world of work: software use and ICT competencies}
+      \field{volume}{30}
+      \field{year}{2021}
+      \field{pages}{495\bibrangedash 524}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1080/09639284.2021.1935282
+      \endverb
+    \endentry
+    \entry{patterndesign}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://refactoring.guru/es/design-patterns}}
+      \field{note}{[Accessed 04-12-2025]}
+      \field{title}{Design patterns --- refactoring.guru}
+    \endentry
+    \entry{TICS}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1490350ca8f7ecefc0af4c9705cf5d51}{%
+           family={{División de Tecnologías de la Información y las Comunicaciones}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{fullhash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{fullhashraw}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{bibnamehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authorbibnamehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authornamehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authorfullhash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authorfullhashraw}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lineamientos de diseño {UX-UI} para proyectos de desarrollo de software en la División {TIC} de la Universidad del Cauca}
+      \field{year}{2024}
+    \endentry
+    \entry{TICS3}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1490350ca8f7ecefc0af4c9705cf5d51}{%
+           family={{División de Tecnologías de la Información y las Comunicaciones}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{fullhash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{fullhashraw}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{bibnamehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authorbibnamehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authornamehash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authorfullhash}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \strng{authorfullhashraw}{1490350ca8f7ecefc0af4c9705cf5d51}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Lineamientos normativos y pautas de usabilidad para el diseño de interfaces en los proyectos de desarrollo software en la División {TIC} de la Universidad del Cauca}
+      \field{year}{2024}
+    \endentry
+    \entry{TICS2}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a15b0ce74b262958241fb97dfdba3144}{%
+           family={{Division TIC, Universidad del Cauca}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{a15b0ce74b262958241fb97dfdba3144}
+      \strng{fullhash}{a15b0ce74b262958241fb97dfdba3144}
+      \strng{fullhashraw}{a15b0ce74b262958241fb97dfdba3144}
+      \strng{bibnamehash}{a15b0ce74b262958241fb97dfdba3144}
+      \strng{authorbibnamehash}{a15b0ce74b262958241fb97dfdba3144}
+      \strng{authornamehash}{a15b0ce74b262958241fb97dfdba3144}
+      \strng{authorfullhash}{a15b0ce74b262958241fb97dfdba3144}
+      \strng{authorfullhashraw}{a15b0ce74b262958241fb97dfdba3144}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lineamientos de Desarrollo, Pasantías {Y} Prácticas Profesionales}
+      \field{year}{2024}
+    \endentry
+    \entry{managerCmoConfigurar}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f2af8ec741acace816ff935eed7fc4fb}{%
+           family={ERP},
+           familyi={E\bibinitperiod},
+           given={Manager},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2af8ec741acace816ff935eed7fc4fb}
+      \strng{fullhash}{f2af8ec741acace816ff935eed7fc4fb}
+      \strng{fullhashraw}{f2af8ec741acace816ff935eed7fc4fb}
+      \strng{bibnamehash}{f2af8ec741acace816ff935eed7fc4fb}
+      \strng{authorbibnamehash}{f2af8ec741acace816ff935eed7fc4fb}
+      \strng{authornamehash}{f2af8ec741acace816ff935eed7fc4fb}
+      \strng{authorfullhash}{f2af8ec741acace816ff935eed7fc4fb}
+      \strng{authorfullhashraw}{f2af8ec741acace816ff935eed7fc4fb}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.manager.cl/blog/como-configurar-un-erp/}}
+      \field{note}{[Accessed 05-05-2025]}
+      \field{title}{¿{C}ómo configurar un {E}{R}{P}? - {M}anager {S}oftware --- manager.cl}
+    \endentry
+    \entry{aptyImplementationSteps}{misc}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://apty.ai/blog/erp-implementation/}}
+      \field{note}{[Accessed 05-05-2025]}
+      \field{title}{{E}{R}{P} {I}mplementation: {S}teps, {C}hallenges \& {B}est {P}ractices - {A}pty --- apty.ai}
+    \endentry
+    \entry{FrameworkWikipedia}{misc}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://es.wikipedia.org/wiki/Framework}}
+      \field{note}{[Accessed 15-07-2025]}
+      \field{title}{{F}ramework - {W}ikipedia, la enciclopedia libre --- es.wikipedia.org}
+    \endentry
+    \entry{mygestion}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=efa90f0ee6d3328c4c83983187177b90}{%
+           family={Gestion\bibnamedelima myGESTION},
+           familyi={G\bibinitperiod\bibinitdelim m\bibinitperiod},
+           given={Software},
+           giveni={S\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{efa90f0ee6d3328c4c83983187177b90}
+      \strng{fullhash}{efa90f0ee6d3328c4c83983187177b90}
+      \strng{fullhashraw}{efa90f0ee6d3328c4c83983187177b90}
+      \strng{bibnamehash}{efa90f0ee6d3328c4c83983187177b90}
+      \strng{authorbibnamehash}{efa90f0ee6d3328c4c83983187177b90}
+      \strng{authornamehash}{efa90f0ee6d3328c4c83983187177b90}
+      \strng{authorfullhash}{efa90f0ee6d3328c4c83983187177b90}
+      \strng{authorfullhashraw}{efa90f0ee6d3328c4c83983187177b90}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mygestion.com/blog/parametrizacion-erp}}
+      \field{note}{[Accessed 05-05-2025]}
+      \field{title}{¿{Q}ué es la parametrización de un {E}{R}{P}? --- mygestion.com}
+    \endentry
+    \entry{Gould2017}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=29a035089a4bf97066e079ef36ef23bc}{%
+           family={Gould},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{29a035089a4bf97066e079ef36ef23bc}
+      \strng{fullhash}{29a035089a4bf97066e079ef36ef23bc}
+      \strng{fullhashraw}{29a035089a4bf97066e079ef36ef23bc}
+      \strng{bibnamehash}{29a035089a4bf97066e079ef36ef23bc}
+      \strng{authorbibnamehash}{29a035089a4bf97066e079ef36ef23bc}
+      \strng{authornamehash}{29a035089a4bf97066e079ef36ef23bc}
+      \strng{authorfullhash}{29a035089a4bf97066e079ef36ef23bc}
+      \strng{authorfullhashraw}{29a035089a4bf97066e079ef36ef23bc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Disrupting the Accountancy Profession | IFAC}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ifac.org/knowledge-gateway/developing-accountancy-profession/discussion/disrupting-accountancy-profession
+      \endverb
+      \verb{url}
+      \verb https://www.ifac.org/knowledge-gateway/developing-accountancy-profession/discussion/disrupting-accountancy-profession
+      \endverb
+    \endentry
+    \entry{EurekaServer}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=acd03a5ba0078066e7f16d8620e308c5}{%
+           family={grokkeepcoding},
+           familyi={g\bibinitperiod}}}%
+      }
+      \strng{namehash}{acd03a5ba0078066e7f16d8620e308c5}
+      \strng{fullhash}{acd03a5ba0078066e7f16d8620e308c5}
+      \strng{fullhashraw}{acd03a5ba0078066e7f16d8620e308c5}
+      \strng{bibnamehash}{acd03a5ba0078066e7f16d8620e308c5}
+      \strng{authorbibnamehash}{acd03a5ba0078066e7f16d8620e308c5}
+      \strng{authornamehash}{acd03a5ba0078066e7f16d8620e308c5}
+      \strng{authorfullhash}{acd03a5ba0078066e7f16d8620e308c5}
+      \strng{authorfullhashraw}{acd03a5ba0078066e7f16d8620e308c5}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://keepcoding.io/blog/que-es-eureka-server-en-la-arq-de-microservicio/}}
+      \field{note}{[Accessed 12-07-2025]}
+      \field{title}{{E}ureka {S}erver: su papel en la arquitectura de microservicios}
+    \endentry
+    \entry{HexagonalArchitecture}{misc}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.geeksforgeeks.org/system-design/hexagonal-architecture-system-design/}}
+      \field{note}{[Accessed 02-12-2025]}
+      \field{title}{{H}exagonal {A}rchitecture - {S}ystem {D}esign - {G}eeksfor{G}eeks --- geeksforgeeks.org}
+    \endentry
+    \entry{c4modelHome}{misc}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://c4model.com/}}
+      \field{note}{[Accessed 18-07-2025]}
+      \field{title}{{H}ome --- c4model.com}
+    \endentry
+    \entry{diariosigloxxiCEESASA}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e187d54c0bd8483187309f9f3dec542c}{%
+           family={Hoy},
+           familyi={H\bibinitperiod},
+           given={Emprendedores},
+           giveni={E\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{e187d54c0bd8483187309f9f3dec542c}
+      \strng{fullhash}{e187d54c0bd8483187309f9f3dec542c}
+      \strng{fullhashraw}{e187d54c0bd8483187309f9f3dec542c}
+      \strng{bibnamehash}{e187d54c0bd8483187309f9f3dec542c}
+      \strng{authorbibnamehash}{e187d54c0bd8483187309f9f3dec542c}
+      \strng{authornamehash}{e187d54c0bd8483187309f9f3dec542c}
+      \strng{authorfullhash}{e187d54c0bd8483187309f9f3dec542c}
+      \strng{authorfullhashraw}{e187d54c0bd8483187309f9f3dec542c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.diariosigloxxi.com/texto-diario/mostrar/5275054/ceesa-sa-impulsa-eficiencia-empresarial-software-erp-pymes}}
+      \field{note}{[Accessed 05-05-2025]}
+      \field{title}{{C}{E}{E}{S}{A}, {S}.{A}. impulsa la eficiencia empresarial con su software {E}{R}{P} para pymes --- diariosigloxxi.com}
+    \endentry
+    \entry{Huczynski2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7802e55da9f34c0addeb8bd592cd92cc}{%
+           family={Huczynski},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=03d2f14b626411930c6e1b0dc207ecf3}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{336f712341a95bc1275b19dd59161057}
+      \strng{fullhash}{336f712341a95bc1275b19dd59161057}
+      \strng{fullhashraw}{336f712341a95bc1275b19dd59161057}
+      \strng{bibnamehash}{336f712341a95bc1275b19dd59161057}
+      \strng{authorbibnamehash}{336f712341a95bc1275b19dd59161057}
+      \strng{authornamehash}{336f712341a95bc1275b19dd59161057}
+      \strng{authorfullhash}{336f712341a95bc1275b19dd59161057}
+      \strng{authorfullhashraw}{336f712341a95bc1275b19dd59161057}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Engineering Education}
+      \field{number}{2}
+      \field{title}{Engineering students' use of computer assisted learning (CAL)}
+      \field{volume}{30}
+      \field{year}{2005}
+      \field{pages}{287\bibrangedash 298}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1080/03043790500087530
+      \endverb
+    \endentry
+    \entry{Humphrey2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=05f5435b2a48b1270f44c105abb0b1bb}{%
+           family={Humphrey},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b95c4677b82bcc59ad3f8fe294a15817}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{70cb04feeb73c7418dee2bd673e32058}
+      \strng{fullhash}{70cb04feeb73c7418dee2bd673e32058}
+      \strng{fullhashraw}{70cb04feeb73c7418dee2bd673e32058}
+      \strng{bibnamehash}{70cb04feeb73c7418dee2bd673e32058}
+      \strng{authorbibnamehash}{70cb04feeb73c7418dee2bd673e32058}
+      \strng{authornamehash}{70cb04feeb73c7418dee2bd673e32058}
+      \strng{authorfullhash}{70cb04feeb73c7418dee2bd673e32058}
+      \strng{authorfullhashraw}{70cb04feeb73c7418dee2bd673e32058}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Accounting Education}
+      \field{number}{3}
+      \field{title}{Faculty perceptions of online homework software in accounting education}
+      \field{volume}{32}
+      \field{year}{2014}
+      \field{pages}{238\bibrangedash 258}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.jaccedu.2014.06.001
+      \endverb
+    \endentry
+    \entry{ibmPruebas}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ibm.com/es-es/think/topics/software-testing}}
+      \field{note}{[Accessed 15-07-2025]}
+      \field{title}{¿{Q}ué son las pruebas de software? | {I}{B}{M} --- ibm.com}
+      \field{year}{2021}
+    \endentry
+    \entry{Json1MT}{misc}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The JavaScript Object Notation (JSON) format is discussed.}
+      \field{journaltitle}{https://www.ibm.com/docs/en/baw/23.x?topic=formats-javascript-object-notation-json-format}
+      \field{month}{2}
+      \field{title}{IBM Business Automation Workflow 23.x}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.ibm.com/docs/en/baw/23.x?topic=formats-javascript-object-notation-json-format
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/docs/en/baw/23.x?topic=formats-javascript-object-notation-json-format
+      \endverb
+    \endentry
+    \entry{Tailwind1MT}{misc}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.}
+      \field{journaltitle}{https://www.geeksforgeeks.org/introduction-to-tailwind-css/}
+      \field{month}{10}
+      \field{title}{Introduction to Tailwind CSS - GeeksforGeeks}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/introduction-to-tailwind-css/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/introduction-to-tailwind-css/
+      \endverb
+    \endentry
+    \entry{Kanapathippillai2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=78cbcb5d551a4b5eaf9c32a577baf5d6}{%
+           family={Kanapathippillai},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=24d28f2310887d2fdda01e58737d0ab1}{%
+           family={Shamlee\bibnamedelima Hasheem},
+           familyi={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=431059c7d8d912f4566c0f56149e43b3}{%
+           family={Dellaportas},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \strng{fullhash}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \strng{fullhashraw}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \strng{bibnamehash}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \strng{authorbibnamehash}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \strng{authornamehash}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \strng{authorfullhash}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \strng{authorfullhashraw}{808b7a876d0d3a7f6edd2b5e033dd868}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asian Review of Accounting}
+      \field{number}{1}
+      \field{title}{The impact of a computerised consolidation accounting package (CCAP) on student performance}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{4\bibrangedash 19}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1108/13217341211224691
+      \endverb
+    \endentry
+    \entry{Rest1MT}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3c976366cae8d4013578886673a9fda9}{%
+           family={Moncayo},
+           familyi={M\bibinitperiod},
+           given={Jose\bibnamedelimb Manuel\bibnamedelima Rosa},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c976366cae8d4013578886673a9fda9}
+      \strng{fullhash}{3c976366cae8d4013578886673a9fda9}
+      \strng{fullhashraw}{3c976366cae8d4013578886673a9fda9}
+      \strng{bibnamehash}{3c976366cae8d4013578886673a9fda9}
+      \strng{authorbibnamehash}{3c976366cae8d4013578886673a9fda9}
+      \strng{authornamehash}{3c976366cae8d4013578886673a9fda9}
+      \strng{authorfullhash}{3c976366cae8d4013578886673a9fda9}
+      \strng{authorfullhashraw}{3c976366cae8d4013578886673a9fda9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Te contamos en menos de 8 minutos qué es REST, la interfaz para conectar varios sistemas basados en el protocolo HTTP.}
+      \field{journaltitle}{https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/}
+      \field{month}{5}
+      \field{title}{Qué es REST: Conoce su potencia | OpenWebinars}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/
+      \endverb
+      \verb{url}
+      \verb https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/
+      \endverb
+    \endentry
+    \entry{Spring1MT}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=08f96025c9ed4a81a84c2b12474f0900}{%
+           family={Muradas},
+           familyi={M\bibinitperiod},
+           given={Yanina},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{08f96025c9ed4a81a84c2b12474f0900}
+      \strng{fullhash}{08f96025c9ed4a81a84c2b12474f0900}
+      \strng{fullhashraw}{08f96025c9ed4a81a84c2b12474f0900}
+      \strng{bibnamehash}{08f96025c9ed4a81a84c2b12474f0900}
+      \strng{authorbibnamehash}{08f96025c9ed4a81a84c2b12474f0900}
+      \strng{authornamehash}{08f96025c9ed4a81a84c2b12474f0900}
+      \strng{authorfullhash}{08f96025c9ed4a81a84c2b12474f0900}
+      \strng{authorfullhashraw}{08f96025c9ed4a81a84c2b12474f0900}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Si eres desarrollador Java te interesará este artículo, en el que te contamos qué es Spring Framework y por qué utilizarlo.}
+      \field{journaltitle}{https://openwebinars.net/blog/conoce-que-es-spring-framework-y-por-que-usarlo/}
+      \field{month}{6}
+      \field{title}{Qué es Spring Framework y por qué usarlo | OpenWebinars}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://openwebinars.net/blog/conoce-que-es-spring-framework-y-por-que-usarlo/
+      \endverb
+      \verb{url}
+      \verb https://openwebinars.net/blog/conoce-que-es-spring-framework-y-por-que-usarlo/
+      \endverb
+    \endentry
+    \entry{Novak2021}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c165ac65e25818d13dfa889d9c824f49}{%
+           family={Novak},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d3531f96fb3a53d95f2cad106b4a90cc}{%
+           family={Žager},
+           familyi={Ž\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c1aa9a5cc103fc0f7e50dedf08a4764c}{%
+           family={Barišić},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d68b9bc25c1372161de9af1ed4999bd}
+      \strng{fullhash}{8d68b9bc25c1372161de9af1ed4999bd}
+      \strng{fullhashraw}{8d68b9bc25c1372161de9af1ed4999bd}
+      \strng{bibnamehash}{8d68b9bc25c1372161de9af1ed4999bd}
+      \strng{authorbibnamehash}{8d68b9bc25c1372161de9af1ed4999bd}
+      \strng{authornamehash}{8d68b9bc25c1372161de9af1ed4999bd}
+      \strng{authorfullhash}{8d68b9bc25c1372161de9af1ed4999bd}
+      \strng{authorfullhashraw}{8d68b9bc25c1372161de9af1ed4999bd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the European Conference on Innovation and Entrepreneurship, ECIE}
+      \field{title}{Innovation in accounting education: The impact of information technology on teaching methods}
+      \field{year}{2021}
+      \field{pages}{660\bibrangedash 667}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.34190/EIE.21.142
+      \endverb
+    \endentry
+    \entry{Observer}{misc}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/observer}}
+      \field{note}{[Accessed 04-12-2025]}
+      \field{title}{{O}bserver --- refactoring.guru}
+    \endentry
+    \entry{Osmani2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3950eb30f8bfc4b847dbb1a1833aa95c}{%
+           family={Osmani},
+           familyi={O\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d1d68360e0e9d58c292b22bf7a8b7bf6}{%
+           family={Hindi},
+           familyi={H\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=840b35cb9840901425c5cb17b4dd3fda}{%
+           family={Weerakkody},
+           familyi={W\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c811be6e89074599efe369e6cf94cd1}
+      \strng{fullhash}{0c811be6e89074599efe369e6cf94cd1}
+      \strng{fullhashraw}{0c811be6e89074599efe369e6cf94cd1}
+      \strng{bibnamehash}{0c811be6e89074599efe369e6cf94cd1}
+      \strng{authorbibnamehash}{0c811be6e89074599efe369e6cf94cd1}
+      \strng{authornamehash}{0c811be6e89074599efe369e6cf94cd1}
+      \strng{authorfullhash}{0c811be6e89074599efe369e6cf94cd1}
+      \strng{authorfullhashraw}{0c811be6e89074599efe369e6cf94cd1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Information and Communication Technology Education}
+      \field{number}{4}
+      \field{title}{Incorporating information communication technology skills in accounting education}
+      \field{volume}{16}
+      \field{year}{2020}
+      \field{pages}{100\bibrangedash 110}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.4018/IJICTE.2020100107
+      \endverb
+    \endentry
+    \entry{mividalaboralFreelanceGua}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://mividalaboral.com/freelance/}}
+      \field{note}{[Accessed 06-05-2025]}
+      \field{title}{{Q}ué es un freelance | {G}uía del trabajador independiente --- mividalaboral.com}
+    \endentry
+    \entry{Angular1MT}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=bc74ef33063eb370ad3a9075b15507bd}{%
+           family={Rathinam},
+           familyi={R\bibinitperiod},
+           given={Suryaansh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=99a640f2154b6c909ae360c2347ad230}{%
+           family={Prabhu},
+           familyi={P\bibinitperiod},
+           given={Srikanth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=52b6510d5abca01142b05eef71b93998}{%
+           family={Pokhrel},
+           familyi={P\bibinitperiod},
+           given={Shiva\bibnamedelima Raj},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=56ba559f18e74cf681fe113aba3fa9af}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{fullhash}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{fullhashraw}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{bibnamehash}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{authorbibnamehash}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{authornamehash}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{authorfullhash}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{authorfullhashraw}{bc74ef33063eb370ad3a9075b15507bd}
+      \strng{editorbibnamehash}{644892f467f1006ceaa6603730863502}
+      \strng{editornamehash}{644892f467f1006ceaa6603730863502}
+      \strng{editorfullhash}{644892f467f1006ceaa6603730863502}
+      \strng{editorfullhashraw}{644892f467f1006ceaa6603730863502}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Applications and Techniques in Information Security}
+      \field{title}{Analysis and Comparison of Different Frontend Frameworks}
+      \field{year}{2023}
+      \field{pages}{243\bibrangedash 257}
+      \range{pages}{15}
+    \endentry
+    \entry{Sangster1992}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8b2c3cf6abbcacca2819ae8105ff69d7}{%
+           family={Sangster},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \strng{fullhash}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \strng{fullhashraw}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \strng{bibnamehash}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \strng{authorbibnamehash}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \strng{authornamehash}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \strng{authorfullhash}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \strng{authorfullhashraw}{8b2c3cf6abbcacca2819ae8105ff69d7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Accounting Education}
+      \field{number}{1}
+      \field{title}{Computer-based instruction in accounting education}
+      \field{volume}{1}
+      \field{year}{1992}
+      \field{pages}{13\bibrangedash 32}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/09639289200000003
+      \endverb
+    \endentry
+    \entry{Sloan1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a6416ed55d685fb33e93f3e29c1f23c9}{%
+           family={Sloan},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \strng{fullhash}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \strng{fullhashraw}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \strng{bibnamehash}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \strng{authorbibnamehash}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \strng{authornamehash}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \strng{authorfullhash}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \strng{authorfullhashraw}{a6416ed55d685fb33e93f3e29c1f23c9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Construction Management and Economics}
+      \field{number}{5}
+      \field{title}{In search of excellence in learning: The strategic value of computer-assisted learning (CAL)}
+      \field{volume}{13}
+      \field{year}{1995}
+      \field{pages}{435\bibrangedash 439}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/01446199500000049
+      \endverb
+    \endentry
+    \entry{refactoringStrategy}{misc}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://refactoring.guru/es/design-patterns/strategy}}
+      \field{note}{[Accessed 04-12-2025]}
+      \field{title}{{S}trategy --- refactoring.guru}
+    \endentry
+    \entry{guiaKanban}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d41e3c6f5b3304ad16e8b3a17021c72}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Kanban},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \strng{fullhash}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \strng{fullhashraw}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \strng{bibnamehash}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \strng{authorbibnamehash}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \strng{authornamehash}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \strng{authorfullhash}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \strng{authorfullhashraw}{6d41e3c6f5b3304ad16e8b3a17021c72}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://resources.kanban.university/wp-content/uploads/2021/08/The-Official-Kanban-Guide_Spanish_A4}}
+      \field{note}{[Accessed 05-05-2025]}
+      \field{title}{La Guia Oficial del Metodo Kanban}
+    \endentry
+    \entry{Wadi2021}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=ef56a8f3267b93c92d4fe71066e97457}{%
+           family={Wadi},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi M.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=284b3de57bed77028a0cfed690b1b48e}{%
+           family={Jaber},
+           familyi={J\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{792627db5de65af855706bf3e4a6c8fd}
+      \strng{fullhash}{792627db5de65af855706bf3e4a6c8fd}
+      \strng{fullhashraw}{792627db5de65af855706bf3e4a6c8fd}
+      \strng{bibnamehash}{792627db5de65af855706bf3e4a6c8fd}
+      \strng{authorbibnamehash}{792627db5de65af855706bf3e4a6c8fd}
+      \strng{authornamehash}{792627db5de65af855706bf3e4a6c8fd}
+      \strng{authorfullhash}{792627db5de65af855706bf3e4a6c8fd}
+      \strng{authorfullhashraw}{792627db5de65af855706bf3e4a6c8fd}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes in Networks and Systems: Vol. 194 LNNS}
+      \field{title}{The Use of Information Technology in Accounting Education, Evidence from Jordan}
+      \field{year}{2021}
+      \field{pages}{801\bibrangedash 811}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/978-3-030-69221-6_61
+      \endverb
+    \endentry
+    \entry{Wali2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5a157e020d80861ca7729342d5e85ac0}{%
+           family={Wali},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b0448ca76cadb58063f5fdfc85bb3257}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a149273d35e0ea0d8224d54ec7ff220e}
+      \strng{fullhash}{a149273d35e0ea0d8224d54ec7ff220e}
+      \strng{fullhashraw}{a149273d35e0ea0d8224d54ec7ff220e}
+      \strng{bibnamehash}{a149273d35e0ea0d8224d54ec7ff220e}
+      \strng{authorbibnamehash}{a149273d35e0ea0d8224d54ec7ff220e}
+      \strng{authornamehash}{a149273d35e0ea0d8224d54ec7ff220e}
+      \strng{authorfullhash}{a149273d35e0ea0d8224d54ec7ff220e}
+      \strng{authorfullhashraw}{a149273d35e0ea0d8224d54ec7ff220e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Webology}
+      \field{number}{1}
+      \field{title}{Computer Assisted Learning (CAL): A Learning Support System Solution}
+      \field{volume}{18}
+      \field{year}{2021}
+      \field{pages}{299\bibrangedash 314}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.14704/WEB/V18I1/WEB18090
+      \endverb
+    \endentry
+    \entry{WanMohdNori2016}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bd9e5f2baf19f6767d13a95e496baa41}{%
+           family={Wan\bibnamedelimb Mohd\bibnamedelima Nori},
+           familyi={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={W.\bibnamedelimi M.\bibnamedelimi N.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a610479618644ef12b07e075d5ac49de}{%
+           family={Kassim},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi K.\bibnamedelimi H.\bibnamedelimi C.\bibnamedelimi K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=a53a6749d27294dbba7d9457f20dc675}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=11638bec6de5e796e262372eea02c22a}{%
+           family={Nasir},
+           familyi={N\bibinitperiod},
+           given={N.\bibnamedelimi E.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{487536035481e029eaa2c462ef82d53c}
+      \strng{fullhash}{8135efc61dfe7812dc446df072c6ac63}
+      \strng{fullhashraw}{8135efc61dfe7812dc446df072c6ac63}
+      \strng{bibnamehash}{487536035481e029eaa2c462ef82d53c}
+      \strng{authorbibnamehash}{487536035481e029eaa2c462ef82d53c}
+      \strng{authornamehash}{487536035481e029eaa2c462ef82d53c}
+      \strng{authorfullhash}{8135efc61dfe7812dc446df072c6ac63}
+      \strng{authorfullhashraw}{8135efc61dfe7812dc446df072c6ac63}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social Sciences (Pakistan)}
+      \field{number}{13}
+      \field{title}{The use of accounting software for effective teaching and learning introductory accounting: A pedagogical discussion}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{3315\bibrangedash 3320}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3923/sscience.2016.3315.3320
+      \endverb
+    \endentry
+    \entry{Willis2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b4798e1c2e2bc9061750cc0d2a6e497a}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={V.\bibnamedelimi F.},
+           giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \strng{fullhash}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \strng{fullhashraw}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \strng{bibnamehash}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \strng{authorbibnamehash}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \strng{authornamehash}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \strng{authorfullhash}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \strng{authorfullhashraw}{b4798e1c2e2bc9061750cc0d2a6e497a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Accounting Education}
+      \field{title}{A model for teaching technology: Using Excel in an accounting information systems course}
+      \field{volume}{36}
+      \field{year}{2016}
+      \field{pages}{87\bibrangedash 99}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jaccedu.2016.05.002
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
+

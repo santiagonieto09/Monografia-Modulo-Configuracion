@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  9 DEC 2025 02:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  9 DEC 2025 02:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,16 +860,6 @@ Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
- (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
-File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-
-
-Package biblatex Warning: Using fall-back bibtex backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
@@ -1049,10 +1039,10 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 130
  (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 18.
+(babel)             Reported on input line 15.
  (Cap1/Cap1.aux) (Cap2/Cap2.aux) (Cap3/Cap3.aux) (Cap4/Cap4.aux) (Cap5/Cap5.aux) (Cap6/Cap6.aux) (Cap7/Cap7.aux) (Cap8/Cap8.aux) (Anexos/Anexos.aux))
 \openout1 = `PlantillaTesis.aux'.
 
@@ -1169,12 +1159,9 @@ Package biblatex Info: ... file 'spanish.lbx' found.
 File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout3 = `PlantillaTesis-blx.bib'.
+\openout3 = `PlantillaTesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'PlantillaTesis.bbl' found.
@@ -2281,16 +2268,6 @@ ignored error: Infinite glue shrinkage found in box being split [89])) [90]
 ] [92]) [93]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 199.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 199.
- (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <12> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 199.
 
 Overfull \hbox (0.34154pt too wide) in paragraph at lines 200--200
 \T1/phv/m/sl/12 (-20) --- cloudgestion.com\T1/phv/m/n/12 (-20) . [][]$\T1/cmtt/m/n/12 https : / / www . cloudgestion . com / blog / software / configurar -[]
@@ -2332,49 +2309,49 @@ File: Cap7/newman/newmanCentroAyuda20.png Graphic file (type png)
 Package pdftex.def Info: Cap7/newman/newmanCentroAyuda20.png  used on input line 33.
 (pdftex.def)             Requested size: 377.63478pt x 344.38928pt.
  [99]
-<Cap7/newman/newmanCuentasBancarias20.png, id=1598, 753.5653pt x 698.61pt>
+<Cap7/newman/newmanCuentasBancarias20.png, id=1599, 753.5653pt x 698.61pt>
 File: Cap7/newman/newmanCuentasBancarias20.png Graphic file (type png)
 <use Cap7/newman/newmanCuentasBancarias20.png>
 Package pdftex.def Info: Cap7/newman/newmanCuentasBancarias20.png  used on input line 49.
 (pdftex.def)             Requested size: 377.62111pt x 350.0823pt.
  [100]
-<Cap7/newman/newmanImpuestos20.png, id=1604, 666.23906pt x 622.57594pt>
+<Cap7/newman/newmanImpuestos20.png, id=1605, 666.23906pt x 622.57594pt>
 File: Cap7/newman/newmanImpuestos20.png Graphic file (type png)
 <use Cap7/newman/newmanImpuestos20.png>
 Package pdftex.def Info: Cap7/newman/newmanImpuestos20.png  used on input line 66.
 (pdftex.def)             Requested size: 377.63551pt x 352.88652pt.
  [101 <./Cap7/newman/newmanCuentasBancarias20.png>]
-<Cap7/newman/newmanTiposDoc20.png, id=1611, 670.00313pt x 607.51968pt>
+<Cap7/newman/newmanTiposDoc20.png, id=1612, 670.00313pt x 607.51968pt>
 File: Cap7/newman/newmanTiposDoc20.png Graphic file (type png)
 <use Cap7/newman/newmanTiposDoc20.png>
 Package pdftex.def Info: Cap7/newman/newmanTiposDoc20.png  used on input line 83.
 (pdftex.def)             Requested size: 377.62215pt x 342.40569pt.
  [102 <./Cap7/newman/newmanImpuestos20.png>]
-<Cap7/newman/newmanCentrosCosto20.png, id=1618, 668.4975pt x 612.78937pt>
+<Cap7/newman/newmanCentrosCosto20.png, id=1619, 668.4975pt x 612.78937pt>
 File: Cap7/newman/newmanCentrosCosto20.png Graphic file (type png)
 <use Cap7/newman/newmanCentrosCosto20.png>
 Package pdftex.def Info: Cap7/newman/newmanCentrosCosto20.png  used on input line 100.
 (pdftex.def)             Requested size: 377.64058pt x 346.17053pt.
  [103 <./Cap7/newman/newmanTiposDoc20.png>]
-<Cap7/newman/newmanProductos20.png, id=1626, 670.75594pt x 614.295pt>
+<Cap7/newman/newmanProductos20.png, id=1627, 670.75594pt x 614.295pt>
 File: Cap7/newman/newmanProductos20.png Graphic file (type png)
 <use Cap7/newman/newmanProductos20.png>
 Package pdftex.def Info: Cap7/newman/newmanProductos20.png  used on input line 117.
 (pdftex.def)             Requested size: 377.6268pt x 345.84003pt.
  [104 <./Cap7/newman/newmanCentrosCosto20.png>]
-<Cap7/newman/newmanTerceros20.png, id=1633, 631.60968pt x 645.91313pt>
+<Cap7/newman/newmanTerceros20.png, id=1634, 631.60968pt x 645.91313pt>
 File: Cap7/newman/newmanTerceros20.png Graphic file (type png)
 <use Cap7/newman/newmanTerceros20.png>
 Package pdftex.def Info: Cap7/newman/newmanTerceros20.png  used on input line 135.
 (pdftex.def)             Requested size: 377.6291pt x 386.18091pt.
  [105 <./Cap7/newman/newmanProductos20.png>]
-<Cap7/newman/newmanCalendario20.png, id=1640, 667.74469pt x 612.78937pt>
+<Cap7/newman/newmanCalendario20.png, id=1641, 667.74469pt x 612.78937pt>
 File: Cap7/newman/newmanCalendario20.png Graphic file (type png)
 <use Cap7/newman/newmanCalendario20.png>
 Package pdftex.def Info: Cap7/newman/newmanCalendario20.png  used on input line 152.
 (pdftex.def)             Requested size: 377.63306pt x 346.5539pt.
  [106 <./Cap7/newman/newmanTerceros20.png>]
-<Cap7/newman/newmanCatalogo20.png, id=1647, 758.835pt x 694.84593pt>
+<Cap7/newman/newmanCatalogo20.png, id=1648, 758.835pt x 694.84593pt>
 File: Cap7/newman/newmanCatalogo20.png Graphic file (type png)
 <use Cap7/newman/newmanCatalogo20.png>
 Package pdftex.def Info: Cap7/newman/newmanCatalogo20.png  used on input line 169.
@@ -2502,9 +2479,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
  []
 
 [162]) [163] (PlantillaTesis.aux (HojaTitulo/HojaTituloMSc.aux)
-LaTeX Info: Redefining \sptext on input line 18.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+LaTeX Info: Redefining \sptext on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
  (Cap1/Cap1.aux) (Cap2/Cap2.aux) (Cap3/Cap3.aux) (Cap4/Cap4.aux) (Cap5/Cap5.aux) (Cap6/Cap6.aux) (Cap7/Cap7.aux) (Cap8/Cap8.aux) (Anexos/Anexos.aux))
  ***********
 LaTeX2e <2025-11-01>
@@ -2515,17 +2492,17 @@ Package logreq Info: Writing requests to 'PlantillaTesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31330 strings out of 467870
- 587542 string characters out of 5418838
- 1401793 words of memory out of 5000000
- 58527 multiletter control sequences out of 15000+600000
- 701934 words of font info for 382 fonts, out of 8000000 for 9000
+ 31128 strings out of 467870
+ 583497 string characters out of 5418838
+ 1613706 words of memory out of 5000000
+ 58382 multiletter control sequences out of 15000+600000
+ 698576 words of font info for 348 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,107p,11328b,2343s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\John\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/John/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on PlantillaTesis.pdf (175 pages, 27162687 bytes).
+Output written on PlantillaTesis.pdf (175 pages, 27160192 bytes).
 PDF statistics:
- 2957 PDF objects out of 2984 (max. 8388607)
+ 2958 PDF objects out of 2984 (max. 8388607)
  738 named destinations out of 1000 (max. 500000)
- 82607 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 78511 words of extra memory for PDF output out of 89155 (max. 10000000)
 
